@@ -1,0 +1,14 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_AIRCRAFT, SELF, sw_DC_9_30_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_DC_9_30_default);   // 제조사
+    2: return string(STR_REFIT_LIVERY_DC_9_30_korean);     // 대한항공
+    return string(STR_REFIT_LIVERY_DC_9_30_default);
+}
+
+switch(FEAT_AIRCRAFT, SELF, sw_DC_9_30, cargo_subtype) {
+    1: set_DC_9_30_default;        // 제조사
+    2: set_DC_9_30_korean;        // 대한항공
+    set_DC_9_30_default;
+}

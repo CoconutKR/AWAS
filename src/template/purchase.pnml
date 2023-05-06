@@ -1,0 +1,51 @@
+// Template - Purchase image
+template tmpl_purchase_detail(x, y, w, h, offX, offY) {
+    [   0,    0,    1,    1,    0,    0]
+    [   0,    0,    1,    1,    0,    0]
+    [   0,    0,    1,    1,    0,    0]
+    [   0,    0,    1,    1,    0,    0]
+    [   0,    0,    1,    1,    0,    0]
+    [   0,    0,    1,    1,    0,    0]
+    [   x,    y,    w,    h, offX, offY]
+    [   0,    0,    1,    1,    0,    0]
+}
+
+template tmpl_B737_800_purchase(x, y) {
+    tmpl_purchase_detail(x+290, y, 46, 25, -20, -12)
+}
+
+template tmpl_A321_200_purchase(x, y) {
+    tmpl_purchase_detail(x+310, y, 50, 23, -20, -12)
+}
+
+template tmpl_A330_300_purchase(x, y) {
+    tmpl_purchase_detail(x+414, y, 69, 34, -35, -17)
+}
+
+template tmpl_B777_200ER_purchase(x, y) {
+    tmpl_purchase_detail(x+364, y, 62, 29, -31, -15)
+}
+
+template tmpl_B787_9_purchase(x, y) {
+    tmpl_purchase_detail(x+364, y, 63, 30, -32, -18)
+}
+
+template tmpl_A320_200_purchase(x, y) {
+    tmpl_purchase_detail(x+310, y, 48, 23, -22, -11)
+}
+
+template tmpl_ATR_72_500_purchase(x, y) {
+    tmpl_purchase_detail(x+282, y, 50, 23, -25,	-12)
+}
+
+template tmpl_DC_9_30_purchase(x, y) {
+    tmpl_purchase_detail(x+260, y, 46, 20, -24,	-10)
+}
+
+template tmpl_A380_800_purchase(x, y) {
+    tmpl_purchase_detail(x+490, y, 69, 39, -35,	-20)
+}
+
+template tmpl_B747_400_purchase(x, y) {
+    tmpl_purchase_detail(x+413, y, 69, 34, -35,	-17)
+}

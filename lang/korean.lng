@@ -1,0 +1,68 @@
+﻿##grflangid 0x3A
+
+# GRF name and description
+STR_GRF_NAME                                        :한국 항공기 세트
+STR_GRF_NAME_WITH_VER                               :한국 항공기 세트 1.3.0
+STR_GRF_DESC                                        :{BLACK}한국 항공기 세트는 보잉, 에어버스 등 여러 가지의 한국 항공사의 항공기를 추가해줍니다. 이 NewGRF는 World Airliners Set을 기반으로 수정하여 제작되었습니다.{}(최근 업데이트: {RECENT_UPDATED}){}{SILVER}+ 제작: Coconut
+STR_GRF_URL                                         :https://github.com/CoconutKR/KoreanAirlinersSet
+
+# Aircraft name
+STR_B737_800_NAME                                   :[KAS] 보잉 737-800
+STR_B737_800BCF_NAME                                :[KAS] 보잉 737-800 BCF
+STR_B777_200ER_NAME                                 :[KAS] 보잉 777-200ER
+STR_B787_9_NAME                                     :[KAS] 보잉 787-9 드림라이너
+STR_B747_400_NAME                                   :[KAS] 보잉 747-400
+STR_A320_200_NAME                                   :[KAS] 에어버스 A320-200
+STR_A321_200_NAME                                   :[KAS] 에어버스 A321-200
+STR_A330_300_NAME                                   :[KAS] 에어버스 A330-300
+STR_A380_800_NAME                                   :[KAS] 에어버스 A380-800
+STR_ATR_72_500_NAME                                 :[KAS] ATR 72-500
+STR_DC_9_30_NAME                                    :[KAS] 맥도넬 더글라스 DC-9-30
+
+# Parameters
+
+# Liveries
+STR_REFIT_LIVERY_Boeing_737_800_default             :(제조사)
+STR_REFIT_LIVERY_Boeing_737_800_jeju                :(제주항공)
+STR_REFIT_LIVERY_Boeing_737_800_jeju_old            :(제주항공 (구))
+STR_REFIT_LIVERY_Boeing_737_800_tway                :(티웨이항공)
+STR_REFIT_LIVERY_Boeing_737_800_jin                 :(진에어)
+STR_REFIT_LIVERY_Boeing_737_800_korean              :(대한항공)
+STR_REFIT_LIVERY_Boeing_737_800_gangwon             :(플라이강원)
+STR_REFIT_LIVERY_Boeing_737_800_eastar              :(이스타항공)
+STR_REFIT_LIVERY_Airbus_A321_200_default            :(제조사)
+STR_REFIT_LIVERY_Airbus_A321_200_asiana             :(아시아나항공)
+STR_REFIT_LIVERY_Airbus_A321_200_seoul              :(에어서울)
+STR_REFIT_LIVERY_Airbus_A321_200_busan              :(에어부산)
+STR_REFIT_LIVERY_Boeing_737_800BCF_default          :(제조사)
+STR_REFIT_LIVERY_Boeing_737_800BCF_incheon          :(에어인천)
+STR_REFIT_LIVERY_Airbus_A330_300_default            :(제조사)
+STR_REFIT_LIVERY_Airbus_A330_300_korean             :(대한항공)
+STR_REFIT_LIVERY_Airbus_A330_300_asiana             :(아시아나항공)
+STR_REFIT_LIVERY_Airbus_A330_300_tway               :(티웨이항공)
+STR_REFIT_LIVERY_Boeing_777_200ER_default           :(제조사)
+STR_REFIT_LIVERY_Boeing_777_200ER_korean            :(대한항공)
+STR_REFIT_LIVERY_Boeing_777_200ER_asiana            :(아시아나항공)
+STR_REFIT_LIVERY_Boeing_777_200ER_jin               :(진에어)
+STR_REFIT_LIVERY_Boeing_787_9_default               :(제조사)
+STR_REFIT_LIVERY_Boeing_787_9_korean                :(대한항공)
+STR_REFIT_LIVERY_Boeing_787_9_premia                :(에어프레미아)
+STR_REFIT_LIVERY_Airbus_A320_200_default            :(제조사)
+STR_REFIT_LIVERY_Airbus_A320_200_asiana             :(아시아나항공)
+STR_REFIT_LIVERY_Airbus_A320_200_busan              :(에어부산)
+STR_REFIT_LIVERY_Airbus_A320_200_aerok              :(에어로케이)
+STR_REFIT_LIVERY_ATR_72_500_default                 :(제조사)
+STR_REFIT_LIVERY_ATR_72_500_hiair_b                 :(하이에어 - 파랑)
+STR_REFIT_LIVERY_ATR_72_500_hiair_p                 :(하이에어 - 분홍)
+STR_REFIT_LIVERY_ATR_72_500_hiair_g                 :(하이에어 - 초록)
+STR_REFIT_LIVERY_DC_9_30_default                    :(제조사)
+STR_REFIT_LIVERY_DC_9_30_korean                     :(대한항공)
+STR_REFIT_LIVERY_Airbus_A380_800_default            :(제조사)
+STR_REFIT_LIVERY_Airbus_A380_800_korean             :(대한항공)
+STR_REFIT_LIVERY_Airbus_A380_800_asiana             :(아시아나항공)
+STR_REFIT_LIVERY_Boeing_747_400_default             :(제조사)
+STR_REFIT_LIVERY_Boeing_747_400_korean              :(대한항공)
+STR_REFIT_LIVERY_Boeing_747_400_asiana              :(아시아나항공)
+
+# Errors
+STR_ERROR_NO_ATTACH                                 :여기에 이 차량을 붙일 수 없습니다

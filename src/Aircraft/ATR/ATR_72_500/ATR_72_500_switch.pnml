@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_AIRCRAFT, SELF, sw_ATR_72_500_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_ATR_72_500_default);   // 제조사
+    2: return string(STR_REFIT_LIVERY_ATR_72_500_hiair_b);     // 하이에어 (파랑)
+    3: return string(STR_REFIT_LIVERY_ATR_72_500_hiair_p);     // 하이에어 (분홍)
+    4: return string(STR_REFIT_LIVERY_ATR_72_500_hiair_g);     // 하이에어 (초록)
+    return string(STR_REFIT_LIVERY_ATR_72_500_default);
+}
+
+switch(FEAT_AIRCRAFT, SELF, sw_ATR_72_500, cargo_subtype) {
+    1: set_ATR_72_500_default;        // 제조사
+    2: set_ATR_72_500_hiair_b;        // 하이에어 (파랑)
+    3: set_ATR_72_500_hiair_p;        // 하이에어 (분홍)
+    4: set_ATR_72_500_hiair_g;        // 하이에어 (초록)
+    set_ATR_72_500_default;
+}
