@@ -26,6 +26,10 @@ template tmpl_B777_200ER_purchase(x, y) {
     tmpl_purchase_detail(x+364, y, 62, 29, -31, -15)
 }
 
+template tmpl_B777_300ER_purchase(x, y) {
+    tmpl_purchase_detail(x+389, y, 70, 31, -35, -16)
+}
+
 template tmpl_B787_9_purchase(x, y) {
     tmpl_purchase_detail(x+364, y, 63, 30, -32, -18)
 }

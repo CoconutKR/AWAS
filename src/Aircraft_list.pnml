@@ -11,6 +11,7 @@
 #include "Aircraft/McDonnellDouglas/DC_9_30/DC_9_30.pnml"  //7009
 #include "Aircraft/Airbus/A380_800/A380_800.pnml"          //7010
 #include "Aircraft/Boeing/B747_400/B747_400.pnml"          //7011
+#include "Aircraft/Boeing/B777_300ER/B777_300ER.pnml"      //7012
 
 // Sorting
 #include "sort.pnml"

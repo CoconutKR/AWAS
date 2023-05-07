@@ -10,6 +10,7 @@ STR_GRF_URL                                         :https://github.com/CoconutK
 STR_B737_800_NAME                                   :[KAS] Boeing 737-800
 STR_B737_800BCF_NAME                                :[KAS] Boeing 737-800 BCF
 STR_B777_200ER_NAME                                 :[KAS] Boeing 777-200ER
+STR_B777_300ER_NAME                                 :[AWAS] Boeing 777-300ER
 STR_B787_9_NAME                                     :[KAS] Boeing 787-9 Dreamliner
 STR_B747_400_NAME                                   :[KAS] Boeing 747-400
 STR_A320_200_NAME                                   :[KAS] Airbus A320-200
@@ -44,6 +45,8 @@ STR_REFIT_LIVERY_Boeing_777_200ER_default           :(Manufacturers)
 STR_REFIT_LIVERY_Boeing_777_200ER_korean            :(KOREAN AIR)
 STR_REFIT_LIVERY_Boeing_777_200ER_asiana            :(ASIANA AIRLINES)
 STR_REFIT_LIVERY_Boeing_777_200ER_jin               :(JIN AIR)
+STR_REFIT_LIVERY_Boeing_777_300ER_default           :(Boeing)
+STR_REFIT_LIVERY_Boeing_777_300ER_korean            :(KOREAN AIR)
 STR_REFIT_LIVERY_Boeing_787_9_default               :(Manufacturers)
 STR_REFIT_LIVERY_Boeing_787_9_korean                :(KOREAN AIR)
 STR_REFIT_LIVERY_Boeing_787_9_premia                :(AIR PREMIA)
