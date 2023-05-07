@@ -14,12 +14,12 @@ item(FEAT_AIRCRAFT, B777_300ER, 7012){
     property {
         name:                           string(STR_B777_300ER_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2004, 1, 1);
+        introduction_date:              date(2002, 1, 1);
         aircraft_type:                  AIRCRAFT_TYPE_LARGE;
         sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
                 
         //spec
-        speed:                          1090km/h;
+        speed:                          952km/h;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -28,8 +28,8 @@ item(FEAT_AIRCRAFT, B777_300ER, 7012){
         reliability_decay:              0;
         
         //Cargo
-        passenger_capacity:             400;
-        mail_capacity:                  40;    
+        passenger_capacity:             386;
+        mail_capacity:                  45;    
         acceleration:                   27; 
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
