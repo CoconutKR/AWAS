@@ -1,14 +1,14 @@
 ﻿
 
 /*-------------------------------------------------------------------- 
-* 한국 항공기 세트
+* AWAS
 --------------------------------------------------------------------*/
 grf {
-	grfid: "KARS";
+	grfid: "AWAS";
 	name: string(STR_GRF_NAME_WITH_VER);
 	desc: string(STR_GRF_DESC);
-	version: 20230329;
-	min_compatible_version: 20230328;
+	version: 1;
+	min_compatible_version: 1;
 }
 
 // 화물테이블
