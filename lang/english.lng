@@ -1,10 +1,10 @@
 ﻿##grflangid 0x00
 
 # GRF name and description
-STR_GRF_NAME                                        :Korean Airliners Set
-STR_GRF_NAME_WITH_VER                               :Korean Airliners Set 1.3.0
-STR_GRF_DESC                                        :{BLACK}Korean Airliners Set adds Airliners of korea. This NewGRF has been modified based on the World Airliners Set.{}Most graphics originally from PikkaBirds AV8 Set or WAS.{}(Updated: {RECENT_UPDATED}){}{SILVER}+ Author: Coconut
-STR_GRF_URL                                         :https://github.com/CoconutKR/KoreanAirlinersSet
+STR_GRF_NAME                                        :AWAS
+STR_GRF_NAME_WITH_VER                               :AWAS 0.1.0
+STR_GRF_DESC                                        :{BLACK}AWAS {}(Updated: {RECENT_UPDATED}){}{SILVER}+ Author: Coconut
+STR_GRF_URL                                         :https://github.com/CoconutKR/AWAS
 
 # Aircraft name
 STR_B737_800_NAME                                   :[KAS] Boeing 737-800
