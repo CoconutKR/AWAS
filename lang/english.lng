@@ -7,18 +7,18 @@ STR_GRF_DESC                                        :{BLACK}AWAS {}(Updated: {RE
 STR_GRF_URL                                         :https://github.com/CoconutKR/AWAS
 
 # Aircraft name
-STR_B737_800_NAME                                   :[KAS] Boeing 737-800
-STR_B737_800BCF_NAME                                :[KAS] Boeing 737-800 BCF
-STR_B777_200ER_NAME                                 :[KAS] Boeing 777-200ER
+STR_B737_800_NAME                                   :[AWAS] Boeing 737-800
+STR_B737_800BCF_NAME                                :[AWAS] Boeing 737-800 BCF
+STR_B777_200ER_NAME                                 :[AWAS] Boeing 777-200ER
 STR_B777_300ER_NAME                                 :[AWAS] Boeing 777-300ER
-STR_B787_9_NAME                                     :[KAS] Boeing 787-9 Dreamliner
-STR_B747_400_NAME                                   :[KAS] Boeing 747-400
-STR_A320_200_NAME                                   :[KAS] Airbus A320-200
-STR_A321_200_NAME                                   :[KAS] Airbus A321-200
-STR_A330_300_NAME                                   :[KAS] Airbus A330-300
-STR_A380_800_NAME                                   :[KAS] Airbus A380-800
-STR_ATR_72_500_NAME                                 :[KAS] ATR 72-500
-STR_DC_9_30_NAME                                    :[KAS] McDonnell Douglas DC-9-30
+STR_B787_9_NAME                                     :[AWAS] Boeing 787-9 Dreamliner
+STR_B747_400_NAME                                   :[AWAS] Boeing 747-400
+STR_A320_200_NAME                                   :[AWAS] Airbus A320-200
+STR_A321_200_NAME                                   :[AWAS] Airbus A321-200
+STR_A330_300_NAME                                   :[AWAS] Airbus A330-300
+STR_A380_800_NAME                                   :[AWAS] Airbus A380-800
+STR_ATR_72_500_NAME                                 :[AWAS] ATR 72-500
+STR_DC_9_30_NAME                                    :[AWAS] McDonnell Douglas DC-9-30
 
 # Parameters
 
