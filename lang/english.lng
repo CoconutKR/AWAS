@@ -13,6 +13,7 @@ STR_B777_200ER_NAME                                 :[AWAS] Boeing 777-200ER
 STR_B777_300ER_NAME                                 :[AWAS] Boeing 777-300ER
 STR_B787_9_NAME                                     :[AWAS] Boeing 787-9 Dreamliner
 STR_B747_400_NAME                                   :[AWAS] Boeing 747-400
+STR_A220_300_NAME                                   :[AWAS] Airbus A220-300
 STR_A320_200_NAME                                   :[AWAS] Airbus A320-200
 STR_A321_200_NAME                                   :[AWAS] Airbus A321-200
 STR_A330_300_NAME                                   :[AWAS] Airbus A330-300
@@ -66,6 +67,8 @@ STR_REFIT_LIVERY_Airbus_A380_800_asiana             :(ASIANA AIRLINES)
 STR_REFIT_LIVERY_Boeing_747_400_default             :(Manufacturers)
 STR_REFIT_LIVERY_Boeing_747_400_korean              :(KOREAN AIR)
 STR_REFIT_LIVERY_Boeing_747_400_asiana              :(ASIANA AIRLINES)
+STR_REFIT_LIVERY_Koreanair                          :(KOREAN AIR)
+STR_REFIT_LIVERY_Airbus                             :(AIRBUS)
 
 # Errors
 STR_ERROR_NO_ATTACH                                 :You can't attach this car here
