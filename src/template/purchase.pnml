@@ -50,6 +50,10 @@ template tmpl_DC_9_30_purchase(x, y) {
     tmpl_purchase_detail(x+260, y, 46, 20, -24,	-10)
 }
 
+template tmpl_A350_900_purchase(x, y) {
+    tmpl_purchase_detail(x+414, y, 70, 35, -35, -18)
+}
+
 template tmpl_A380_800_purchase(x, y) {
     tmpl_purchase_detail(x+490, y, 69, 39, -35,	-20)
 }

@@ -17,6 +17,7 @@ STR_A220_300_NAME                                   :[AWAS] Airbus A220-300
 STR_A320_200_NAME                                   :[AWAS] Airbus A320-200
 STR_A321_200_NAME                                   :[AWAS] Airbus A321-200
 STR_A330_300_NAME                                   :[AWAS] Airbus A330-300
+STR_A350_900_NAME                                   :[AWAS] Airbus A350-900
 STR_A380_800_NAME                                   :[AWAS] Airbus A380-800
 STR_ATR_72_500_NAME                                 :[AWAS] ATR 72-500
 STR_DC_9_30_NAME                                    :[AWAS] McDonnell Douglas DC-9-30
@@ -68,6 +69,7 @@ STR_REFIT_LIVERY_Boeing_747_400_default             :(Manufacturers)
 STR_REFIT_LIVERY_Boeing_747_400_korean              :(KOREAN AIR)
 STR_REFIT_LIVERY_Boeing_747_400_asiana              :(ASIANA AIRLINES)
 STR_REFIT_LIVERY_Koreanair                          :(KOREAN AIR)
+STR_REFIT_LIVERY_Asiana                             :(ASIANA AIRLINES)
 STR_REFIT_LIVERY_Airbus                             :(AIRBUS)
 
 # Errors
