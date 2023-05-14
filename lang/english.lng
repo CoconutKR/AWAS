@@ -14,6 +14,7 @@ STR_B777_300ER_NAME                                 :[AWAS] Boeing 777-300ER
 STR_B787_9_NAME                                     :[AWAS] Boeing 787-9 Dreamliner
 STR_B747_400_NAME                                   :[AWAS] Boeing 747-400
 STR_A220_300_NAME                                   :[AWAS] Airbus A220-300
+STR_A318_100_NAME                                   :[AWAS] Airbus A318-100
 STR_A320_200_NAME                                   :[AWAS] Airbus A320-200
 STR_A321_200_NAME                                   :[AWAS] Airbus A321-200
 STR_A330_300_NAME                                   :[AWAS] Airbus A330-300
@@ -25,52 +26,29 @@ STR_DC_9_30_NAME                                    :[AWAS] McDonnell Douglas DC
 # Parameters
 
 # Liveries
-STR_REFIT_LIVERY_Boeing_737_800_default             :(Manufacturers)
-STR_REFIT_LIVERY_Boeing_737_800_jeju                :(JEJUair)
-STR_REFIT_LIVERY_Boeing_737_800_jeju_old            :(JEJUair (Old))
-STR_REFIT_LIVERY_Boeing_737_800_tway                :(T'way Air)
-STR_REFIT_LIVERY_Boeing_737_800_jin                 :(JIN AIR)
-STR_REFIT_LIVERY_Boeing_737_800_korean              :(KOREAN AIR)
-STR_REFIT_LIVERY_Boeing_737_800_gangwon             :(FLY GANGWON)
-STR_REFIT_LIVERY_Boeing_737_800_eastar              :(EASTAR JET)
-STR_REFIT_LIVERY_Airbus_A321_200_default            :(Manufacturers)
-STR_REFIT_LIVERY_Airbus_A321_200_asiana             :(ASIANA AIRLINES)
-STR_REFIT_LIVERY_Airbus_A321_200_seoul              :(AIR SEOUL)
-STR_REFIT_LIVERY_Airbus_A321_200_busan              :(AIR BUSAN)
-STR_REFIT_LIVERY_Boeing_737_800BCF_default          :(Manufacturers)
-STR_REFIT_LIVERY_Boeing_737_800BCF_incheon          :(Air Incheon)
-STR_REFIT_LIVERY_Airbus_A330_300_default            :(Manufacturers)
-STR_REFIT_LIVERY_Airbus_A330_300_korean             :(KOREAN AIR)
-STR_REFIT_LIVERY_Airbus_A330_300_asiana             :(ASIANA AIRLINES)
-STR_REFIT_LIVERY_Airbus_A330_300_tway               :(T'way Air)
-STR_REFIT_LIVERY_Boeing_777_200ER_default           :(Manufacturers)
-STR_REFIT_LIVERY_Boeing_777_200ER_korean            :(KOREAN AIR)
-STR_REFIT_LIVERY_Boeing_777_200ER_asiana            :(ASIANA AIRLINES)
-STR_REFIT_LIVERY_Boeing_777_200ER_jin               :(JIN AIR)
-STR_REFIT_LIVERY_Boeing_777_300ER_default           :(Boeing)
-STR_REFIT_LIVERY_Boeing_777_300ER_korean            :(KOREAN AIR)
-STR_REFIT_LIVERY_Boeing_787_9_default               :(Manufacturers)
-STR_REFIT_LIVERY_Boeing_787_9_korean                :(KOREAN AIR)
-STR_REFIT_LIVERY_Boeing_787_9_premia                :(AIR PREMIA)
-STR_REFIT_LIVERY_Airbus_A320_200_default            :(Manufacturers)
-STR_REFIT_LIVERY_Airbus_A320_200_asiana             :(ASIANA AIRLINES)
-STR_REFIT_LIVERY_Airbus_A320_200_busan              :(AIR BUSAN)
-STR_REFIT_LIVERY_Airbus_A320_200_aerok              :(Aero K)
-STR_REFIT_LIVERY_ATR_72_500_default                 :(Manufacturers)
-STR_REFIT_LIVERY_ATR_72_500_hiair_b                 :(Hi Air - Blue Livery)
-STR_REFIT_LIVERY_ATR_72_500_hiair_p                 :(Hi Air - Pink Livery)
-STR_REFIT_LIVERY_ATR_72_500_hiair_g                 :(Hi Air - Green Livery)
-STR_REFIT_LIVERY_DC_9_30_default                    :(Manufacturers)
-STR_REFIT_LIVERY_DC_9_30_korean                     :(KOREAN AIR)
-STR_REFIT_LIVERY_Airbus_A380_800_default            :(Manufacturers)
-STR_REFIT_LIVERY_Airbus_A380_800_korean             :(KOREAN AIR)
-STR_REFIT_LIVERY_Airbus_A380_800_asiana             :(ASIANA AIRLINES)
-STR_REFIT_LIVERY_Boeing_747_400_default             :(Manufacturers)
-STR_REFIT_LIVERY_Boeing_747_400_korean              :(KOREAN AIR)
-STR_REFIT_LIVERY_Boeing_747_400_asiana              :(ASIANA AIRLINES)
-STR_REFIT_LIVERY_Koreanair                          :(KOREAN AIR)
-STR_REFIT_LIVERY_Asiana                             :(ASIANA AIRLINES)
 STR_REFIT_LIVERY_Airbus                             :(AIRBUS)
+STR_REFIT_LIVERY_Boeing                             :(Boeing)
+STR_REFIT_LIVERY_ATR                                :(ATR)
+STR_REFIT_LIVERY_Mcdonnelldouglas                   :(McDonnell Douglas)
+STR_REFIT_LIVERY_Hiair_b                            :(Hi Air - Blue Livery)
+STR_REFIT_LIVERY_Hiair_p                            :(Hi Air - Pink Livery)
+STR_REFIT_LIVERY_Hiair_g                            :(Hi Air - Green Livery)
+STR_REFIT_LIVERY_Koreanair                          :(KOREAN AIR)
+STR_REFIT_LIVERY_Jinair                             :(JIN AIR)
+STR_REFIT_LIVERY_Asiana                             :(ASIANA AIRLINES)
+STR_REFIT_LIVERY_Airbusan                           :(AIR BUSAN)
+STR_REFIT_LIVERY_Airseoul                           :(AIR SEOUL)
+STR_REFIT_LIVERY_Jejuair                            :(JEJUair)
+STR_REFIT_LIVERY_Jejuair_old                        :(JEJUair old)
+STR_REFIT_LIVERY_Tway                               :(tway)
+STR_REFIT_LIVERY_Eastar                             :(EASTAR JET)
+STR_REFIT_LIVERY_Flygangwon                         :(FLY GANGWON)
+STR_REFIT_LIVERY_Aerok                              :(Aero K)
+STR_REFIT_LIVERY_Airpremia                          :(AIR PREMIA)
+STR_REFIT_LIVERY_Airincheon                         :(Air Incheon)
+
+STR_REFIT_LIVERY_Britishairways                     :(BRITISH AIRWAYS)
+
 
 # Errors
 STR_ERROR_NO_ATTACH                                 :You can't attach this car here

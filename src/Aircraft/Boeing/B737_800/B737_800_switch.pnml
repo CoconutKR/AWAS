@@ -2,15 +2,15 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_AIRCRAFT, SELF, sw_Boeing_737_800_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Boeing_737_800_default);   // 제조사
-    2: return string(STR_REFIT_LIVERY_Boeing_737_800_jeju);      // 제주항공
-    3: return string(STR_REFIT_LIVERY_Boeing_737_800_tway);      // 티웨이항공
-    4: return string(STR_REFIT_LIVERY_Boeing_737_800_jin);       // 진에어
-    5: return string(STR_REFIT_LIVERY_Boeing_737_800_korean);      // 대한항공
-    6: return string(STR_REFIT_LIVERY_Boeing_737_800_gangwon);      // 플라이강원
-    7: return string(STR_REFIT_LIVERY_Boeing_737_800_eastar);      // 이스타항공
-    8: return string(STR_REFIT_LIVERY_Boeing_737_800_jeju_old);      // 제주항공 구
-    return string(STR_REFIT_LIVERY_Boeing_737_800_default);
+    1: return string(STR_REFIT_LIVERY_Boeing);   // 제조사
+    2: return string(STR_REFIT_LIVERY_Jejuair);      // 제주항공
+    3: return string(STR_REFIT_LIVERY_Tway);      // 티웨이항공
+    4: return string(STR_REFIT_LIVERY_Jinair);       // 진에어
+    5: return string(STR_REFIT_LIVERY_Koreanair);      // 대한항공
+    6: return string(STR_REFIT_LIVERY_Flygangwon);      // 플라이강원
+    7: return string(STR_REFIT_LIVERY_Eastar);      // 이스타항공
+    8: return string(STR_REFIT_LIVERY_Jejuair_old);      // 제주항공 구
+    return string(STR_REFIT_LIVERY_Boeing);
 }
 
 switch(FEAT_AIRCRAFT, SELF, sw_B737_800, cargo_subtype) {

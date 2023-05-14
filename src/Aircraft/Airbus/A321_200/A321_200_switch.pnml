@@ -2,11 +2,11 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_AIRCRAFT, SELF, sw_Airbus_A321_200_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Airbus_A321_200_default);   // 제조사
-    2: return string(STR_REFIT_LIVERY_Airbus_A321_200_asiana);     // 아시아나항공
-    3: return string(STR_REFIT_LIVERY_Airbus_A321_200_seoul);     // 에어서울
-    4: return string(STR_REFIT_LIVERY_Airbus_A321_200_busan);     // 에어부산
-    return string(STR_REFIT_LIVERY_Airbus_A321_200_default);
+    1: return string(STR_REFIT_LIVERY_Airbus);   // 제조사
+    2: return string(STR_REFIT_LIVERY_Asiana);     // 아시아나항공
+    3: return string(STR_REFIT_LIVERY_Airseoul);     // 에어서울
+    4: return string(STR_REFIT_LIVERY_Airbusan);     // 에어부산
+    return string(STR_REFIT_LIVERY_Airbus);
 }
 
 switch(FEAT_AIRCRAFT, SELF, sw_A321_200, cargo_subtype) {

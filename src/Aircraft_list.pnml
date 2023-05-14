@@ -14,6 +14,7 @@
 #include "Aircraft/Boeing/B777_300ER/B777_300ER.pnml"      //7012
 #include "Aircraft/Airbus/A220_300/A220_300.pnml"          //7013
 #include "Aircraft/Airbus/A350_900/A350_900.pnml"          //7014
+#include "Aircraft/Airbus/A318_100/A318_100.pnml"          //7015
 
 // Sorting
 #include "sort.pnml"
