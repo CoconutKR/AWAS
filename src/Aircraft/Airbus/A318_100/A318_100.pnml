@@ -28,7 +28,7 @@ item(FEAT_AIRCRAFT, A318_100, 7015){
         reliability_decay:              0;
         
         //Cargo
-        passenger_capacity:             17;
+        passenger_capacity:             107;
         mail_capacity:                  12;    
         acceleration:                   27; 
         refittable_cargo_classes:       NO_CARGO_CLASS;
