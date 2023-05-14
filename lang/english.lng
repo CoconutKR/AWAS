@@ -11,12 +11,18 @@ STR_B737_800_NAME                                   :[AWAS] Boeing 737-800
 STR_B737_800BCF_NAME                                :[AWAS] Boeing 737-800 BCF
 STR_B777_200ER_NAME                                 :[AWAS] Boeing 777-200ER
 STR_B777_300ER_NAME                                 :[AWAS] Boeing 777-300ER
-STR_B787_9_NAME                                     :[AWAS] Boeing 787-9 Dreamliner
+STR_B787_9_NAME                                     :[AWAS] Boeing 787-9
 STR_B747_400_NAME                                   :[AWAS] Boeing 747-400
 STR_A220_300_NAME                                   :[AWAS] Airbus A220-300
 STR_A318_100_NAME                                   :[AWAS] Airbus A318-100
+STR_A319_100_NAME                                   :[AWAS] Airbus A319-100
+STR_A319neo_NAME                                    :[AWAS] Airbus A319neo
+STR_A320_100_NAME                                   :[AWAS] Airbus A320-100
 STR_A320_200_NAME                                   :[AWAS] Airbus A320-200
+STR_A320neo_NAME                                    :[AWAS] Airbus A320neo
+STR_A321_100_NAME                                   :[AWAS] Airbus A321-100
 STR_A321_200_NAME                                   :[AWAS] Airbus A321-200
+STR_A321neo_NAME                                    :[AWAS] Airbus A321neo
 STR_A330_300_NAME                                   :[AWAS] Airbus A330-300
 STR_A350_900_NAME                                   :[AWAS] Airbus A350-900
 STR_A380_800_NAME                                   :[AWAS] Airbus A380-800

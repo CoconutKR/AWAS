@@ -15,6 +15,12 @@
 #include "Aircraft/Airbus/A220_300/A220_300.pnml"          //7013
 #include "Aircraft/Airbus/A350_900/A350_900.pnml"          //7014
 #include "Aircraft/Airbus/A318_100/A318_100.pnml"          //7015
+#include "Aircraft/Airbus/A319_100/A319_100.pnml"          //7016
+#include "Aircraft/Airbus/A319neo/A319neo.pnml"            //7017
+#include "Aircraft/Airbus/A320neo/A320neo.pnml"            //7018
+#include "Aircraft/Airbus/A321neo/A321neo.pnml"            //7019
+#include "Aircraft/Airbus/A320_100/A320_100.pnml"          //7020
+#include "Aircraft/Airbus/A321_100/A321_100.pnml"          //7021
 
 // Sorting
 #include "sort.pnml"

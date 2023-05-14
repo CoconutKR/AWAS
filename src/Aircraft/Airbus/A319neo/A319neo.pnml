@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------------
+A319-100
+--------------------------------------------------------------------*/
+// Graphics
+#include "A319neo_graphic.pnml"
+
+// Switch
+#include "A319neo_switch.pnml"
+
+/*--------------------------------------------------------------------
+항공기정보
+--------------------------------------------------------------------*/
+item(FEAT_AIRCRAFT, A319neo, 7017){
+    property {
+        name:                           string(STR_A319neo_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2021, 1, 1);
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
+                
+        //spec
+        speed:                          901km/h;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   25;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        passenger_capacity:             124;
+        mail_capacity:                  16;    
+        acceleration:                   27; 
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     100;
+        
+        //Flags
+        misc_flags:                  	bitmask(AIRCRAFT_FLAG_2CC);
+        sound_effect:                   SOUND_JET;
+        }
+        
+    graphics {
+        default:                        sw_A319neo;
+        purchase:                       sw_A319neo_purchase;
+        loading_speed:                  43;
+        cost_factor:                    276;
+        running_cost_factor:            120;
+        cargo_subtype_text:             sw_Airbus_A319neo_cargo_subtype_text;
+        }
+}
