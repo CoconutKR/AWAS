@@ -25,8 +25,14 @@ STR_A321_100_NAME                                   :[AWAS] 에어버스 A321-10
 STR_A321_200_NAME                                   :[AWAS] 에어버스 A321-200
 STR_A321neo_NAME                                    :[AWAS] 에어버스 A321neo
 STR_A321LR_NAME                                     :[AWAS] 에어버스 A321LR
+STR_A330_200_NAME                                   :[AWAS] 에어버스 A330-200
+STR_A330_200F_NAME                                  :[AWAS] 에어버스 A330-200F
 STR_A330_300_NAME                                   :[AWAS] 에어버스 A330-300
+STR_A330_800_NAME                                   :[AWAS] 에어버스 A330-800 (A330neo)
+STR_A330_900_NAME                                   :[AWAS] 에어버스 A330-900 (A330neo)
 STR_A350_900_NAME                                   :[AWAS] 에어버스 A350-900
+STR_A350_900ULR_NAME                                :[AWAS] 에어버스 A350-900ULR
+STR_A350_1000_NAME                                  :[AWAS] 에어버스 A350-1000
 STR_A380_800_NAME                                   :[AWAS] 에어버스 A380-800
 STR_ATR_72_500_NAME                                 :[AWAS] ATR 72-500
 STR_DC_9_30_NAME                                    :[AWAS] 맥도넬 더글라스 DC-9-30
