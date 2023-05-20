@@ -21,6 +21,8 @@
 #include "Aircraft/Airbus/A321neo/A321neo.pnml"            //7019
 #include "Aircraft/Airbus/A320_100/A320_100.pnml"          //7020
 #include "Aircraft/Airbus/A321_100/A321_100.pnml"          //7021
+#include "Aircraft/Airbus/A321LR/A321LR.pnml"              //7022
+#include "Aircraft/Airbus/A220_100/A220_100.pnml"          //7023
 
 // Sorting
 #include "sort.pnml"

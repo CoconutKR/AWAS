@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------------
+A321LR
+--------------------------------------------------------------------*/
+// Graphics
+#include "A321LR_graphic.pnml"
+
+// Switch
+#include "A321LR_switch.pnml"
+
+/*--------------------------------------------------------------------
+항공기정보
+--------------------------------------------------------------------*/
+item(FEAT_AIRCRAFT, A321LR, 7022){
+    property {
+        name:                           string(STR_A321LR_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2018, 1, 1);
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
+                
+        //spec
+        speed:                          901km/h;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        passenger_capacity:             206;
+        mail_capacity:                  22;    
+        acceleration:                   80; 
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     100;
+        
+        //Flags
+        misc_flags:                  	bitmask(AIRCRAFT_FLAG_2CC);
+        sound_effect:                   SOUND_JET;
+        }
+        
+    graphics {
+        default:                        sw_A321LR;
+        purchase:                       sw_A321LR_purchase;
+        loading_speed:                  25;
+        cost_factor:                    320;
+        running_cost_factor:            120;
+        cargo_subtype_text:             sw_Airbus_A321LR_cargo_subtype_text;
+        }
+}
