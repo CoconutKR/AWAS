@@ -3,12 +3,12 @@
 --------------------------------------------------------------------*/
 switch(FEAT_AIRCRAFT, SELF, sw_Airbus_A300B4_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_Airbus);   // 제조사
-    2: return string(STR_REFIT_LIVERY_Airbus);     // 제조사
+    2: return string(STR_REFIT_LIVERY_Koreanair_old);     // 대한항공
     return string(STR_REFIT_LIVERY_Airbus);
 }
 
 switch(FEAT_AIRCRAFT, SELF, sw_A300B4, cargo_subtype) {
     1: set_A300B4_default;        // 제조사
-    2: set_A300B4_default; 
+    2: set_A300B4_korean; 
     set_A300B4_default;
 }
