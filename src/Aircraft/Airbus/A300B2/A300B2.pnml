@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------------
+A220-100
+--------------------------------------------------------------------*/
+// Graphics
+#include "A300B2_graphic.pnml"
+
+// Switch
+#include "A300B2_switch.pnml"
+
+/*--------------------------------------------------------------------
+항공기정보
+--------------------------------------------------------------------*/
+item(FEAT_AIRCRAFT, A300B2, 7035){
+    property {
+        name:                           string(STR_A300B2_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1974, 1, 1);
+        aircraft_type:                  AIRCRAFT_TYPE_LARGE;
+        sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
+                
+        //spec
+        speed:                          829km/h;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   25;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        passenger_capacity:             220;
+        mail_capacity:                  26;    
+        acceleration:                   27; 
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     100;
+        
+        //Flags
+        misc_flags:                  	bitmask(AIRCRAFT_FLAG_2CC);
+        sound_effect:                   SOUND_JET;
+        }
+        
+    graphics {
+        default:                        sw_A300B2;
+        purchase:                       sw_A300B2_purchase;
+        loading_speed:                  43;
+        cost_factor:                    276;
+        running_cost_factor:            120;
+        cargo_subtype_text:             sw_Airbus_A300B2_cargo_subtype_text;
+        }
+}

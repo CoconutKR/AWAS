@@ -25,11 +25,25 @@ STR_A321_100_NAME                                   :[AWAS] Airbus A321-100
 STR_A321_200_NAME                                   :[AWAS] Airbus A321-200
 STR_A321neo_NAME                                    :[AWAS] Airbus A321neo
 STR_A321LR_NAME                                     :[AWAS] Airbus A321LR
+STR_A310_200_NAME                                   :[AWAS] Airbus A310-200
+STR_A310_200F_NAME                                  :[AWAS] Airbus A310-200F
+STR_A310_300_NAME                                   :[AWAS] Airbus A310-300
+STR_A310_300F_NAME                                  :[AWAS] Airbus A310-300F
+STR_A300B1_NAME                                     :[AWAS] Airbus A300B1
+STR_A300B2_NAME                                     :[AWAS] Airbus A300B2
+STR_A300B4_NAME                                     :[AWAS] Airbus A300B4
+STR_A300_600_NAME                                   :[AWAS] Airbus A300-600
+STR_A300_600R_NAME                                  :[AWAS] Airbus A300-600R
+STR_A300_600F_NAME                                  :[AWAS] Airbus A300-600F
 STR_A330_200_NAME                                   :[AWAS] Airbus A330-200
 STR_A330_200F_NAME                                  :[AWAS] Airbus A330-200F
 STR_A330_300_NAME                                   :[AWAS] Airbus A330-300
 STR_A330_800_NAME                                   :[AWAS] Airbus A330-800 (A330neo)
 STR_A330_900_NAME                                   :[AWAS] Airbus A330-900 (A330neo)
+STR_A340_200_NAME                                   :[AWAS] Airbus A340-200
+STR_A340_300_NAME                                   :[AWAS] Airbus A340-300
+STR_A340_500_NAME                                   :[AWAS] Airbus A340-500
+STR_A340_600_NAME                                   :[AWAS] Airbus A340-600
 STR_A350_900_NAME                                   :[AWAS] Airbus A350-900
 STR_A350_900ULR_NAME                                :[AWAS] Airbus A350-900ULR
 STR_A350_1000_NAME                                  :[AWAS] Airbus A350-1000

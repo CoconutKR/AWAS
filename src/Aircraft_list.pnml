@@ -29,6 +29,20 @@
 #include "Aircraft/Airbus/A330_900/A330_900.pnml"          //7027
 #include "Aircraft/Airbus/A350_900ULR/A350_900ULR.pnml"    //7028
 #include "Aircraft/Airbus/A350_1000/A350_1000.pnml"        //7029
+#include "Aircraft/Airbus/A340_600/A340_600.pnml"          //7030
+#include "Aircraft/Airbus/A340_500/A340_500.pnml"          //7031
+#include "Aircraft/Airbus/A340_300/A340_300.pnml"          //7032
+#include "Aircraft/Airbus/A340_200/A340_200.pnml"          //7033
+#include "Aircraft/Airbus/A300B1/A300B1.pnml"              //7034
+#include "Aircraft/Airbus/A300B2/A300B2.pnml"              //7035
+#include "Aircraft/Airbus/A300B4/A300B4.pnml"              //7036
+#include "Aircraft/Airbus/A300_600/A300_600.pnml"          //7037
+#include "Aircraft/Airbus/A300_600R/A300_600R.pnml"        //7038
+#include "Aircraft/Airbus/A300_600F/A300_600F.pnml"        //7039
+#include "Aircraft/Airbus/A310_200/A310_200.pnml"          //7040
+#include "Aircraft/Airbus/A310_200F/A310_200F.pnml"        //7041
+#include "Aircraft/Airbus/A310_300/A310_300.pnml"          //7042
+#include "Aircraft/Airbus/A310_300F/A310_300F.pnml"        //7043
 
 // Sorting
 #include "sort.pnml"
