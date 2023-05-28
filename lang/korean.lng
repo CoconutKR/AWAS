@@ -9,9 +9,11 @@ STR_GRF_URL                                         :https://github.com/CoconutK
 # Aircraft name
 STR_B737_800_NAME                                   :[AWAS] 보잉 737-800
 STR_B737_800BCF_NAME                                :[AWAS] 보잉 737-800 BCF
+STR_B787_8_NAME                                     :[AWAS] 보잉 787-8
+STR_B787_9_NAME                                     :[AWAS] 보잉 787-9
+STR_B787_10_NAME                                    :[AWAS] 보잉 787-10
 STR_B777_200ER_NAME                                 :[AWAS] 보잉 777-200ER
 STR_B777_300ER_NAME                                 :[AWAS] 보잉 777-300ER
-STR_B787_9_NAME                                     :[AWAS] 보잉 787-9
 STR_B747_400_NAME                                   :[AWAS] 보잉 747-400
 STR_A220_100_NAME                                   :[AWAS] 에어버스 A220-100 (봉바르디에 CS100)
 STR_A220_300_NAME                                   :[AWAS] 에어버스 A220-300 (봉바르디에 CS300)

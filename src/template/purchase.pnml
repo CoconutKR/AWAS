@@ -35,7 +35,7 @@ template tmpl_A321_100_purchase(x, y) {
 }
 
 template tmpl_A321_200_purchase(x, y) {
-    tmpl_purchase_detail(x+310, y, 50, 23, -20, -12)
+    tmpl_purchase_detail(x+310, y, 50, 23, -25, -12)
 }
 
 template tmpl_A330_200_purchase(x, y) {
@@ -66,10 +66,17 @@ template tmpl_B777_300ER_purchase(x, y) {
     tmpl_purchase_detail(x+389, y, 70, 31, -35, -16)
 }
 
+template tmpl_B787_8_purchase(x, y) {
+    tmpl_purchase_detail(x+364, y, 56, 33, -28, -17)
+}
+
 template tmpl_B787_9_purchase(x, y) {
     tmpl_purchase_detail(x+364, y, 63, 30, -32, -18)
 }
 
+template tmpl_B787_10_purchase(x, y) {
+    tmpl_purchase_detail(x+368,y, 71, 30, -35, -18)
+}
 
 template tmpl_A320_100_purchase(x, y) {
     tmpl_purchase_detail(x+310, y, 48, 23, -24, -12)
