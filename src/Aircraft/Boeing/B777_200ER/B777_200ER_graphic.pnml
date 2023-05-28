@@ -6,7 +6,7 @@ Graphics
 구매정보
 --------------------------------------------------------------------*/
 spriteset(set_B777_200ER_purchase, "src\Aircraft\Boeing\B777_200ER\B777_200ER.png"){
-    tmpl_B777_200ER_purchase(0, 0)
+    tmpl_B777_200_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
@@ -14,7 +14,7 @@ spriteset(set_B777_200ER_purchase, "src\Aircraft\Boeing\B777_200ER\B777_200ER.pn
 --------------------------------------------------------------------*/
 
 spriteset(set_B777_200ER, "src\Aircraft\Boeing\B777_200ER\B777_200ER.png"){
-    tp_B777_200ER(0, 0)
+    tp_B777_200(0, 0)
 }
 
 /*--------------------------------------------------------------------
@@ -22,7 +22,7 @@ spriteset(set_B777_200ER, "src\Aircraft\Boeing\B777_200ER\B777_200ER.png"){
 --------------------------------------------------------------------*/
 
 spriteset(set_B777_200ER_korean, "src\Aircraft\Boeing\B777_200ER\B777_200ER_Korean.png"){
-    tp_B777_200ER(0, 0)
+    tp_B777_200(0, 0)
 }
 
 /*--------------------------------------------------------------------
@@ -30,7 +30,7 @@ spriteset(set_B777_200ER_korean, "src\Aircraft\Boeing\B777_200ER\B777_200ER_Kore
 --------------------------------------------------------------------*/
 
 spriteset(set_B777_200ER_asiana, "src\Aircraft\Boeing\B777_200ER\B777_200ER_Asiana.png"){
-    tp_B777_200ER(0, 0)
+    tp_B777_200(0, 0)
 }
 
 /*--------------------------------------------------------------------
@@ -38,11 +38,11 @@ spriteset(set_B777_200ER_asiana, "src\Aircraft\Boeing\B777_200ER\B777_200ER_Asia
 --------------------------------------------------------------------*/
 
 spriteset(set_B777_200ER_jin, "src\Aircraft\Boeing\B777_200ER\B777_200ER.png"){
-    tp_B777_200ER(0, 0)
+    tp_B777_200(0, 0)
 }
 
 alternative_sprites(set_B777_200ER_jin, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Aircraft\Boeing\B777_200ER\B777_200ER_Jin.png"){
-    tp_B777_200ER(0, 0)
+    tp_B777_200(0, 0)
 }
 
 /*--------------------------------------------------------------------

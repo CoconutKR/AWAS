@@ -58,11 +58,11 @@ template tmpl_A330_300_purchase(x, y) {
     tmpl_purchase_detail(x+414, y, 69, 34, -35, -17)
 }
 
-template tmpl_B777_200ER_purchase(x, y) {
+template tmpl_B777_200_purchase(x, y) {
     tmpl_purchase_detail(x+364, y, 62, 29, -31, -15)
 }
 
-template tmpl_B777_300ER_purchase(x, y) {
+template tmpl_B777_300_purchase(x, y) {
     tmpl_purchase_detail(x+389, y, 70, 31, -35, -16)
 }
 

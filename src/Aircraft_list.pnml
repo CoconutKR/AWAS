@@ -45,6 +45,7 @@
 #include "Aircraft/Airbus/A310_300F/A310_300F.pnml"        //7043
 #include "Aircraft/Boeing/B787_8/B787_8.pnml"              //7044
 #include "Aircraft/Boeing/B787_10/B787_10.pnml"            //7045
+#include "Aircraft/Boeing/B777_300/B777_300.pnml"          //7046
 
 // Sorting
 #include "sort.pnml"
