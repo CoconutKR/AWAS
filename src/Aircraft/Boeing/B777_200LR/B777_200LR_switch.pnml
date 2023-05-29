@@ -1,0 +1,14 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_AIRCRAFT, SELF, sw_Boeing_777_200LR_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Boeing);   // 제조사
+    2: return string(STR_REFIT_LIVERY_Boeing);      // 대한항공
+    return string(STR_REFIT_LIVERY_Boeing);
+}
+
+switch(FEAT_AIRCRAFT, SELF, sw_B777_200LR, cargo_subtype) {
+    1: set_B777_200LR;        // 제조사
+    2: set_B777_200LR;   // 대한항공
+    set_B777_200LR;
+}

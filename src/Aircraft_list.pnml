@@ -46,6 +46,13 @@
 #include "Aircraft/Boeing/B787_8/B787_8.pnml"              //7044
 #include "Aircraft/Boeing/B787_10/B787_10.pnml"            //7045
 #include "Aircraft/Boeing/B777_300/B777_300.pnml"          //7046
+#include "Aircraft/Boeing/B777_200/B777_200.pnml"          //7047
+#include "Aircraft/Boeing/B777_200LR/B777_200LR.pnml"      //7048
+#include "Aircraft/Boeing/B777_200F/B777_200F.pnml"        //7049
+#include "Aircraft/Boeing/B777_9/B777_9.pnml"              //7050
+#include "Aircraft/Boeing/B747_8I/B747_8I.pnml"            //7051
+#include "Aircraft/Boeing/B747_8F/B747_8F.pnml"            //7052
+#include "Aircraft/Boeing/B737_MAX_8/B737_MAX_8.pnml"      //7053
 
 // Sorting
 #include "sort.pnml"

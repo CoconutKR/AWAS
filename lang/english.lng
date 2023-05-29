@@ -9,6 +9,7 @@ STR_GRF_URL                                         :https://github.com/CoconutK
 # Aircraft name
 STR_B737_800_NAME                                   :[AWAS] Boeing 737-800
 STR_B737_800BCF_NAME                                :[AWAS] Boeing 737-800 BCF
+STR_B737_MAX_8_NAME                                 :[AWAS] Boeing 737 MAX 8
 STR_B787_8_NAME                                     :[AWAS] Boeing 787-8
 STR_B787_9_NAME                                     :[AWAS] Boeing 787-9
 STR_B787_10_NAME                                    :[AWAS] Boeing 787-10
@@ -20,6 +21,8 @@ STR_B777_300_NAME                                   :[AWAS] Boeing 777-300
 STR_B777_300ER_NAME                                 :[AWAS] Boeing 777-300ER
 STR_B777_9_NAME                                     :[AWAS] Boeing 777-9
 STR_B747_400_NAME                                   :[AWAS] Boeing 747-400
+STR_B747_8I_NAME                                    :[AWAS] Boeing 747-8I
+STR_B747_8F_NAME                                    :[AWAS] Boeing 747-8F
 STR_A220_100_NAME                                   :[AWAS] Airbus A220-100 (Bombardier CS100)
 STR_A220_300_NAME                                   :[AWAS] Airbus A220-300 (Bombardier CS300)
 STR_A318_100_NAME                                   :[AWAS] Airbus A318-100
