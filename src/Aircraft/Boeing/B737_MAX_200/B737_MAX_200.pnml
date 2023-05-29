@@ -14,7 +14,7 @@ item(FEAT_AIRCRAFT, B737_MAX_200, 7057){
     property {
         name:                           string(STR_B737_MAX_200_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2012, 1, 1);
+        introduction_date:              date(2021, 1, 1);
         aircraft_type:                  AIRCRAFT_TYPE_LARGE;
         sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
                 
