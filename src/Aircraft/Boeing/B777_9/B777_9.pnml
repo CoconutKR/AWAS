@@ -28,7 +28,7 @@ item(FEAT_AIRCRAFT, B777_9, 7050){
         reliability_decay:              0;
         
         //Cargo
-        passenger_capacity:             550;
+        passenger_capacity:             414;
         mail_capacity:                  40;    
         acceleration:                   27; 
         refittable_cargo_classes:       NO_CARGO_CLASS;
