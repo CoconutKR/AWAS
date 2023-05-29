@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------------
+B737-800
+--------------------------------------------------------------------*/
+// Graphics
+#include "B737_MAX_200_graphic.pnml"
+
+// Switch
+#include "B737_MAX_200_switch.pnml"
+
+/*--------------------------------------------------------------------
+항공기정보
+--------------------------------------------------------------------*/
+item(FEAT_AIRCRAFT, B737_MAX_200, 7057){
+    property {
+        name:                           string(STR_B737_MAX_200_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2012, 1, 1);
+        aircraft_type:                  AIRCRAFT_TYPE_LARGE;
+        sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
+                
+        //spec
+        speed:                          952km/h;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        passenger_capacity:             180;
+        mail_capacity:                  19;    
+        acceleration:                   27; 
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     100;
+        
+        //Flags
+        misc_flags:                  	bitmask(AIRCRAFT_FLAG_2CC);
+        sound_effect:                   SOUND_JET;
+        }
+        
+    graphics {
+        default:                        sw_B737_MAX_200;
+        purchase:                       sw_B737_MAX_200_purchase;
+        loading_speed:                  26;
+        cost_factor:                    890;
+        running_cost_factor:            120;
+        cargo_subtype_text:             sw_Boeing_737_MAX_200_cargo_subtype_text;
+        }
+}

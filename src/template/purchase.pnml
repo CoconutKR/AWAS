@@ -14,8 +14,20 @@ template tmpl_B737_800_purchase(x, y) {
     tmpl_purchase_detail(x+290, y, 46, 25, -23, -12)
 }
 
+template tmpl_B737_MAX_7_purchase(x, y) {
+    tmpl_purchase_detail(x+279, y, 42, 28, -21, -13)
+}
+
 template tmpl_B737_MAX_8_purchase(x, y) {
     tmpl_purchase_detail(x+290, y, 46, 28, -23, -14)
+}
+
+template tmpl_B737_MAX_9_purchase(x, y) {
+    tmpl_purchase_detail(x+287, y, 48, 28, -24, -13)
+}
+
+template tmpl_B737_MAX_10_purchase(x, y) {
+    tmpl_purchase_detail(x+287, y, 50, 28, -24, -13)
 }
 
 template tmpl_A220_100_purchase(x, y) {

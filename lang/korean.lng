@@ -7,9 +7,18 @@ STR_GRF_DESC                                        :{BLACK}AWAS {}(Updated: {RE
 STR_GRF_URL                                         :https://github.com/CoconutKR/AWAS
 
 # Aircraft name
+STR_B737_600_NAME                                   :[AWAS] 보잉 737-600
+STR_B737_700_NAME                                   :[AWAS] 보잉 737-700
 STR_B737_800_NAME                                   :[AWAS] 보잉 737-800
-STR_B737_800BCF_NAME                                :[AWAS] 보잉 737-800 BCF
+STR_B737_800BCF_NAME                                :[AWAS] 보잉 737-800BCF
+STR_B737_800SF_NAME                                 :[AWAS] 보잉 737-800SF
+STR_B737_900_NAME                                   :[AWAS] 보잉 737-900
+STR_B737_900ER_NAME                                 :[AWAS] 보잉 737-900ER
+STR_B737_MAX_7_NAME                                 :[AWAS] 보잉 737 MAX 7
 STR_B737_MAX_8_NAME                                 :[AWAS] 보잉 737 MAX 8
+STR_B737_MAX_200_NAME                               :[AWAS] 보잉 737 MAX 200
+STR_B737_MAX_9_NAME                                 :[AWAS] 보잉 737 MAX 9
+STR_B737_MAX_10_NAME                                :[AWAS] 보잉 737 MAX 10
 STR_B787_8_NAME                                     :[AWAS] 보잉 787-8
 STR_B787_9_NAME                                     :[AWAS] 보잉 787-9
 STR_B787_10_NAME                                    :[AWAS] 보잉 787-10
