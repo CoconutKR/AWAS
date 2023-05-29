@@ -28,7 +28,7 @@ item(FEAT_AIRCRAFT, B737_MAX_10, 7056){
         reliability_decay:              0;
         
         //Cargo
-        passenger_capacity:             180;
+        passenger_capacity:             204;
         mail_capacity:                  19;    
         acceleration:                   27; 
         refittable_cargo_classes:       NO_CARGO_CLASS;
