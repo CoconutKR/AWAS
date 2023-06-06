@@ -57,6 +57,8 @@
 #include "Aircraft/Boeing/B737_MAX_9/B737_MAX_9.pnml"      //7055
 #include "Aircraft/Boeing/B737_MAX_10/B737_MAX_10.pnml"    //7056
 #include "Aircraft/Boeing/B737_MAX_200/B737_MAX_200.pnml"    //7057
+#include "Aircraft/Boeing/B737_900ER/B737_900ER.pnml"    //7058
+#include "Aircraft/Boeing/B737_900/B737_900.pnml"    //7058
 
 // Sorting
 #include "sort.pnml"
