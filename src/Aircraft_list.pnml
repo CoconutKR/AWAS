@@ -71,6 +71,7 @@
 #include "Aircraft/Boeing/B767/B767_300F/B767_300F.pnml"    //7069
 #include "Aircraft/Boeing/B767/B767_300BCF/B767_300BCF.pnml"    //7070
 #include "Aircraft/Boeing/B767/B767_300BDSF/B767_300BDSF.pnml"    //7071
+#include "Aircraft/Aerospatiale_BAC/Concorde/Concorde.pnml"    //7072
 
 // Sorting
 #include "sort.pnml"

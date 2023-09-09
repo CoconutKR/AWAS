@@ -7,6 +7,7 @@ STR_GRF_DESC                                        :{BLACK}AWAS {}(Updated: {RE
 STR_GRF_URL                                         :https://github.com/CoconutKR/AWAS
 
 # Aircraft name
+STR_Concorde_NAME                                   :[AWAS] Aerospatiale/BAC Concorde
 STR_B737_600_NAME                                   :[AWAS] Boeing 737-600
 STR_B737_700_NAME                                   :[AWAS] Boeing 737-700
 STR_B737_800_NAME                                   :[AWAS] Boeing 737-800
@@ -86,6 +87,8 @@ STR_REFIT_LIVERY_Airbus                             :(AIRBUS)
 STR_REFIT_LIVERY_Boeing                             :(Boeing)
 STR_REFIT_LIVERY_ATR                                :(ATR)
 STR_REFIT_LIVERY_Mcdonnelldouglas                   :(McDonnell Douglas)
+STR_REFIT_LIVERY_Aerospatiale_BAC                   :(Aerospatiale BAC)
+
 STR_REFIT_LIVERY_Hiair_b                            :(Hi Air - Blue Livery)
 STR_REFIT_LIVERY_Hiair_p                            :(Hi Air - Pink Livery)
 STR_REFIT_LIVERY_Hiair_g                            :(Hi Air - Green Livery)

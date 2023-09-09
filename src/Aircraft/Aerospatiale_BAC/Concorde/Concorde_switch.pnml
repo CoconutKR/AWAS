@@ -1,0 +1,14 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_AIRCRAFT, SELF, sw_Aerospatiale_BAC_Concorde_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Aerospatiale_BAC);   // 제조사
+    2: return string(STR_REFIT_LIVERY_Aerospatiale_BAC);      // 대한항공
+    return string(STR_REFIT_LIVERY_Aerospatiale_BAC);
+}
+
+switch(FEAT_AIRCRAFT, SELF, sw_Concorde, cargo_subtype) {
+    1: set_Concorde;        // 제조사
+    2: set_Concorde;   // 대한항공
+    set_Concorde;
+}

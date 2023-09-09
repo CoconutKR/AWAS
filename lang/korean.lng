@@ -7,6 +7,7 @@ STR_GRF_DESC                                        :{BLACK}AWAS {}(Updated: {RE
 STR_GRF_URL                                         :https://github.com/CoconutKR/AWAS
 
 # Aircraft name
+STR_Concorde_NAME                                   :[AWAS] 아에로스파시알/BAC 콩코드
 STR_B737_600_NAME                                   :[AWAS] 보잉 737-600
 STR_B737_700_NAME                                   :[AWAS] 보잉 737-700
 STR_B737_800_NAME                                   :[AWAS] 보잉 737-800
@@ -86,6 +87,8 @@ STR_REFIT_LIVERY_Airbus                             :(에어버스)
 STR_REFIT_LIVERY_Boeing                             :(보잉)
 STR_REFIT_LIVERY_ATR                                :(ATR)
 STR_REFIT_LIVERY_Mcdonnelldouglas                   :(맥도넬 더글라스)
+STR_REFIT_LIVERY_Aerospatiale_BAC                   :(아에로스파시알 BAC)
+
 STR_REFIT_LIVERY_Hiair_b                            :(하이에어 - 파랑)
 STR_REFIT_LIVERY_Hiair_p                            :(하이에어 - 분홍)
 STR_REFIT_LIVERY_Hiair_g                            :(하이에어 - 초록)
