@@ -63,7 +63,14 @@
 #include "Aircraft/Boeing/B737/B737_600/B737_600.pnml"    //7061
 #include "Aircraft/Boeing/B737/B737_800SF/B737_800SF.pnml"    //7062
 #include "Aircraft/Boeing/B767/B767_400ER/B767_400ER.pnml"    //7063
-
+#include "Aircraft/Boeing/B767/B767_200/B767_200.pnml"    //7064
+#include "Aircraft/Boeing/B767/B767_200ER/B767_200ER.pnml"    //7065
+#include "Aircraft/Boeing/B767/B767_200BDSF/B767_200BDSF.pnml"    //7066
+#include "Aircraft/Boeing/B767/B767_300/B767_300.pnml"    //7067
+#include "Aircraft/Boeing/B767/B767_300ER/B767_300ER.pnml"    //7068
+#include "Aircraft/Boeing/B767/B767_300F/B767_300F.pnml"    //7069
+#include "Aircraft/Boeing/B767/B767_300BCF/B767_300BCF.pnml"    //7070
+#include "Aircraft/Boeing/B767/B767_300BDSF/B767_300BDSF.pnml"    //7071
 
 // Sorting
 #include "sort.pnml"

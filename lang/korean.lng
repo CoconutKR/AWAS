@@ -19,6 +19,14 @@ STR_B737_MAX_8_NAME                                 :[AWAS] 보잉 737 MAX 8
 STR_B737_MAX_200_NAME                               :[AWAS] 보잉 737 MAX 200
 STR_B737_MAX_9_NAME                                 :[AWAS] 보잉 737 MAX 9
 STR_B737_MAX_10_NAME                                :[AWAS] 보잉 737 MAX 10
+STR_B767_200_NAME                                   :[AWAS] 보잉 767-200
+STR_B767_200ER_NAME                                 :[AWAS] 보잉 767-200ER
+STR_B767_200BDSF_NAME                               :[AWAS] 보잉 767-200BDSF
+STR_B767_300_NAME                                   :[AWAS] 보잉 767-300
+STR_B767_300ER_NAME                                 :[AWAS] 보잉 767-300ER
+STR_B767_300F_NAME                                  :[AWAS] 보잉 767-300F
+STR_B767_300BCF_NAME                                :[AWAS] 보잉 767-300BCF
+STR_B767_300BDSF_NAME                               :[AWAS] 보잉 767-300BDSF
 STR_B767_400ER_NAME                                 :[AWAS] 보잉 767-400ER
 STR_B787_8_NAME                                     :[AWAS] 보잉 787-8
 STR_B787_9_NAME                                     :[AWAS] 보잉 787-9

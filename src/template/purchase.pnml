@@ -98,6 +98,14 @@ template tmpl_B777_9_purchase(x, y) {
     tmpl_purchase_detail(x+376, y, 72, 31, -35, -16)
 }
 
+template tmpl_B767_200_purchase(x, y) {
+    tmpl_purchase_detail(x+364, y, 51, 27, -26, -14)
+}
+
+template tmpl_B767_300_purchase(x, y) {
+    tmpl_purchase_detail(x+364, y, 56, 33, -28, -17)
+}
+
 template tmpl_B767_400ER_purchase(x, y) {
     tmpl_purchase_detail(x+364, y, 63, 30, -32, -18)
 }
