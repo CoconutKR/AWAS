@@ -19,6 +19,7 @@ STR_B737_MAX_8_NAME                                 :[AWAS] Boeing 737 MAX 8
 STR_B737_MAX_200_NAME                               :[AWAS] Boeing 737 MAX 200
 STR_B737_MAX_9_NAME                                 :[AWAS] Boeing 737 MAX 9
 STR_B737_MAX_10_NAME                                :[AWAS] Boeing 737 MAX 10
+STR_B767_400ER_NAME                                 :[AWAS] Boeing 767-400ER
 STR_B787_8_NAME                                     :[AWAS] Boeing 787-8
 STR_B787_9_NAME                                     :[AWAS] Boeing 787-9
 STR_B787_10_NAME                                    :[AWAS] Boeing 787-10
