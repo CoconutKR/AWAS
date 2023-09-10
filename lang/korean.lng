@@ -134,8 +134,14 @@ STR_REFIT_LIVERY_Airchina                           :(중국국제항공)
 STR_REFIT_LIVERY_Chinasouthern                      :(중국남방항공)
 STR_REFIT_LIVERY_Chinaeastern                       :(중국동방항공)
 STR_REFIT_LIVERY_Cathaypacific                      :(캐세이퍼시픽)
-STR_REFIT_LIVERY_ChinaAirlines                      :(중화항공)
+STR_REFIT_LIVERY_Chinaairlines                      :(중화항공)
+STR_REFIT_LIVERY_Evaair                             :(에바항공)
+STR_REFIT_LIVERY_Thaiairways                        :(타이항공)
+STR_REFIT_LIVERY_Malaysiaairlines                   :(말레이시아항공)
+STR_REFIT_LIVERY_Singaporeairlines                  :(싱가포르항공)
+STR_REFIT_LIVERY_Garudaindonesia                    :(가루다 인도네시아)
 STR_REFIT_LIVERY_Britishairways                     :(영국항공)
+
 
 # Errors
 STR_ERROR_NO_ATTACH                                 :여기에 이 차량을 붙일 수 없습니다
