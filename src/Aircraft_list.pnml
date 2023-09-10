@@ -77,6 +77,10 @@
 #include "Aircraft/Boeing/B737/B737_400/B737_400.pnml"    //7075
 #include "Aircraft/Boeing/B737/B737_400SF/B737_400SF.pnml"    //7076
 #include "Aircraft/Boeing/B737/B737_500/B737_500.pnml"    //7077
+#include "Aircraft/Boeing/B737/B737_100/B737_100.pnml"    //7078
+#include "Aircraft/Boeing/B737/B737_200/B737_200.pnml"    //7079
+#include "Aircraft/Boeing/B737/B737_200C/B737_200C.pnml"    //7080
+
 
 // Sorting
 #include "sort.pnml"

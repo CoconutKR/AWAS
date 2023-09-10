@@ -8,6 +8,9 @@ STR_GRF_URL                                         :https://github.com/CoconutK
 
 # Aircraft name
 STR_Concorde_NAME                                   :[AWAS] 아에로스파시알/BAC 콩코드
+STR_B737_100_NAME                                   :[AWAS] 보잉 737-100
+STR_B737_200_NAME                                   :[AWAS] 보잉 737-200
+STR_B737_200C_NAME                                  :[AWAS] 보잉 737-200C
 STR_B737_300_NAME                                   :[AWAS] 보잉 737-300
 STR_B737_300F_NAME                                  :[AWAS] 보잉 737-300F
 STR_B737_400_NAME                                   :[AWAS] 보잉 737-400

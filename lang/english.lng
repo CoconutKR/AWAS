@@ -8,6 +8,9 @@ STR_GRF_URL                                         :https://github.com/CoconutK
 
 # Aircraft name
 STR_Concorde_NAME                                   :[AWAS] Aerospatiale/BAC Concorde
+STR_B737_100_NAME                                   :[AWAS] Boeing 737-100
+STR_B737_200_NAME                                   :[AWAS] Boeing 737-200
+STR_B737_200C_NAME                                  :[AWAS] Boeing 737-200C
 STR_B737_300_NAME                                   :[AWAS] Boeing 737-300
 STR_B737_300F_NAME                                  :[AWAS] Boeing 737-300F
 STR_B737_400_NAME                                   :[AWAS] Boeing 737-400
