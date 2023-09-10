@@ -152,6 +152,19 @@ STR_REFIT_LIVERY_Aeromexico                         :(아에로멕시코)
 STR_REFIT_LIVERY_Latamairlines                      :(LATAM 항공)
 STR_REFIT_LIVERY_Lufthansa                          :(루프트한자)
 STR_REFIT_LIVERY_Britishairways                     :(영국항공)
+STR_REFIT_LIVERY_Airfrance                          :(에어 프랑스)
+STR_REFIT_LIVERY_Itaairways                         :(ITA 항공)
+STR_REFIT_LIVERY_Klmroyaldutchairlines              :(KLM 네덜란드 항공)
+STR_REFIT_LIVERY_Aeroflot                           :(아에로플로트)
+STR_REFIT_LIVERY_Iberiaairlines                     :(이베리아항공)
+STR_REFIT_LIVERY_Swissinternationalairlines         :(스위스 국제항공)
+STR_REFIT_LIVERY_Scandinavianairlinessystem         :(스칸디나비아 항공)
+STR_REFIT_LIVERY_Turkishairlines                    :(터키항공)
+STR_REFIT_LIVERY_Qantasairways                      :(콴타스 항공)
+STR_REFIT_LIVERY_Airnewzealand                      :(에어 뉴질랜드)
+
+
+
 
 
 # Errors
