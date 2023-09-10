@@ -149,6 +149,8 @@ STR_REFIT_LIVERY_Unitedairlines                     :(유나이티드 항공)
 STR_REFIT_LIVERY_Americanairlines                   :(아메리칸 항공)
 STR_REFIT_LIVERY_Aircanada                          :(에어캐나다)
 STR_REFIT_LIVERY_Aeromexico                         :(아에로멕시코)
+STR_REFIT_LIVERY_Latamairlines                      :(LATAM 항공)
+STR_REFIT_LIVERY_Lufthansa                          :(루프트한자)
 STR_REFIT_LIVERY_Britishairways                     :(영국항공)
 
 
