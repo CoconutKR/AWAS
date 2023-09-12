@@ -91,6 +91,10 @@ STR_DC_9_30_NAME                                    :[AWAS] McDonnell Douglas DC
 # Parameters
 
 # Liveries
+STR_REFIT_LIVERY_CC_a                               :(Company Colours A / Eurowhite)
+STR_REFIT_LIVERY_CC_b                               :(Company Colours B / All-over Color)
+STR_REFIT_LIVERY_CC_c                               :(Company Colours C / Cheatline)
+
 STR_REFIT_LIVERY_Airbus                             :(AIRBUS)
 STR_REFIT_LIVERY_Boeing                             :(Boeing)
 STR_REFIT_LIVERY_ATR                                :(ATR)
