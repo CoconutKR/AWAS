@@ -96,7 +96,9 @@ STR_REFIT_LIVERY_CC_b                               :(Company Colours B / All-ov
 STR_REFIT_LIVERY_CC_c                               :(Company Colours C / Cheatline)
 
 STR_REFIT_LIVERY_Airbus                             :(AIRBUS)
+STR_REFIT_LIVERY_Airbus                             :(AIRBUS old)
 STR_REFIT_LIVERY_Boeing                             :(Boeing)
+STR_REFIT_LIVERY_Boeing_old                         :(Boeing old)
 STR_REFIT_LIVERY_ATR                                :(ATR)
 STR_REFIT_LIVERY_Mcdonnelldouglas                   :(McDonnell Douglas)
 STR_REFIT_LIVERY_Aerospatiale_BAC                   :(Aerospatiale BAC)
