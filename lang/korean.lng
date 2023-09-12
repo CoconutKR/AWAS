@@ -169,6 +169,14 @@ STR_REFIT_LIVERY_Scandinavianairlinessystem         :(스칸디나비아 항공)
 STR_REFIT_LIVERY_Turkishairlines                    :(터키항공)
 STR_REFIT_LIVERY_Qantasairways                      :(콴타스 항공)
 STR_REFIT_LIVERY_Airnewzealand                      :(에어 뉴질랜드)
+STR_REFIT_LIVERY_Aerlingus                          :(에어 링구스)
+
+STR_REFIT_LIVERY_Ryanair                            :(라이언에어)
+STR_REFIT_LIVERY_Easyjet                            :(이지젯)
+STR_REFIT_LIVERY_Wizzair                            :(위즈에어)
+STR_REFIT_LIVERY_Southwestairlines                  :(사우스웨스트 항공)
+STR_REFIT_LIVERY_Indigo                             :(인디고 항공)
+
 
 
 
