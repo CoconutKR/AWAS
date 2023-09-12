@@ -92,7 +92,9 @@ STR_DC_9_30_NAME                                    :[AWAS] 맥도넬 더글라�
 
 # Liveries
 STR_REFIT_LIVERY_Airbus                             :(에어버스)
+STR_REFIT_LIVERY_Airbus_old                         :(에어버스 (구))
 STR_REFIT_LIVERY_Boeing                             :(보잉)
+STR_REFIT_LIVERY_Boeing_old                         :(보잉 (구))
 STR_REFIT_LIVERY_ATR                                :(ATR)
 STR_REFIT_LIVERY_Mcdonnelldouglas                   :(맥도넬 더글라스)
 STR_REFIT_LIVERY_Aerospatiale_BAC                   :(아에로스파시알 BAC)
