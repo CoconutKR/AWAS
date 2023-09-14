@@ -37,6 +37,11 @@ STR_B767_300F_NAME                                  :[AWAS] 보잉 767-300F
 STR_B767_300BCF_NAME                                :[AWAS] 보잉 767-300BCF
 STR_B767_300BDSF_NAME                               :[AWAS] 보잉 767-300BDSF
 STR_B767_400ER_NAME                                 :[AWAS] 보잉 767-400ER
+STR_B757_200_NAME                                   :[AWAS] 보잉 757-200
+STR_B757_200SF_NAME                                 :[AWAS] 보잉 757-200SF
+STR_B757_200M_NAME                                  :[AWAS] 보잉 757-200M
+STR_B757_200PF_NAME                                 :[AWAS] 보잉 757-200PF
+STR_B757_300_NAME                                   :[AWAS] 보잉 757-300
 STR_B787_8_NAME                                     :[AWAS] 보잉 787-8
 STR_B787_9_NAME                                     :[AWAS] 보잉 787-9
 STR_B787_10_NAME                                    :[AWAS] 보잉 787-10
