@@ -113,6 +113,10 @@ STR_REFIT_LIVERY_SAAB                               :(SAAB)
 STR_REFIT_LIVERY_LockheedMartin                     :(Lockheed Martin)
 STR_REFIT_LIVERY_Fokker                             :(Fokker)
 
+STR_REFIT_LIVERY_Staralliance                       :(STAR ALLIANCE)
+STR_REFIT_LIVERY_Skyteam                            :(SKYTEAM)
+STR_REFIT_LIVERY_Oneworld                           :(oneworld)
+
 STR_REFIT_LIVERY_Hiair_b                            :(Hi Air - Blue Livery)
 STR_REFIT_LIVERY_Hiair_p                            :(Hi Air - Pink Livery)
 STR_REFIT_LIVERY_Hiair_g                            :(Hi Air - Green Livery)
