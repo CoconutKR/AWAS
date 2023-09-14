@@ -93,7 +93,7 @@ STR_DC_9_30_NAME                                    :[AWAS] 맥도넬 더글라�
 # Liveries
 STR_REFIT_LIVERY_CC_a                               :(회사 색상 A / 유로화이트)
 STR_REFIT_LIVERY_CC_b                               :(회사 색상 B / 올 오버 컬러)
-STR_REFIT_LIVERY_CC_c                               :(회사 색상 C / 치트라인           
+STR_REFIT_LIVERY_CC_c                               :(회사 색상 C / 치트라인)
 
 STR_REFIT_LIVERY_Airbus                             :(에어버스)
 STR_REFIT_LIVERY_Airbus_old                         :(에어버스 (구))
@@ -112,6 +112,10 @@ STR_REFIT_LIVERY_Ilyushin                           :(일류신)
 STR_REFIT_LIVERY_SAAB                               :(사브)
 STR_REFIT_LIVERY_LockheedMartin                     :(록히드 마틴)
 STR_REFIT_LIVERY_Fokker                             :(포커)
+
+STR_REFIT_LIVERY_Staralliance                       :(스타얼라이언스)
+STR_REFIT_LIVERY_Skyteam                            :(스카이팀)
+STR_REFIT_LIVERY_oneworld                           :(원월드)
 
 
 STR_REFIT_LIVERY_Hiair_b                            :(하이에어 - 파랑)
