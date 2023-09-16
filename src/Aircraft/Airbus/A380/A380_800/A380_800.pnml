@@ -48,7 +48,7 @@ item(FEAT_AIRCRAFT, A380_800, 7010){
         default:                        sw_A380_800;
         purchase:                       sw_A380_800_purchase;
         loading_speed:                  43;
-        cost_factor:                    1400;
+        cost_factor:                    1087;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A380_800_cargo_subtype_text;
         }
