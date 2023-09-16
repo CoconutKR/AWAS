@@ -48,7 +48,7 @@ item(FEAT_AIRCRAFT, A350_900ULR, 7028){
         default:                        sw_A350_900ULR;
         purchase:                       sw_A350_900ULR_purchase;
         loading_speed:                  43;
-        cost_factor:                    276;
+        cost_factor:                    774;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A350_900ULR_cargo_subtype_text;
         }
