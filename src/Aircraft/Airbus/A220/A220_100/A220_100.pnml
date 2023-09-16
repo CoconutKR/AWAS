@@ -48,7 +48,7 @@ item(FEAT_AIRCRAFT, A220_100, 7023){
         default:                        sw_A220_100;
         purchase:                       sw_A220_100_purchase;
         loading_speed:                  43;
-        cost_factor:                    276;
+        cost_factor:                    198;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A220_100_cargo_subtype_text;
         }
