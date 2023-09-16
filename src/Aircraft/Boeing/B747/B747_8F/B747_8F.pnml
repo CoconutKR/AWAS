@@ -49,7 +49,7 @@ item(FEAT_AIRCRAFT, B747_8F, 7052){
         purchase:                       sw_B747_8F_purchase;
         loading_speed:                  26;
         mail_capacity:                  return 1120;
-        cost_factor:                    890;
+        cost_factor:                    859;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_747_8F_cargo_subtype_text;
         }
