@@ -48,7 +48,7 @@ item(FEAT_AIRCRAFT, A330_900, 7027){
         default:                        sw_A330_900;
         purchase:                       sw_A330_900_purchase;
         loading_speed:                  43;
-        cost_factor:                    830;
+        cost_factor:                    723;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A330_900_cargo_subtype_text;
         }
