@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------
-B737-800
+Boeing 737-800
 --------------------------------------------------------------------*/
 // Graphics
 #include "B737_800_graphic.pnml"
@@ -8,7 +8,7 @@ B737-800
 #include "B737_800_switch.pnml"
 
 /*--------------------------------------------------------------------
-항공기정보
+Aircraft info
 --------------------------------------------------------------------*/
 item(FEAT_AIRCRAFT, B737_800, 7001){
     property {
@@ -48,7 +48,7 @@ item(FEAT_AIRCRAFT, B737_800, 7001){
         default:                        sw_B737_800;
         purchase:                       sw_B737_800_purchase;
         loading_speed:                  25;
-        cost_factor:                    300;
+        cost_factor:                    234;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_737_800_cargo_subtype_text;
         }
