@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------
-B737-800
+Boeing 787-9 Dreamliner
 --------------------------------------------------------------------*/
 // Graphics
 #include "B787_9_graphic.pnml"
@@ -48,7 +48,7 @@ item(FEAT_AIRCRAFT, B787_9, 7006){
         default:                        sw_B787_9;
         purchase:                       sw_B787_9_purchase;
         loading_speed:                  26;
-        cost_factor:                    890;
+        cost_factor:                    660;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_787_9_cargo_subtype_text;
         }
