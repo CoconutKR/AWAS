@@ -48,7 +48,7 @@ item(FEAT_AIRCRAFT, A321LR, 7022){
         default:                        sw_A321LR;
         purchase:                       sw_A321LR_purchase;
         loading_speed:                  25;
-        cost_factor:                    320;
+        cost_factor:                    316;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A321LR_cargo_subtype_text;
         }
