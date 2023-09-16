@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------
-B737-800
+Boeing 777-300ER
 --------------------------------------------------------------------*/
 // Graphics
 #include "B777_300ER_graphic.pnml"
@@ -48,7 +48,7 @@ item(FEAT_AIRCRAFT, B777_300ER, 7012){
         default:                        sw_B777_300ER;
         purchase:                       sw_B777_300ER_purchase;
         loading_speed:                  26;
-        cost_factor:                    890;
+        cost_factor:                    781;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_777_300ER_cargo_subtype_text;
         }
