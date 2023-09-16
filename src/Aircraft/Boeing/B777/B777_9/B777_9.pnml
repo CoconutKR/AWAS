@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------
-B737-800
+Boeing 777-9
 --------------------------------------------------------------------*/
 // Graphics
 #include "B777_9_graphic.pnml"
@@ -48,7 +48,7 @@ item(FEAT_AIRCRAFT, B777_9, 7050){
         default:                        sw_B777_9;
         purchase:                       sw_B777_9_purchase;
         loading_speed:                  26;
-        cost_factor:                    890;
+        cost_factor:                    920;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_777_9_cargo_subtype_text;
         }
