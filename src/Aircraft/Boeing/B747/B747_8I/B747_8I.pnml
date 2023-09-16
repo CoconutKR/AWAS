@@ -48,7 +48,7 @@ item(FEAT_AIRCRAFT, B747_8I, 7051){
         default:                        sw_B747_8I;
         purchase:                       sw_B747_8I_purchase;
         loading_speed:                  26;
-        cost_factor:                    890;
+        cost_factor:                    857;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_747_8I_cargo_subtype_text;
         }
