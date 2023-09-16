@@ -48,7 +48,7 @@ item(FEAT_AIRCRAFT, A330_200F, 7025){
         default:                        sw_A330_200F;
         purchase:                       sw_A330_200F_purchase;
         loading_speed:                  43;
-        cost_factor:                    830;
+        cost_factor:                    590;
         mail_capacity:                  return 396;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A330_200F_cargo_subtype_text;
