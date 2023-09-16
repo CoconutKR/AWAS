@@ -48,7 +48,7 @@ item(FEAT_AIRCRAFT, B737_900ER, 7058){
         default:                        sw_B737_900ER;
         purchase:                       sw_B737_900ER_purchase;
         loading_speed:                  26;
-        cost_factor:                    890;
+        cost_factor:                    249;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_737_900ER_cargo_subtype_text;
         }
