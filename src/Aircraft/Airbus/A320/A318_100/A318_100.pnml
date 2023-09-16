@@ -48,7 +48,7 @@ item(FEAT_AIRCRAFT, A318_100, 7015){
         default:                        sw_A318_100;
         purchase:                       sw_A318_100_purchase;
         loading_speed:                  43;
-        cost_factor:                    276;
+        cost_factor:                    189;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A318_100_cargo_subtype_text;
         }
