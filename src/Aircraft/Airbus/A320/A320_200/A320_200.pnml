@@ -48,7 +48,7 @@ item(FEAT_AIRCRAFT, A320_200, 7007){
         default:                        sw_A320_200;
         purchase:                       sw_A320_200_purchase;
         loading_speed:                  43;
-        cost_factor:                    276;
+        cost_factor:                    246;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A320_200_cargo_subtype_text;
         }
