@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------
-B787-8 Dreamliner
+Boeing 787-8 Dreamliner
 --------------------------------------------------------------------*/
 // Graphics
 #include "B787_8_graphic.pnml"
@@ -8,7 +8,7 @@ B787-8 Dreamliner
 #include "B787_8_switch.pnml"
 
 /*--------------------------------------------------------------------
-항공기정보
+Aircraft Info
 --------------------------------------------------------------------*/
 item(FEAT_AIRCRAFT, B787_8, 7044){
     property {
@@ -48,7 +48,7 @@ item(FEAT_AIRCRAFT, B787_8, 7044){
         default:                        sw_B787_8;
         purchase:                       sw_B787_8_purchase;
         loading_speed:                  26;
-        cost_factor:                    890;
+        cost_factor:                    560;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_787_8_cargo_subtype_text;
         }
