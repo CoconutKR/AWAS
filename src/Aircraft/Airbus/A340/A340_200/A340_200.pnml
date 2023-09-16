@@ -48,7 +48,7 @@ item(FEAT_AIRCRAFT, A340_200, 7033){
         default:                        sw_A340_200;
         purchase:                       sw_A340_200_purchase;
         loading_speed:                  43;
-        cost_factor:                    276;
+        cost_factor:                    544;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A340_200_cargo_subtype_text;
         }
