@@ -1,12 +1,14 @@
 ﻿##grflangid 0x3A
 
 # GRF name and description
+
 STR_GRF_NAME                                        :AWAS
 STR_GRF_NAME_WITH_VER                               :AWAS 0.1.0 Pre-Alpha
 STR_GRF_DESC                                        :{BLACK}AWAS {}(Updated: {RECENT_UPDATED}){}{SILVER}+ Author: Coconut
 STR_GRF_URL                                         :https://github.com/CoconutKR/AWAS
 
 # Aircraft name
+
 STR_Concorde_NAME                                   :[AWAS] 아에로스파시알/BAC 콩코드
 STR_B737_100_NAME                                   :[AWAS] 보잉 737-100
 STR_B737_200_NAME                                   :[AWAS] 보잉 737-200
@@ -123,10 +125,13 @@ STR_DC_9_30_NAME                                    :[AWAS] 맥도넬 더글라�
 
 # Parameters
 
-# Liveries
+# Liveries (Company Colours)
+
 STR_REFIT_LIVERY_CC_a                               :(회사 색상 A / 유로화이트)
 STR_REFIT_LIVERY_CC_b                               :(회사 색상 B / 올 오버 컬러)
 STR_REFIT_LIVERY_CC_c                               :(회사 색상 C / 치트라인)
+
+# Liveries (Manufacturer)
 
 STR_REFIT_LIVERY_Airbus                             :(에어버스)
 STR_REFIT_LIVERY_Airbus_old                         :(에어버스 (구))
@@ -146,10 +151,13 @@ STR_REFIT_LIVERY_SAAB                               :(사브)
 STR_REFIT_LIVERY_LockheedMartin                     :(록히드 마틴)
 STR_REFIT_LIVERY_Fokker                             :(포커)
 
+# Liveries (Airline alliance)
+
 STR_REFIT_LIVERY_Staralliance                       :(스타얼라이언스)
 STR_REFIT_LIVERY_Skyteam                            :(스카이팀)
 STR_REFIT_LIVERY_oneworld                           :(원월드)
 
+# Liveries (Airline)
 
 STR_REFIT_LIVERY_Hiair_b                            :(하이에어 - 파랑)
 STR_REFIT_LIVERY_Hiair_p                            :(하이에어 - 분홍)
