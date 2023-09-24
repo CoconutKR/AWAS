@@ -111,7 +111,14 @@ STR_A350_900_NAME                                   :[AWAS] 에어버스 A350-90
 STR_A350_900ULR_NAME                                :[AWAS] 에어버스 A350-900ULR
 STR_A350_1000_NAME                                  :[AWAS] 에어버스 A350-1000
 STR_A380_800_NAME                                   :[AWAS] 에어버스 A380-800
+STR_ATR_72_200_NAME                                 :[AWAS] ATR 72-200
+STR_ATR_72_200F_NAME                                :[AWAS] ATR 72-200F
+STR_ATR_72_210_NAME                                 :[AWAS] ATR 72-210
+STR_ATR_72_210F_NAME                                :[AWAS] ATR 72-210F
 STR_ATR_72_500_NAME                                 :[AWAS] ATR 72-500
+STR_ATR_72_500F_NAME                                :[AWAS] ATR 72-500F
+STR_ATR_72_600_NAME                                 :[AWAS] ATR 72-600
+STR_ATR_72_600F_NAME                                :[AWAS] ATR 72-600F
 STR_DC_9_30_NAME                                    :[AWAS] 맥도넬 더글라스 DC-9-30
 
 # Parameters
