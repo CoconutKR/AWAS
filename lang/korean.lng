@@ -194,6 +194,7 @@ STR_REFIT_LIVERY_Hansungairlines                    :(한성항공)
 # Liveries (North Korea airline)
 
 STR_REFIT_LIVERY_Airkoryo                           :(고려항공)
+STR_REFIT_LIVERY_Airkoryo_old                       :(고려항공 (구))
 
 # Liveries (Japan airline)
 
