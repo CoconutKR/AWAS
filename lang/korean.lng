@@ -238,8 +238,11 @@ STR_REFIT_LIVERY_Airasiajapan                       :(에어아시아 재팬)
 
 
 STR_REFIT_LIVERY_Airchina                           :(중국국제항공)
+STR_REFIT_LIVERY_Airchinacargo                      :(중국국제항공 카고)
 STR_REFIT_LIVERY_Chinasouthern                      :(중국남방항공)
+STR_REFIT_LIVERY_Chinasoutherncargo                 :(중국남방항공 카고)
 STR_REFIT_LIVERY_Chinaeastern                       :(중국동방항공)
+STR_REFIT_LIVERY_Chinaeastern_old                   :(중국동방항공 / 1988~2014년 도장)
 STR_REFIT_LIVERY_Cathaypacific                      :(캐세이퍼시픽)
 STR_REFIT_LIVERY_Cathaypacific_old1994              :(캐세이퍼시픽 / 1994~2015년 도장)
 STR_REFIT_LIVERY_Cathaypacific_old1971              :(캐세이퍼시픽 / 1971~1994년 도장)
