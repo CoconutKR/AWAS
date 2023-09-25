@@ -179,6 +179,12 @@ STR_REFIT_LIVERY_Hiair_g                            :(하이에어 / 초록)
 STR_REFIT_LIVERY_Aerok                              :(에어로케이)
 STR_REFIT_LIVERY_Flygangwon                         :(플라이강원)
 STR_REFIT_LIVERY_Airincheon                         :(에어인천)
+STR_REFIT_LIVERY_Airpohang                          :(에어포항)
+STR_REFIT_LIVERY_Airphilip                          :(에어필립)
+STR_REFIT_LIVERY_Yeongnamair                        :(영남에어)
+STR_REFIT_LIVERY_Koreaexpressair                    :(코리아 익스프레스 에어)
+STR_REFIT_LIVERY_Hansungairlines                    :(한성항공)
+
 
 # Liveries (North Korea airline)
 
