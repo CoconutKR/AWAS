@@ -157,7 +157,7 @@ STR_REFIT_LIVERY_Staralliance                       :(스타얼라이언스)
 STR_REFIT_LIVERY_Skyteam                            :(스카이팀)
 STR_REFIT_LIVERY_oneworld                           :(원월드)
 
-# Liveries (South Korea airline)
+# Liveries (South Korea)
 
 STR_REFIT_LIVERY_Koreanair                          :(대한항공)
 STR_REFIT_LIVERY_Koreanaircargo                     :(대한항공 카고)
@@ -191,12 +191,12 @@ STR_REFIT_LIVERY_Koreaexpressair                    :(코리아 익스프레스 
 STR_REFIT_LIVERY_Hansungairlines                    :(한성항공)
 
 
-# Liveries (North Korea airline)
+# Liveries (North Korea)
 
 STR_REFIT_LIVERY_Airkoryo                           :(고려항공)
 STR_REFIT_LIVERY_Airkoryo_old                       :(고려항공 (구))
 
-# Liveries (Japan airline)
+# Liveries (Japan)
 
 STR_REFIT_LIVERY_Japanairlines                      :(일본항공)
 STR_REFIT_LIVERY_Japanairlines_old2002              :(일본항공 / 2002~2011년 도장)
@@ -235,7 +235,7 @@ STR_REFIT_LIVERY_Japanairsystem                     :(일본에어시스템)
 STR_REFIT_LIVERY_Vanillaair                         :(바닐라 에어)
 STR_REFIT_LIVERY_Airasiajapan                       :(에어아시아 재팬)
 
-
+# Liveries (China)
 
 STR_REFIT_LIVERY_Airchina                           :(중국국제항공)
 STR_REFIT_LIVERY_Airchinacargo                      :(중국국제항공 카고)
