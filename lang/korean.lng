@@ -215,6 +215,7 @@ STR_REFIT_LIVERY_Peachaviation                      :(피치 항공)
 STR_REFIT_LIVERY_Jetstarjapan                       :(젯스타 재팬)
 STR_REFIT_LIVERY_Springairlinesjapan                :(스프링항공 재팬)
 STR_REFIT_LIVERY_Zipairtokyo                        :(집에어)
+STR_REFIT_LIVERY_Zipairtokyo_old                    :(집에어 / 
 STR_REFIT_LIVERY_Ryukyuaircommuter                  :(류큐 에어 커뮤터)
 STR_REFIT_LIVERY_Japanaircommuter                   :(재팬 에어 커뮤터)
 STR_REFIT_LIVERY_Japantransoceanair                 :(재팬 트랜스오션 항공)
@@ -248,7 +249,10 @@ STR_REFIT_LIVERY_Chinacargoairlines_old             :(중국화운항공 / 1988~
 STR_REFIT_LIVERY_Hainanairlines                     :(하이난항공)
 STR_REFIT_LIVERY_Hainanairlines_old2000             :(하이난항공 / 2000년대 도장)
 STR_REFIT_LIVERY_Hainanairlines_old1990             :(하이난항공 / 1990년대 도장)
-
+STR_REFIT_LIVERY_Suparnaairlines                    :(수파르나항공)
+STR_REFIT_LIVERY_Yangzeriverexpress                 :(양쯔강 익스프레스)
+STR_REFIT_LIVERY_Shenzhenairlines                   :(선전항공)
+STR_REFIT_LIVERY_Shenzhenairlines_old               :(선전항공 / 1993~2006년 도장)
 
 # Liveries (Hong Kong)
 
