@@ -245,6 +245,13 @@ STR_REFIT_LIVERY_Chinaeastern                       :(중국동방항공)
 STR_REFIT_LIVERY_Chinaeastern_old                   :(중국동방항공 / 1988~2014년 도장)
 STR_REFIT_LIVERY_Chinacargoairlines                 :(중국화운항공)
 STR_REFIT_LIVERY_Chinacargoairlines_old             :(중국화운항공 / 1988~2014년 도장)
+STR_REFIT_LIVERY_Hainanairlines                     :(하이난항공)
+STR_REFIT_LIVERY_Hainanairlines_old1993             :(하이난항공 / 1993~2004년 도장)
+STR_REFIT_LIVERY_Hainanairlines_old1989             :(하이난항공 / 1989~1993년 도장)
+
+
+# Liveries (Hong Kong)
+
 STR_REFIT_LIVERY_Cathaypacific                      :(캐세이퍼시픽)
 STR_REFIT_LIVERY_Cathaypacific_old1994              :(캐세이퍼시픽 / 1994~2015년 도장)
 STR_REFIT_LIVERY_Cathaypacific_old1971              :(캐세이퍼시픽 / 1971~1994년 도장)
@@ -253,6 +260,7 @@ STR_REFIT_LIVERY_Cathaypacific_old1950              :(캐세이퍼시픽 / 1940~
 STR_REFIT_LIVERY_Cathaypacificcargo                 :(캐세이퍼시픽 카고)
 STR_REFIT_LIVERY_Cathaypacificcargo_old1994         :(캐세이퍼시픽 카고 / 1994~2015년 도장)
 STR_REFIT_LIVERY_Cathaypacificcargo_old1971         :(캐세이퍼시픽 카고 / 1971~1994년 도장)
+
 STR_REFIT_LIVERY_Chinaairlines                      :(중화항공)
 STR_REFIT_LIVERY_Chinaairlines_old                  :(중화항공 / 1959~1995년 도장)
 STR_REFIT_LIVERY_Chinaairlinescargo                 :(중화항공 카고)
