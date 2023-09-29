@@ -288,7 +288,7 @@ STR_REFIT_LIVERY_Urumqiair                          :(우루무치항공)
 STR_REFIT_LIVERY_Sfairlines                         :(SF 항공)
 STR_REFIT_LIVERY_Chinapostalairlines                :(중국우정항공)
 
-# Liveries (Hong Kong)
+# Liveries (Hong Kong and Macao)
 
 STR_REFIT_LIVERY_Cathaypacific                      :(캐세이퍼시픽)
 STR_REFIT_LIVERY_Cathaypacific_old1994              :(캐세이퍼시픽 / 1994~2015년 도장)
@@ -298,6 +298,13 @@ STR_REFIT_LIVERY_Cathaypacific_old1950              :(캐세이퍼시픽 / 1940~
 STR_REFIT_LIVERY_Cathaypacificcargo                 :(캐세이퍼시픽 카고)
 STR_REFIT_LIVERY_Cathaypacificcargo_old1994         :(캐세이퍼시픽 카고 / 1994~2015년 도장)
 STR_REFIT_LIVERY_Cathaypacificcargo_old1971         :(캐세이퍼시픽 카고 / 1971~1994년 도장)
+STR_REFIT_LIVERY_Cathaydragon                       :(캐세이드래곤항공)
+STR_REFIT_LIVERY_Airmacau                           :(에어 마카오)
+STR_REFIT_LIVERY_Hongkongairlines                   :(홍콩항공)
+STR_REFIT_LIVERY_Hongkongairlinescargo              :(홍콩항공 카고)
+STR_REFIT_LIVERY_Greaterbayairlines                 :(그레이터베이항공)
+STR_REFIT_LIVERY_Hkexpress                          :(홍콩 익스프레스)
+STR_REFIT_LIVERY_Airhongkong                        :(에어 홍콩)
 
 STR_REFIT_LIVERY_Chinaairlines                      :(중화항공)
 STR_REFIT_LIVERY_Chinaairlines_old                  :(중화항공 / 1959~1995년 도장)
