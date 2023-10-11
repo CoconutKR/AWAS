@@ -10,10 +10,18 @@ spriteset(set_A321neo_purchase, "src\Aircraft\Airbus\A320\A321neo\A321neo.png"){
 }
 
 /*--------------------------------------------------------------------
-1. 에어버스 A321neo 제조사
+1. Airbus A321neo 제조사
 --------------------------------------------------------------------*/
 
 spriteset(set_A321neo_default, "src\Aircraft\Airbus\A320\A321neo\A321neo.png"){
+    tp_A321_200(0, 0)
+}
+
+/*--------------------------------------------------------------------
+2. Airbus A321neo Korean Air
+--------------------------------------------------------------------*/
+
+spriteset(set_A321neo_Koreanair, "src\Aircraft\Airbus\A320\A321neo\Koreanair.png"){
     tp_A321_200(0, 0)
 }
 
