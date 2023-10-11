@@ -102,10 +102,18 @@ alternative_sprites(set_B737_800_jeju_old, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "
 }
 
 /*--------------------------------------------------------------------
-9.  Boeing 737-800 일본항공
+9.  Boeing 737-800 Japan Airlines
 --------------------------------------------------------------------*/
 
 spriteset(set_B737_800_Japanairlines, "src\Aircraft\Boeing\B737\B737_800\Japanairlines.png"){
+    tp_B737_800(0, 0)
+}
+
+/*--------------------------------------------------------------------
+10.  Boeing 737-800 China Airlines
+--------------------------------------------------------------------*/
+
+spriteset(set_B737_800_Chinaairlines, "src\Aircraft\Boeing\B737\B737_800\Chinaairlines.png"){
     tp_B737_800(0, 0)
 }
 
