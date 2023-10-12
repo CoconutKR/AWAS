@@ -9,5 +9,5 @@ It is currently in development and will be available for download through in-gam
 ## License
 **AWAS** is a cover work based on graphics from World Airliners Set and is therefore subject to GPL-3.0 under World Airliners Set's copyright.
 
-This NewGRF follows **[GNU General Public License v3.0]([https://creativecommons.org/licenses/by-nc-sa/3.0/](https://www.gnu.org/licenses/gpl-3.0.html)** (GPL-3.0)
+This NewGRF follows **[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)** (GPL-3.0)
 By contributing this project, it means that you agree to this license.
