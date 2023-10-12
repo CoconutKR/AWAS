@@ -2,13 +2,19 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_AIRCRAFT, SELF, sw_Airbus_A350_900_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Airbus);   // 제조사
-    2: return string(STR_REFIT_LIVERY_Asiana);     // 아시아나항공
+    1: return string(STR_REFIT_LIVERY_Airbus);   // Airbus
+    2: return string(STR_REFIT_LIVERY_Asiana);     // Asiana Airlines
+    3: return string(STR_REFIT_LIVERY_Japanairlines);     // Japan Airlines
+    4: return string(STR_REFIT_LIVERY_Singaporeairlines);     // Singapore Airlines
+    5: return string(STR_REFIT_LIVERY_Airfrance);     // Air France
     return string(STR_REFIT_LIVERY_Airbus);
 }
 
 switch(FEAT_AIRCRAFT, SELF, sw_A350_900, cargo_subtype) {
-    1: set_A350_900_default;        // 제조사
-    2: set_A350_900_asiana;   // 아시아나항공
+    1: set_A350_900_default;        // Airbus
+    2: set_A350_900_asiana;   // Asiana Airlines
+    3: set_A350_900_Japanairlines;   // Japan Airlines
+    4: set_A350_900_Singaporeairlines;   // Singapore Airlines
+    5: set_A350_900_Airfrance;   // Air France
     set_A350_900_default;
 }
