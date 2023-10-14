@@ -34,6 +34,14 @@ spriteset(set_B777_300ER_Japanairlines, "src\Aircraft\Boeing\B777\B777_300ER\Jap
 }
 
 /*--------------------------------------------------------------------
+4. Boeing 777-300ER Cathay Pacific
+--------------------------------------------------------------------*/
+
+spriteset(set_B777_300ER_Cathaypacific, "src\Aircraft\Boeing\B777\B777_300ER\Cathaypacific.png"){
+    tp_B777_300(0, 0)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_B777_300ER_purchase, cargo_subtype) {
