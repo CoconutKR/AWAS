@@ -306,6 +306,8 @@ STR_REFIT_LIVERY_Greaterbayairlines                 :(그레이터베이항공)
 STR_REFIT_LIVERY_Hkexpress                          :(홍콩 익스프레스)
 STR_REFIT_LIVERY_Airhongkong                        :(에어 홍콩)
 
+# Liveries (Taiwan)
+
 STR_REFIT_LIVERY_Chinaairlines                      :(중화항공)
 STR_REFIT_LIVERY_Chinaairlines_old                  :(중화항공 / 1959~1995년 도장)
 STR_REFIT_LIVERY_Chinaairlinescargo                 :(중화항공 카고)
@@ -316,6 +318,16 @@ STR_REFIT_LIVERY_Evaair_old1991                     :(에바항공 / 1991~2001�
 STR_REFIT_LIVERY_Evaaircargo                        :(에바항공 카고)
 STR_REFIT_LIVERY_Evaaircargo_old2001                :(에바항공 카고 / 2001~2015년 도장)
 STR_REFIT_LIVERY_Evaaircargo_old1991                :(에바항공 카고 / 1991~2001년 도장)
+STR_REFIT_LIVERY_Starluxairlines                    :(스타럭스 항공)
+STR_REFIT_LIVERY_Tigerairtaiwan                     :(타이거에어 타이완)
+STR_REFIT_LIVERY_mandarinairlines                   :(만다린항공)
+STR_REFIT_LIVERY_Uniair                             :(유니항공)
+STR_REFIT_LIVERY_Dailyair                           :(덕안항공)
+
+# Liveries (Mongolia)
+
+STR_REFIT_LIVERY_Miatmongolianairlines              :(미아트 몽골항공)
+
 STR_REFIT_LIVERY_Thaiairways                        :(타이항공)
 STR_REFIT_LIVERY_Malaysiaairlines                   :(말레이시아항공)
 STR_REFIT_LIVERY_Singaporeairlines                  :(싱가포르항공)
