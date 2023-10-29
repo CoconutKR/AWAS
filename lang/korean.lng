@@ -321,6 +321,7 @@ STR_REFIT_LIVERY_Miatmongolianairlines              :(미아트 몽골항공)
 
 # Liveries (South East Asia)
 
+STR_REFIT_LIVERY_Vietnamairlines                    :(베트남항공)
 STR_REFIT_LIVERY_Thaiairways                        :(타이항공)
 STR_REFIT_LIVERY_Malaysiaairlines                   :(말레이시아항공)
 STR_REFIT_LIVERY_Singaporeairlines                  :(싱가포르항공)
@@ -369,21 +370,6 @@ STR_REFIT_LIVERY_Turkishairlines                    :(터키항공)
 STR_REFIT_LIVERY_Qantasairways                      :(콴타스 항공)
 STR_REFIT_LIVERY_Airnewzealand                      :(에어 뉴질랜드)
 STR_REFIT_LIVERY_Aerlingus                          :(에어 링구스)
-STR_REFIT_LIVERY_Saudiaairlines                     :(사우디아 항공)
-STR_REFIT_LIVERY_Vietnamairlines                    :(베트남항공)
-STR_REFIT_LIVERY_Philippineairlines                 :(필리핀항공)
-
-STR_REFIT_LIVERY_Ryanair                            :(라이언에어)
-STR_REFIT_LIVERY_Easyjet                            :(이지젯)
-STR_REFIT_LIVERY_Wizzair                            :(위즈에어)
-STR_REFIT_LIVERY_Southwestairlines                  :(사우스웨스트 항공)
-STR_REFIT_LIVERY_Indigo                             :(인디고 항공)
-STR_REFIT_LIVERY_Airasia                            :(에어아시아)
-STR_REFIT_LIVERY_Hainanairlines                     :(하이난항공)
-STR_REFIT_LIVERY_Lionair                            :(라이온에어)
-STR_REFIT_LIVERY_Vietjetair                         :(비엣젯항공)
-STR_REFIT_LIVERY_Cebupacific                        :(세부퍼시픽)
-STR_REFIT_LIVERY_Flydubai                           :(플라이두바이)
 
 
 
