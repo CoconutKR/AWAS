@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------
-A321-200
+A330-200F
 --------------------------------------------------------------------*/
 // Graphics
 #include "A330_200F_graphic.pnml"
@@ -17,6 +17,7 @@ item(FEAT_AIRCRAFT, A330_200F, 7025){
         introduction_date:              date(1992, 1, 1);
         aircraft_type:                  AIRCRAFT_TYPE_LARGE;
         sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
+        variant_group:                  A330_200;
                 
         //spec
         speed:                          913km/h;
