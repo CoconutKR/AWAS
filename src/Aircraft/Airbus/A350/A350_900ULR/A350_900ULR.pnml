@@ -17,7 +17,7 @@ item(FEAT_AIRCRAFT, A350_900ULR, 7028){
         introduction_date:              date(2018, 1, 1);
         aircraft_type:                  AIRCRAFT_TYPE_LARGE;
         sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
-        variant_group:                  STR_A350_900_NAME;
+        variant_group:                  A350_900;
                 
         //spec
         speed:                          945km/h;
