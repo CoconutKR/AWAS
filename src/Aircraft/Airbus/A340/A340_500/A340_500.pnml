@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------
-A350-900
+A340-500
 --------------------------------------------------------------------*/
 // Graphics
 #include "A340_500_graphic.pnml"
@@ -17,6 +17,7 @@ item(FEAT_AIRCRAFT, A340_500, 7031){
         introduction_date:              date(2002, 1, 1);
         aircraft_type:                  AIRCRAFT_TYPE_LARGE;
         sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
+        variant_group:                  A340_200;
                 
         //spec
         speed:                          902km/h;
