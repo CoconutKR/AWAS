@@ -16,7 +16,8 @@ item(FEAT_AIRCRAFT, B787_10, 7045){
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2018, 1, 1);
         aircraft_type:                  AIRCRAFT_TYPE_LARGE;
-        sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
+        sprite_id:                      SPRITE_ID_NEW_AIRCRAFT
+        variant_group:                  B787_8;
                 
         //spec
         speed:                          939km/h;
