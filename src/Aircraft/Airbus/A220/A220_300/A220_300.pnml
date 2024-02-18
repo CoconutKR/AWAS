@@ -17,6 +17,7 @@ item(FEAT_AIRCRAFT, A220_300, 7013){
         introduction_date:              date(2012, 1, 1);
         aircraft_type:                  AIRCRAFT_TYPE_SMALL;
         sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
+        variant_group:                  A220_100;
                 
         //spec
         speed:                          829km/h;
