@@ -17,6 +17,7 @@ item(FEAT_AIRCRAFT, B777_9, 7050){
         introduction_date:              date(2025, 1, 1);
         aircraft_type:                  AIRCRAFT_TYPE_LARGE;
         sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
+        variant_group:                  B777_200;
                 
         //spec
         speed:                          952km/h;

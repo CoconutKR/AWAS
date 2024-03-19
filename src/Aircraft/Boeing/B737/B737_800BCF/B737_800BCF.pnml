@@ -17,7 +17,8 @@ item(FEAT_AIRCRAFT, B737_800BCF, 7003){
         introduction_date:              date(2016, 1, 1);
         aircraft_type:                  AIRCRAFT_TYPE_SMALL;
         sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
-                
+        variant_group:                  B737_100;
+        
         //spec
         speed:                          965km/h;
         

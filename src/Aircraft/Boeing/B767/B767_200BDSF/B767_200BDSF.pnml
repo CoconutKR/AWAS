@@ -17,6 +17,7 @@ item(FEAT_AIRCRAFT, B767_200BDSF, 7066){
         introduction_date:              date(2005, 1, 1);
         aircraft_type:                  AIRCRAFT_TYPE_LARGE;
         sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
+        variant_group:                  B767_200;
                 
         //spec
         speed:                          939km/h;
