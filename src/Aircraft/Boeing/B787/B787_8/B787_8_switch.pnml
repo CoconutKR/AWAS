@@ -2,13 +2,13 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_AIRCRAFT, SELF, sw_Boeing_787_8_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Boeing);   // 제조사
-    2: return string(STR_REFIT_LIVERY_Boeing);      // 대한항공
+    1: return string(STR_REFIT_LIVERY_Boeing);   // Boeing
+    2: return string(STR_REFIT_LIVERY_Zipairtokyo); // ZIPAIR
     return string(STR_REFIT_LIVERY_Boeing);
 }
 
 switch(FEAT_AIRCRAFT, SELF, sw_B787_8, cargo_subtype) {
     1: set_B787_8;        // 제조사
-    2: set_B787_8;   // 대한항공
+    2: set_B787_8_zip;   // ZIPAIR
     set_B787_8;
 }
