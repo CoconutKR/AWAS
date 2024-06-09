@@ -190,6 +190,10 @@ template tmpl_A380_800_purchase(x, y) {
     tmpl_purchase_detail(x+490, y, 69, 39, -35,	-20)
 }
 
+template tmpl_B747_100_purchase(x, y) {
+    tmpl_purchase_detail(x+404, y, 69, 31, -35, -16)
+}
+
 template tmpl_B747_400_purchase(x, y) {
     tmpl_purchase_detail(x+413, y, 69, 34, -35,	-17)
 }

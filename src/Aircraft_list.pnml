@@ -80,7 +80,7 @@
 #include "Aircraft/Boeing/B737/B737_100/B737_100.pnml"    //7078
 #include "Aircraft/Boeing/B737/B737_200/B737_200.pnml"    //7079
 #include "Aircraft/Boeing/B737/B737_200C/B737_200C.pnml"    //7080
-
+#include "Aircraft/Boeing/B747/B747_100/B747_100.pnml"    //7081
 
 // Sorting
 #include "sort.pnml"
