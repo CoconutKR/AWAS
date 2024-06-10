@@ -9,9 +9,10 @@ switch(FEAT_AIRCRAFT, SELF, sw_Boeing_737_800_cargo_subtype_text, cargo_subtype)
     5: return string(STR_REFIT_LIVERY_Koreanair);      // 대한항공
     6: return string(STR_REFIT_LIVERY_Flygangwon);      // 플라이강원
     7: return string(STR_REFIT_LIVERY_Eastar);      // 이스타항공
-    8: return string(STR_REFIT_LIVERY_Jejuair_old);      // 제주항공 구
-    9: return string(STR_REFIT_LIVERY_Japanairlines);      // 일본항공
-    10: return string(STR_REFIT_LIVERY_Chinaairlines);      // 중화항공
+    8: return string(STR_REFIT_LIVERY_Jejuair_old);      // Jeju Air Old
+    9: return string(STR_REFIT_LIVERY_Japanairlines);      // Japan Airlines
+    10: return string(STR_REFIT_LIVERY_Chinaairlines);      // China Airlines
+    11: return string(STR_REFIT_LIVERY_Skymarkairlines);      // Skymark Airlines
     return string(STR_REFIT_LIVERY_Boeing);
 }
 
@@ -26,5 +27,6 @@ switch(FEAT_AIRCRAFT, SELF, sw_B737_800, cargo_subtype) {
     8: set_B737_800_jeju_old;  // 제주항공 구
     9: set_B737_800_Japanairlines;  // 일본항공
     10: set_B737_800_Chinaairlines;  // 중화항공
+    11: set_B737_800_Skymarkairlines;  // 스카이마크항공
     set_B737_800;
 }

@@ -118,6 +118,14 @@ spriteset(set_B737_800_Chinaairlines, "src\Aircraft\Boeing\B737\B737_800\Chinaai
 }
 
 /*--------------------------------------------------------------------
+11.  Boeing 737-800 Skymark Airlines
+--------------------------------------------------------------------*/
+
+spriteset(set_B737_800_Skymarkairlines, "src\Aircraft\Boeing\B737\B737_800\Skymark.png"){
+    tp_B737_800(0, 0)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_B737_800_purchase, cargo_subtype) {
