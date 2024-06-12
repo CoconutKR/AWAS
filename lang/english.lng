@@ -8,7 +8,7 @@ STR_GRF_URL                                         :https://github.com/CoconutK
 
 # Aircraft name
 
-STR_Concorde_NAME                                   :[AWAS] 아에로스파시알/BAC 콩코드
+STR_Concorde_NAME                                   :[AWAS] Aerospatiale/BAC Concorde
 STR_B737_100_NAME                                   :[AWAS] Boeing 737-100
 STR_B737_200_NAME                                   :[AWAS] Boeing 737-200
 STR_B737_200C_NAME                                  :[AWAS] Boeing 737-200C
@@ -76,8 +76,8 @@ STR_B747_400BCF_NAME                                :[AWAS] Boeing 747-400BCF
 STR_B747_400BDSF_NAME                               :[AWAS] Boeing 747-400BDSF
 STR_B747_8I_NAME                                    :[AWAS] Boeing 747-8I
 STR_B747_8F_NAME                                    :[AWAS] Boeing 747-8F
-STR_A220_100_NAME                                   :[AWAS] Airbus A220-100 (봉바르디에 CS100)
-STR_A220_300_NAME                                   :[AWAS] Airbus A220-300 (봉바르디에 CS300)
+STR_A220_100_NAME                                   :[AWAS] Airbus A220-100 (Bombardier CS100)
+STR_A220_300_NAME                                   :[AWAS] Airbus A220-300 (Bombardier CS300)
 STR_A318_100_NAME                                   :[AWAS] Airbus A318-100
 STR_A319_100_NAME                                   :[AWAS] Airbus A319-100
 STR_A319neo_NAME                                    :[AWAS] Airbus A319neo
@@ -120,7 +120,7 @@ STR_ATR_72_500_NAME                                 :[AWAS] ATR 72-500
 STR_ATR_72_500F_NAME                                :[AWAS] ATR 72-500F
 STR_ATR_72_600_NAME                                 :[AWAS] ATR 72-600
 STR_ATR_72_600F_NAME                                :[AWAS] ATR 72-600F
-STR_DC_9_30_NAME                                    :[AWAS] 맥도넬 더글라스 DC-9-30
+STR_DC_9_30_NAME                                    :[AWAS] McDonnell Douglas DC-9-30
 
 # Parameters
 
