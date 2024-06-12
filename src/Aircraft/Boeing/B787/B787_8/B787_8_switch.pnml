@@ -4,11 +4,13 @@
 switch(FEAT_AIRCRAFT, SELF, sw_Boeing_787_8_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_Boeing);   // Boeing
     2: return string(STR_REFIT_LIVERY_Zipairtokyo); // ZIPAIR
+    3: return string(STR_REFIT_LIVERY_Allnipponairways); // ANA
     return string(STR_REFIT_LIVERY_Boeing);
 }
 
 switch(FEAT_AIRCRAFT, SELF, sw_B787_8, cargo_subtype) {
-    1: set_B787_8;        // 제조사
+    1: set_B787_8;        // Manufacturer
     2: set_B787_8_zip;   // ZIPAIR
+    3: set_B787_8_ana;   // ANA
     set_B787_8;
 }
