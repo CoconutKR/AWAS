@@ -85,7 +85,6 @@
 #include "Aircraft/Boeing/B747/B747_100BSR/B747_100BSR.pnml"    //7083
 #include "Aircraft/Boeing/B747/B747_100BSRSUD/B747_100BSRSUD.pnml"    //7084
 #include "Aircraft/Boeing/B747/B747_100B/B747_100B.pnml"    //7085
-#include "Aircraft/Boeing/B747/B747_100SF/B747_100SF.pnml"    //7086
 
 // Sorting
 #include "sort.pnml"
