@@ -1,18 +1,18 @@
 /*--------------------------------------------------------------------
-B747-100BSF
+B747-200F
 --------------------------------------------------------------------*/
 // Graphics
-#include "B747_100BSF_graphic.pnml"
+#include "B747_200F_graphic.pnml"
 
 // Switch
-#include "B747_100BSF_switch.pnml"
+#include "B747_200F_switch.pnml"
 
 /*--------------------------------------------------------------------
 Aircraft info
 --------------------------------------------------------------------*/
-item(FEAT_AIRCRAFT, B747_100BSF, 7086){
+item(FEAT_AIRCRAFT, B747_200F, 7089){
     property {
-        name:                           string(STR_B747_100BSF_NAME);
+        name:                           string(STR_B747_200F_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1974, 1, 1);
         aircraft_type:                  AIRCRAFT_TYPE_LARGE;
@@ -45,12 +45,12 @@ item(FEAT_AIRCRAFT, B747_100BSF, 7086){
         }
         
     graphics {
-        default:                        sw_B747_100BSF;
-        purchase:                       sw_B747_100BSF_purchase;
+        default:                        sw_B747_200F;
+        purchase:                       sw_B747_200F_purchase;
         loading_speed:                  26;
-        mail_capacity:                  return 950;
+        mail_capacity:                  return 1000;
         cost_factor:                    1150;
         running_cost_factor:            120;
-        cargo_subtype_text:             sw_Boeing_747_100BSF_cargo_subtype_text;
+        cargo_subtype_text:             sw_Boeing_747_200F_cargo_subtype_text;
         }
 }

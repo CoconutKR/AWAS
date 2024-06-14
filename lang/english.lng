@@ -58,7 +58,7 @@ STR_B747_100SR_NAME                                 :[AWAS] Boeing 747-100SR
 STR_B747_100BSR_NAME                                :[AWAS] Boeing 747-100BSR
 STR_B747_100BSRSUD_NAME                             :[AWAS] Boeing 747-100BSR/SUD
 STR_B747_100B_NAME                                  :[AWAS] Boeing 747-100B
-STR_B747_100BSF_NAME                                :[AWAS] Boeing 747-100SF
+STR_B747_100SF_NAME                                 :[AWAS] Boeing 747-100SF
 STR_B747_200B_NAME                                  :[AWAS] Boeing 747-200B
 STR_B747_200F_NAME                                  :[AWAS] Boeing 747-200F
 STR_B747_200SF_NAME                                 :[AWAS] Boeing 747-200SF
