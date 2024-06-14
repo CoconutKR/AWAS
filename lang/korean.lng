@@ -57,7 +57,7 @@ STR_B777_9_NAME                                     :[AWAS] 보잉 777-9
 STR_B747_100_NAME                                   :[AWAS] 보잉 747-100
 STR_B747_100SR_NAME                                 :[AWAS] 보잉 747-100SR
 STR_B747_100BSR_NAME                                :[AWAS] 보잉 747-100BSR
-STR_B747_100BSRSUD_NAME                             :[AWAS] 보잉 747-100BSR/SUD
+STR_B747_100BSRSUD_NAME                             :[AWAS] 보잉 747-100BSR(SUD)
 STR_B747_100B_NAME                                  :[AWAS] 보잉 747-100B
 STR_B747_100SF_NAME                                 :[AWAS] 보잉 747-100SF
 STR_B747_200B_NAME                                  :[AWAS] 보잉 747-200B
@@ -65,6 +65,7 @@ STR_B747_200F_NAME                                  :[AWAS] 보잉 747-200F
 STR_B747_200SF_NAME                                 :[AWAS] 보잉 747-200SF
 STR_B747_200C_NAME                                  :[AWAS] 보잉 747-200C
 STR_B747_200M_NAME                                  :[AWAS] 보잉 747-200M
+STR_B747_200SUD_NAME                                :[AWAS] 보잉 747-200(SUD)
 STR_B747_SP_NAME                                    :[AWAS] 보잉 747SP
 STR_B747_300_NAME                                   :[AWAS] 보잉 747-300
 STR_B747_300M_NAME                                  :[AWAS] 보잉 747-300M
