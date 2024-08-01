@@ -105,6 +105,11 @@
 #include "Aircraft/Boeing/B747/B747_400ERF/B747_400ERF.pnml"    //7103
 #include "Aircraft/Boeing/B747/B747_400BCF/B747_400BCF.pnml"    //7104
 #include "Aircraft/Boeing/B747/B747_400BDSF/B747_400BDSF.pnml"    //7105
+#include "Aircraft/Boeing/B757/B757_200/B757_200.pnml"    //7106
+#include "Aircraft/Boeing/B757/B757_200M/B757_200M.pnml"    //7107
+#include "Aircraft/Boeing/B757/B757_200PF/B757_200PF.pnml"    //7108
+#include "Aircraft/Boeing/B757/B757_200SF/B757_200SF.pnml"    //7109
+#include "Aircraft/Boeing/B757/B757_200PCF/B757_200PCF.pnml"    //7110
 
 // Sorting
 #include "sort.pnml"

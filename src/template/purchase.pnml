@@ -66,6 +66,10 @@ template tmpl_B737_MAX_10_purchase(x, y) {
     tmpl_purchase_detail(x+287, y, 50, 28, -24, -13)
 }
 
+template tmpl_B757_200_purchase(x, y) {
+    tmpl_purchase_detail(x+294, y, 50, 24, -25, -12)
+}
+
 template tmpl_A220_100_purchase(x, y) {
     tmpl_purchase_detail(x+254, y, 45, 21, -23, -11)
 }

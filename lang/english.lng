@@ -42,6 +42,7 @@ STR_B757_200_NAME                                   :[AWAS] Boeing 757-200
 STR_B757_200SF_NAME                                 :[AWAS] Boeing 757-200SF
 STR_B757_200M_NAME                                  :[AWAS] Boeing 757-200M
 STR_B757_200PF_NAME                                 :[AWAS] Boeing 757-200PF
+STR_B757_200PCF_NAME                                :[AWAS] Boeing 757-200PCF
 STR_B757_300_NAME                                   :[AWAS] Boeing 757-300
 STR_B787_8_NAME                                     :[AWAS] Boeing 787-8
 STR_B787_9_NAME                                     :[AWAS] Boeing 787-9
