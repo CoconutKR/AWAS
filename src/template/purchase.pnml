@@ -198,6 +198,10 @@ template tmpl_B747_400_purchase(x, y) {
     tmpl_purchase_detail(x+413, y, 69, 34, -35,	-17)
 }
 
+template tmpl_B747_400F_purchase(x, y) {
+    tmpl_purchase_detail(x+439, y, 69, 34, -36, -18)
+}
+
 template tmpl_B747_8I_purchase(x, y) {
     tmpl_purchase_detail(x+440, y, 72, 36, -37, -18)
 }
