@@ -50,6 +50,14 @@ spriteset(set_A320_200_peach, "src\Aircraft\Airbus\A320\A320_200\Peach.png"){
 }
 
 /*--------------------------------------------------------------------
+5. Airbus A320-200 China Eastern
+--------------------------------------------------------------------*/
+
+spriteset(set_A320_200_chinaeastern, "src\Aircraft\Airbus\A320\A320_200\Chinaeastern.png"){
+    tp_A320_200(0, 0)
+}
+
+/*--------------------------------------------------------------------
 Purchase info
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_A320_200_purchase, cargo_subtype) {

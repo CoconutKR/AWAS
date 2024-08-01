@@ -7,6 +7,7 @@ switch(FEAT_AIRCRAFT, SELF, sw_Airbus_A320_200_cargo_subtype_text, cargo_subtype
     3: return string(STR_REFIT_LIVERY_Airbusan);     // 에어부산
     4: return string(STR_REFIT_LIVERY_Aerok);     // 에어로케이
     5: return string(STR_REFIT_LIVERY_Peachaviation);     // 피치항공
+    6: return string(STR_REFIT_LIVERY_Chinaeastern);     // 중국동방항공
     return string(STR_REFIT_LIVERY_Airbus);
 }
 
@@ -16,5 +17,6 @@ switch(FEAT_AIRCRAFT, SELF, sw_A320_200, cargo_subtype) {
     3: set_A320_200_busan;   // 에어부산
     4: set_A320_200_aerok;   // 에어로케이
     5: set_A320_200_peach;   // 피치항공
+    6: set_A320_200_chinaeastern;   // 중국동방항공
     set_A320_200_default;
 }
