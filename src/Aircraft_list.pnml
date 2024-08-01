@@ -100,6 +100,11 @@
 //7098
 #include "Aircraft/Boeing/B747/B747_400D/B747_400D.pnml"    //7099
 #include "Aircraft/Boeing/B747/B747_400F/B747_400F.pnml"    //7100
+#include "Aircraft/Boeing/B747/B747_400ERER/B747_400ER.pnml"    //7101
+#include "Aircraft/Boeing/B747/B747_400MMM/B747_400M.pnml"    //7102
+#include "Aircraft/Boeing/B747/B747_400ERF/B747_400ERF.pnml"    //7103
+#include "Aircraft/Boeing/B747/B747_400BCF/B747_400BCF.pnml"    //7104
+#include "Aircraft/Boeing/B747/B747_400BDSF/B747_400BDSF.pnml"    //7105
 
 // Sorting
 #include "sort.pnml"

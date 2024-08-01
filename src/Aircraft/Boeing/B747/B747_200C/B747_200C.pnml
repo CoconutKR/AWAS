@@ -17,6 +17,7 @@ item(FEAT_AIRCRAFT, B747_200C, 7091){
         introduction_date:              date(1971, 1, 1);
         aircraft_type:                  AIRCRAFT_TYPE_LARGE;
         sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
+        variant_group:                  B747_100;
                 
         //spec
         speed:                          990km/h;
