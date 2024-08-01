@@ -1,36 +1,35 @@
 /*--------------------------------------------------------------------
-A321-200
+B747-300
 --------------------------------------------------------------------*/
 // Graphics
-#include "A320neo_graphic.pnml"
+#include "B747_300_graphic.pnml"
 
 // Switch
-#include "A320neo_switch.pnml"
+#include "B747_300_switch.pnml"
 
 /*--------------------------------------------------------------------
-항공기정보
+Aircraft info
 --------------------------------------------------------------------*/
-item(FEAT_AIRCRAFT, A320neo, 7018){
+item(FEAT_AIRCRAFT, B747_300, 7094){
     property {
-        name:                           string(STR_A320neo_NAME);
+        name:                           string(STR_B747_300_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2014, 1, 1);
-        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        introduction_date:              date(1981, 1, 1);
+        aircraft_type:                  AIRCRAFT_TYPE_LARGE;
         sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
-        variant_group:                  A318_100;
                 
         //spec
-        speed:                          901km/h;
+        speed:                          990km/h;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   25;
+        vehicle_life:                   30;
         retire_early:                   0;
         reliability_decay:              0;
         
         //Cargo
-        passenger_capacity:             150;
-        mail_capacity:                  18;    
+        passenger_capacity:             412;
+        mail_capacity:                  50;    
         acceleration:                   27; 
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
@@ -46,11 +45,11 @@ item(FEAT_AIRCRAFT, A320neo, 7018){
         }
         
     graphics {
-        default:                        sw_A320neo;
-        purchase:                       sw_A320neo_purchase;
-        loading_speed:                  43;
-        cost_factor:                    270;
+        default:                        sw_B747_300;
+        purchase:                       sw_B747_300_purchase;
+        loading_speed:                  26;
+        cost_factor:                    1150;
         running_cost_factor:            120;
-        cargo_subtype_text:             sw_Airbus_A320neo_cargo_subtype_text;
+        cargo_subtype_text:             sw_Boeing_747_300_cargo_subtype_text;
         }
 }

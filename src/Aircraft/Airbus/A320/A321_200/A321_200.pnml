@@ -17,7 +17,7 @@ item(FEAT_AIRCRAFT, A321_200, 7002){
         introduction_date:              date(1994, 1, 1);
         aircraft_type:                  AIRCRAFT_TYPE_SMALL;
         sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
-        variant_group:                  A320_100;
+        variant_group:                  A318_100;
                 
         //spec
         speed:                          901km/h;

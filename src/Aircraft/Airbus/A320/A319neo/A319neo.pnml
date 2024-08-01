@@ -17,7 +17,7 @@ item(FEAT_AIRCRAFT, A319neo, 7017){
         introduction_date:              date(2021, 1, 1);
         aircraft_type:                  AIRCRAFT_TYPE_SMALL;
         sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
-        variant_group:                  A320_100;
+        variant_group:                  A318_100;
                 
         //spec
         speed:                          901km/h;
