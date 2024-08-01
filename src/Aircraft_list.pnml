@@ -111,6 +111,7 @@
 #include "Aircraft/Boeing/B757/B757_200SF/B757_200SF.pnml"    //7109
 #include "Aircraft/Boeing/B757/B757_200PCF/B757_200PCF.pnml"    //7110
 #include "Aircraft/Boeing/B757/B757_300/B757_300.pnml"    //7111
+#include "Aircraft/Tupolev/Tu204/Tu204_100/Tu204_100.pnml"    //7112
 
 // Sorting
 #include "sort.pnml"

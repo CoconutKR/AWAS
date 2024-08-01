@@ -127,6 +127,7 @@ STR_ATR_72_500F_NAME                                :[AWAS] ATR 72-500F
 STR_ATR_72_600_NAME                                 :[AWAS] ATR 72-600
 STR_ATR_72_600F_NAME                                :[AWAS] ATR 72-600F
 STR_DC_9_30_NAME                                    :[AWAS] 맥도넬 더글라스 DC-9-30
+STR_Tu204_100_NAME                                  :[AWAS] 투폴레프 Tu-204-100
 
 # Parameters
 
