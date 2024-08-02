@@ -14,6 +14,14 @@ template tmpl_Concorde_purchase(x, y) {
     tmpl_purchase_detail(x+364, y, 74, 22, -37, -11)
 }
 
+template tmpl_B707_purchase(x, y) {
+    tmpl_purchase_detail(x+389, y, 57, 27, -29, -14)
+}
+
+template tmpl_B717_purchase(x, y) {
+    tmpl_purchase_detail(x+259, y, 47, 20, -24, -10)
+}
+
 template tmpl_B737_100_purchase(x, y) {
     tmpl_purchase_detail(x+270, y, 40, 23, -20, -12)
 }

@@ -9,6 +9,17 @@ STR_GRF_URL                                         :https://github.com/CoconutK
 # Aircraft name
 
 STR_Concorde_NAME                                   :[AWAS] Aerospatiale/BAC Concorde
+STR_B707_020_NAME                                   :[AWAS] Boeing 707-020
+STR_B707_020B_NAME                                  :[AWAS] Boeing 707-020B
+STR_B707_120_NAME                                   :[AWAS] Boeing 707-120
+STR_B707_120B_NAME                                  :[AWAS] Boeing 707-120B
+STR_B707_138_NAME                                   :[AWAS] Boeing 707-138
+STR_B707_220_NAME                                   :[AWAS] Boeing 707-220
+STR_B707_320_NAME                                   :[AWAS] Boeing 707-320
+STR_B707_320B_NAME                                  :[AWAS] Boeing 707-320B
+STR_B707_320C_NAME                                  :[AWAS] Boeing 707-320C
+STR_B707_420_NAME                                   :[AWAS] Boeing 707-420
+STR_B717_200_NAME                                   :[AWAS] Boeing 717-200
 STR_B737_100_NAME                                   :[AWAS] Boeing 737-100
 STR_B737_200_NAME                                   :[AWAS] Boeing 737-200
 STR_B737_200C_NAME                                  :[AWAS] Boeing 737-200C
@@ -155,13 +166,13 @@ STR_REFIT_LIVERY_Aerospatiale_BAC                   :(Aerospatiale BAC)
 STR_REFIT_LIVERY_Bombardier                         :(Bombardier)
 STR_REFIT_LIVERY_Embraer                            :(Embraer)
 STR_REFIT_LIVERY_Tupolev                            :(Tupolev)
-STR_REFIT_LIVERY_Antonov                            :(안토노프)
-STR_REFIT_LIVERY_Sukhoi                             :(수호이)
-STR_REFIT_LIVERY_Comac                              :(COMAC / 중국상용항공공사)
-STR_REFIT_LIVERY_Ilyushin                           :(일류신)
-STR_REFIT_LIVERY_SAAB                               :(사브)
-STR_REFIT_LIVERY_LockheedMartin                     :(록히드 마틴)
-STR_REFIT_LIVERY_Fokker                             :(포커)
+STR_REFIT_LIVERY_Antonov                            :(Antonov)
+STR_REFIT_LIVERY_Sukhoi                             :(Sukhoi)
+STR_REFIT_LIVERY_Comac                              :(COMAC)
+STR_REFIT_LIVERY_Ilyushin                           :(Ilyushin)
+STR_REFIT_LIVERY_SAAB                               :(SAAB)
+STR_REFIT_LIVERY_LockheedMartin                     :(LockheedMartin)
+STR_REFIT_LIVERY_Fokker                             :(Fokker)
 
 # Liveries (Airline alliance)
 

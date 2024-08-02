@@ -10,6 +10,17 @@ STR_GRF_URL                                         :https://github.com/CoconutK
 # Aircraft name
 
 STR_Concorde_NAME                                   :[AWAS] 아에로스파시알/BAC 콩코드
+STR_B707_020_NAME                                   :[AWAS] 보잉 707-020
+STR_B707_020B_NAME                                  :[AWAS] 보잉 707-020B
+STR_B707_120_NAME                                   :[AWAS] 보잉 707-120
+STR_B707_120B_NAME                                  :[AWAS] 보잉 707-120B
+STR_B707_138_NAME                                   :[AWAS] 보잉 707-138
+STR_B707_220_NAME                                   :[AWAS] 보잉 707-220
+STR_B707_320_NAME                                   :[AWAS] 보잉 707-320
+STR_B707_320B_NAME                                  :[AWAS] 보잉 707-320B
+STR_B707_320C_NAME                                  :[AWAS] 보잉 707-320C
+STR_B707_420_NAME                                   :[AWAS] 보잉 707-420
+STR_B717_200_NAME                                   :[AWAS] 보잉 717-200
 STR_B737_100_NAME                                   :[AWAS] 보잉 737-100
 STR_B737_200_NAME                                   :[AWAS] 보잉 737-200
 STR_B737_200C_NAME                                  :[AWAS] 보잉 737-200C

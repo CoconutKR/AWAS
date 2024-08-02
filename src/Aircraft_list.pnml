@@ -119,6 +119,17 @@
 #include "Aircraft/Boeing/B727/B727_200/B727_200.pnml"       //7117
 #include "Aircraft/Boeing/B727/B727_200_Adv/B727_200_Adv.pnml"       //7118
 #include "Aircraft/Boeing/B727/B727_200F_Adv/B727_200F_Adv.pnml"       //7119
+#include "Aircraft/Boeing/B707/B707_020/B707_020.pnml"       //7120
+#include "Aircraft/Boeing/B707/B707_020B/B707_020B.pnml"      //7121
+#include "Aircraft/Boeing/B707/B707_120/B707_120.pnml"      //7122
+#include "Aircraft/Boeing/B707/B707_120B/B707_120B.pnml"      //7123
+#include "Aircraft/Boeing/B707/B707_138/B707_138.pnml"      //7124
+#include "Aircraft/Boeing/B707/B707_220/B707_220.pnml"      //7125
+#include "Aircraft/Boeing/B707/B707_320/B707_320.pnml"      //7126
+#include "Aircraft/Boeing/B707/B707_320B/B707_320B.pnml"      //7127
+#include "Aircraft/Boeing/B707/B707_320C/B707_320C.pnml"      //7128
+#include "Aircraft/Boeing/B707/B707_420/B707_420.pnml"      //7129
+#include "Aircraft/Boeing/B717/B717_200/B717_200.pnml"      //7130
 
 // Sorting
 #include "sort.pnml"

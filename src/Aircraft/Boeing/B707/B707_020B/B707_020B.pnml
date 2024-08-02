@@ -1,0 +1,56 @@
+/*--------------------------------------------------------------------
+B727-100
+--------------------------------------------------------------------*/
+// Graphics
+#include "B707_020B_graphic.pnml"
+
+// Switch
+#include "B707_020B_switch.pnml"
+
+/*--------------------------------------------------------------------
+Aircraft info
+--------------------------------------------------------------------*/
+item(FEAT_AIRCRAFT, B707_020B, 7121){
+    property {
+        name:                           string(STR_B707_020B_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1958, 1, 1);
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
+        variant_group:                  B707_020;
+                
+        //spec
+        speed:                          990km/h;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        passenger_capacity:             131;
+        mail_capacity:                  15;    
+        acceleration:                   27; 
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     100;
+        
+        //Flags
+        misc_flags:                  	bitmask(AIRCRAFT_FLAG_2CC);
+        sound_effect:                   SOUND_JET;
+        }
+        
+    graphics {
+        default:                        sw_B707_020B;
+        purchase:                       sw_B707_020B_purchase;
+        loading_speed:                  26;
+        cost_factor:                    1150;
+        running_cost_factor:            120;
+        cargo_subtype_text:             sw_Boeing_707_020B_cargo_subtype_text;
+        }
+}
