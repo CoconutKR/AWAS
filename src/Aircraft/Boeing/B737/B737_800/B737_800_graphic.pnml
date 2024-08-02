@@ -126,6 +126,22 @@ spriteset(set_B737_800_Skymarkairlines, "src\Aircraft\Boeing\B737\B737_800\Skyma
 }
 
 /*--------------------------------------------------------------------
+12.  Boeing 737-800 China Southern Airlines
+--------------------------------------------------------------------*/
+
+spriteset(set_B737_800_chinasouthern, "src\Aircraft\Boeing\B737\B737_800\chinasouthern.png"){
+    tp_B737_800(0, 0)
+}
+
+/*--------------------------------------------------------------------
+13.  Boeing 737-800 China Eastern Airlines
+--------------------------------------------------------------------*/
+
+spriteset(set_B737_800_chinaeastern, "src\Aircraft\Boeing\B737\B737_800\chinaeastern.png"){
+    tp_B737_800(0, 0)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_B737_800_purchase, cargo_subtype) {
