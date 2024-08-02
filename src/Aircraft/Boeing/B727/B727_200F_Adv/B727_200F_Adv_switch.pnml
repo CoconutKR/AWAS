@@ -1,0 +1,14 @@
+/*--------------------------------------------------------------------
+Switch
+--------------------------------------------------------------------*/
+switch(FEAT_AIRCRAFT, SELF, sw_Boeing_727_200F_Adv_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Boeing);   // Manufacturer
+    2: return string(STR_REFIT_LIVERY_Boeing);      // 
+    return string(STR_REFIT_LIVERY_Boeing);
+}
+
+switch(FEAT_AIRCRAFT, SELF, sw_B727_200F_Adv, cargo_subtype) {
+    1: set_B727_200F_Adv;        // Manufacturer
+    2: set_B727_200F_Adv;   // 
+    set_B727_200F_Adv;
+}

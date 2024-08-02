@@ -29,6 +29,13 @@ STR_B737_MAX_8_NAME                                 :[AWAS] Boeing 737 MAX 8
 STR_B737_MAX_200_NAME                               :[AWAS] Boeing 737 MAX 200
 STR_B737_MAX_9_NAME                                 :[AWAS] Boeing 737 MAX 9
 STR_B737_MAX_10_NAME                                :[AWAS] Boeing 737 MAX 10
+STR_B727_100_NAME                                   :[AWAS] Boeing 727-100
+STR_B727_100C_NAME                                  :[AWAS] Boeing 727-100C
+STR_B727_100QC_NAME                                 :[AWAS] Boeing 727-100QC
+STR_B727_100QF_NAME                                 :[AWAS] Boeing 727-100QF
+STR_B727_200_NAME                                   :[AWAS] Boeing 727-200
+STR_B727_200_Adv_NAME                               :[AWAS] Boeing 727-200 Adv
+STR_B727_200F_Adv_NAME                              :[AWAS] Boeing 727-200F Adv
 STR_B767_200_NAME                                   :[AWAS] Boeing 767-200
 STR_B767_200ER_NAME                                 :[AWAS] Boeing 767-200ER
 STR_B767_200BDSF_NAME                               :[AWAS] Boeing 767-200BDSF

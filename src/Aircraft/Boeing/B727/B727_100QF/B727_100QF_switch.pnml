@@ -1,0 +1,14 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_AIRCRAFT, SELF, sw_Boeing_727_100QF_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Boeing);   // 제조사
+    2: return string(STR_REFIT_LIVERY_Boeing);      // 대한항공
+    return string(STR_REFIT_LIVERY_Boeing);
+}
+
+switch(FEAT_AIRCRAFT, SELF, sw_B727_100QF, cargo_subtype) {
+    1: set_B727_100QF;        // 제조사
+    2: set_B727_100QF;   // 대한항공
+    set_B727_100QF;
+}

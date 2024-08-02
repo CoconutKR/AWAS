@@ -112,6 +112,13 @@
 #include "Aircraft/Boeing/B757/B757_200PCF/B757_200PCF.pnml"    //7110
 #include "Aircraft/Boeing/B757/B757_300/B757_300.pnml"    //7111
 #include "Aircraft/Tupolev/Tu204/Tu204_100/Tu204_100.pnml"    //7112
+#include "Aircraft/Boeing/B727/B727_100/B727_100.pnml"    //7113
+#include "Aircraft/Boeing/B727/B727_100C/B727_100C.pnml"    //7114
+#include "Aircraft/Boeing/B727/B727_100QC/B727_100QC.pnml"    //7115
+#include "Aircraft/Boeing/B727/B727_100QF/B727_100QF.pnml"    //7116
+#include "Aircraft/Boeing/B727/B727_200/B727_200.pnml"       //7117
+#include "Aircraft/Boeing/B727/B727_200_Adv/B727_200_Adv.pnml"       //7118
+#include "Aircraft/Boeing/B727/B727_200F_Adv/B727_200F_Adv.pnml"       //7119
 
 // Sorting
 #include "sort.pnml"
