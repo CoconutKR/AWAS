@@ -130,6 +130,7 @@
 #include "Aircraft/Boeing/B707/B707_320C/B707_320C.pnml"      //7128
 #include "Aircraft/Boeing/B707/B707_420/B707_420.pnml"      //7129
 #include "Aircraft/Boeing/B717/B717_200/B717_200.pnml"      //7130
+#include "Aircraft/Airbus/A320/A321XLR/A321XLR.pnml"        //7131
 
 // Sorting
 #include "sort.pnml"
