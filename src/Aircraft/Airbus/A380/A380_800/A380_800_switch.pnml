@@ -2,15 +2,33 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_AIRCRAFT, SELF, sw_Airbus_A380_800_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Airbus);   // 제조사
-    2: return string(STR_REFIT_LIVERY_Koreanair);     // 대한항공
-    3: return string(STR_REFIT_LIVERY_Asiana);     // 아시아나항공
+    1: return string(STR_REFIT_LIVERY_Airbus);   // Manufacturer
+    2: return string(STR_REFIT_LIVERY_Emiratesairlines);     // Emirates
+    3: return string(STR_REFIT_LIVERY_Singaporeairlines);     // Singapore Airlines
+    4: return string(STR_REFIT_LIVERY_Lufthansa_old1989);   // Lufthansa
+    5: return string(STR_REFIT_LIVERY_Britishairways);     // British Airways
+    6: return string(STR_REFIT_LIVERY_Qantasairways);     // Qantas
+    7: return string(STR_REFIT_LIVERY_Airfrance);   // Air France
+    8: return string(STR_REFIT_LIVERY_Koreanair);     // Korean Air
+    9: return string(STR_REFIT_LIVERY_Asiana);     // Asiana Airlines
+    10: return string(STR_REFIT_LIVERY_Malaysiaairlines);   // Malaysia Airlines
+    11: return string(STR_REFIT_LIVERY_Thaiairways);     // Thai Airways
+    12: return string(STR_REFIT_LIVERY_Chinasouthern);     // China Southern Airlines
     return string(STR_REFIT_LIVERY_Airbus);
 }
 
 switch(FEAT_AIRCRAFT, SELF, sw_A380_800, cargo_subtype) {
-    1: set_A380_800_default;        // 제조사
-    2: set_A380_800_korean;   // 대한항공
-    3: set_A380_800_asiana;   // 아시아나항공
+    1: set_A380_800_default;  // Manufacturer
+    2: set_A380_800_emirates; // Emirates
+    3: set_A380_800_singapore; // Singapore
+    4: set_A380_800_lufthansa;   // Lufthansa
+    5: set_A380_800_British;   // British Airways
+    6: set_A380_800_Qantas;   // Qantas
+    7: set_A380_800_Airfrance;   // Air France
+    8: set_A380_800_korean;  // Korean Air
+    9: set_A380_800_asiana;  // Asiana Airlines
+    10: set_A380_800_Malaysia;  // Malaysia Airlines
+    11: set_A380_800_Thai;  // Thai Airways
+    12: set_A380_800_Chinasouthern;  // China Southern Airlines
     set_A380_800_default;
 }
