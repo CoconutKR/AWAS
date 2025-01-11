@@ -135,6 +135,18 @@ STR_A350_900_NAME                                   :[AWAS] Airbus A350-900
 STR_A350_900ULR_NAME                                :[AWAS] Airbus A350-900ULR
 STR_A350_1000_NAME                                  :[AWAS] Airbus A350-1000
 STR_A380_800_NAME                                   :[AWAS] Airbus A380-800
+STR_E170STD_NAME                                    :[AWAS] Embraer E170 STD
+STR_E170LR_NAME                                     :[AWAS] Embraer E170 LR
+STR_E170AR_NAME                                     :[AWAS] Embraer E170 AR
+STR_E175STD_NAME                                    :[AWAS] Embraer E175 STD
+STR_E175LR_NAME                                     :[AWAS] Embraer E175 LR
+STR_E175AR_NAME                                     :[AWAS] Embraer E175 AR
+STR_E190STD_NAME                                    :[AWAS] Embraer E190 STD
+STR_E190LR_NAME                                     :[AWAS] Embraer E190 LR
+STR_E190AR_NAME                                     :[AWAS] Embraer E190 AR
+STR_E195STD_NAME                                    :[AWAS] Embraer E195 STD
+STR_E195LR_NAME                                     :[AWAS] Embraer E195 LR
+STR_E195AR_NAME                                     :[AWAS] Embraer E195 AR
 STR_ATR_72_200_NAME                                 :[AWAS] ATR 72-200
 STR_ATR_72_200F_NAME                                :[AWAS] ATR 72-200F
 STR_ATR_72_210_NAME                                 :[AWAS] ATR 72-210

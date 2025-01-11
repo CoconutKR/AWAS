@@ -136,6 +136,18 @@ STR_A350_900_NAME                                   :[AWAS] 에어버스 A350-90
 STR_A350_900ULR_NAME                                :[AWAS] 에어버스 A350-900ULR
 STR_A350_1000_NAME                                  :[AWAS] 에어버스 A350-1000
 STR_A380_800_NAME                                   :[AWAS] 에어버스 A380-800
+STR_E170STD_NAME                                    :[AWAS] 엠브라에르 E170 STD
+STR_E170LR_NAME                                     :[AWAS] 엠브라에르 E170 LR
+STR_E170AR_NAME                                     :[AWAS] 엠브라에르 E170 AR
+STR_E175STD_NAME                                    :[AWAS] 엠브라에르 E175 STD
+STR_E175LR_NAME                                     :[AWAS] 엠브라에르 E175 LR
+STR_E175AR_NAME                                     :[AWAS] 엠브라에르 E175 AR
+STR_E190STD_NAME                                    :[AWAS] 엠브라에르 E190 STD
+STR_E190LR_NAME                                     :[AWAS] 엠브라에르 E190 LR
+STR_E190AR_NAME                                     :[AWAS] 엠브라에르 E190 AR
+STR_E195STD_NAME                                    :[AWAS] 엠브라에르 E195 STD
+STR_E195LR_NAME                                     :[AWAS] 엠브라에르 E195 LR
+STR_E195AR_NAME                                     :[AWAS] 엠브라에르 E195 AR
 STR_ATR_72_200_NAME                                 :[AWAS] ATR 72-200
 STR_ATR_72_200F_NAME                                :[AWAS] ATR 72-200F
 STR_ATR_72_210_NAME                                 :[AWAS] ATR 72-210
