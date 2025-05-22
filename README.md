@@ -1,7 +1,7 @@
 # Advanced World Airliners Set
 
 **Advanced World Airliners Set** is an OpenTTD NewGRF that offers a variety of airliners from around the world.
-It is currently in development and will be available for download through in-game online content or via the [Github releases page](https://github.com/CoconutKR/AWAS/releases) after its release in the fall of 2024.
+It is currently in development and will be available for download through in-game online content or via the [Github releases page](https://github.com/CoconutKR/AWAS/releases) after its release in 2026.
 
 ## Links
 - [Transport Tycoon Forums posts](https://www.tt-forums.net/viewtopic.php?t=91152&sid=ae0a3a7497cd422c20a3d06952cca196)
