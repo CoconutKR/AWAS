@@ -8,164 +8,164 @@ STR_GRF_URL                                         :https://github.com/CoconutK
 
 # Aircraft name
 
-STR_Concorde_NAME                                   :[AWAS] Aerospatiale/BAC Concorde
-STR_B707_020_NAME                                   :[AWAS] Boeing 707-020
-STR_B707_020B_NAME                                  :[AWAS] Boeing 707-020B
-STR_B707_120_NAME                                   :[AWAS] Boeing 707-120
-STR_B707_120B_NAME                                  :[AWAS] Boeing 707-120B
-STR_B707_138_NAME                                   :[AWAS] Boeing 707-138
-STR_B707_220_NAME                                   :[AWAS] Boeing 707-220
-STR_B707_320_NAME                                   :[AWAS] Boeing 707-320
-STR_B707_320B_NAME                                  :[AWAS] Boeing 707-320B
-STR_B707_320C_NAME                                  :[AWAS] Boeing 707-320C
-STR_B707_420_NAME                                   :[AWAS] Boeing 707-420
-STR_B717_200_NAME                                   :[AWAS] Boeing 717-200
-STR_B737_100_NAME                                   :[AWAS] Boeing 737-100
-STR_B737_200_NAME                                   :[AWAS] Boeing 737-200
-STR_B737_200C_NAME                                  :[AWAS] Boeing 737-200C
-STR_B737_300_NAME                                   :[AWAS] Boeing 737-300
-STR_B737_300F_NAME                                  :[AWAS] Boeing 737-300F
-STR_B737_400_NAME                                   :[AWAS] Boeing 737-400
-STR_B737_400SF_NAME                                 :[AWAS] Boeing 737-400SF
-STR_B737_500_NAME                                   :[AWAS] Boeing 737-500
-STR_B737_600_NAME                                   :[AWAS] Boeing 737-600
-STR_B737_700_NAME                                   :[AWAS] Boeing 737-700
-STR_B737_800_NAME                                   :[AWAS] Boeing 737-800
-STR_B737_800BCF_NAME                                :[AWAS] Boeing 737-800BCF
-STR_B737_800SF_NAME                                 :[AWAS] Boeing 737-800SF
-STR_B737_900_NAME                                   :[AWAS] Boeing 737-900
-STR_B737_900ER_NAME                                 :[AWAS] Boeing 737-900ER
-STR_B737_MAX_7_NAME                                 :[AWAS] Boeing 737 MAX 7
-STR_B737_MAX_8_NAME                                 :[AWAS] Boeing 737 MAX 8
-STR_B737_MAX_200_NAME                               :[AWAS] Boeing 737 MAX 200
-STR_B737_MAX_9_NAME                                 :[AWAS] Boeing 737 MAX 9
-STR_B737_MAX_10_NAME                                :[AWAS] Boeing 737 MAX 10
-STR_B727_100_NAME                                   :[AWAS] Boeing 727-100
-STR_B727_100C_NAME                                  :[AWAS] Boeing 727-100C
-STR_B727_100QC_NAME                                 :[AWAS] Boeing 727-100QC
-STR_B727_100QF_NAME                                 :[AWAS] Boeing 727-100QF
-STR_B727_200_NAME                                   :[AWAS] Boeing 727-200
-STR_B727_200_Adv_NAME                               :[AWAS] Boeing 727-200 Adv
-STR_B727_200F_Adv_NAME                              :[AWAS] Boeing 727-200F Adv
-STR_B767_200_NAME                                   :[AWAS] Boeing 767-200
-STR_B767_200ER_NAME                                 :[AWAS] Boeing 767-200ER
-STR_B767_200BDSF_NAME                               :[AWAS] Boeing 767-200BDSF
-STR_B767_300_NAME                                   :[AWAS] Boeing 767-300
-STR_B767_300ER_NAME                                 :[AWAS] Boeing 767-300ER
-STR_B767_300F_NAME                                  :[AWAS] Boeing 767-300F
-STR_B767_300BCF_NAME                                :[AWAS] Boeing 767-300BCF
-STR_B767_300BDSF_NAME                               :[AWAS] Boeing 767-300BDSF
-STR_B767_400ER_NAME                                 :[AWAS] Boeing 767-400ER
-STR_B757_200_NAME                                   :[AWAS] Boeing 757-200
-STR_B757_200SF_NAME                                 :[AWAS] Boeing 757-200SF
-STR_B757_200M_NAME                                  :[AWAS] Boeing 757-200M
-STR_B757_200PF_NAME                                 :[AWAS] Boeing 757-200PF
-STR_B757_200PCF_NAME                                :[AWAS] Boeing 757-200PCF
-STR_B757_300_NAME                                   :[AWAS] Boeing 757-300
-STR_B787_8_NAME                                     :[AWAS] Boeing 787-8
-STR_B787_9_NAME                                     :[AWAS] Boeing 787-9
-STR_B787_10_NAME                                    :[AWAS] Boeing 787-10
-STR_B777_200_NAME                                   :[AWAS] Boeing 777-200
-STR_B777_200ER_NAME                                 :[AWAS] Boeing 777-200ER
-STR_B777_200LR_NAME                                 :[AWAS] Boeing 777-200LR
-STR_B777_200F_NAME                                  :[AWAS] Boeing 777-200F
-STR_B777_300_NAME                                   :[AWAS] Boeing 777-300
-STR_B777_300ER_NAME                                 :[AWAS] Boeing 777-300ER
-STR_B777_9_NAME                                     :[AWAS] Boeing 777-9
-STR_B747_100_NAME                                   :[AWAS] Boeing 747-100
-STR_B747_100SR_NAME                                 :[AWAS] Boeing 747-100SR
-STR_B747_100BSR_NAME                                :[AWAS] Boeing 747-100BSR
-STR_B747_100BSRSUD_NAME                             :[AWAS] Boeing 747-100BSR(SUD)
-STR_B747_100B_NAME                                  :[AWAS] Boeing 747-100B
-STR_B747_100SF_NAME                                 :[AWAS] Boeing 747-100SF
-STR_B747_200B_NAME                                  :[AWAS] Boeing 747-200B
-STR_B747_200F_NAME                                  :[AWAS] Boeing 747-200F
-STR_B747_200SF_NAME                                 :[AWAS] Boeing 747-200SF
-STR_B747_200C_NAME                                  :[AWAS] Boeing 747-200C
-STR_B747_200M_NAME                                  :[AWAS] Boeing 747-200M
-STR_B747_200SUD_NAME                                :[AWAS] Boeing 747-200(SUD)
-STR_B747_SP_NAME                                    :[AWAS] Boeing 747SP
-STR_B747_300_NAME                                   :[AWAS] Boeing 747-300
-STR_B747_300M_NAME                                  :[AWAS] Boeing 747-300M
-STR_B747_300SF_NAME                                 :[AWAS] Boeing 747-300SF
-STR_B747_300SR_NAME                                 :[AWAS] Boeing 747-300SR
-STR_B747_400_NAME                                   :[AWAS] Boeing 747-400
-STR_B747_400M_NAME                                  :[AWAS] Boeing 747-400M
-STR_B747_400D_NAME                                  :[AWAS] Boeing 747-400D
-STR_B747_400F_NAME                                  :[AWAS] Boeing 747-400F
-STR_B747_400ER_NAME                                 :[AWAS] Boeing 747-400ER
-STR_B747_400ERF_NAME                                :[AWAS] Boeing 747-400ERF
-STR_B747_400BCF_NAME                                :[AWAS] Boeing 747-400BCF
-STR_B747_400BDSF_NAME                               :[AWAS] Boeing 747-400BDSF
-STR_B747_8I_NAME                                    :[AWAS] Boeing 747-8I
-STR_B747_8F_NAME                                    :[AWAS] Boeing 747-8F
-STR_A220_100_NAME                                   :[AWAS] Airbus A220-100 (Bombardier CS100)
-STR_A220_300_NAME                                   :[AWAS] Airbus A220-300 (Bombardier CS300)
-STR_A318_100_NAME                                   :[AWAS] Airbus A318-100
-STR_A319_100_NAME                                   :[AWAS] Airbus A319-100
-STR_A319neo_NAME                                    :[AWAS] Airbus A319neo
-STR_A320_100_NAME                                   :[AWAS] Airbus A320-100
-STR_A320_200_NAME                                   :[AWAS] Airbus A320-200
-STR_A320neo_NAME                                    :[AWAS] Airbus A320neo
-STR_A321_100_NAME                                   :[AWAS] Airbus A321-100
-STR_A321_200_NAME                                   :[AWAS] Airbus A321-200
-STR_A321neo_NAME                                    :[AWAS] Airbus A321neo
-STR_A321LR_NAME                                     :[AWAS] Airbus A321LR
-STR_A321XLR_NAME                                    :[AWAS] Airbus A321XLR
-STR_A310_200_NAME                                   :[AWAS] Airbus A310-200
-STR_A310_200F_NAME                                  :[AWAS] Airbus A310-200F
-STR_A310_300_NAME                                   :[AWAS] Airbus A310-300
-STR_A310_300F_NAME                                  :[AWAS] Airbus A310-300F
-STR_A300B1_NAME                                     :[AWAS] Airbus A300B1
-STR_A300B2_NAME                                     :[AWAS] Airbus A300B2
-STR_A300B4_NAME                                     :[AWAS] Airbus A300B4
-STR_A300_600_NAME                                   :[AWAS] Airbus A300-600
-STR_A300_600R_NAME                                  :[AWAS] Airbus A300-600R
-STR_A300_600F_NAME                                  :[AWAS] Airbus A300-600F
-STR_A330_200_NAME                                   :[AWAS] Airbus A330-200
-STR_A330_200F_NAME                                  :[AWAS] Airbus A330-200F
-STR_A330_300_NAME                                   :[AWAS] Airbus A330-300
-STR_A330_800_NAME                                   :[AWAS] Airbus A330-800 (A330neo)
-STR_A330_900_NAME                                   :[AWAS] Airbus A330-900 (A330neo)
-STR_A340_200_NAME                                   :[AWAS] Airbus A340-200
-STR_A340_300_NAME                                   :[AWAS] Airbus A340-300
-STR_A340_500_NAME                                   :[AWAS] Airbus A340-500
-STR_A340_600_NAME                                   :[AWAS] Airbus A340-600
-STR_A350_900_NAME                                   :[AWAS] Airbus A350-900
-STR_A350_900ULR_NAME                                :[AWAS] Airbus A350-900ULR
-STR_A350_1000_NAME                                  :[AWAS] Airbus A350-1000
-STR_A380_800_NAME                                   :[AWAS] Airbus A380-800
-STR_E170STD_NAME                                    :[AWAS] Embraer E170 STD
-STR_E170LR_NAME                                     :[AWAS] Embraer E170 LR
-STR_E170AR_NAME                                     :[AWAS] Embraer E170 AR
-STR_E175STD_NAME                                    :[AWAS] Embraer E175 STD
-STR_E175LR_NAME                                     :[AWAS] Embraer E175 LR
-STR_E175AR_NAME                                     :[AWAS] Embraer E175 AR
-STR_E190STD_NAME                                    :[AWAS] Embraer E190 STD
-STR_E190LR_NAME                                     :[AWAS] Embraer E190 LR
-STR_E190AR_NAME                                     :[AWAS] Embraer E190 AR
-STR_E195STD_NAME                                    :[AWAS] Embraer E195 STD
-STR_E195LR_NAME                                     :[AWAS] Embraer E195 LR
-STR_E195AR_NAME                                     :[AWAS] Embraer E195 AR
-STR_ATR_72_200_NAME                                 :[AWAS] ATR 72-200
-STR_ATR_72_200F_NAME                                :[AWAS] ATR 72-200F
-STR_ATR_72_210_NAME                                 :[AWAS] ATR 72-210
-STR_ATR_72_210F_NAME                                :[AWAS] ATR 72-210F
-STR_ATR_72_500_NAME                                 :[AWAS] ATR 72-500
-STR_ATR_72_500F_NAME                                :[AWAS] ATR 72-500F
-STR_ATR_72_600_NAME                                 :[AWAS] ATR 72-600
-STR_ATR_72_600F_NAME                                :[AWAS] ATR 72-600F
-STR_DC_9_30_NAME                                    :[AWAS] McDonnell Douglas DC-9-30
-STR_Tu204_100_NAME                                  :[AWAS] Tupolev Tu-204-100
-STR_Tu144S_NAME                                     :[AWAS] Tupolev Tu-144S
+STR_Concorde_NAME                                   :Aerospatiale/BAC Concorde
+STR_B707_020_NAME                                   :Boeing 707-020
+STR_B707_020B_NAME                                  :Boeing 707-020B
+STR_B707_120_NAME                                   :Boeing 707-120
+STR_B707_120B_NAME                                  :Boeing 707-120B
+STR_B707_138_NAME                                   :Boeing 707-138
+STR_B707_220_NAME                                   :Boeing 707-220
+STR_B707_320_NAME                                   :Boeing 707-320
+STR_B707_320B_NAME                                  :Boeing 707-320B
+STR_B707_320C_NAME                                  :Boeing 707-320C
+STR_B707_420_NAME                                   :Boeing 707-420
+STR_B717_200_NAME                                   :Boeing 717-200
+STR_B737_100_NAME                                   :Boeing 737-100
+STR_B737_200_NAME                                   :Boeing 737-200
+STR_B737_200C_NAME                                  :Boeing 737-200C
+STR_B737_300_NAME                                   :Boeing 737-300
+STR_B737_300F_NAME                                  :Boeing 737-300F
+STR_B737_400_NAME                                   :Boeing 737-400
+STR_B737_400SF_NAME                                 :Boeing 737-400SF
+STR_B737_500_NAME                                   :Boeing 737-500
+STR_B737_600_NAME                                   :Boeing 737-600
+STR_B737_700_NAME                                   :Boeing 737-700
+STR_B737_800_NAME                                   :Boeing 737-800
+STR_B737_800BCF_NAME                                :Boeing 737-800BCF
+STR_B737_800SF_NAME                                 :Boeing 737-800SF
+STR_B737_900_NAME                                   :Boeing 737-900
+STR_B737_900ER_NAME                                 :Boeing 737-900ER
+STR_B737_MAX_7_NAME                                 :Boeing 737 MAX 7
+STR_B737_MAX_8_NAME                                 :Boeing 737 MAX 8
+STR_B737_MAX_200_NAME                               :Boeing 737 MAX 200
+STR_B737_MAX_9_NAME                                 :Boeing 737 MAX 9
+STR_B737_MAX_10_NAME                                :Boeing 737 MAX 10
+STR_B727_100_NAME                                   :Boeing 727-100
+STR_B727_100C_NAME                                  :Boeing 727-100C
+STR_B727_100QC_NAME                                 :Boeing 727-100QC
+STR_B727_100QF_NAME                                 :Boeing 727-100QF
+STR_B727_200_NAME                                   :Boeing 727-200
+STR_B727_200_Adv_NAME                               :Boeing 727-200 Adv
+STR_B727_200F_Adv_NAME                              :Boeing 727-200F Adv
+STR_B767_200_NAME                                   :Boeing 767-200
+STR_B767_200ER_NAME                                 :Boeing 767-200ER
+STR_B767_200BDSF_NAME                               :Boeing 767-200BDSF
+STR_B767_300_NAME                                   :Boeing 767-300
+STR_B767_300ER_NAME                                 :Boeing 767-300ER
+STR_B767_300F_NAME                                  :Boeing 767-300F
+STR_B767_300BCF_NAME                                :Boeing 767-300BCF
+STR_B767_300BDSF_NAME                               :Boeing 767-300BDSF
+STR_B767_400ER_NAME                                 :Boeing 767-400ER
+STR_B757_200_NAME                                   :Boeing 757-200
+STR_B757_200SF_NAME                                 :Boeing 757-200SF
+STR_B757_200M_NAME                                  :Boeing 757-200M
+STR_B757_200PF_NAME                                 :Boeing 757-200PF
+STR_B757_200PCF_NAME                                :Boeing 757-200PCF
+STR_B757_300_NAME                                   :Boeing 757-300
+STR_B787_8_NAME                                     :Boeing 787-8
+STR_B787_9_NAME                                     :Boeing 787-9
+STR_B787_10_NAME                                    :Boeing 787-10
+STR_B777_200_NAME                                   :Boeing 777-200
+STR_B777_200ER_NAME                                 :Boeing 777-200ER
+STR_B777_200LR_NAME                                 :Boeing 777-200LR
+STR_B777_200F_NAME                                  :Boeing 777-200F
+STR_B777_300_NAME                                   :Boeing 777-300
+STR_B777_300ER_NAME                                 :Boeing 777-300ER
+STR_B777_9_NAME                                     :Boeing 777-9
+STR_B747_100_NAME                                   :Boeing 747-100
+STR_B747_100SR_NAME                                 :Boeing 747-100SR
+STR_B747_100BSR_NAME                                :Boeing 747-100BSR
+STR_B747_100BSRSUD_NAME                             :Boeing 747-100BSR(SUD)
+STR_B747_100B_NAME                                  :Boeing 747-100B
+STR_B747_100SF_NAME                                 :Boeing 747-100SF
+STR_B747_200B_NAME                                  :Boeing 747-200B
+STR_B747_200F_NAME                                  :Boeing 747-200F
+STR_B747_200SF_NAME                                 :Boeing 747-200SF
+STR_B747_200C_NAME                                  :Boeing 747-200C
+STR_B747_200M_NAME                                  :Boeing 747-200M
+STR_B747_200SUD_NAME                                :Boeing 747-200(SUD)
+STR_B747_SP_NAME                                    :Boeing 747SP
+STR_B747_300_NAME                                   :Boeing 747-300
+STR_B747_300M_NAME                                  :Boeing 747-300M
+STR_B747_300SF_NAME                                 :Boeing 747-300SF
+STR_B747_300SR_NAME                                 :Boeing 747-300SR
+STR_B747_400_NAME                                   :Boeing 747-400
+STR_B747_400M_NAME                                  :Boeing 747-400M
+STR_B747_400D_NAME                                  :Boeing 747-400D
+STR_B747_400F_NAME                                  :Boeing 747-400F
+STR_B747_400ER_NAME                                 :Boeing 747-400ER
+STR_B747_400ERF_NAME                                :Boeing 747-400ERF
+STR_B747_400BCF_NAME                                :Boeing 747-400BCF
+STR_B747_400BDSF_NAME                               :Boeing 747-400BDSF
+STR_B747_8I_NAME                                    :Boeing 747-8I
+STR_B747_8F_NAME                                    :Boeing 747-8F
+STR_A220_100_NAME                                   :Airbus A220-100 (Bombardier CS100)
+STR_A220_300_NAME                                   :Airbus A220-300 (Bombardier CS300)
+STR_A318_100_NAME                                   :Airbus A318-100
+STR_A319_100_NAME                                   :Airbus A319-100
+STR_A319neo_NAME                                    :Airbus A319neo
+STR_A320_100_NAME                                   :Airbus A320-100
+STR_A320_200_NAME                                   :Airbus A320-200
+STR_A320neo_NAME                                    :Airbus A320neo
+STR_A321_100_NAME                                   :Airbus A321-100
+STR_A321_200_NAME                                   :Airbus A321-200
+STR_A321neo_NAME                                    :Airbus A321neo
+STR_A321LR_NAME                                     :Airbus A321LR
+STR_A321XLR_NAME                                    :Airbus A321XLR
+STR_A310_200_NAME                                   :Airbus A310-200
+STR_A310_200F_NAME                                  :Airbus A310-200F
+STR_A310_300_NAME                                   :Airbus A310-300
+STR_A310_300F_NAME                                  :Airbus A310-300F
+STR_A300B1_NAME                                     :Airbus A300B1
+STR_A300B2_NAME                                     :Airbus A300B2
+STR_A300B4_NAME                                     :Airbus A300B4
+STR_A300_600_NAME                                   :Airbus A300-600
+STR_A300_600R_NAME                                  :Airbus A300-600R
+STR_A300_600F_NAME                                  :Airbus A300-600F
+STR_A330_200_NAME                                   :Airbus A330-200
+STR_A330_200F_NAME                                  :Airbus A330-200F
+STR_A330_300_NAME                                   :Airbus A330-300
+STR_A330_800_NAME                                   :Airbus A330-800 (A330neo)
+STR_A330_900_NAME                                   :Airbus A330-900 (A330neo)
+STR_A340_200_NAME                                   :Airbus A340-200
+STR_A340_300_NAME                                   :Airbus A340-300
+STR_A340_500_NAME                                   :Airbus A340-500
+STR_A340_600_NAME                                   :Airbus A340-600
+STR_A350_900_NAME                                   :Airbus A350-900
+STR_A350_900ULR_NAME                                :Airbus A350-900ULR
+STR_A350_1000_NAME                                  :Airbus A350-1000
+STR_A380_800_NAME                                   :Airbus A380-800
+STR_E170STD_NAME                                    :Embraer E170 STD
+STR_E170LR_NAME                                     :Embraer E170 LR
+STR_E170AR_NAME                                     :Embraer E170 AR
+STR_E175STD_NAME                                    :Embraer E175 STD
+STR_E175LR_NAME                                     :Embraer E175 LR
+STR_E175AR_NAME                                     :Embraer E175 AR
+STR_E190STD_NAME                                    :Embraer E190 STD
+STR_E190LR_NAME                                     :Embraer E190 LR
+STR_E190AR_NAME                                     :Embraer E190 AR
+STR_E195STD_NAME                                    :Embraer E195 STD
+STR_E195LR_NAME                                     :Embraer E195 LR
+STR_E195AR_NAME                                     :Embraer E195 AR
+STR_ATR_72_200_NAME                                 :ATR 72-200
+STR_ATR_72_200F_NAME                                :ATR 72-200F
+STR_ATR_72_210_NAME                                 :ATR 72-210
+STR_ATR_72_210F_NAME                                :ATR 72-210F
+STR_ATR_72_500_NAME                                 :ATR 72-500
+STR_ATR_72_500F_NAME                                :ATR 72-500F
+STR_ATR_72_600_NAME                                 :ATR 72-600
+STR_ATR_72_600F_NAME                                :ATR 72-600F
+STR_DC_9_30_NAME                                    :McDonnell Douglas DC-9-30
+STR_Tu204_100_NAME                                  :Tupolev Tu-204-100
+STR_Tu144S_NAME                                     :Tupolev Tu-144S
 
 # Parameters
 
 # Liveries (Company Colours)
 
-STR_REFIT_LIVERY_CC_a                               :(Company Colours A / 유로화이트)
-STR_REFIT_LIVERY_CC_b                               :(Company Colours B / 올 오버 컬러)
-STR_REFIT_LIVERY_CC_c                               :(Company Colours C / 치트라인)
+STR_REFIT_LIVERY_CC_a                               :(Company Colours A / EUROWHITE)
+STR_REFIT_LIVERY_CC_b                               :(Company Colours B / ALL OVER COLOR)
+STR_REFIT_LIVERY_CC_c                               :(Company Colours C / CHEATLINE)
 
 # Liveries (Manufacturer)
 
@@ -189,9 +189,9 @@ STR_REFIT_LIVERY_Fokker                             :(Fokker)
 
 # Liveries (Airline alliance)
 
-STR_REFIT_LIVERY_Staralliance                       :(스타얼라이언스)
-STR_REFIT_LIVERY_Skyteam                            :(스카이팀)
-STR_REFIT_LIVERY_oneworld                           :(원월드)
+STR_REFIT_LIVERY_Staralliance                       :(STAR ALLIANCE)
+STR_REFIT_LIVERY_Skyteam                            :(SKY TEAM)
+STR_REFIT_LIVERY_oneworld                           :(ONE WORLD)
 
 # Liveries (South Korea)
 
@@ -201,8 +201,8 @@ STR_REFIT_LIVERY_Koreanair_old                      :(KOREAN AIR / 1969~1984 Liv
 STR_REFIT_LIVERY_Koreanaircargo                     :(KOREAN AIR CARGO / 1984~2025 Livery)
 STR_REFIT_LIVERY_Koreanaircargo_new                 :(KOREAN AIR CARGO)
 STR_REFIT_LIVERY_Koreanaircargo_old                 :(KOREAN AIR CARGO / 1969~1984 Livery)
-STR_REFIT_LIVERY_Koreanairlines                     :(KOREAN AIR공사)
-STR_REFIT_LIVERY_Koreannationalairlines             :(대한국민항공)
+STR_REFIT_LIVERY_Koreanairlines                     :(KOREAN AIRLINES)
+STR_REFIT_LIVERY_Koreannationalairlines             :(KOREAN NATIONAL AIRLINES)
 STR_REFIT_LIVERY_Asiana                             :(ASIANA AIRLINES)
 STR_REFIT_LIVERY_Asiana_old                         :(ASIANA AIRLINES / 1988~2006 Livery)
 STR_REFIT_LIVERY_Asianacargo                        :(ASIANA CARGO)

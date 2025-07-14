@@ -9,156 +9,156 @@ STR_GRF_URL                                         :https://github.com/CoconutK
 
 # Aircraft name
 
-STR_Concorde_NAME                                   :[AWAS] 아에로스파시알/BAC 콩코드
-STR_B707_020_NAME                                   :[AWAS] 보잉 707-020
-STR_B707_020B_NAME                                  :[AWAS] 보잉 707-020B
-STR_B707_120_NAME                                   :[AWAS] 보잉 707-120
-STR_B707_120B_NAME                                  :[AWAS] 보잉 707-120B
-STR_B707_138_NAME                                   :[AWAS] 보잉 707-138
-STR_B707_220_NAME                                   :[AWAS] 보잉 707-220
-STR_B707_320_NAME                                   :[AWAS] 보잉 707-320
-STR_B707_320B_NAME                                  :[AWAS] 보잉 707-320B
-STR_B707_320C_NAME                                  :[AWAS] 보잉 707-320C
-STR_B707_420_NAME                                   :[AWAS] 보잉 707-420
-STR_B717_200_NAME                                   :[AWAS] 보잉 717-200
-STR_B737_100_NAME                                   :[AWAS] 보잉 737-100
-STR_B737_200_NAME                                   :[AWAS] 보잉 737-200
-STR_B737_200C_NAME                                  :[AWAS] 보잉 737-200C
-STR_B737_300_NAME                                   :[AWAS] 보잉 737-300
-STR_B737_300F_NAME                                  :[AWAS] 보잉 737-300F
-STR_B737_400_NAME                                   :[AWAS] 보잉 737-400
-STR_B737_400SF_NAME                                 :[AWAS] 보잉 737-400SF
-STR_B737_500_NAME                                   :[AWAS] 보잉 737-500
-STR_B737_600_NAME                                   :[AWAS] 보잉 737-600
-STR_B737_700_NAME                                   :[AWAS] 보잉 737-700
-STR_B737_800_NAME                                   :[AWAS] 보잉 737-800
-STR_B737_800BCF_NAME                                :[AWAS] 보잉 737-800BCF
-STR_B737_800SF_NAME                                 :[AWAS] 보잉 737-800SF
-STR_B737_900_NAME                                   :[AWAS] 보잉 737-900
-STR_B737_900ER_NAME                                 :[AWAS] 보잉 737-900ER
-STR_B737_MAX_7_NAME                                 :[AWAS] 보잉 737 MAX 7
-STR_B737_MAX_8_NAME                                 :[AWAS] 보잉 737 MAX 8
-STR_B737_MAX_200_NAME                               :[AWAS] 보잉 737 MAX 200
-STR_B737_MAX_9_NAME                                 :[AWAS] 보잉 737 MAX 9
-STR_B737_MAX_10_NAME                                :[AWAS] 보잉 737 MAX 10
-STR_B727_100_NAME                                   :[AWAS] 보잉 727-100
-STR_B727_100C_NAME                                  :[AWAS] 보잉 727-100C
-STR_B727_100QC_NAME                                 :[AWAS] 보잉 727-100QC
-STR_B727_100QF_NAME                                 :[AWAS] 보잉 727-100QF
-STR_B727_200_NAME                                   :[AWAS] 보잉 727-200
-STR_B727_200_Adv_NAME                               :[AWAS] 보잉 727-200 Adv
-STR_B727_200F_Adv_NAME                              :[AWAS] 보잉 727-200F Adv
-STR_B767_200_NAME                                   :[AWAS] 보잉 767-200
-STR_B767_200ER_NAME                                 :[AWAS] 보잉 767-200ER
-STR_B767_200BDSF_NAME                               :[AWAS] 보잉 767-200BDSF
-STR_B767_300_NAME                                   :[AWAS] 보잉 767-300
-STR_B767_300ER_NAME                                 :[AWAS] 보잉 767-300ER
-STR_B767_300F_NAME                                  :[AWAS] 보잉 767-300F
-STR_B767_300BCF_NAME                                :[AWAS] 보잉 767-300BCF
-STR_B767_300BDSF_NAME                               :[AWAS] 보잉 767-300BDSF
-STR_B767_400ER_NAME                                 :[AWAS] 보잉 767-400ER
-STR_B757_200_NAME                                   :[AWAS] 보잉 757-200
-STR_B757_200SF_NAME                                 :[AWAS] 보잉 757-200SF
-STR_B757_200M_NAME                                  :[AWAS] 보잉 757-200M
-STR_B757_200PF_NAME                                 :[AWAS] 보잉 757-200PF
-STR_B757_200PCF_NAME                                :[AWAS] 보잉 757-200PCF
-STR_B757_300_NAME                                   :[AWAS] 보잉 757-300
-STR_B787_8_NAME                                     :[AWAS] 보잉 787-8
-STR_B787_9_NAME                                     :[AWAS] 보잉 787-9
-STR_B787_10_NAME                                    :[AWAS] 보잉 787-10
-STR_B777_200_NAME                                   :[AWAS] 보잉 777-200
-STR_B777_200ER_NAME                                 :[AWAS] 보잉 777-200ER
-STR_B777_200LR_NAME                                 :[AWAS] 보잉 777-200LR
-STR_B777_200F_NAME                                  :[AWAS] 보잉 777-200F
-STR_B777_300_NAME                                   :[AWAS] 보잉 777-300
-STR_B777_300ER_NAME                                 :[AWAS] 보잉 777-300ER
-STR_B777_9_NAME                                     :[AWAS] 보잉 777-9
-STR_B747_100_NAME                                   :[AWAS] 보잉 747-100
-STR_B747_100SR_NAME                                 :[AWAS] 보잉 747-100SR
-STR_B747_100BSR_NAME                                :[AWAS] 보잉 747-100BSR
-STR_B747_100BSRSUD_NAME                             :[AWAS] 보잉 747-100BSR(SUD)
-STR_B747_100B_NAME                                  :[AWAS] 보잉 747-100B
-STR_B747_100SF_NAME                                 :[AWAS] 보잉 747-100SF
-STR_B747_200B_NAME                                  :[AWAS] 보잉 747-200B
-STR_B747_200F_NAME                                  :[AWAS] 보잉 747-200F
-STR_B747_200SF_NAME                                 :[AWAS] 보잉 747-200SF
-STR_B747_200C_NAME                                  :[AWAS] 보잉 747-200C
-STR_B747_200M_NAME                                  :[AWAS] 보잉 747-200M
-STR_B747_200SUD_NAME                                :[AWAS] 보잉 747-200(SUD)
-STR_B747_SP_NAME                                    :[AWAS] 보잉 747SP
-STR_B747_300_NAME                                   :[AWAS] 보잉 747-300
-STR_B747_300M_NAME                                  :[AWAS] 보잉 747-300M
-STR_B747_300SF_NAME                                 :[AWAS] 보잉 747-300SF
-STR_B747_300SR_NAME                                 :[AWAS] 보잉 747-300SR
-STR_B747_400_NAME                                   :[AWAS] 보잉 747-400
-STR_B747_400M_NAME                                  :[AWAS] 보잉 747-400M
-STR_B747_400D_NAME                                  :[AWAS] 보잉 747-400D
-STR_B747_400F_NAME                                  :[AWAS] 보잉 747-400F
-STR_B747_400ER_NAME                                 :[AWAS] 보잉 747-400ER
-STR_B747_400ERF_NAME                                :[AWAS] 보잉 747-400ERF
-STR_B747_400BCF_NAME                                :[AWAS] 보잉 747-400BCF
-STR_B747_400BDSF_NAME                               :[AWAS] 보잉 747-400BDSF
-STR_B747_8I_NAME                                    :[AWAS] 보잉 747-8I
-STR_B747_8F_NAME                                    :[AWAS] 보잉 747-8F
-STR_A220_100_NAME                                   :[AWAS] 에어버스 A220-100 (봉바르디에 CS100)
-STR_A220_300_NAME                                   :[AWAS] 에어버스 A220-300 (봉바르디에 CS300)
-STR_A318_100_NAME                                   :[AWAS] 에어버스 A318-100
-STR_A319_100_NAME                                   :[AWAS] 에어버스 A319-100
-STR_A319neo_NAME                                    :[AWAS] 에어버스 A319neo
-STR_A320_100_NAME                                   :[AWAS] 에어버스 A320-100
-STR_A320_200_NAME                                   :[AWAS] 에어버스 A320-200
-STR_A320neo_NAME                                    :[AWAS] 에어버스 A320neo
-STR_A321_100_NAME                                   :[AWAS] 에어버스 A321-100
-STR_A321_200_NAME                                   :[AWAS] 에어버스 A321-200
-STR_A321neo_NAME                                    :[AWAS] 에어버스 A321neo
-STR_A321LR_NAME                                     :[AWAS] 에어버스 A321LR
-STR_A321XLR_NAME                                    :[AWAS] 에어버스 A321XLR
-STR_A310_200_NAME                                   :[AWAS] 에어버스 A310-200
-STR_A310_200F_NAME                                  :[AWAS] 에어버스 A310-200F
-STR_A310_300_NAME                                   :[AWAS] 에어버스 A310-300
-STR_A310_300F_NAME                                  :[AWAS] 에어버스 A310-300F
-STR_A300B1_NAME                                     :[AWAS] 에어버스 A300B1
-STR_A300B2_NAME                                     :[AWAS] 에어버스 A300B2
-STR_A300B4_NAME                                     :[AWAS] 에어버스 A300B4
-STR_A300_600_NAME                                   :[AWAS] 에어버스 A300-600
-STR_A300_600R_NAME                                  :[AWAS] 에어버스 A300-600R
-STR_A300_600F_NAME                                  :[AWAS] 에어버스 A300-600F
-STR_A330_200_NAME                                   :[AWAS] 에어버스 A330-200
-STR_A330_200F_NAME                                  :[AWAS] 에어버스 A330-200F
-STR_A330_300_NAME                                   :[AWAS] 에어버스 A330-300
-STR_A330_800_NAME                                   :[AWAS] 에어버스 A330-800 (A330neo)
-STR_A330_900_NAME                                   :[AWAS] 에어버스 A330-900 (A330neo)
-STR_A340_200_NAME                                   :[AWAS] 에어버스 A340-200
-STR_A340_300_NAME                                   :[AWAS] 에어버스 A340-300
-STR_A340_500_NAME                                   :[AWAS] 에어버스 A340-500
-STR_A340_600_NAME                                   :[AWAS] 에어버스 A340-600
-STR_A350_900_NAME                                   :[AWAS] 에어버스 A350-900
-STR_A350_900ULR_NAME                                :[AWAS] 에어버스 A350-900ULR
-STR_A350_1000_NAME                                  :[AWAS] 에어버스 A350-1000
-STR_A380_800_NAME                                   :[AWAS] 에어버스 A380-800
-STR_E170STD_NAME                                    :[AWAS] 엠브라에르 E170 STD
-STR_E170LR_NAME                                     :[AWAS] 엠브라에르 E170 LR
-STR_E170AR_NAME                                     :[AWAS] 엠브라에르 E170 AR
-STR_E175STD_NAME                                    :[AWAS] 엠브라에르 E175 STD
-STR_E175LR_NAME                                     :[AWAS] 엠브라에르 E175 LR
-STR_E175AR_NAME                                     :[AWAS] 엠브라에르 E175 AR
-STR_E190STD_NAME                                    :[AWAS] 엠브라에르 E190 STD
-STR_E190LR_NAME                                     :[AWAS] 엠브라에르 E190 LR
-STR_E190AR_NAME                                     :[AWAS] 엠브라에르 E190 AR
-STR_E195STD_NAME                                    :[AWAS] 엠브라에르 E195 STD
-STR_E195LR_NAME                                     :[AWAS] 엠브라에르 E195 LR
-STR_E195AR_NAME                                     :[AWAS] 엠브라에르 E195 AR
-STR_ATR_72_200_NAME                                 :[AWAS] ATR 72-200
-STR_ATR_72_200F_NAME                                :[AWAS] ATR 72-200F
-STR_ATR_72_210_NAME                                 :[AWAS] ATR 72-210
-STR_ATR_72_210F_NAME                                :[AWAS] ATR 72-210F
-STR_ATR_72_500_NAME                                 :[AWAS] ATR 72-500
-STR_ATR_72_500F_NAME                                :[AWAS] ATR 72-500F
-STR_ATR_72_600_NAME                                 :[AWAS] ATR 72-600
-STR_ATR_72_600F_NAME                                :[AWAS] ATR 72-600F
-STR_DC_9_30_NAME                                    :[AWAS] 맥도넬 더글라스 DC-9-30
-STR_Tu204_100_NAME                                  :[AWAS] 투폴레프 Tu-204-100
-STR_Tu144S_NAME                                     :[AWAS] 투폴레프 Tu-144S
+STR_Concorde_NAME                                   :아에로스파시알/BAC 콩코드
+STR_B707_020_NAME                                   :보잉 707-020
+STR_B707_020B_NAME                                  :보잉 707-020B
+STR_B707_120_NAME                                   :보잉 707-120
+STR_B707_120B_NAME                                  :보잉 707-120B
+STR_B707_138_NAME                                   :보잉 707-138
+STR_B707_220_NAME                                   :보잉 707-220
+STR_B707_320_NAME                                   :보잉 707-320
+STR_B707_320B_NAME                                  :보잉 707-320B
+STR_B707_320C_NAME                                  :보잉 707-320C
+STR_B707_420_NAME                                   :보잉 707-420
+STR_B717_200_NAME                                   :보잉 717-200
+STR_B737_100_NAME                                   :보잉 737-100
+STR_B737_200_NAME                                   :보잉 737-200
+STR_B737_200C_NAME                                  :보잉 737-200C
+STR_B737_300_NAME                                   :보잉 737-300
+STR_B737_300F_NAME                                  :보잉 737-300F
+STR_B737_400_NAME                                   :보잉 737-400
+STR_B737_400SF_NAME                                 :보잉 737-400SF
+STR_B737_500_NAME                                   :보잉 737-500
+STR_B737_600_NAME                                   :보잉 737-600
+STR_B737_700_NAME                                   :보잉 737-700
+STR_B737_800_NAME                                   :보잉 737-800
+STR_B737_800BCF_NAME                                :보잉 737-800BCF
+STR_B737_800SF_NAME                                 :보잉 737-800SF
+STR_B737_900_NAME                                   :보잉 737-900
+STR_B737_900ER_NAME                                 :보잉 737-900ER
+STR_B737_MAX_7_NAME                                 :보잉 737 MAX 7
+STR_B737_MAX_8_NAME                                 :보잉 737 MAX 8
+STR_B737_MAX_200_NAME                               :보잉 737 MAX 200
+STR_B737_MAX_9_NAME                                 :보잉 737 MAX 9
+STR_B737_MAX_10_NAME                                :보잉 737 MAX 10
+STR_B727_100_NAME                                   :보잉 727-100
+STR_B727_100C_NAME                                  :보잉 727-100C
+STR_B727_100QC_NAME                                 :보잉 727-100QC
+STR_B727_100QF_NAME                                 :보잉 727-100QF
+STR_B727_200_NAME                                   :보잉 727-200
+STR_B727_200_Adv_NAME                               :보잉 727-200 Adv
+STR_B727_200F_Adv_NAME                              :보잉 727-200F Adv
+STR_B767_200_NAME                                   :보잉 767-200
+STR_B767_200ER_NAME                                 :보잉 767-200ER
+STR_B767_200BDSF_NAME                               :보잉 767-200BDSF
+STR_B767_300_NAME                                   :보잉 767-300
+STR_B767_300ER_NAME                                 :보잉 767-300ER
+STR_B767_300F_NAME                                  :보잉 767-300F
+STR_B767_300BCF_NAME                                :보잉 767-300BCF
+STR_B767_300BDSF_NAME                               :보잉 767-300BDSF
+STR_B767_400ER_NAME                                 :보잉 767-400ER
+STR_B757_200_NAME                                   :보잉 757-200
+STR_B757_200SF_NAME                                 :보잉 757-200SF
+STR_B757_200M_NAME                                  :보잉 757-200M
+STR_B757_200PF_NAME                                 :보잉 757-200PF
+STR_B757_200PCF_NAME                                :보잉 757-200PCF
+STR_B757_300_NAME                                   :보잉 757-300
+STR_B787_8_NAME                                     :보잉 787-8
+STR_B787_9_NAME                                     :보잉 787-9
+STR_B787_10_NAME                                    :보잉 787-10
+STR_B777_200_NAME                                   :보잉 777-200
+STR_B777_200ER_NAME                                 :보잉 777-200ER
+STR_B777_200LR_NAME                                 :보잉 777-200LR
+STR_B777_200F_NAME                                  :보잉 777-200F
+STR_B777_300_NAME                                   :보잉 777-300
+STR_B777_300ER_NAME                                 :보잉 777-300ER
+STR_B777_9_NAME                                     :보잉 777-9
+STR_B747_100_NAME                                   :보잉 747-100
+STR_B747_100SR_NAME                                 :보잉 747-100SR
+STR_B747_100BSR_NAME                                :보잉 747-100BSR
+STR_B747_100BSRSUD_NAME                             :보잉 747-100BSR(SUD)
+STR_B747_100B_NAME                                  :보잉 747-100B
+STR_B747_100SF_NAME                                 :보잉 747-100SF
+STR_B747_200B_NAME                                  :보잉 747-200B
+STR_B747_200F_NAME                                  :보잉 747-200F
+STR_B747_200SF_NAME                                 :보잉 747-200SF
+STR_B747_200C_NAME                                  :보잉 747-200C
+STR_B747_200M_NAME                                  :보잉 747-200M
+STR_B747_200SUD_NAME                                :보잉 747-200(SUD)
+STR_B747_SP_NAME                                    :보잉 747SP
+STR_B747_300_NAME                                   :보잉 747-300
+STR_B747_300M_NAME                                  :보잉 747-300M
+STR_B747_300SF_NAME                                 :보잉 747-300SF
+STR_B747_300SR_NAME                                 :보잉 747-300SR
+STR_B747_400_NAME                                   :보잉 747-400
+STR_B747_400M_NAME                                  :보잉 747-400M
+STR_B747_400D_NAME                                  :보잉 747-400D
+STR_B747_400F_NAME                                  :보잉 747-400F
+STR_B747_400ER_NAME                                 :보잉 747-400ER
+STR_B747_400ERF_NAME                                :보잉 747-400ERF
+STR_B747_400BCF_NAME                                :보잉 747-400BCF
+STR_B747_400BDSF_NAME                               :보잉 747-400BDSF
+STR_B747_8I_NAME                                    :보잉 747-8I
+STR_B747_8F_NAME                                    :보잉 747-8F
+STR_A220_100_NAME                                   :에어버스 A220-100 (봉바르디에 CS100)
+STR_A220_300_NAME                                   :에어버스 A220-300 (봉바르디에 CS300)
+STR_A318_100_NAME                                   :에어버스 A318-100
+STR_A319_100_NAME                                   :에어버스 A319-100
+STR_A319neo_NAME                                    :에어버스 A319neo
+STR_A320_100_NAME                                   :에어버스 A320-100
+STR_A320_200_NAME                                   :에어버스 A320-200
+STR_A320neo_NAME                                    :에어버스 A320neo
+STR_A321_100_NAME                                   :에어버스 A321-100
+STR_A321_200_NAME                                   :에어버스 A321-200
+STR_A321neo_NAME                                    :에어버스 A321neo
+STR_A321LR_NAME                                     :에어버스 A321LR
+STR_A321XLR_NAME                                    :에어버스 A321XLR
+STR_A310_200_NAME                                   :에어버스 A310-200
+STR_A310_200F_NAME                                  :에어버스 A310-200F
+STR_A310_300_NAME                                   :에어버스 A310-300
+STR_A310_300F_NAME                                  :에어버스 A310-300F
+STR_A300B1_NAME                                     :에어버스 A300B1
+STR_A300B2_NAME                                     :에어버스 A300B2
+STR_A300B4_NAME                                     :에어버스 A300B4
+STR_A300_600_NAME                                   :에어버스 A300-600
+STR_A300_600R_NAME                                  :에어버스 A300-600R
+STR_A300_600F_NAME                                  :에어버스 A300-600F
+STR_A330_200_NAME                                   :에어버스 A330-200
+STR_A330_200F_NAME                                  :에어버스 A330-200F
+STR_A330_300_NAME                                   :에어버스 A330-300
+STR_A330_800_NAME                                   :에어버스 A330-800 (A330neo)
+STR_A330_900_NAME                                   :에어버스 A330-900 (A330neo)
+STR_A340_200_NAME                                   :에어버스 A340-200
+STR_A340_300_NAME                                   :에어버스 A340-300
+STR_A340_500_NAME                                   :에어버스 A340-500
+STR_A340_600_NAME                                   :에어버스 A340-600
+STR_A350_900_NAME                                   :에어버스 A350-900
+STR_A350_900ULR_NAME                                :에어버스 A350-900ULR
+STR_A350_1000_NAME                                  :에어버스 A350-1000
+STR_A380_800_NAME                                   :에어버스 A380-800
+STR_E170STD_NAME                                    :엠브라에르 E170 STD
+STR_E170LR_NAME                                     :엠브라에르 E170 LR
+STR_E170AR_NAME                                     :엠브라에르 E170 AR
+STR_E175STD_NAME                                    :엠브라에르 E175 STD
+STR_E175LR_NAME                                     :엠브라에르 E175 LR
+STR_E175AR_NAME                                     :엠브라에르 E175 AR
+STR_E190STD_NAME                                    :엠브라에르 E190 STD
+STR_E190LR_NAME                                     :엠브라에르 E190 LR
+STR_E190AR_NAME                                     :엠브라에르 E190 AR
+STR_E195STD_NAME                                    :엠브라에르 E195 STD
+STR_E195LR_NAME                                     :엠브라에르 E195 LR
+STR_E195AR_NAME                                     :엠브라에르 E195 AR
+STR_ATR_72_200_NAME                                 :ATR 72-200
+STR_ATR_72_200F_NAME                                :ATR 72-200F
+STR_ATR_72_210_NAME                                 :ATR 72-210
+STR_ATR_72_210F_NAME                                :ATR 72-210F
+STR_ATR_72_500_NAME                                 :ATR 72-500
+STR_ATR_72_500F_NAME                                :ATR 72-500F
+STR_ATR_72_600_NAME                                 :ATR 72-600
+STR_ATR_72_600F_NAME                                :ATR 72-600F
+STR_DC_9_30_NAME                                    :맥도넬 더글라스 DC-9-30
+STR_Tu204_100_NAME                                  :투폴레프 Tu-204-100
+STR_Tu144S_NAME                                     :투폴레프 Tu-144S
 
 # Parameters
 
