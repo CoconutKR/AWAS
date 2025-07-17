@@ -26,7 +26,7 @@ spriteset(set_B787_9_eurowhitecc, "src\Aircraft\Boeing\B787\B787_9\eurowhitecc.p
 }
 
 /*--------------------------------------------------------------------
-3. Boeing 787-9 Korean Air
+3. Boeing 787-9 Korean Air old
 --------------------------------------------------------------------*/
 
 spriteset(set_B787_9_korean, "src\Aircraft\Boeing\B787\B787_9\B787_9_Korean.png"){
@@ -46,6 +46,14 @@ spriteset(set_B787_9_premia, "src\Aircraft\Boeing\B787\B787_9\B787_9_premia.png"
 --------------------------------------------------------------------*/
 
 spriteset(set_B787_9_ana, "src\Aircraft\Boeing\B787\B787_9\ANA.png"){
+    tp_B787_9(0, 0)
+}
+
+/*--------------------------------------------------------------------
+6. Boeing 787-9 Korean Air
+--------------------------------------------------------------------*/
+
+spriteset(set_B787_9_korean25, "src\Aircraft\Boeing\B787\B787_9\korean25.png"){
     tp_B787_9(0, 0)
 }
 

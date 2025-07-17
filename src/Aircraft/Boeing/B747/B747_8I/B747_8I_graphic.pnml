@@ -18,10 +18,18 @@ spriteset(set_B747_8I, "src\Aircraft\Boeing\B747\B747_8I\B747_8I.png"){
 }
 
 /*--------------------------------------------------------------------
-2. Boeing 777-200 Korean Air
+2. Boeing 777-200 Korean Air Old
 --------------------------------------------------------------------*/
 
 spriteset(set_B747_8I_korean, "src\Aircraft\Boeing\B747\B747_8I\Korean.png"){
+    tp_B747_8I(0, 0)
+}
+
+/*--------------------------------------------------------------------
+3. Boeing 777-200 Korean Air 
+--------------------------------------------------------------------*/
+
+spriteset(set_B747_8I_korean25, "src\Aircraft\Boeing\B747\B747_8I\korean25.png"){
     tp_B747_8I(0, 0)
 }
 
