@@ -3,28 +3,40 @@
 --------------------------------------------------------------------*/
 switch(FEAT_AIRCRAFT, SELF, sw_Boeing_777_300ER_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_Boeing);   // Boeing
-    2: return string(STR_REFIT_LIVERY_Koreanair_new);      // Korean Air
-    3: return string(STR_REFIT_LIVERY_Koreanair);      // Korean Air old
-    4: return string(STR_REFIT_LIVERY_Japanairlines);      // Japan Airlines
+    2: return string(STR_REFIT_LIVERY_Emiratesairlines);   // Emirates
+    3: return string(STR_REFIT_LIVERY_Qatarairways);      // Qatar Airways
+    4: return string(STR_REFIT_LIVERY_Airfrance);      // Air France
     5: return string(STR_REFIT_LIVERY_Cathaypacific);      // Cathay Pacific
-    6: return string(STR_REFIT_LIVERY_Emiratesairlines);   // Emirates
-    7: return string(STR_REFIT_LIVERY_Qatarairways);      // Qatar Airways
-    8: return string(STR_REFIT_LIVERY_Airfrance);      // Air France
-    9: return string(STR_REFIT_LIVERY_Saudiarabianairlines);      // Saudia
-    10: return string(STR_REFIT_LIVERY_Turkishairlines);      // Turkish Airlines
+    6: return string(STR_REFIT_LIVERY_Saudiarabianairlines);      // Saudia
+    7: return string(STR_REFIT_LIVERY_Turkishairlines);      // Turkish Airlines
+    8: return string(STR_REFIT_LIVERY_Airchina);      // Air China
+    9: return string(STR_REFIT_LIVERY_Koreanair_new);      // Korean Air
+    10: return string(STR_REFIT_LIVERY_Koreanair);      // Korean Air old
+    11: return string(STR_REFIT_LIVERY_Aeroflot);      // Aeroflot
+    12: return string(STR_REFIT_LIVERY_Singaporeairlines);      // Singapore Ainlines
+    13: return string(STR_REFIT_LIVERY_Americanairlines);      // American Airlines
+    14: return string(STR_REFIT_LIVERY_Britishairways);      // British Airways
+    15: return string(STR_REFIT_LIVERY_Allnipponairways);      // ANA
+    16: return string(STR_REFIT_LIVERY_Japanairlines);      // Japan Airlines
     return string(STR_REFIT_LIVERY_Boeing);
 }
 
 switch(FEAT_AIRCRAFT, SELF, sw_B777_300ER, cargo_subtype) {
     1: set_B777_300ER;        // Boeing
-    2: set_B777_300ER_korean25;   // Korean Air 
-    3: set_B777_300ER_korean;   // Korean Air Old
-    4: set_B777_300ER_Japanairlines;   // Japan Airlines
+    2: set_B777_300ER_Emirates;        // Emirates
+    3: set_B777_300ER_Qatarairways;   // Qatar Airways
+    4: set_B777_300ER_Airfrance;   // Air France
     5: set_B777_300ER_Cathaypacific;   // Cathay Pacific
-    6: set_B777_300ER_Emirates;        // Emirates
-    7: set_B777_300ER_Qatarairways;   // Qatar Airways
-    8: set_B777_300ER_Airfrance;   // Air France
-    9: set_B777_300ER_Saudia;   // Saudia
-    10: set_B777_300ER_Turkishairlines;   // Turkish Airlines
+    6: set_B777_300ER_Saudia;   // Saudia
+    7: set_B777_300ER_Turkishairlines;   // Turkish Airlines
+    8: set_B777_300ER_airchina;   // Air China
+    9: set_B777_300ER_korean25;   // Korean Air 
+    10: set_B777_300ER_korean;   // Korean Air Old
+    11: set_B777_300ER_aeroflot;   // Aeroflot
+    12: set_B777_300ER_singapore;   // Singapore Airlines
+    13: set_B777_300ER_american;   // American Airlines
+    14: set_B777_300ER_british;   // British Airways
+    15: set_B777_300ER_ana;   // ANA
+    16: set_B777_300ER_Japanairlines;   // Japan Airlines
     set_B777_300ER;
 }
