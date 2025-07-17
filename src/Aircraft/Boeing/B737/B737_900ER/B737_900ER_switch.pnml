@@ -4,13 +4,13 @@
 switch(FEAT_AIRCRAFT, SELF, sw_Boeing_737_900ER_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_Boeing);   // 제조사
     2: return string(STR_REFIT_LIVERY_Koreanair);      // Korean Air Old
-    2: return string(STR_REFIT_LIVERY_Koreanair_new);      // Korean Air 2025
+    3: return string(STR_REFIT_LIVERY_Koreanair_new);      // Korean Air 2025
     return string(STR_REFIT_LIVERY_Boeing);
 }
 
 switch(FEAT_AIRCRAFT, SELF, sw_B737_900ER, cargo_subtype) {
     1: set_B737_900ER;        // 제조사
     2: set_B737_900ER_Koreanair;   // Korean Air Old
-    2: set_B737_900ER_Korean25;   // Korean Air 2025
+    3: set_B737_900ER_Korean25;   // Korean Air 2025
     set_B737_900ER;
 }
