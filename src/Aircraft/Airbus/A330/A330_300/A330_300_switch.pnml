@@ -2,17 +2,19 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_AIRCRAFT, SELF, sw_Airbus_A330_300_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Airbus);   // 제조사
-    2: return string(STR_REFIT_LIVERY_Koreanair);     // 대한항공
-    3: return string(STR_REFIT_LIVERY_Asiana);     // 아시아나항공
-    4: return string(STR_REFIT_LIVERY_Tway);     // 티웨이항공
+    1: return string(STR_REFIT_LIVERY_Airbus);   // Manufacturer
+    2: return string(STR_REFIT_LIVERY_Koreanair);     // Korean Air Old
+    3: return string(STR_REFIT_LIVERY_Asiana);     // Asiana Airlines
+    4: return string(STR_REFIT_LIVERY_Tway);     // Tway
+    5: return string(STR_REFIT_LIVERY_Koreanair_new);     // Korean Air
     return string(STR_REFIT_LIVERY_Airbus);
 }
 
 switch(FEAT_AIRCRAFT, SELF, sw_A330_300, cargo_subtype) {
-    1: set_A330_300_default;        // 제조사
-    2: set_A330_300_korean;   // 대한항공
-    3: set_A330_300_asiana;   // 아시아나항공
-    4: set_A330_300_tway;   // 티웨이항공
+    1: set_A330_300_default;        // Manufacturer
+    2: set_A330_300_korean;   // Korean Air Old
+    3: set_A330_300_asiana;   // Asiana Airlines
+    4: set_A330_300_tway;   // Tway
+    5: set_A330_300_korean25;   // Korean Air
     set_A330_300_default;
 }
