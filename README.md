@@ -5,6 +5,7 @@ It is currently in development and will be available for download through in-gam
 
 ## Links
 - [Transport Tycoon Forums posts](https://www.tt-forums.net/viewtopic.php?t=91152&sid=ae0a3a7497cd422c20a3d06952cca196)
+- [Official OpenTTD Discord - development forum - AWAS](https://discord.gg/openttd)
 
 ## License
 **AWAS** is a cover work based on graphics from World Airliners Set and is therefore subject to GPL-3.0 under World Airliners Set's copyright.
