@@ -49,6 +49,14 @@ alternative_sprites(set_A321neo_Airbusan, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "s
     tp_A321_200(0, 0)
 }
 
+/*--------------------------------------------------------------------
+5. Airbus A321neo Korean Air new
+--------------------------------------------------------------------*/
+
+spriteset(set_A321neo_Koreanair25, "src\Aircraft\Airbus\A320\A321neo\Korean25.png"){
+    tp_A321_200(0, 0)
+}
+
 
 
 /*--------------------------------------------------------------------
