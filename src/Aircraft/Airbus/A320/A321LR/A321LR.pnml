@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, A321LR, 7022){
         cost_factor:                    316;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A321LR_cargo_subtype_text;
+        name:                           switch_A321LR_name;
         }
 }

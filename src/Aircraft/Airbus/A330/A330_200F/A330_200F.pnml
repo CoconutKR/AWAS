@@ -53,5 +53,6 @@ item(FEAT_AIRCRAFT, A330_200F, 7025){
         mail_capacity:                  return 396;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A330_200F_cargo_subtype_text;
+        name:                           switch_A330200F_name;
         }
 }

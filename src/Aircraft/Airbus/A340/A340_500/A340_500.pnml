@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, A340_500, 7031){
         cost_factor:                    639;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A340_500_cargo_subtype_text;
+        name:                           switch_A340500_name;
         }
 }

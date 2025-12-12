@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, A319_100, 7016){
         cost_factor:                    225;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A319_100_cargo_subtype_text;
+        name:                           switch_A319100_name;
         }
 }

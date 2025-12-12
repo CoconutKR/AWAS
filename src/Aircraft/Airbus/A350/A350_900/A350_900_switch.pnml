@@ -38,3 +38,8 @@ switch(FEAT_AIRCRAFT, SELF, sw_A350_900, cargo_subtype) {
     15: set_A350_900_Fiji;   // Fiji Airways
     set_A350_900_default;
 }
+
+switch (FEAT_AIRCRAFT, SELF, switch_A350_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+    0: return string(STR_A350_FAMILY);
+    return CB_RESULT_NO_TEXT;
+}

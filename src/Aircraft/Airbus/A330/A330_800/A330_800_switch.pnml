@@ -12,3 +12,8 @@ switch(FEAT_AIRCRAFT, SELF, sw_A330_800, cargo_subtype) {
     2: set_A330_800_default;        // 제조사
     set_A330_800_default;
 }
+
+switch (FEAT_AIRCRAFT, SELF, switch_A330800_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+    0: return string(STR_A330_FAMILY);
+    return CB_RESULT_NO_TEXT;
+}

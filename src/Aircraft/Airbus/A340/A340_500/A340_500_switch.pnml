@@ -12,3 +12,8 @@ switch(FEAT_AIRCRAFT, SELF, sw_A340_500, cargo_subtype) {
     2: set_A340_500_default;   // 아시아나항공
     set_A340_500_default;
 }
+
+switch (FEAT_AIRCRAFT, SELF, switch_A340500_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+    0: return string(STR_A340_FAMILY);
+    return CB_RESULT_NO_TEXT;
+}

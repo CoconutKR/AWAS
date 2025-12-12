@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, A320_200, 7007){
         cost_factor:                    246;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A320_200_cargo_subtype_text;
+        name:                           switch_A320200_name;
         }
 }

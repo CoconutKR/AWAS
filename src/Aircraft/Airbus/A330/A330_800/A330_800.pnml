@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, A330_800, 7026){
         cost_factor:                    634;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A330_800_cargo_subtype_text;
+        name:                           switch_A330800_name;
         }
 }

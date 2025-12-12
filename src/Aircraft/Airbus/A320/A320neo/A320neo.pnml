@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, A320neo, 7018){
         cost_factor:                    270;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A320neo_cargo_subtype_text;
+        name:                           switch_A320neo_name;
         }
 }

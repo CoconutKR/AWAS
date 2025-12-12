@@ -102,6 +102,7 @@ STR_B747_8I_NAME                                    :보잉 747-8I
 STR_B747_8F_NAME                                    :보잉 747-8F
 STR_A220_100_NAME                                   :에어버스 A220-100 (봉바르디에 CS100)
 STR_A220_300_NAME                                   :에어버스 A220-300 (봉바르디에 CS300)
+STR_A320_FAMILY                                     :에어버스 A320 패밀리
 STR_A318_100_NAME                                   :에어버스 A318-100
 STR_A319_100_NAME                                   :에어버스 A319-100
 STR_A319neo_NAME                                    :에어버스 A319neo
@@ -123,15 +124,18 @@ STR_A300B4_NAME                                     :에어버스 A300B4
 STR_A300_600_NAME                                   :에어버스 A300-600
 STR_A300_600R_NAME                                  :에어버스 A300-600R
 STR_A300_600F_NAME                                  :에어버스 A300-600F
+STR_A330_FAMILY                                     :에어버스 A330 패밀리
 STR_A330_200_NAME                                   :에어버스 A330-200
 STR_A330_200F_NAME                                  :에어버스 A330-200F
 STR_A330_300_NAME                                   :에어버스 A330-300
 STR_A330_800_NAME                                   :에어버스 A330-800 (A330neo)
 STR_A330_900_NAME                                   :에어버스 A330-900 (A330neo)
+STR_A340_FAMILY                                     :에어버스 A340 패밀리
 STR_A340_200_NAME                                   :에어버스 A340-200
 STR_A340_300_NAME                                   :에어버스 A340-300
 STR_A340_500_NAME                                   :에어버스 A340-500
 STR_A340_600_NAME                                   :에어버스 A340-600
+STR_A350_FAMILY                                     :에어버스 A350 패밀리
 STR_A350_900_NAME                                   :에어버스 A350-900
 STR_A350_900ULR_NAME                                :에어버스 A350-900ULR
 STR_A350_1000_NAME                                  :에어버스 A350-1000

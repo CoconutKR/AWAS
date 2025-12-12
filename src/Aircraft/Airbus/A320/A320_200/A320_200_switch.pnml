@@ -20,3 +20,8 @@ switch(FEAT_AIRCRAFT, SELF, sw_A320_200, cargo_subtype) {
     6: set_A320_200_chinaeastern;   // 중국동방항공
     set_A320_200_default;
 }
+
+    switch (FEAT_AIRCRAFT, SELF, switch_A320200_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+    0: return string(STR_A320_FAMILY);
+    return CB_RESULT_NO_TEXT;
+}

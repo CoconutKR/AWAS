@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, A319neo, 7017){
         cost_factor:                    248;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A319neo_cargo_subtype_text;
+        name:                           switch_A319neo_name;
         }
 }

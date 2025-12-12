@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, A350_1000, 7029){
         cost_factor:                    894;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A350_1000_cargo_subtype_text;
+        name:                           switch_A3501000_name;
         }
 }

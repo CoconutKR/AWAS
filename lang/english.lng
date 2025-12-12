@@ -102,6 +102,7 @@ STR_B747_8I_NAME                                    :Boeing 747-8I
 STR_B747_8F_NAME                                    :Boeing 747-8F
 STR_A220_100_NAME                                   :Airbus A220-100 (Bombardier CS100)
 STR_A220_300_NAME                                   :Airbus A220-300 (Bombardier CS300)
+STR_A320_FAMILY                                     :Airbus A320 Family
 STR_A318_100_NAME                                   :Airbus A318-100
 STR_A319_100_NAME                                   :Airbus A319-100
 STR_A319neo_NAME                                    :Airbus A319neo
@@ -125,13 +126,16 @@ STR_A300_600R_NAME                                  :Airbus A300-600R
 STR_A300_600F_NAME                                  :Airbus A300-600F
 STR_A330_200_NAME                                   :Airbus A330-200
 STR_A330_200F_NAME                                  :Airbus A330-200F
+STR_A330_FAMILY                                     :Airbus A340 Family
 STR_A330_300_NAME                                   :Airbus A330-300
 STR_A330_800_NAME                                   :Airbus A330-800 (A330neo)
 STR_A330_900_NAME                                   :Airbus A330-900 (A330neo)
+STR_A340_FAMILY                                     :Airbus A340 Family
 STR_A340_200_NAME                                   :Airbus A340-200
 STR_A340_300_NAME                                   :Airbus A340-300
 STR_A340_500_NAME                                   :Airbus A340-500
 STR_A340_600_NAME                                   :Airbus A340-600
+STR_A350_FAMILY                                     :Airbus A350 Family
 STR_A350_900_NAME                                   :Airbus A350-900
 STR_A350_900ULR_NAME                                :Airbus A350-900ULR
 STR_A350_1000_NAME                                  :Airbus A350-1000

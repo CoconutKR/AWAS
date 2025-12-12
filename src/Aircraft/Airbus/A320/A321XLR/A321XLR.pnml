@@ -51,6 +51,7 @@ item(FEAT_AIRCRAFT, A321XLR, 7131){
         loading_speed:                  25;
         cost_factor:                    289;
         running_cost_factor:            120;
-        cargo_subtype_text:             sw_Airbus_A321XLR_cargo_subtype_text;
+        cargo_subtype_text:             sw_Airbus_A321XLR_cargo_subtype_text; 
+        name:                           switch_A321XLR_name;
         }
 }

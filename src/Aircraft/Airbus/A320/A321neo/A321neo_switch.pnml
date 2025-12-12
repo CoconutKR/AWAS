@@ -18,3 +18,8 @@ switch(FEAT_AIRCRAFT, SELF, sw_A321neo, cargo_subtype) {
     5: set_A321neo_Koreanair25;   // Korean Air new
     set_A321neo_default;
 }
+
+    switch (FEAT_AIRCRAFT, SELF, switch_A321neo_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+    0: return string(STR_A320_FAMILY);
+    return CB_RESULT_NO_TEXT;
+}
