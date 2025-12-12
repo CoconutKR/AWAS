@@ -1,8 +1,9 @@
 ﻿##grflangid 0x00
 
 # GRF name and description
+
 STR_GRF_NAME                                        :AWAS
-STR_GRF_NAME_WITH_VER                               :AWAS 0.1.0 Pre-Alpha
+STR_GRF_NAME_WITH_VER                               :AWAS 0.1.1 Alpha
 STR_GRF_DESC                                        :{BLACK}AWAS {}(Updated: {RECENT_UPDATED}){}{SILVER}+ Author: Coconut
 STR_GRF_URL                                         :https://github.com/CoconutKR/AWAS
 
@@ -240,7 +241,7 @@ STR_REFIT_LIVERY_Japanairlines                      :(JAPAN AIRLINES)
 STR_REFIT_LIVERY_Japanairlines_old2002              :(JAPAN AIRLINES / 2002~2011 Livery)
 STR_REFIT_LIVERY_Japanairlines_old1989              :(JAPAN AIRLINES / 1989~2002 Livery)
 STR_REFIT_LIVERY_Japanairlines_old1959              :(JAPAN AIRLINES / 1959~1989 Livery)
-STR_REFIT_LIVERY_Japanairlines_old1950              :(JAPAN AIRLINES / 1950대 Livery)
+STR_REFIT_LIVERY_Japanairlines_old1950              :(JAPAN AIRLINES / 1950s Livery)
 STR_REFIT_LIVERY_Jalcargo_old2002                   :(JAPAN AIRLINES CARGO / 2002~2011 Livery)
 STR_REFIT_LIVERY_Jalcargo_old1989                   :(JAPAN AIRLINES CARGO / 1989~2002 Livery)
 STR_REFIT_LIVERY_Jalcargo_old1959                   :(JAPAN AIRLINES CARGO / 1959~1989 Livery)
@@ -381,6 +382,9 @@ STR_REFIT_LIVERY_Emiratesskycargo                   :(에미레이트 스카이C
 STR_REFIT_LIVERY_Emiratesskycargo_old               :(에미레이트 스카이CARGO / 2005~2023 Livery)
 STR_REFIT_LIVERY_Qatarairways                       :(QATAR AIRWAYS)
 STR_REFIT_LIVERY_Saudiarabianairlines               :(Saudia)
+
+# Liveries (North America)
+
 STR_REFIT_LIVERY_Deltaairlines                      :(DELTA Air Lines)
 STR_REFIT_LIVERY_Unitedairlines                     :(United Airlines)
 STR_REFIT_LIVERY_Americanairlines                   :(American Airlines)
@@ -389,7 +393,13 @@ STR_REFIT_LIVERY_Americanairlines_old1964           :(American Airlines / 1964~1
 STR_REFIT_LIVERY_Americanairlines_old1934           :(American Airlines / 1934~1964 Livery)
 STR_REFIT_LIVERY_Aircanada                          :(에어캐나다)
 STR_REFIT_LIVERY_Aeromexico                         :(아에로멕시코)
+
+# Liveries (South America)
+
 STR_REFIT_LIVERY_Latamairlines                      :(LATAM 항공)
+
+# Liveries (Europe)
+
 STR_REFIT_LIVERY_Lufthansa                          :(Lufthansa)
 STR_REFIT_LIVERY_Lufthansa_old1989                  :(Lufthansa / 1989~2018 Livery)
 STR_REFIT_LIVERY_Lufthansa_old1965                  :(Lufthansa / 1965~1989 Livery)
@@ -405,13 +415,18 @@ STR_REFIT_LIVERY_Itaairways                         :(ITA 항공)
 STR_REFIT_LIVERY_Klmroyaldutchairlines              :(KLM 네덜란드 항공)
 STR_REFIT_LIVERY_Aeroflot                           :(아에로플로트)
 STR_REFIT_LIVERY_Iberiaairlines                     :(Iberia Airlines)
+STR_REFIT_LIVERY_Evelop                             :(Evelop)
 STR_REFIT_LIVERY_Finnair                            :(FINNAIR)
 STR_REFIT_LIVERY_Swissinternationalairlines         :(스위스 국제항공)
 STR_REFIT_LIVERY_Scandinavianairlinessystem         :(스칸디나비아 항공)
 STR_REFIT_LIVERY_Turkishairlines                    :(Turkish Airlines)
+STR_REFIT_LIVERY_Aerlingus                          :(에어 링구스)
+
+# Liveries (Oceania)
+
 STR_REFIT_LIVERY_Qantasairways                      :(콴타스 항공)
 STR_REFIT_LIVERY_Airnewzealand                      :(에어 뉴질랜드)
-STR_REFIT_LIVERY_Aerlingus                          :(에어 링구스)
+STR_REFIT_LIVERY_Fijiairways                        :(Fiji Airways)
 
 
 # Errors

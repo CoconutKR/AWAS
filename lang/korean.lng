@@ -382,6 +382,9 @@ STR_REFIT_LIVERY_Emiratesskycargo                   :(에미레이트 스카이�
 STR_REFIT_LIVERY_Emiratesskycargo_old               :(에미레이트 스카이카고 / 2005~2023년 도장)
 STR_REFIT_LIVERY_Qatarairways                       :(카타르항공)
 STR_REFIT_LIVERY_Saudiarabianairlines               :(사우디아항공)
+
+# Liveries (North America)
+
 STR_REFIT_LIVERY_Deltaairlines                      :(델타항공)
 STR_REFIT_LIVERY_Unitedairlines                     :(유나이티드 항공)
 STR_REFIT_LIVERY_Americanairlines                   :(아메리칸 항공)
@@ -390,7 +393,13 @@ STR_REFIT_LIVERY_Americanairlines_old1964           :(아메리칸 항공 / 1964
 STR_REFIT_LIVERY_Americanairlines_old1934           :(아메리칸 항공 / 1934~1964년 도장)
 STR_REFIT_LIVERY_Aircanada                          :(에어캐나다)
 STR_REFIT_LIVERY_Aeromexico                         :(아에로멕시코)
+
+# Liveries (South America)
+
 STR_REFIT_LIVERY_Latamairlines                      :(LATAM 항공)
+
+# Liveries (Europe)
+
 STR_REFIT_LIVERY_Lufthansa                          :(루프트한자)
 STR_REFIT_LIVERY_Lufthansa_old1989                  :(루프트한자 / 1989~2018년 도장)
 STR_REFIT_LIVERY_Lufthansa_old1965                  :(루프트한자 / 1965~1989년 도장)
@@ -406,13 +415,18 @@ STR_REFIT_LIVERY_Itaairways                         :(ITA 항공)
 STR_REFIT_LIVERY_Klmroyaldutchairlines              :(KLM 네덜란드 항공)
 STR_REFIT_LIVERY_Aeroflot                           :(아에로플로트)
 STR_REFIT_LIVERY_Iberiaairlines                     :(이베리아항공)
+STR_REFIT_LIVERY_Evelop                             :(이벨롭항공)
 STR_REFIT_LIVERY_Finnair                            :(핀에어)
 STR_REFIT_LIVERY_Swissinternationalairlines         :(스위스 국제항공)
 STR_REFIT_LIVERY_Scandinavianairlinessystem         :(스칸디나비아 항공)
 STR_REFIT_LIVERY_Turkishairlines                    :(터키항공)
+STR_REFIT_LIVERY_Aerlingus                          :(에어 링구스)
+
+# Liveries (Oceania)
+
 STR_REFIT_LIVERY_Qantasairways                      :(콴타스 항공)
 STR_REFIT_LIVERY_Airnewzealand                      :(에어 뉴질랜드)
-STR_REFIT_LIVERY_Aerlingus                          :(에어 링구스)
+STR_REFIT_LIVERY_Fijiairways                        :(피지항공)
 
 
 

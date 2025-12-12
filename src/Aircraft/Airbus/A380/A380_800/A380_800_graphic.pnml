@@ -21,7 +21,7 @@ spriteset(set_A380_800_default, "src\Aircraft\Airbus\A380\A380_800\A380_800.png"
 2. Airbus A380-800 Korean Air
 --------------------------------------------------------------------*/
 
-spriteset(set_A380_800_korean, "src\Aircraft\Airbus\A380\A380_800\A380_800_Korean.png"){
+spriteset(set_A380_800_korean, "src\Aircraft\Airbus\A380\A380_800\Korean.png"){
     tp_A380_800(0, 0)
 }
 
@@ -29,7 +29,7 @@ spriteset(set_A380_800_korean, "src\Aircraft\Airbus\A380\A380_800\A380_800_Korea
 3. Airbus A380-800 Asiana Ainlines
 --------------------------------------------------------------------*/
 
-spriteset(set_A380_800_asiana, "src\Aircraft\Airbus\A380\A380_800\A380_800_Asiana.png"){
+spriteset(set_A380_800_asiana, "src\Aircraft\Airbus\A380\A380_800\Asiana.png"){
     tp_A380_800(0, 0)
 }
 
