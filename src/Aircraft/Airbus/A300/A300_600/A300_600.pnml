@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, A300_600, 7037){
         cost_factor:                    276;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A300_600_cargo_subtype_text;
+        name:                           switch_A300600_name;
         }
 }

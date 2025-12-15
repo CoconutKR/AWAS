@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, B747_200SUD, 7093){
         cost_factor:                    1150;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_747_200SUD_cargo_subtype_text;
+        name:                           switch_B747200SUD_name;
         }
 }

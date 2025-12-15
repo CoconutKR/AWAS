@@ -51,5 +51,6 @@ item(FEAT_AIRCRAFT, B747_100, 7081){
         cost_factor:                    1150;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_747_100_cargo_subtype_text;
+        name:                           switch_B747100_name;
         }
 }

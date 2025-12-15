@@ -12,3 +12,8 @@ switch(FEAT_AIRCRAFT, SELF, sw_A310_300, cargo_subtype) {
     2: set_A310_300_default; 
     set_A310_300_default;
 }
+
+    switch (FEAT_AIRCRAFT, SELF, switch_A310300_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+    0: return string(STR_A310_FAMILY);
+    return CB_RESULT_NO_TEXT;
+}

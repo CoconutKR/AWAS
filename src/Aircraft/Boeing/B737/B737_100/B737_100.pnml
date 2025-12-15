@@ -50,6 +50,7 @@ item(FEAT_AIRCRAFT, B737_100, 7078){
         loading_speed:                  26;
         cost_factor:                    890;
         running_cost_factor:            120;
-        cargo_subtype_text:             sw_Boeing_737_600_cargo_subtype_text;
+        cargo_subtype_text:             sw_Boeing_737_100_cargo_subtype_text;
+        name:                           switch_B737100_name;
         }
 }

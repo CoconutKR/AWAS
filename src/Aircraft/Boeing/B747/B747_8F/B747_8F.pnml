@@ -53,5 +53,6 @@ item(FEAT_AIRCRAFT, B747_8F, 7052){
         cost_factor:                    859;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_747_8F_cargo_subtype_text;
+        name:                           switch_B7478F_name;
         }
 }

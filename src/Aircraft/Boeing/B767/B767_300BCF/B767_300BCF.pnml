@@ -53,5 +53,6 @@ item(FEAT_AIRCRAFT, B767_300BCF, 7070){
         mail_capacity:                  return 480;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_767_300BCF_cargo_subtype_text;
+        name:                           switch_B767300BCF_name;
         }
 }

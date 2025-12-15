@@ -53,5 +53,6 @@ item(FEAT_AIRCRAFT, B737_700, 7060){
         cost_factor:                    197;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_737_700_cargo_subtype_text;
+        name:                           switch_B737700_name;
         }
 }

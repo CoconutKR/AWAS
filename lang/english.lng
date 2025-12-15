@@ -3,13 +3,14 @@
 # GRF name and description
 
 STR_GRF_NAME                                        :AWAS
-STR_GRF_NAME_WITH_VER                               :AWAS 0.1.1 Alpha
+STR_GRF_NAME_WITH_VER                               :AWAS 0.2.0 Alpha
 STR_GRF_DESC                                        :{BLACK}AWAS {}(Updated: {RECENT_UPDATED}){}{SILVER}+ Author: Coconut
 STR_GRF_URL                                         :https://github.com/CoconutKR/AWAS
 
 # Aircraft name
 
 STR_Concorde_NAME                                   :Aerospatiale/BAC Concorde
+STR_B707_FAMILY                                     :Boeing 707
 STR_B707_020_NAME                                   :Boeing 707-020
 STR_B707_020B_NAME                                  :Boeing 707-020B
 STR_B707_120_NAME                                   :Boeing 707-120
@@ -20,7 +21,9 @@ STR_B707_320_NAME                                   :Boeing 707-320
 STR_B707_320B_NAME                                  :Boeing 707-320B
 STR_B707_320C_NAME                                  :Boeing 707-320C
 STR_B707_420_NAME                                   :Boeing 707-420
+STR_B717_FAMILY                                     :Boeing 717
 STR_B717_200_NAME                                   :Boeing 717-200
+STR_B737_FAMILY                                     :Boeing 737
 STR_B737_100_NAME                                   :Boeing 737-100
 STR_B737_200_NAME                                   :Boeing 737-200
 STR_B737_200C_NAME                                  :Boeing 737-200C
@@ -41,6 +44,7 @@ STR_B737_MAX_8_NAME                                 :Boeing 737 MAX 8
 STR_B737_MAX_200_NAME                               :Boeing 737 MAX 200
 STR_B737_MAX_9_NAME                                 :Boeing 737 MAX 9
 STR_B737_MAX_10_NAME                                :Boeing 737 MAX 10
+STR_B727_FAMILY                                     :Boeing 727
 STR_B727_100_NAME                                   :Boeing 727-100
 STR_B727_100C_NAME                                  :Boeing 727-100C
 STR_B727_100QC_NAME                                 :Boeing 727-100QC
@@ -48,6 +52,7 @@ STR_B727_100QF_NAME                                 :Boeing 727-100QF
 STR_B727_200_NAME                                   :Boeing 727-200
 STR_B727_200_Adv_NAME                               :Boeing 727-200 Adv
 STR_B727_200F_Adv_NAME                              :Boeing 727-200F Adv
+STR_B767_FAMILY                                     :Boeing 767
 STR_B767_200_NAME                                   :Boeing 767-200
 STR_B767_200ER_NAME                                 :Boeing 767-200ER
 STR_B767_200BDSF_NAME                               :Boeing 767-200BDSF
@@ -57,15 +62,18 @@ STR_B767_300F_NAME                                  :Boeing 767-300F
 STR_B767_300BCF_NAME                                :Boeing 767-300BCF
 STR_B767_300BDSF_NAME                               :Boeing 767-300BDSF
 STR_B767_400ER_NAME                                 :Boeing 767-400ER
+STR_B757_FAMILY                                     :Boeing 757
 STR_B757_200_NAME                                   :Boeing 757-200
 STR_B757_200SF_NAME                                 :Boeing 757-200SF
 STR_B757_200M_NAME                                  :Boeing 757-200M
 STR_B757_200PF_NAME                                 :Boeing 757-200PF
 STR_B757_200PCF_NAME                                :Boeing 757-200PCF
 STR_B757_300_NAME                                   :Boeing 757-300
+STR_B787_FAMILY                                     :Boeing 787
 STR_B787_8_NAME                                     :Boeing 787-8
 STR_B787_9_NAME                                     :Boeing 787-9
 STR_B787_10_NAME                                    :Boeing 787-10
+STR_B777_FAMILY                                     :Boeing 777
 STR_B777_200_NAME                                   :Boeing 777-200
 STR_B777_200ER_NAME                                 :Boeing 777-200ER
 STR_B777_200LR_NAME                                 :Boeing 777-200LR
@@ -73,6 +81,7 @@ STR_B777_200F_NAME                                  :Boeing 777-200F
 STR_B777_300_NAME                                   :Boeing 777-300
 STR_B777_300ER_NAME                                 :Boeing 777-300ER
 STR_B777_9_NAME                                     :Boeing 777-9
+STR_B747_FAMILY                                     :Boeing 747
 STR_B747_100_NAME                                   :Boeing 747-100
 STR_B747_100SR_NAME                                 :Boeing 747-100SR
 STR_B747_100BSR_NAME                                :Boeing 747-100BSR
@@ -100,9 +109,10 @@ STR_B747_400BCF_NAME                                :Boeing 747-400BCF
 STR_B747_400BDSF_NAME                               :Boeing 747-400BDSF
 STR_B747_8I_NAME                                    :Boeing 747-8I
 STR_B747_8F_NAME                                    :Boeing 747-8F
+STR_A220_FAMILY                                     :Airbus A220
 STR_A220_100_NAME                                   :Airbus A220-100 (Bombardier CS100)
 STR_A220_300_NAME                                   :Airbus A220-300 (Bombardier CS300)
-STR_A320_FAMILY                                     :Airbus A320 Family
+STR_A320_FAMILY                                     :Airbus A320
 STR_A318_100_NAME                                   :Airbus A318-100
 STR_A319_100_NAME                                   :Airbus A319-100
 STR_A319neo_NAME                                    :Airbus A319neo
@@ -114,10 +124,12 @@ STR_A321_200_NAME                                   :Airbus A321-200
 STR_A321neo_NAME                                    :Airbus A321neo
 STR_A321LR_NAME                                     :Airbus A321LR
 STR_A321XLR_NAME                                    :Airbus A321XLR
+STR_A310_FAMILY                                     :Airbus A310
 STR_A310_200_NAME                                   :Airbus A310-200
 STR_A310_200F_NAME                                  :Airbus A310-200F
 STR_A310_300_NAME                                   :Airbus A310-300
 STR_A310_300F_NAME                                  :Airbus A310-300F
+STR_A300_FAMILY                                     :Airbus A300
 STR_A300B1_NAME                                     :Airbus A300B1
 STR_A300B2_NAME                                     :Airbus A300B2
 STR_A300B4_NAME                                     :Airbus A300B4
@@ -126,19 +138,20 @@ STR_A300_600R_NAME                                  :Airbus A300-600R
 STR_A300_600F_NAME                                  :Airbus A300-600F
 STR_A330_200_NAME                                   :Airbus A330-200
 STR_A330_200F_NAME                                  :Airbus A330-200F
-STR_A330_FAMILY                                     :Airbus A340 Family
+STR_A330_FAMILY                                     :Airbus A340
 STR_A330_300_NAME                                   :Airbus A330-300
 STR_A330_800_NAME                                   :Airbus A330-800 (A330neo)
 STR_A330_900_NAME                                   :Airbus A330-900 (A330neo)
-STR_A340_FAMILY                                     :Airbus A340 Family
+STR_A340_FAMILY                                     :Airbus A340
 STR_A340_200_NAME                                   :Airbus A340-200
 STR_A340_300_NAME                                   :Airbus A340-300
 STR_A340_500_NAME                                   :Airbus A340-500
 STR_A340_600_NAME                                   :Airbus A340-600
-STR_A350_FAMILY                                     :Airbus A350 Family
+STR_A350_FAMILY                                     :Airbus A350
 STR_A350_900_NAME                                   :Airbus A350-900
 STR_A350_900ULR_NAME                                :Airbus A350-900ULR
 STR_A350_1000_NAME                                  :Airbus A350-1000
+STR_A380_FAMILY                                     :Airbus A380
 STR_A380_800_NAME                                   :Airbus A380-800
 STR_E170STD_NAME                                    :Embraer E170 STD
 STR_E170LR_NAME                                     :Embraer E170 LR
@@ -227,17 +240,17 @@ STR_REFIT_LIVERY_Hiair_g                            :(Hi Air / Green)
 STR_REFIT_LIVERY_Aerok                              :(Aero K)
 STR_REFIT_LIVERY_Flygangwon                         :(Fly Gangwon)
 STR_REFIT_LIVERY_Airincheon                         :(Air Incheon)
-STR_REFIT_LIVERY_Airpohang                          :(에어포항)
-STR_REFIT_LIVERY_Airphilip                          :(에어필립)
-STR_REFIT_LIVERY_Yeongnamair                        :(영남에어)
-STR_REFIT_LIVERY_Koreaexpressair                    :(코리아 익스프레스 에어)
-STR_REFIT_LIVERY_Hansungairlines                    :(한성항공)
+STR_REFIT_LIVERY_Airpohang                          :(Air Pohang)
+STR_REFIT_LIVERY_Airphilip                          :(Air Philip)
+STR_REFIT_LIVERY_Yeongnamair                        :(Yeongnam Air)
+STR_REFIT_LIVERY_Koreaexpressair                    :(Korea Express Air)
+STR_REFIT_LIVERY_Hansungairlines                    :(Hansung Airlines)
 
 
 # Liveries (North Korea)
 
-STR_REFIT_LIVERY_Airkoryo                           :(고려항공)
-STR_REFIT_LIVERY_Airkoryo_old                       :(고려항공 (구))
+STR_REFIT_LIVERY_Airkoryo                           :(Air Koryo)
+STR_REFIT_LIVERY_Airkoryo_old                       :(Air Koryo old)
 
 # Liveries (Japan)
 
@@ -255,135 +268,135 @@ STR_REFIT_LIVERY_Anacargo                           :(ANA - ALL NIPPON AIRWAYS C
 STR_REFIT_LIVERY_Skymarkairlines                    :(Skymark Airlines)
 STR_REFIT_LIVERY_Skymarkairlines_old                :(Skymark Airlines / 1998~2004 Livery)
 STR_REFIT_LIVERY_Peachaviation                      :(Peach Aviation)
-STR_REFIT_LIVERY_Jetstarjapan                       :(젯스타 재팬)
-STR_REFIT_LIVERY_Springairlinesjapan                :(스프링항공 재팬)
+STR_REFIT_LIVERY_Jetstarjapan                       :(Jetstar Japan)
+STR_REFIT_LIVERY_Springairlinesjapan                :(Spring Airlines Japan)
 STR_REFIT_LIVERY_Zipairtokyo                        :(ZIPAIR)
 STR_REFIT_LIVERY_Zipairtokyo_old                    :(ZIPAIR / 2020~2022 Livery)
-STR_REFIT_LIVERY_Ryukyuaircommuter                  :(류큐 에어 커뮤터)
-STR_REFIT_LIVERY_Japanaircommuter                   :(재팬 에어 커뮤터)
-STR_REFIT_LIVERY_Japantransoceanair                 :(재팬 트랜스오션 항공)
-STR_REFIT_LIVERY_Jair                               :(J-에어)
-STR_REFIT_LIVERY_Hokkaidoairsystem                  :(홋카이도 에어 시스템)
-STR_REFIT_LIVERY_Anawings                           :(ANA 윙스)
+STR_REFIT_LIVERY_Ryukyuaircommuter                  :(Ryukyu Air Commuter)
+STR_REFIT_LIVERY_Japanaircommuter                   :(Japan Air Commuter)
+STR_REFIT_LIVERY_Japantransoceanair                 :(Japan Transocean Air)
+STR_REFIT_LIVERY_Jair                               :(J-Air)
+STR_REFIT_LIVERY_Hokkaidoairsystem                  :(Hokkaido Air System)
+STR_REFIT_LIVERY_Anawings                           :(ANA Wings)
 STR_REFIT_LIVERY_Airjapan                           :(AIR JAPAN)
-STR_REFIT_LIVERY_Fujidreamairlines                  :(후지드림 항공)
-STR_REFIT_LIVERY_Solaseedair                        :(솔라시드 항공)
-STR_REFIT_LIVERY_Starflyer                          :(스타플라이어)
-STR_REFIT_LIVERY_Airdo                              :(에어 두)
-STR_REFIT_LIVERY_Ibexairlines                       :(아이벡스 항공)
-STR_REFIT_LIVERY_Nipponcargoairlines                :(일본화물항공)
-STR_REFIT_LIVERY_Amakusaairlines                    :(아마쿠사 항공)
-STR_REFIT_LIVERY_Orientalairbridge                  :(오리엔탈 에어 브릿지)
-STR_REFIT_LIVERY_Newcentralairservice               :(신츄오 항공)
-STR_REFIT_LIVERY_Japanairsystem                     :(일본에어시스템)
-STR_REFIT_LIVERY_Vanillaair                         :(바닐라 에어)
-STR_REFIT_LIVERY_Airasiajapan                       :(에어아시아 재팬)
+STR_REFIT_LIVERY_Fujidreamairlines                  :(Fuji Dream Airlines)
+STR_REFIT_LIVERY_Solaseedair                        :(Solaseed Air)
+STR_REFIT_LIVERY_Starflyer                          :(Starflyer)
+STR_REFIT_LIVERY_Airdo                              :(Airdo)
+STR_REFIT_LIVERY_Ibexairlines                       :(Ibex Airlines)
+STR_REFIT_LIVERY_Nipponcargoairlines                :(Nippon Cargo Airlines)
+STR_REFIT_LIVERY_Amakusaairlines                    :(Amakusa Airlines)
+STR_REFIT_LIVERY_Orientalairbridge                  :(Oriental airbridge)
+STR_REFIT_LIVERY_Newcentralairservice               :(Newcentral Airservice)
+STR_REFIT_LIVERY_Japanairsystem                     :(Japan Airsystem)
+STR_REFIT_LIVERY_Vanillaair                         :(Vanilla Air)
+STR_REFIT_LIVERY_Airasiajapan                       :(AirAsia Japan)
 
 # Liveries (China, Hong Kong, Macao, Taiwan, Mongolia)
 
 STR_REFIT_LIVERY_Airchina                           :(AIR CHINA)
 STR_REFIT_LIVERY_Airchinacargo                      :(AIR CHINA CARGO)
-STR_REFIT_LIVERY_Caac                               :(중국민항)
+STR_REFIT_LIVERY_Caac                               :(CAAC)
 STR_REFIT_LIVERY_Chinasouthern                      :(China Southern Airlines)
 STR_REFIT_LIVERY_Chinasoutherncargo                 :(China Southern Airlines CARGO)
 STR_REFIT_LIVERY_Chinaeastern                       :(China Eastern Airlines)
 STR_REFIT_LIVERY_Chinaeastern_old                   :(China Eastern Airlines / 1988~2014 Livery)
-STR_REFIT_LIVERY_Chinacargoairlines                 :(중국화운항공)
-STR_REFIT_LIVERY_Chinacargoairlines_old             :(중국화운항공 / 1988~2014 Livery)
-STR_REFIT_LIVERY_Hainanairlines                     :(하이난항공)
-STR_REFIT_LIVERY_Hainanairlines_old2000             :(하이난항공 / 2000대 Livery)
-STR_REFIT_LIVERY_Hainanairlines_old1990             :(하이난항공 / 1990대 Livery)
-STR_REFIT_LIVERY_Suparnaairlines                    :(수파르나항공)
-STR_REFIT_LIVERY_Yangzeriverexpress                 :(양쯔강 익스프레스)
-STR_REFIT_LIVERY_Shenzhenairlines                   :(선전항공)
-STR_REFIT_LIVERY_Shenzhenairlines_old               :(선전항공 / 1993~2006 Livery)
-STR_REFIT_LIVERY_Xiamenair                          :(샤먼항공)
-STR_REFIT_LIVERY_Xiamenair_old                      :(샤먼항공 / 1984~2012 Livery)
-STR_REFIT_LIVERY_Sichuanairlines                    :(쓰촨항공)
-STR_REFIT_LIVERY_Shandongairlines                   :(산둥항공)
-STR_REFIT_LIVERY_Shandomgairlinescargo              :(산둥항공 CARGO)
-STR_REFIT_LIVERY_Shanghaiairlines                   :(상하이항공)
-STR_REFIT_LIVERY_Shanghaiairlines_old1990           :(상하이항공 / 1990~2000대 Livery)
-STR_REFIT_LIVERY_Shanghaiairlines_old1980           :(상하이항공 / 1980대 Livery)
-STR_REFIT_LIVERY_Shanghaiairlinescargo              :(상하이항공 CARGO)
-STR_REFIT_LIVERY_Tianjinairlines                    :(톈진항공)
-STR_REFIT_LIVERY_Tianjinairlinescargo               :(톈진항공 CARGO)
-STR_REFIT_LIVERY_Beijingcapitalairlines             :(베이징 캐피탈항공)
-STR_REFIT_LIVERY_Springairlines                     :(스프링항공)
-STR_REFIT_LIVERY_Juneyaoair                         :(준야오항공)
-STR_REFIT_LIVERY_Luckyair                           :(럭키에어)
-STR_REFIT_LIVERY_Okair                              :(오케이항공)
-STR_REFIT_LIVERY_Tibetairlines                      :(티베트항공)
-STR_REFIT_LIVERY_Chinaunitedairlines                :(중국연합항공)
-STR_REFIT_LIVERY_Westair                            :(웨스트에어)
-STR_REFIT_LIVERY_Chengduairlines                    :(청두항공)
-STR_REFIT_LIVERY_Chinaexpress                       :(차이나 익스프레스)
-STR_REFIT_LIVERY_Joyair                             :(조이에어)
-STR_REFIT_LIVERY_Loongair                           :(룽에어)
-STR_REFIT_LIVERY_Hebeiairlines                      :(허베이항공)
-STR_REFIT_LIVERY_Kunmingairlines                    :(쿤밍항공)
-STR_REFIT_LIVERY_Chongqingairlines                  :(충칭항공)
-STR_REFIT_LIVERY_Donghaiairlines                    :(둥하이항공)
+STR_REFIT_LIVERY_Chinacargoairlines                 :(China Cargo Airlines)
+STR_REFIT_LIVERY_Chinacargoairlines_old             :(China Cargo Airlines / 1988~2014 Livery)
+STR_REFIT_LIVERY_Hainanairlines                     :(Hainan Airlines)
+STR_REFIT_LIVERY_Hainanairlines_old2000             :(Hainan Airlines / 2000s Livery)
+STR_REFIT_LIVERY_Hainanairlines_old1990             :(Hainan Airlines / 1990s Livery)
+STR_REFIT_LIVERY_Suparnaairlines                    :(Suparna Airlines)
+STR_REFIT_LIVERY_Yangzeriverexpress                 :(Yangze River Express)
+STR_REFIT_LIVERY_Shenzhenairlines                   :(Shenzhen Airlines)
+STR_REFIT_LIVERY_Shenzhenairlines_old               :(Shenzhen Airlines / 1993~2006 Livery)
+STR_REFIT_LIVERY_Xiamenair                          :(Xiamen Air)
+STR_REFIT_LIVERY_Xiamenair_old                      :(Xiamen Air / 1984~2012 Livery)
+STR_REFIT_LIVERY_Sichuanairlines                    :(Sichuan Airlines)
+STR_REFIT_LIVERY_Shandongairlines                   :(Shandong airlines)
+STR_REFIT_LIVERY_Shandomgairlinescargo              :(Shandong airlines CARGO)
+STR_REFIT_LIVERY_Shanghaiairlines                   :(Shanghai Airlines)
+STR_REFIT_LIVERY_Shanghaiairlines_old1990           :(Shanghai Airlines / 1990~2000s Livery)
+STR_REFIT_LIVERY_Shanghaiairlines_old1980           :(Shanghai Airlines / 1980s Livery)
+STR_REFIT_LIVERY_Shanghaiairlinescargo              :(Shanghai Airlines CARGO)
+STR_REFIT_LIVERY_Tianjinairlines                    :(Tianjin Airlines)
+STR_REFIT_LIVERY_Tianjinairlinescargo               :(Tianjin Airlines CARGO)
+STR_REFIT_LIVERY_Beijingcapitalairlines             :(Beijing Capital Airlines)
+STR_REFIT_LIVERY_Springairlines                     :(Spring Airlines)
+STR_REFIT_LIVERY_Juneyaoair                         :(Juneyao Air)
+STR_REFIT_LIVERY_Luckyair                           :(Lucky air)
+STR_REFIT_LIVERY_Okair                              :(Ok air)
+STR_REFIT_LIVERY_Tibetairlines                      :(Tibet airlines)
+STR_REFIT_LIVERY_Chinaunitedairlines                :(China united airlines)
+STR_REFIT_LIVERY_Westair                            :(Westair)
+STR_REFIT_LIVERY_Chengduairlines                    :(Chengdu airlines)
+STR_REFIT_LIVERY_Chinaexpress                       :(China express)
+STR_REFIT_LIVERY_Joyair                             :(Joy air)
+STR_REFIT_LIVERY_Loongair                           :(Loong air)
+STR_REFIT_LIVERY_Hebeiairlines                      :(Hebei Airlines)
+STR_REFIT_LIVERY_Kunmingairlines                    :(Kunming Airlines)
+STR_REFIT_LIVERY_Chongqingairlines                  :(Chongqing Airlines)
+STR_REFIT_LIVERY_Donghaiairlines                    :(Donghai Airlines)
 STR_REFIT_LIVERY_9air                               :(9AIR)
-STR_REFIT_LIVERY_Qingdaoairlines                    :(칭다오항공)
-STR_REFIT_LIVERY_Dalianairlines                     :(다롄항공)
-STR_REFIT_LIVERY_Urumqiair                          :(우루무치항공)
-STR_REFIT_LIVERY_Sfairlines                         :(SF 항공)
-STR_REFIT_LIVERY_Chinapostalairlines                :(중국우정항공)
+STR_REFIT_LIVERY_Qingdaoairlines                    :(Qingdao Airlines)
+STR_REFIT_LIVERY_Dalianairlines                     :(Dalian Airlines)
+STR_REFIT_LIVERY_Urumqiair                          :(Urumqi Air)
+STR_REFIT_LIVERY_Sfairlines                         :(SF Airlines)
+STR_REFIT_LIVERY_Chinapostalairlines                :(China Postal Airlines)
 STR_REFIT_LIVERY_Cathaypacific                      :(Cathay Pacific)
 STR_REFIT_LIVERY_Cathaypacific_old1994              :(Cathay Pacific / 1994~2015 Livery)
 STR_REFIT_LIVERY_Cathaypacific_old1971              :(Cathay Pacific / 1971~1994 Livery)
-STR_REFIT_LIVERY_Cathaypacific_old1960              :(Cathay Pacific / 1960 Livery)
+STR_REFIT_LIVERY_Cathaypacific_old1960              :(Cathay Pacific / 1960s Livery)
 STR_REFIT_LIVERY_Cathaypacific_old1950              :(Cathay Pacific / 1940~1950 Livery)
 STR_REFIT_LIVERY_Cathaypacificcargo                 :(Cathay Pacific CARGO)
 STR_REFIT_LIVERY_Cathaypacificcargo_old1994         :(Cathay Pacific CARGO / 1994~2015 Livery)
 STR_REFIT_LIVERY_Cathaypacificcargo_old1971         :(Cathay Pacific CARGO / 1971~1994 Livery)
-STR_REFIT_LIVERY_Cathaydragon                       :(캐세이드래곤항공)
-STR_REFIT_LIVERY_Airmacau                           :(에어 마카오)
-STR_REFIT_LIVERY_Hongkongairlines                   :(홍콩항공)
-STR_REFIT_LIVERY_Hongkongairlinescargo              :(홍콩항공 CARGO)
-STR_REFIT_LIVERY_Greaterbayairlines                 :(그레이터베이항공)
-STR_REFIT_LIVERY_Hkexpress                          :(홍콩 익스프레스)
-STR_REFIT_LIVERY_Airhongkong                        :(에어 홍콩)
+STR_REFIT_LIVERY_Cathaydragon                       :(Cathay Dragon)
+STR_REFIT_LIVERY_Airmacau                           :(Air Macau)
+STR_REFIT_LIVERY_Hongkongairlines                   :(Hong Kong Airlines)
+STR_REFIT_LIVERY_Hongkongairlinescargo              :(Hong Kong Airlines CARGO)
+STR_REFIT_LIVERY_Greaterbayairlines                 :(Greater bay Airlines)
+STR_REFIT_LIVERY_Hkexpress                          :(HK express)
+STR_REFIT_LIVERY_Airhongkong                        :(Air Hongkong)
 STR_REFIT_LIVERY_Chinaairlines                      :(China Airlines)
 STR_REFIT_LIVERY_Chinaairlines_old                  :(China Airlines / 1959~1995 Livery)
 STR_REFIT_LIVERY_Chinaairlinescargo                 :(China Airlines CARGO)
 STR_REFIT_LIVERY_Chinaairlinescargo_old             :(China Airlines CARGO / 1959~1995 Livery)
-STR_REFIT_LIVERY_Evaair                             :(에바항공)
-STR_REFIT_LIVERY_Evaair_old2001                     :(에바항공 / 2001~2015 Livery)
-STR_REFIT_LIVERY_Evaair_old1991                     :(에바항공 / 1991~2001 Livery)
-STR_REFIT_LIVERY_Evaaircargo                        :(에바항공 CARGO)
-STR_REFIT_LIVERY_Evaaircargo_old2001                :(에바항공 CARGO / 2001~2015 Livery)
-STR_REFIT_LIVERY_Evaaircargo_old1991                :(에바항공 CARGO / 1991~2001 Livery)
-STR_REFIT_LIVERY_Starluxairlines                    :(스타럭스 항공)
-STR_REFIT_LIVERY_Tigerairtaiwan                     :(타이거에어 타이완)
-STR_REFIT_LIVERY_mandarinairlines                   :(만다린항공)
-STR_REFIT_LIVERY_Uniair                             :(유니항공)
-STR_REFIT_LIVERY_Dailyair                           :(덕안항공)
-STR_REFIT_LIVERY_Miatmongolianairlines              :(미아트 몽골항공)
+STR_REFIT_LIVERY_Evaair                             :(EVAAIR)
+STR_REFIT_LIVERY_Evaair_old2001                     :(EVAAIR / 2001~2015 Livery)
+STR_REFIT_LIVERY_Evaair_old1991                     :(EVAAIR / 1991~2001 Livery)
+STR_REFIT_LIVERY_Evaaircargo                        :(EVAAIR CARGO)
+STR_REFIT_LIVERY_Evaaircargo_old2001                :(EVAAIR CARGO / 2001~2015 Livery)
+STR_REFIT_LIVERY_Evaaircargo_old1991                :(EVAAIR CARGO / 1991~2001 Livery)
+STR_REFIT_LIVERY_Starluxairlines                    :(STARLUX Airlines)
+STR_REFIT_LIVERY_Tigerairtaiwan                     :(Tiger Air Taiwan)
+STR_REFIT_LIVERY_mandarinairlines                   :(Mandarin Airlines)
+STR_REFIT_LIVERY_Uniair                             :(UNI AIR)
+STR_REFIT_LIVERY_Dailyair                           :(DAILY AIR)
+STR_REFIT_LIVERY_Miatmongolianairlines              :(MIAT Mongolian Airlines)
 
 # Liveries (South East Asia)
 
-STR_REFIT_LIVERY_Vietnamairlines                    :(베트남항공)
-STR_REFIT_LIVERY_Bambooairways                      :(뱀부항공)
-STR_REFIT_LIVERY_Vietjet                            :(비엣젯항공)
-STR_REFIT_LIVERY_Pacificairlines                    :(퍼시픽항공)
-STR_REFIT_LIVERY_Thaiairways                        :(타이항공)
-STR_REFIT_LIVERY_Malaysiaairlines                   :(말레이시아항공)
+STR_REFIT_LIVERY_Vietnamairlines                    :(Vietnam Airlines)
+STR_REFIT_LIVERY_Bambooairways                      :(Bamboo Airways)
+STR_REFIT_LIVERY_Vietjet                            :(VietJet)
+STR_REFIT_LIVERY_Pacificairlines                    :(Pacific Airlines)
+STR_REFIT_LIVERY_Thaiairways                        :(THAI AIRWAYS)
+STR_REFIT_LIVERY_Malaysiaairlines                   :(Malaysia Airlines)
 STR_REFIT_LIVERY_Singaporeairlines                  :(SINGAPORE AIRLINES)
 STR_REFIT_LIVERY_Singaporeairlines_old1987          :(SINGAPORE AIRLINES / 1987~2005 Livery)
 STR_REFIT_LIVERY_Singaporeairlines_old1972          :(SINGAPORE AIRLINES / 1972~1987 Livery)
 STR_REFIT_LIVERY_Singaporeairlinescargo             :(SINGAPORE AIRLINES CARGO)
 STR_REFIT_LIVERY_Singaporeairlinescargo_old1987     :(SINGAPORE AIRLINES CARGO / 1987~2005 Livery)
 STR_REFIT_LIVERY_Singaporeairlinescargo_old1972     :(SINGAPORE AIRLINES CARGO / 1972~1987 Livery)
-STR_REFIT_LIVERY_Garudaindonesia                    :(가루다 인도네시아)
-STR_REFIT_LIVERY_Airindia                           :(에어 인디아)
-STR_REFIT_LIVERY_Etihadairways                      :(에티하드 항공)
-STR_REFIT_LIVERY_Emiratesairlines                   :(에미레이트 항공)
-STR_REFIT_LIVERY_Emiratesairlines_old2005           :(에미레이트 항공 / 2005~2023 Livery)
-STR_REFIT_LIVERY_Emiratesairlines_old1985           :(에미레이트 항공 / 1985~2005 Livery)
-STR_REFIT_LIVERY_Emiratesskycargo                   :(에미레이트 스카이CARGO)
-STR_REFIT_LIVERY_Emiratesskycargo_old               :(에미레이트 스카이CARGO / 2005~2023 Livery)
+STR_REFIT_LIVERY_Garudaindonesia                    :(Garuda Indonesia)
+STR_REFIT_LIVERY_Airindia                           :(AIR INDIA)
+STR_REFIT_LIVERY_Etihadairways                      :(ETIHAD)
+STR_REFIT_LIVERY_Emiratesairlines                   :(Emirates)
+STR_REFIT_LIVERY_Emiratesairlines_old2005           :(Emirates / 2005~2023 Livery)
+STR_REFIT_LIVERY_Emiratesairlines_old1985           :(Emirates / 1985~2005 Livery)
+STR_REFIT_LIVERY_Emiratesskycargo                   :(Emirates SKYCARGO)
+STR_REFIT_LIVERY_Emiratesskycargo_old               :(Emirates SKYCARGO / 2005~2023 Livery)
 STR_REFIT_LIVERY_Qatarairways                       :(QATAR AIRWAYS)
 STR_REFIT_LIVERY_Saudiarabianairlines               :(Saudia)
 
@@ -395,12 +408,12 @@ STR_REFIT_LIVERY_Americanairlines                   :(American Airlines)
 STR_REFIT_LIVERY_Americanairlines_old1968           :(American Airlines / 1968~2013 Livery)
 STR_REFIT_LIVERY_Americanairlines_old1964           :(American Airlines / 1964~1968 Livery)
 STR_REFIT_LIVERY_Americanairlines_old1934           :(American Airlines / 1934~1964 Livery)
-STR_REFIT_LIVERY_Aircanada                          :(에어캐나다)
-STR_REFIT_LIVERY_Aeromexico                         :(아에로멕시코)
+STR_REFIT_LIVERY_Aircanada                          :(AIR CANADA)
+STR_REFIT_LIVERY_Aeromexico                         :(AEROMEXICO)
 
 # Liveries (South America)
 
-STR_REFIT_LIVERY_Latamairlines                      :(LATAM 항공)
+STR_REFIT_LIVERY_Latamairlines                      :(LATAM)
 
 # Liveries (Europe)
 
@@ -411,25 +424,25 @@ STR_REFIT_LIVERY_Lufthansa_old1953                  :(Lufthansa / 1953~1965 Live
 STR_REFIT_LIVERY_Lufthansacargo                     :(Lufthansa CARGO)
 STR_REFIT_LIVERY_Lufthansacargo_old1989             :(Lufthansa CARGO / 1989~2018 Livery)
 STR_REFIT_LIVERY_Lufthansacargo_old1965             :(Lufthansa CARGO / 1965~1989 Livery)
-STR_REFIT_LIVERY_Lufthansacityline                  :(Lufthansa 시티라인)
-STR_REFIT_LIVERY_Lufthansacityline_old1989          :(Lufthansa 시티라인 / 1989~2018 Livery)
-STR_REFIT_LIVERY_Britishairways                     :(영국항공)
+STR_REFIT_LIVERY_Lufthansacityline                  :(Lufthansa Cityline)
+STR_REFIT_LIVERY_Lufthansacityline_old1989          :(Lufthansa Cityline / 1989~2018 Livery)
+STR_REFIT_LIVERY_Britishairways                     :(BRITISH AIRWAYS)
 STR_REFIT_LIVERY_Airfrance                          :(AIR FRANCE)
-STR_REFIT_LIVERY_Itaairways                         :(ITA 항공)
-STR_REFIT_LIVERY_Klmroyaldutchairlines              :(KLM 네덜란드 항공)
-STR_REFIT_LIVERY_Aeroflot                           :(아에로플로트)
-STR_REFIT_LIVERY_Iberiaairlines                     :(Iberia Airlines)
+STR_REFIT_LIVERY_Itaairways                         :(ITA AIRWAYS)
+STR_REFIT_LIVERY_Klmroyaldutchairlines              :(KLM Royal Dutch Airlines)
+STR_REFIT_LIVERY_Aeroflot                           :(AEROFLOT)
+STR_REFIT_LIVERY_Iberiaairlines                     :(IVERIA)
 STR_REFIT_LIVERY_Evelop                             :(Evelop)
 STR_REFIT_LIVERY_Finnair                            :(FINNAIR)
-STR_REFIT_LIVERY_Swissinternationalairlines         :(스위스 국제항공)
-STR_REFIT_LIVERY_Scandinavianairlinessystem         :(스칸디나비아 항공)
+STR_REFIT_LIVERY_Swissinternationalairlines         :(SWISS International Air Lines)
+STR_REFIT_LIVERY_Scandinavianairlinessystem         :(SAS Scandinavian Airlines System)
 STR_REFIT_LIVERY_Turkishairlines                    :(Turkish Airlines)
-STR_REFIT_LIVERY_Aerlingus                          :(에어 링구스)
+STR_REFIT_LIVERY_Aerlingus                          :(Aer Lingus)
 
 # Liveries (Oceania)
 
-STR_REFIT_LIVERY_Qantasairways                      :(콴타스 항공)
-STR_REFIT_LIVERY_Airnewzealand                      :(에어 뉴질랜드)
+STR_REFIT_LIVERY_Qantasairways                      :(QANTAS)
+STR_REFIT_LIVERY_Airnewzealand                      :(Air New Jealand)
 STR_REFIT_LIVERY_Fijiairways                        :(Fiji Airways)
 
 

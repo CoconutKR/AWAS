@@ -20,3 +20,8 @@ switch(FEAT_AIRCRAFT, SELF, sw_B787_9, cargo_subtype) {
     6: set_B787_9_korean25;   // Korean Air
     set_B787_9;
 }
+
+switch (FEAT_AIRCRAFT, SELF, switch_B7879_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+    0: return string(STR_B787_FAMILY);
+    return CB_RESULT_NO_TEXT;
+}

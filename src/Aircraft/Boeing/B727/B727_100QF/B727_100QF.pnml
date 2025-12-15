@@ -53,5 +53,6 @@ item(FEAT_AIRCRAFT, B727_100QF, 7116){
         mail_capacity:                  return 160;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_727_100QF_cargo_subtype_text;
+        name:                           switch_B727100QF_name;
         }
 }

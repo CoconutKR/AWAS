@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, B777_9, 7050){
         cost_factor:                    920;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_777_9_cargo_subtype_text;
+        name:                           switch_B7779_name;
         }
 }

@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, B757_300, 7111){
         cost_factor:                    890;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_757_300_cargo_subtype_text;
+        name:                           switch_B757300_name;
         }
 }

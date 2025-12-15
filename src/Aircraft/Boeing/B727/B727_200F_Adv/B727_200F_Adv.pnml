@@ -53,5 +53,6 @@ item(FEAT_AIRCRAFT, B727_200F_Adv, 7119){
         mail_capacity:                  return 180;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_727_200F_Adv_cargo_subtype_text;
+        name:                           switch_B727200fadv_name;
         }
 }

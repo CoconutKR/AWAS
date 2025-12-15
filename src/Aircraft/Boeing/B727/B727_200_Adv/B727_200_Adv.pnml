@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, B727_200_Adv, 7118){
         cost_factor:                    1150;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_727_200_Adv_cargo_subtype_text;
+        name:                           switch_B727200adv_name;
         }
 }

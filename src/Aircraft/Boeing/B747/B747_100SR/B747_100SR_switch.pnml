@@ -12,3 +12,8 @@ switch(FEAT_AIRCRAFT, SELF, sw_B747_100SR, cargo_subtype) {
     2: set_B747_100SR;   // 대한항공
     set_B747_100SR;
 }
+
+switch (FEAT_AIRCRAFT, SELF, switch_B747100SR_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+    0: return string(STR_B747_FAMILY);
+    return CB_RESULT_NO_TEXT;
+}

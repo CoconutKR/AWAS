@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, B737_MAX_9, 7055){
         cost_factor:                    890;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_737_MAX_9_cargo_subtype_text;
+        name:                           switch_B737MAX9_name;
         }
 }

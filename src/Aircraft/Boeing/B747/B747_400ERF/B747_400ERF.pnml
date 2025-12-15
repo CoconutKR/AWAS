@@ -53,5 +53,6 @@ item(FEAT_AIRCRAFT, B747_400ERF, 7103){
         cost_factor:                    1150;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_747_400ERF_cargo_subtype_text;
+        name:                           switch_B747400ERF_name;
         }
 }

@@ -51,5 +51,6 @@ item(FEAT_AIRCRAFT, A220_100, 7023){
         cost_factor:                    198;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A220_100_cargo_subtype_text;
+        name:                           switch_A220100_name;
         }
 }

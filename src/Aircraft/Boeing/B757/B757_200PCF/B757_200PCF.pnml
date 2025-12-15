@@ -53,5 +53,6 @@ item(FEAT_AIRCRAFT, B757_200PCF, 7110){
         cost_factor:                    890;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_757_200PCF_cargo_subtype_text;
+        name:                           switch_B757200PCF_name;
         }
 }

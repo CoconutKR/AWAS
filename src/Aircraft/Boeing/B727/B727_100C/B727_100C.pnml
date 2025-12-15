@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, B727_100C, 7114){
         cost_factor:                    1150;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_727_100C_cargo_subtype_text;
+        name:                           switch_B727100C_name;
         }
 }

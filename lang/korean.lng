@@ -3,13 +3,14 @@
 # GRF name and description
 
 STR_GRF_NAME                                        :AWAS
-STR_GRF_NAME_WITH_VER                               :AWAS 0.1.1 Alpha
+STR_GRF_NAME_WITH_VER                               :AWAS 0.2.0 Alpha
 STR_GRF_DESC                                        :{BLACK}AWAS {}(Updated: {RECENT_UPDATED}){}{SILVER}+ Author: Coconut
 STR_GRF_URL                                         :https://github.com/CoconutKR/AWAS
 
 # Aircraft name
 
 STR_Concorde_NAME                                   :아에로스파시알/BAC 콩코드
+STR_B707_FAMILY                                     :보잉 707
 STR_B707_020_NAME                                   :보잉 707-020
 STR_B707_020B_NAME                                  :보잉 707-020B
 STR_B707_120_NAME                                   :보잉 707-120
@@ -20,7 +21,9 @@ STR_B707_320_NAME                                   :보잉 707-320
 STR_B707_320B_NAME                                  :보잉 707-320B
 STR_B707_320C_NAME                                  :보잉 707-320C
 STR_B707_420_NAME                                   :보잉 707-420
+STR_B717_FAMILY                                     :보잉 717
 STR_B717_200_NAME                                   :보잉 717-200
+STR_B737_FAMILY                                     :보잉 737
 STR_B737_100_NAME                                   :보잉 737-100
 STR_B737_200_NAME                                   :보잉 737-200
 STR_B737_200C_NAME                                  :보잉 737-200C
@@ -41,6 +44,7 @@ STR_B737_MAX_8_NAME                                 :보잉 737 MAX 8
 STR_B737_MAX_200_NAME                               :보잉 737 MAX 200
 STR_B737_MAX_9_NAME                                 :보잉 737 MAX 9
 STR_B737_MAX_10_NAME                                :보잉 737 MAX 10
+STR_B727_FAMILY                                     :보잉 727
 STR_B727_100_NAME                                   :보잉 727-100
 STR_B727_100C_NAME                                  :보잉 727-100C
 STR_B727_100QC_NAME                                 :보잉 727-100QC
@@ -48,6 +52,7 @@ STR_B727_100QF_NAME                                 :보잉 727-100QF
 STR_B727_200_NAME                                   :보잉 727-200
 STR_B727_200_Adv_NAME                               :보잉 727-200 Adv
 STR_B727_200F_Adv_NAME                              :보잉 727-200F Adv
+STR_B767_FAMILY                                     :보잉 767
 STR_B767_200_NAME                                   :보잉 767-200
 STR_B767_200ER_NAME                                 :보잉 767-200ER
 STR_B767_200BDSF_NAME                               :보잉 767-200BDSF
@@ -57,15 +62,18 @@ STR_B767_300F_NAME                                  :보잉 767-300F
 STR_B767_300BCF_NAME                                :보잉 767-300BCF
 STR_B767_300BDSF_NAME                               :보잉 767-300BDSF
 STR_B767_400ER_NAME                                 :보잉 767-400ER
+STR_B757_FAMILY                                     :보잉 757
 STR_B757_200_NAME                                   :보잉 757-200
 STR_B757_200SF_NAME                                 :보잉 757-200SF
 STR_B757_200M_NAME                                  :보잉 757-200M
 STR_B757_200PF_NAME                                 :보잉 757-200PF
 STR_B757_200PCF_NAME                                :보잉 757-200PCF
 STR_B757_300_NAME                                   :보잉 757-300
+STR_B787_FAMILY                                     :보잉 787
 STR_B787_8_NAME                                     :보잉 787-8
 STR_B787_9_NAME                                     :보잉 787-9
 STR_B787_10_NAME                                    :보잉 787-10
+STR_B777_FAMILY                                     :보잉 777
 STR_B777_200_NAME                                   :보잉 777-200
 STR_B777_200ER_NAME                                 :보잉 777-200ER
 STR_B777_200LR_NAME                                 :보잉 777-200LR
@@ -73,6 +81,7 @@ STR_B777_200F_NAME                                  :보잉 777-200F
 STR_B777_300_NAME                                   :보잉 777-300
 STR_B777_300ER_NAME                                 :보잉 777-300ER
 STR_B777_9_NAME                                     :보잉 777-9
+STR_B747_FAMILY                                     :보잉 747
 STR_B747_100_NAME                                   :보잉 747-100
 STR_B747_100SR_NAME                                 :보잉 747-100SR
 STR_B747_100BSR_NAME                                :보잉 747-100BSR
@@ -100,9 +109,10 @@ STR_B747_400BCF_NAME                                :보잉 747-400BCF
 STR_B747_400BDSF_NAME                               :보잉 747-400BDSF
 STR_B747_8I_NAME                                    :보잉 747-8I
 STR_B747_8F_NAME                                    :보잉 747-8F
+STR_A220_FAMILY                                     :에어버스 A220
 STR_A220_100_NAME                                   :에어버스 A220-100 (봉바르디에 CS100)
 STR_A220_300_NAME                                   :에어버스 A220-300 (봉바르디에 CS300)
-STR_A320_FAMILY                                     :에어버스 A320 패밀리
+STR_A320_FAMILY                                     :에어버스 A320
 STR_A318_100_NAME                                   :에어버스 A318-100
 STR_A319_100_NAME                                   :에어버스 A319-100
 STR_A319neo_NAME                                    :에어버스 A319neo
@@ -114,31 +124,34 @@ STR_A321_200_NAME                                   :에어버스 A321-200
 STR_A321neo_NAME                                    :에어버스 A321neo
 STR_A321LR_NAME                                     :에어버스 A321LR
 STR_A321XLR_NAME                                    :에어버스 A321XLR
+STR_A310_FAMILY                                     :에어버스 A310
 STR_A310_200_NAME                                   :에어버스 A310-200
 STR_A310_200F_NAME                                  :에어버스 A310-200F
 STR_A310_300_NAME                                   :에어버스 A310-300
 STR_A310_300F_NAME                                  :에어버스 A310-300F
+STR_A300_FAMILY                                     :에어버스 A300
 STR_A300B1_NAME                                     :에어버스 A300B1
 STR_A300B2_NAME                                     :에어버스 A300B2
 STR_A300B4_NAME                                     :에어버스 A300B4
 STR_A300_600_NAME                                   :에어버스 A300-600
 STR_A300_600R_NAME                                  :에어버스 A300-600R
 STR_A300_600F_NAME                                  :에어버스 A300-600F
-STR_A330_FAMILY                                     :에어버스 A330 패밀리
+STR_A330_FAMILY                                     :에어버스 A330
 STR_A330_200_NAME                                   :에어버스 A330-200
 STR_A330_200F_NAME                                  :에어버스 A330-200F
 STR_A330_300_NAME                                   :에어버스 A330-300
 STR_A330_800_NAME                                   :에어버스 A330-800 (A330neo)
 STR_A330_900_NAME                                   :에어버스 A330-900 (A330neo)
-STR_A340_FAMILY                                     :에어버스 A340 패밀리
+STR_A340_FAMILY                                     :에어버스 A340
 STR_A340_200_NAME                                   :에어버스 A340-200
 STR_A340_300_NAME                                   :에어버스 A340-300
 STR_A340_500_NAME                                   :에어버스 A340-500
 STR_A340_600_NAME                                   :에어버스 A340-600
-STR_A350_FAMILY                                     :에어버스 A350 패밀리
+STR_A350_FAMILY                                     :에어버스 A350
 STR_A350_900_NAME                                   :에어버스 A350-900
 STR_A350_900ULR_NAME                                :에어버스 A350-900ULR
 STR_A350_1000_NAME                                  :에어버스 A350-1000
+STR_A380_FAMILY                                     :에어버스 A380
 STR_A380_800_NAME                                   :에어버스 A380-800
 STR_E170STD_NAME                                    :엠브라에르 E170 STD
 STR_E170LR_NAME                                     :엠브라에르 E170 LR

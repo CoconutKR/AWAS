@@ -51,5 +51,6 @@ item(FEAT_AIRCRAFT, B787_8, 7044){
         cost_factor:                    560;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_787_8_cargo_subtype_text;
+        name:                           switch_B7878_name;
         }
 }

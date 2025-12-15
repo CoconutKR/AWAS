@@ -34,3 +34,8 @@ switch(FEAT_AIRCRAFT, SELF, sw_B737_800, cargo_subtype) {
     13: set_B737_800_chinaeastern;  // China Eastern Airlines
     set_B737_800;
 }
+
+switch (FEAT_AIRCRAFT, SELF, switch_B737800_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+    0: return string(STR_B737_FAMILY);
+    return CB_RESULT_NO_TEXT;
+}

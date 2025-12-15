@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, B767_200ER, 7065){
         cost_factor:                    890;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_767_200ER_cargo_subtype_text;
+        name:                           switch_B767200ER_name;
         }
 }

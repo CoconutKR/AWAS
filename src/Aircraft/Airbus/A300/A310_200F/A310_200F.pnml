@@ -53,5 +53,6 @@ item(FEAT_AIRCRAFT, A310_200F, 7041){
         mail_capacity:                  return 325;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A310_200F_cargo_subtype_text;
+        name:                           switch_A310200F_name;
         }
 }

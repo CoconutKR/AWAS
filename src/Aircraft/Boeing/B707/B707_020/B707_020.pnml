@@ -51,5 +51,6 @@ item(FEAT_AIRCRAFT, B707_020, 7120){
         cost_factor:                    1150;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_707_020_cargo_subtype_text;
+        name:                           switch_B707020_name;
         }
 }

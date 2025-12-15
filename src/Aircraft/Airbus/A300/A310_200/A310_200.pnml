@@ -51,5 +51,6 @@ item(FEAT_AIRCRAFT, A310_200, 7040){
         cost_factor:                    276;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Airbus_A310_200_cargo_subtype_text;
+        name:                           switch_A310200_name;
         }
 }

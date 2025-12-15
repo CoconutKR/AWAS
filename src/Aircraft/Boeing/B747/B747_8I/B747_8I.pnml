@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, B747_8I, 7051){
         cost_factor:                    857;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_747_8I_cargo_subtype_text;
+        name:                           switch_B7478I_name;
         }
 }

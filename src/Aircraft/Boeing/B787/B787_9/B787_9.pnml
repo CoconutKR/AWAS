@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, B787_9, 7006){
         cost_factor:                    660;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_787_9_cargo_subtype_text;
+        name:                           switch_B7879_name;
         }
 }

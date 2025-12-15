@@ -52,5 +52,6 @@ item(FEAT_AIRCRAFT, B777_300ER, 7012){
         cost_factor:                    781;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_777_300ER_cargo_subtype_text;
+        name:                           switch_B777300ER_name;
         }
 }

@@ -16,3 +16,8 @@ switch(FEAT_AIRCRAFT, SELF, sw_B737_MAX_8, cargo_subtype) {
     4: set_B737_MAX_8_korean25;        // korean air new
     set_B737_MAX_8;
 }
+
+switch (FEAT_AIRCRAFT, SELF, switch_B737MAX8_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+    0: return string(STR_B737_FAMILY);
+    return CB_RESULT_NO_TEXT;
+}

@@ -12,3 +12,8 @@ switch(FEAT_AIRCRAFT, SELF, sw_B777_9, cargo_subtype) {
     2: set_B777_9;   // 대한항공
     set_B777_9;
 }
+
+switch (FEAT_AIRCRAFT, SELF, switch_B7779_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+    0: return string(STR_B777_FAMILY);
+    return CB_RESULT_NO_TEXT;
+}
