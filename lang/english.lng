@@ -392,7 +392,11 @@ STR_REFIT_LIVERY_Singaporeairlinescargo_old1987     :(SINGAPORE AIRLINES CARGO /
 STR_REFIT_LIVERY_Singaporeairlinescargo_old1972     :(SINGAPORE AIRLINES CARGO / 1972~1987 Livery)
 STR_REFIT_LIVERY_Garudaindonesia                    :(Garuda Indonesia)
 STR_REFIT_LIVERY_Airindia                           :(AIR INDIA)
+
+# Liveries (Middle East)
+
 STR_REFIT_LIVERY_Etihadairways                      :(ETIHAD)
+STR_REFIT_LIVERY_Etihadairways_old2003              :(ETIHAD / 2003~2014 Livery)
 STR_REFIT_LIVERY_Emiratesairlines                   :(Emirates)
 STR_REFIT_LIVERY_Emiratesairlines_old2005           :(Emirates / 2005~2023 Livery)
 STR_REFIT_LIVERY_Emiratesairlines_old1985           :(Emirates / 1985~2005 Livery)
@@ -415,6 +419,7 @@ STR_REFIT_LIVERY_Aeromexico                         :(AEROMEXICO)
 # Liveries (South America)
 
 STR_REFIT_LIVERY_Latamairlines                      :(LATAM)
+STR_REFIT_LIVERY_Conviasa                           :(Conviasa)
 
 # Liveries (Europe)
 
