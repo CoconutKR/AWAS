@@ -151,6 +151,7 @@ STR_A350_FAMILY                                     :Airbus A350
 STR_A350_900_NAME                                   :Airbus A350-900
 STR_A350_900ULR_NAME                                :Airbus A350-900ULR
 STR_A350_1000_NAME                                  :Airbus A350-1000
+STR_A350_1000ULR_NAME                               :Airbus A350-1000ULR
 STR_A380_FAMILY                                     :Airbus A380
 STR_A380_800_NAME                                   :Airbus A380-800
 STR_E170STD_NAME                                    :Embraer E170 STD

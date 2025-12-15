@@ -133,6 +133,7 @@
 #include "Aircraft/Airbus/A320/A321XLR/A321XLR.pnml"        //7131
 #include "Aircraft/Embraer/E_Jet/E195/E195STD/E195STD.pnml"        //7132
 #include "Aircraft/Tupolev/Tu144/Tu144S.pnml"        //7133
+#include "Aircraft/Airbus/A350/A350_1000ULR/A350_1000ULR.pnml"          //7134
 
 // Sorting
 #include "sort.pnml"
