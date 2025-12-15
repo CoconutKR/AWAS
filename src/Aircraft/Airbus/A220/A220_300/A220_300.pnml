@@ -42,7 +42,7 @@ item(FEAT_AIRCRAFT, A220_300, 7013){
         
         //Flags
         misc_flags:                  	bitmask(AIRCRAFT_FLAG_2CC);
-        sound_effect:                   SOUND_JET;
+        sound_effect:                   SOUND_TAKEOFF_JET;
         }
         
     graphics {

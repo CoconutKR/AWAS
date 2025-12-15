@@ -2,14 +2,36 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_AIRCRAFT, SELF, sw_Airbus_A340_600_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Airbus);   // 제조사
-    2: return string(STR_REFIT_LIVERY_Airbus);     // 아시아나항공
+    1: return string(STR_REFIT_LIVERY_Airbus);   // Manufacturer
+    2: return string(STR_REFIT_LIVERY_Chinaeastern_old);     // China Eastern
+    3: return string(STR_REFIT_LIVERY_Conviasa);     // Conviasa
+    4: return string(STR_REFIT_LIVERY_Etihadairways_old2003);     // Etihad
+    5: return string(STR_REFIT_LIVERY_Hainanairlines);     // Hainan
+    6: return string(STR_REFIT_LIVERY_Iberiaairlines);     // Iberia
+    7: return string(STR_REFIT_LIVERY_Iberiaairlines_old1970);     // Iberia (old)
+    8: return string(STR_REFIT_LIVERY_Lufthansa);     // Lufthansa
+    9: return string(STR_REFIT_LIVERY_Plusultra);     // Plus Ultra
+    10: return string(STR_REFIT_LIVERY_Qatarairways);     // Qatar Airways
+    11: return string(STR_REFIT_LIVERY_Southafrican);     // South African
+    12: return string(STR_REFIT_LIVERY_Thaiairways);     // Thai
+    13: return string(STR_REFIT_LIVERY_Virginatlantic);     // Virgin Atlantic
     return string(STR_REFIT_LIVERY_Airbus);
 }
 
 switch(FEAT_AIRCRAFT, SELF, sw_A340_600, cargo_subtype) {
-    1: set_A340_600_default;        // 제조사
-    2: set_A340_600_default;   // 아시아나항공
+    1: set_A340_600_default;        // Manufacturer
+    2: set_A340_600_chinaeastern;   // China Eastern
+    3: set_A340_600_conviasa;   // Conviasa
+    4: set_A340_600_etihad;   // Etihad
+    5: set_A340_600_hainan;   // Hainan
+    6: set_A340_600_iberia;   // Iberia
+    7: set_A340_600_iberiaold;   // Iberia (old)
+    8: set_A340_600_lufthansa;   // Lufthansa
+    9: set_A340_600_plusultra;   // Plus Ultra
+    10: set_A340_600_qatar;   // Qatar Airways
+    11: set_A340_600_southafrican;   // South African
+    12: set_A340_600_thai;   // Thai
+    13: set_A340_600_virgin;   // Virgin Atlantic
     set_A340_600_default;
 }
 

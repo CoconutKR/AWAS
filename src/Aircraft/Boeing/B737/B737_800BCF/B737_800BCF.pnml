@@ -42,7 +42,7 @@ item(FEAT_AIRCRAFT, B737_800BCF, 7003){
         
         //Flags
         misc_flags:                  	bitmask(AIRCRAFT_FLAG_2CC);
-        sound_effect:                   SOUND_JET;
+        sound_effect:                   SOUND_TAKEOFF_JET;
         }
         
     graphics {

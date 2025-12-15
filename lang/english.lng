@@ -433,11 +433,14 @@ STR_REFIT_LIVERY_Lufthansacargo_old1965             :(Lufthansa CARGO / 1965~198
 STR_REFIT_LIVERY_Lufthansacityline                  :(Lufthansa Cityline)
 STR_REFIT_LIVERY_Lufthansacityline_old1989          :(Lufthansa Cityline / 1989~2018 Livery)
 STR_REFIT_LIVERY_Britishairways                     :(BRITISH AIRWAYS)
+STR_REFIT_LIVERY_Virginatlantic                     :(Virgin Atlantic)
 STR_REFIT_LIVERY_Airfrance                          :(AIR FRANCE)
 STR_REFIT_LIVERY_Itaairways                         :(ITA AIRWAYS)
 STR_REFIT_LIVERY_Klmroyaldutchairlines              :(KLM Royal Dutch Airlines)
 STR_REFIT_LIVERY_Aeroflot                           :(AEROFLOT)
 STR_REFIT_LIVERY_Iberiaairlines                     :(IVERIA)
+STR_REFIT_LIVERY_Iberiaairlines_old1970             :(IVERIA / 1970~2014 Livery)
+STR_REFIT_LIVERY_Plusultra                          :(Plus Ultra)
 STR_REFIT_LIVERY_Evelop                             :(Evelop)
 STR_REFIT_LIVERY_Finnair                            :(FINNAIR)
 STR_REFIT_LIVERY_Swissinternationalairlines         :(SWISS International Air Lines)
@@ -445,11 +448,12 @@ STR_REFIT_LIVERY_Scandinavianairlinessystem         :(SAS Scandinavian Airlines 
 STR_REFIT_LIVERY_Turkishairlines                    :(Turkish Airlines)
 STR_REFIT_LIVERY_Aerlingus                          :(Aer Lingus)
 
-# Liveries (Oceania)
+# Liveries (Oceania, Africa)
 
 STR_REFIT_LIVERY_Qantasairways                      :(QANTAS)
 STR_REFIT_LIVERY_Airnewzealand                      :(Air New Jealand)
 STR_REFIT_LIVERY_Fijiairways                        :(Fiji Airways)
+STR_REFIT_LIVERY_Southafrican                       :(South African Airways)
 
 
 # Errors
