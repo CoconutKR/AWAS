@@ -7,8 +7,8 @@ grf {
 	grfid: "AWAS";
 	name: string(STR_GRF_NAME_WITH_VER);
 	desc: string(STR_GRF_DESC);
-	version: 2;
-	min_compatible_version: 1;
+	version: 3;
+	min_compatible_version: 2;
 }
 
 // 화물테이블
