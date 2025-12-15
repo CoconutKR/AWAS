@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_A330_200F_purchase, "src\Aircraft\Airbus\A330\A330_200F\A330_200F.png"){
+spriteset(set_A330_200F_purchase, "src/Aircraft/Airbus/A330/A330_200F/A330_200F.png"){
     tmpl_A330_200_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_A330_200F_purchase, "src\Aircraft\Airbus\A330\A330_200F\A330_200F.
 1. 에어버스 A330-200F 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_A330_200F_default, "src\Aircraft\Airbus\A330\A330_200F\A330_200F.png"){
+spriteset(set_A330_200F_default, "src/Aircraft/Airbus/A330/A330_200F/A330_200F.png"){
     tp_A330_200(0, 0)
 }
 

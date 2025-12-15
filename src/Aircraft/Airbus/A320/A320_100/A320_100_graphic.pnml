@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_A320_100_purchase, "src\Aircraft\Airbus\A320\A320_100\A320_100.png"){
+spriteset(set_A320_100_purchase, "src/Aircraft/Airbus/A320/A320_100/A320_100.png"){
     tmpl_A320_100_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_A320_100_purchase, "src\Aircraft\Airbus\A320\A320_100\A320_100.png
 1. 에어버스 A320-100 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_A320_100_default, "src\Aircraft\Airbus\A320\A320_100\A320_100.png"){
+spriteset(set_A320_100_default, "src/Aircraft/Airbus/A320/A320_100/A320_100.png"){
     tp_A320_100(0, 0)
 }
 

@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_B747_100BSR_purchase, "src\Aircraft\Boeing\B747\B747_100BSR\B747_100BSR.png"){
+spriteset(set_B747_100BSR_purchase, "src/Aircraft/Boeing/B747/B747_100BSR/B747_100BSR.png"){
     tmpl_B747_100_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B747_100BSR_purchase, "src\Aircraft\Boeing\B747\B747_100BSR\B747_1
 1. Boeing 747-100BSR Manufacturer
 --------------------------------------------------------------------*/
 
-spriteset(set_B747_100BSR, "src\Aircraft\Boeing\B747\B747_100BSR\B747_100BSR.png"){
+spriteset(set_B747_100BSR, "src/Aircraft/Boeing/B747/B747_100BSR/B747_100BSR.png"){
     tp_B747_100(0, 0)
 }
 

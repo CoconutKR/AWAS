@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_B757_200_purchase, "src\Aircraft\Boeing\B757\B757_200\B757_200.png"){
+spriteset(set_B757_200_purchase, "src/Aircraft/Boeing/B757/B757_200/B757_200.png"){
     tmpl_B757_200_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B757_200_purchase, "src\Aircraft\Boeing\B757\B757_200\B757_200.png
 1. 보잉 757-200 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_B757_200, "src\Aircraft\Boeing\B757\B757_200\B757_200.png"){
+spriteset(set_B757_200, "src/Aircraft/Boeing/B757/B757_200/B757_200.png"){
     tp_B757_200(0, 0)
 }
 

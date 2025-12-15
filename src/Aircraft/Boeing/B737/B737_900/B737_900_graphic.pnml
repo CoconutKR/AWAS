@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_B737_900_purchase, "src\Aircraft\Boeing\B737\B737_900\B737_900.png"){
+spriteset(set_B737_900_purchase, "src/Aircraft/Boeing/B737/B737_900/B737_900.png"){
     tmpl_B737_900_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B737_900_purchase, "src\Aircraft\Boeing\B737\B737_900\B737_900.png
 1. Boeing 737-900 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_B737_900, "src\Aircraft\Boeing\B737\B737_900\B737_900.png"){
+spriteset(set_B737_900, "src/Aircraft/Boeing/B737/B737_900/B737_900.png"){
     tp_B737_900(0, 0)
 }
 
@@ -21,7 +21,7 @@ spriteset(set_B737_900, "src\Aircraft\Boeing\B737\B737_900\B737_900.png"){
 2. Boeing 737-900 Korean Air
 --------------------------------------------------------------------*/
 
-spriteset(set_B737_900_Koreanair, "src\Aircraft\Boeing\B737\B737_900\Koreanair.png"){
+spriteset(set_B737_900_Koreanair, "src/Aircraft/Boeing/B737/B737_900/Koreanair.png"){
     tp_B737_900(0, 0)
 }
 

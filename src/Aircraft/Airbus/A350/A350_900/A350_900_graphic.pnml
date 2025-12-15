@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_A350_900_purchase, "src\Aircraft\Airbus\A350\A350_900\A350_900.png"){
+spriteset(set_A350_900_purchase, "src/Aircraft/Airbus/A350/A350_900/A350_900.png"){
     tmpl_A350_900_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_A350_900_purchase, "src\Aircraft\Airbus\A350\A350_900\A350_900.png
 1. Airbus A350-900 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_A350_900_default, "src\Aircraft\Airbus\A350\A350_900\A350_900.png"){
+spriteset(set_A350_900_default, "src/Aircraft/Airbus/A350/A350_900/A350_900.png"){
     tp_A350_900(0, 0)
 }
 
@@ -21,7 +21,7 @@ spriteset(set_A350_900_default, "src\Aircraft\Airbus\A350\A350_900\A350_900.png"
 2. Airbus A350-900 Asiana Airlines
 --------------------------------------------------------------------*/
 
-spriteset(set_A350_900_asiana, "src\Aircraft\Airbus\A350\A350_900\Asiana.png"){
+spriteset(set_A350_900_asiana, "src/Aircraft/Airbus/A350/A350_900/Asiana.png"){
     tp_A350_900(0, 0)
 }
 
@@ -29,7 +29,7 @@ spriteset(set_A350_900_asiana, "src\Aircraft\Airbus\A350\A350_900\Asiana.png"){
 3. Airbus A350-900 Japan Airlines
 --------------------------------------------------------------------*/
 
-spriteset(set_A350_900_Japanairlines, "src\Aircraft\Airbus\A350\A350_900\Japanairlines.png"){
+spriteset(set_A350_900_Japanairlines, "src/Aircraft/Airbus/A350/A350_900/Japanairlines.png"){
     tp_A350_900(0, 0)
 }
 
@@ -37,7 +37,7 @@ spriteset(set_A350_900_Japanairlines, "src\Aircraft\Airbus\A350\A350_900\Japanai
 4. Airbus A350-900 Singapore Airlines
 --------------------------------------------------------------------*/
 
-spriteset(set_A350_900_Singaporeairlines, "src\Aircraft\Airbus\A350\A350_900\Singaporeairlines.png"){
+spriteset(set_A350_900_Singaporeairlines, "src/Aircraft/Airbus/A350/A350_900/Singaporeairlines.png"){
     tp_A350_900(0, 0)
 }
 
@@ -45,7 +45,7 @@ spriteset(set_A350_900_Singaporeairlines, "src\Aircraft\Airbus\A350\A350_900\Sin
 5. Airbus A350-900 Air France
 --------------------------------------------------------------------*/
 
-spriteset(set_A350_900_Airfrance, "src\Aircraft\Airbus\A350\A350_900\Airfrance.png"){
+spriteset(set_A350_900_Airfrance, "src/Aircraft/Airbus/A350/A350_900/Airfrance.png"){
     tp_A350_900(0, 0)
 }
 
@@ -53,7 +53,7 @@ spriteset(set_A350_900_Airfrance, "src\Aircraft\Airbus\A350\A350_900\Airfrance.p
 6. Airbus A350-900 Air China
 --------------------------------------------------------------------*/
 
-spriteset(set_A350_900_Airchina, "src\Aircraft\Airbus\A350\A350_900\Airchina.png"){
+spriteset(set_A350_900_Airchina, "src/Aircraft/Airbus/A350/A350_900/Airchina.png"){
     tp_A350_900(0, 0)
 }
 
@@ -61,7 +61,7 @@ spriteset(set_A350_900_Airchina, "src\Aircraft\Airbus\A350\A350_900\Airchina.png
 7. Airbus A350-900 Cathay Pacific
 --------------------------------------------------------------------*/
 
-spriteset(set_A350_900_Cathaypacific, "src\Aircraft\Airbus\A350\A350_900\Cathaypacific.png"){
+spriteset(set_A350_900_Cathaypacific, "src/Aircraft/Airbus/A350/A350_900/Cathaypacific.png"){
     tp_A350_900(0, 0)
 }
 
@@ -69,7 +69,7 @@ spriteset(set_A350_900_Cathaypacific, "src\Aircraft\Airbus\A350\A350_900\Cathayp
 8. Airbus A350-900 China Eastern
 --------------------------------------------------------------------*/
 
-spriteset(set_A350_900_Chinaeastern, "src\Aircraft\Airbus\A350\A350_900\Chinaeastern.png"){
+spriteset(set_A350_900_Chinaeastern, "src/Aircraft/Airbus/A350/A350_900/Chinaeastern.png"){
     tp_A350_900(0, 0)
 }
 
@@ -77,7 +77,7 @@ spriteset(set_A350_900_Chinaeastern, "src\Aircraft\Airbus\A350\A350_900\Chinaeas
 9. Airbus A350-900 Finnair
 --------------------------------------------------------------------*/
 
-spriteset(set_A350_900_Finnair, "src\Aircraft\Airbus\A350\A350_900\Finnair.png"){
+spriteset(set_A350_900_Finnair, "src/Aircraft/Airbus/A350/A350_900/Finnair.png"){
     tp_A350_900(0, 0)
 }
 
@@ -85,7 +85,7 @@ spriteset(set_A350_900_Finnair, "src\Aircraft\Airbus\A350\A350_900\Finnair.png")
 10. Airbus A350-900 Iberia
 --------------------------------------------------------------------*/
 
-spriteset(set_A350_900_Iberia, "src\Aircraft\Airbus\A350\A350_900\Iberia.png"){
+spriteset(set_A350_900_Iberia, "src/Aircraft/Airbus/A350/A350_900/Iberia.png"){
     tp_A350_900(0, 0)
 }
 
@@ -93,7 +93,7 @@ spriteset(set_A350_900_Iberia, "src\Aircraft\Airbus\A350\A350_900\Iberia.png"){
 11. Airbus A350-900 Delta Air Lines
 --------------------------------------------------------------------*/
 
-spriteset(set_A350_900_Delta, "src\Aircraft\Airbus\A350\A350_900\Delta.png"){
+spriteset(set_A350_900_Delta, "src/Aircraft/Airbus/A350/A350_900/Delta.png"){
     tp_A350_900(0, 0)
 }
 
@@ -101,7 +101,7 @@ spriteset(set_A350_900_Delta, "src\Aircraft\Airbus\A350\A350_900\Delta.png"){
 12. Airbus A350-900 Lufthansa
 --------------------------------------------------------------------*/
 
-spriteset(set_A350_900_Lufthansa, "src\Aircraft\Airbus\A350\A350_900\Lufthansa.png"){
+spriteset(set_A350_900_Lufthansa, "src/Aircraft/Airbus/A350/A350_900/Lufthansa.png"){
     tp_A350_900(0, 0)
 }
 
@@ -109,7 +109,7 @@ spriteset(set_A350_900_Lufthansa, "src\Aircraft\Airbus\A350\A350_900\Lufthansa.p
 13. Airbus A350-900 Qatar Airways
 --------------------------------------------------------------------*/
 
-spriteset(set_A350_900_Qatarairways, "src\Aircraft\Airbus\A350\A350_900\Qatarairways.png"){
+spriteset(set_A350_900_Qatarairways, "src/Aircraft/Airbus/A350/A350_900/Qatarairways.png"){
     tp_A350_900(0, 0)
 }
 
@@ -117,7 +117,7 @@ spriteset(set_A350_900_Qatarairways, "src\Aircraft\Airbus\A350\A350_900\Qatarair
 14. Airbus A350-900 Evelop
 --------------------------------------------------------------------*/
 
-spriteset(set_A350_900_Evelop, "src\Aircraft\Airbus\A350\A350_900\evelop.png"){
+spriteset(set_A350_900_Evelop, "src/Aircraft/Airbus/A350/A350_900/evelop.png"){
     tp_A350_900(0, 0)
 }
 
@@ -125,7 +125,7 @@ spriteset(set_A350_900_Evelop, "src\Aircraft\Airbus\A350\A350_900\evelop.png"){
 15. Airbus A350-900 Fiji
 --------------------------------------------------------------------*/
 
-spriteset(set_A350_900_Fiji, "src\Aircraft\Airbus\A350\A350_900\Fiji.png"){
+spriteset(set_A350_900_Fiji, "src/Aircraft/Airbus/A350/A350_900/Fiji.png"){
     tp_A350_900(0, 0)
 }
 

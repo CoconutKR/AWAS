@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_A330_300_purchase, "src\Aircraft\Airbus\A330\A330_300\A330_300.png"){
+spriteset(set_A330_300_purchase, "src/Aircraft/Airbus/A330/A330_300/A330_300.png"){
     tmpl_A330_300_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_A330_300_purchase, "src\Aircraft\Airbus\A330\A330_300\A330_300.png
 1. Airbus A330-300 Manufacturer
 --------------------------------------------------------------------*/
 
-spriteset(set_A330_300_default, "src\Aircraft\Airbus\A330\A330_300\A330_300.png"){
+spriteset(set_A330_300_default, "src/Aircraft/Airbus/A330/A330_300/A330_300.png"){
     tp_A330_300(0, 0)
 }
 
@@ -21,7 +21,7 @@ spriteset(set_A330_300_default, "src\Aircraft\Airbus\A330\A330_300\A330_300.png"
 2. Airbus A330-300 Korean Air old
 --------------------------------------------------------------------*/
 
-spriteset(set_A330_300_korean, "src\Aircraft\Airbus\A330\A330_300\A330_300_Korean.png"){
+spriteset(set_A330_300_korean, "src/Aircraft/Airbus/A330/A330_300/A330_300_Korean.png"){
     tp_A330_300(0, 0)
 }
 
@@ -29,7 +29,7 @@ spriteset(set_A330_300_korean, "src\Aircraft\Airbus\A330\A330_300\A330_300_Korea
 2. Airbus A330-300 Asiana Airlines
 --------------------------------------------------------------------*/
 
-spriteset(set_A330_300_asiana, "src\Aircraft\Airbus\A330\A330_300\A330_300_Asiana.png"){
+spriteset(set_A330_300_asiana, "src/Aircraft/Airbus/A330/A330_300/A330_300_Asiana.png"){
     tp_A330_300(0, 0)
 }
 
@@ -37,11 +37,11 @@ spriteset(set_A330_300_asiana, "src\Aircraft\Airbus\A330\A330_300\A330_300_Asian
 3. Airbus A330-300 Tway
 --------------------------------------------------------------------*/
 
-spriteset(set_A330_300_tway, "src\Aircraft\Airbus\A330\A330_300\A330_300.png"){
+spriteset(set_A330_300_tway, "src/Aircraft/Airbus/A330/A330_300/A330_300.png"){
     tp_A330_300(0, 0)
 }
 
-alternative_sprites(set_A330_300_tway, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Aircraft\Airbus\A330\A330_300\A330_300_Tway.png"){
+alternative_sprites(set_A330_300_tway, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Aircraft/Airbus/A330/A330_300/A330_300_Tway.png"){
     tp_A330_300(0, 0)
 }
 
@@ -49,7 +49,7 @@ alternative_sprites(set_A330_300_tway, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\
 4. Airbus A330-300 Korean Air 
 --------------------------------------------------------------------*/
 
-spriteset(set_A330_300_korean25, "src\Aircraft\Airbus\A330\A330_300\korean25.png"){
+spriteset(set_A330_300_korean25, "src/Aircraft/Airbus/A330/A330_300/korean25.png"){
     tp_A330_300(0, 0)
 }
 

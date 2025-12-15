@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_A318_100_purchase, "src\Aircraft\Airbus\A320\A318_100\A318_100.png"){
+spriteset(set_A318_100_purchase, "src/Aircraft/Airbus/A320/A318_100/A318_100.png"){
     tmpl_A318_100_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_A318_100_purchase, "src\Aircraft\Airbus\A320\A318_100\A318_100.png
 1. 에어버스 A318-100 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_A318_100_default, "src\Aircraft\Airbus\A320\A318_100\A318_100.png"){
+spriteset(set_A318_100_default, "src/Aircraft/Airbus/A320/A318_100/A318_100.png"){
     tp_A318_100(0, 0)
 }
 
@@ -21,7 +21,7 @@ spriteset(set_A318_100_default, "src\Aircraft\Airbus\A320\A318_100\A318_100.png"
 2. 에어버스 A318-100 영국항공
 --------------------------------------------------------------------*/
 
-spriteset(set_A318_100_british, "src\Aircraft\Airbus\A320\A318_100\British.png"){
+spriteset(set_A318_100_british, "src/Aircraft/Airbus/A320/A318_100/British.png"){
     tp_A318_100(0, 0)
 }
 

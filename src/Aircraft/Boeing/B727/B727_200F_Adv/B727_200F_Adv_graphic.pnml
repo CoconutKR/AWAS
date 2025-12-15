@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 purchase Info
 --------------------------------------------------------------------*/
-spriteset(set_B727_200F_Adv_purchase, "src\Aircraft\Boeing\B727\B727_200F_Adv\B727_200F_Adv.png"){
+spriteset(set_B727_200F_Adv_purchase, "src/Aircraft/Boeing/B727/B727_200F_Adv/B727_200F_Adv.png"){
     tmpl_B727_200_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B727_200F_Adv_purchase, "src\Aircraft\Boeing\B727\B727_200F_Adv\B7
 1. Boeing 727-200F_Adv Manufacturer
 --------------------------------------------------------------------*/
 
-spriteset(set_B727_200F_Adv, "src\Aircraft\Boeing\B727\B727_200F_Adv\B727_200F_Adv.png"){
+spriteset(set_B727_200F_Adv, "src/Aircraft/Boeing/B727/B727_200F_Adv/B727_200F_Adv.png"){
     tp_B727_200(0, 0)
 }
 

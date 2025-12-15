@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_B737_200C_purchase, "src\Aircraft\Boeing\B737\B737_200C\B737_200C.png"){
+spriteset(set_B737_200C_purchase, "src/Aircraft/Boeing/B737/B737_200C/B737_200C.png"){
     tmpl_B737_200_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B737_200C_purchase, "src\Aircraft\Boeing\B737\B737_200C\B737_200C.
 1. 보잉 737-200C 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_B737_200C, "src\Aircraft\Boeing\B737\B737_200C\B737_200C.png"){
+spriteset(set_B737_200C, "src/Aircraft/Boeing/B737/B737_200C/B737_200C.png"){
     tp_B737_200(0, 0)
 }
 

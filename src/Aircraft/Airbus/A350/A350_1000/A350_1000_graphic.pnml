@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_A350_1000_purchase, "src\Aircraft\Airbus\A350\A350_1000\A350_1000.png"){
+spriteset(set_A350_1000_purchase, "src/Aircraft/Airbus/A350/A350_1000/A350_1000.png"){
     tmpl_A350_1000_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_A350_1000_purchase, "src\Aircraft\Airbus\A350\A350_1000\A350_1000.
 1. 에어버스 A220-300 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_A350_1000_default, "src\Aircraft\Airbus\A350\A350_1000\A350_1000.png"){
+spriteset(set_A350_1000_default, "src/Aircraft/Airbus/A350/A350_1000/A350_1000.png"){
     tp_A350_1000(0, 0)
 }
 

@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_A300_600_purchase, "src\Aircraft\Airbus\A300\A300_600\A300_600.png"){
+spriteset(set_A300_600_purchase, "src/Aircraft/Airbus/A300/A300_600/A300_600.png"){
     tmpl_A300_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_A300_600_purchase, "src\Aircraft\Airbus\A300\A300_600\A300_600.png
 1. 에어버스 A300_600 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_A300_600_default, "src\Aircraft\Airbus\A300\A300_600\A300_600.png"){
+spriteset(set_A300_600_default, "src/Aircraft/Airbus/A300/A300_600/A300_600.png"){
     tp_A300(0, 0)
 }
 

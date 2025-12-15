@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 Purchase info
 --------------------------------------------------------------------*/
-spriteset(set_B707_320B_purchase, "src\Aircraft\Boeing\B707\B707_320B\B707_320B.png"){
+spriteset(set_B707_320B_purchase, "src/Aircraft/Boeing/B707/B707_320B/B707_320B.png"){
     tmpl_B707_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B707_320B_purchase, "src\Aircraft\Boeing\B707\B707_320B\B707_320B.
 1. Boeing 707-320B Manufacturer
 --------------------------------------------------------------------*/
 
-spriteset(set_B707_320B, "src\Aircraft\Boeing\B707\B707_320B\B707_320B.png"){
+spriteset(set_B707_320B, "src/Aircraft/Boeing/B707/B707_320B/B707_320B.png"){
     tp_B707(0, 0)
 }
 

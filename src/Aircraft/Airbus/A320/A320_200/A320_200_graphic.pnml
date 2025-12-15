@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 Purchase info
 --------------------------------------------------------------------*/
-spriteset(set_A320_200_purchase, "src\Aircraft\Airbus\A320\A320_200\A320_200.png"){
+spriteset(set_A320_200_purchase, "src/Aircraft/Airbus/A320/A320_200/A320_200.png"){
     tmpl_A320_200_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_A320_200_purchase, "src\Aircraft\Airbus\A320\A320_200\A320_200.png
 1. Airbus A320-200 Manufacturer
 --------------------------------------------------------------------*/
 
-spriteset(set_A320_200_default, "src\Aircraft\Airbus\A320\A320_200\A320_200.png"){
+spriteset(set_A320_200_default, "src/Aircraft/Airbus/A320/A320_200/A320_200.png"){
     tp_A320_200(0, 0)
 }
 
@@ -21,7 +21,7 @@ spriteset(set_A320_200_default, "src\Aircraft\Airbus\A320\A320_200\A320_200.png"
 2. Airbus A320-200 Asiana Airlines
 --------------------------------------------------------------------*/
 
-spriteset(set_A320_200_asiana, "src\Aircraft\Airbus\A320\A320_200\A320_200_asiana.png"){
+spriteset(set_A320_200_asiana, "src/Aircraft/Airbus/A320/A320_200/A320_200_asiana.png"){
     tp_A320_200(0, 0)
 }
 
@@ -29,7 +29,7 @@ spriteset(set_A320_200_asiana, "src\Aircraft\Airbus\A320\A320_200\A320_200_asian
 2. Airbus A320-200 Air Busan
 --------------------------------------------------------------------*/
 
-spriteset(set_A320_200_busan, "src\Aircraft\Airbus\A320\A320_200\A320_200_busan.png"){
+spriteset(set_A320_200_busan, "src/Aircraft/Airbus/A320/A320_200/A320_200_busan.png"){
     tp_A320_200(0, 0)
 }
 
@@ -37,7 +37,7 @@ spriteset(set_A320_200_busan, "src\Aircraft\Airbus\A320\A320_200\A320_200_busan.
 3. Airbus A320-200 AeroK
 --------------------------------------------------------------------*/
 
-spriteset(set_A320_200_aerok, "src\Aircraft\Airbus\A320\A320_200\A320_200_aerok.png"){
+spriteset(set_A320_200_aerok, "src/Aircraft/Airbus/A320/A320_200/A320_200_aerok.png"){
     tp_A320_200(0, 0)
 }
 
@@ -45,7 +45,7 @@ spriteset(set_A320_200_aerok, "src\Aircraft\Airbus\A320\A320_200\A320_200_aerok.
 4. Airbus A320-200 Peach Aviation
 --------------------------------------------------------------------*/
 
-spriteset(set_A320_200_peach, "src\Aircraft\Airbus\A320\A320_200\Peach.png"){
+spriteset(set_A320_200_peach, "src/Aircraft/Airbus/A320/A320_200/Peach.png"){
     tp_A320_200(0, 0)
 }
 
@@ -53,7 +53,7 @@ spriteset(set_A320_200_peach, "src\Aircraft\Airbus\A320\A320_200\Peach.png"){
 5. Airbus A320-200 China Eastern
 --------------------------------------------------------------------*/
 
-spriteset(set_A320_200_chinaeastern, "src\Aircraft\Airbus\A320\A320_200\Chinaeastern.png"){
+spriteset(set_A320_200_chinaeastern, "src/Aircraft/Airbus/A320/A320_200/Chinaeastern.png"){
     tp_A320_200(0, 0)
 }
 

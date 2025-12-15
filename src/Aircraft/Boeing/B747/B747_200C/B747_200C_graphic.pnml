@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_B747_200C_purchase, "src\Aircraft\Boeing\B747\B747_200C\B747_200C.png"){
+spriteset(set_B747_200C_purchase, "src/Aircraft/Boeing/B747/B747_200C/B747_200C.png"){
     tmpl_B747_100_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B747_200C_purchase, "src\Aircraft\Boeing\B747\B747_200C\B747_200C.
 1. Boeing 747-200C Manufacturer
 --------------------------------------------------------------------*/
 
-spriteset(set_B747_200C, "src\Aircraft\Boeing\B747\B747_200C\B747_200C.png"){
+spriteset(set_B747_200C, "src/Aircraft/Boeing/B747/B747_200C/B747_200C.png"){
     tp_B747_100(0, 0)
 }
 

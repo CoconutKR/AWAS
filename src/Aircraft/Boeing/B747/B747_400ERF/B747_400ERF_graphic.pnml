@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_B747_400ERF_purchase, "src\Aircraft\Boeing\B747\B747_400ERF\B747_400ERF.png"){
+spriteset(set_B747_400ERF_purchase, "src/Aircraft/Boeing/B747/B747_400ERF/B747_400ERF.png"){
     tmpl_B747_400F_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B747_400ERF_purchase, "src\Aircraft\Boeing\B747\B747_400ERF\B747_4
 1. Boeing 747-400ERF Manufacturer
 --------------------------------------------------------------------*/
 
-spriteset(set_B747_400ERF, "src\Aircraft\Boeing\B747\B747_400ERF\B747_400ERF.png"){
+spriteset(set_B747_400ERF, "src/Aircraft/Boeing/B747/B747_400ERF/B747_400ERF.png"){
     tp_B747_400F(0, 0)
 }
 

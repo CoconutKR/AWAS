@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_A340_500_purchase, "src\Aircraft\Airbus\A340\A340_500\A340_500.png"){
+spriteset(set_A340_500_purchase, "src/Aircraft/Airbus/A340/A340_500/A340_500.png"){
     tmpl_A340_500_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_A340_500_purchase, "src\Aircraft\Airbus\A340\A340_500\A340_500.png
 1. 에어버스 A340-500 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_A340_500_default, "src\Aircraft\Airbus\A340\A340_500\A340_500.png"){
+spriteset(set_A340_500_default, "src/Aircraft/Airbus/A340/A340_500/A340_500.png"){
     tp_A340_500(0, 0)
 }
 

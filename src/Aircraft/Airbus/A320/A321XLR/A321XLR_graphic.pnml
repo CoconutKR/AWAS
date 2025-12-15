@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 purchase info
 --------------------------------------------------------------------*/
-spriteset(set_A321XLR_purchase, "src\Aircraft\Airbus\A320\A321XLR\A321XLR.png"){
+spriteset(set_A321XLR_purchase, "src/Aircraft/Airbus/A320/A321XLR/A321XLR.png"){
     tmpl_A321_200_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_A321XLR_purchase, "src\Aircraft\Airbus\A320\A321XLR\A321XLR.png"){
 1. Airbus A321XLR Manufacturer
 --------------------------------------------------------------------*/
 
-spriteset(set_A321XLR_default, "src\Aircraft\Airbus\A320\A321XLR\A321XLR.png"){
+spriteset(set_A321XLR_default, "src/Aircraft/Airbus/A320/A321XLR/A321XLR.png"){
     tp_A321_200(0, 0)
 }
 

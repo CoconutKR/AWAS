@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_A330_800_purchase, "src\Aircraft\Airbus\A330\A330_800\A330_800.png"){
+spriteset(set_A330_800_purchase, "src/Aircraft/Airbus/A330/A330_800/A330_800.png"){
     tmpl_A330_200_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_A330_800_purchase, "src\Aircraft\Airbus\A330\A330_800\A330_800.png
 1. 에어버스 A330-800 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_A330_800_default, "src\Aircraft\Airbus\A330\A330_800\A330_800.png"){
+spriteset(set_A330_800_default, "src/Aircraft/Airbus/A330/A330_800/A330_800.png"){
     tp_A330_200(0, 0)
 }
 

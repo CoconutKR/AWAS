@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_B777_200LR_purchase, "src\Aircraft\Boeing\B777\B777_200LR\B777_200LR.png"){
+spriteset(set_B777_200LR_purchase, "src/Aircraft/Boeing/B777/B777_200LR/B777_200LR.png"){
     tmpl_B777_200_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B777_200LR_purchase, "src\Aircraft\Boeing\B777\B777_200LR\B777_200
 1. 보잉 777-200 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_B777_200LR, "src\Aircraft\Boeing\B777\B777_200LR\B777_200LR.png"){
+spriteset(set_B777_200LR, "src/Aircraft/Boeing/B777/B777_200LR/B777_200LR.png"){
     tp_B777_200(0, 0)
 }
 

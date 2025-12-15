@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 purchase info
 --------------------------------------------------------------------*/
-spriteset(set_B747_400D_purchase, "src\Aircraft\Boeing\B747\B747_400D\B747_400D.png"){
+spriteset(set_B747_400D_purchase, "src/Aircraft/Boeing/B747/B747_400D/B747_400D.png"){
     tmpl_B747_100_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B747_400D_purchase, "src\Aircraft\Boeing\B747\B747_400D\B747_400D.
 1. Boeing 747-400D Manufacturer
 --------------------------------------------------------------------*/
 
-spriteset(set_B747_400D, "src\Aircraft\Boeing\B747\B747_400D\B747_400D.png"){
+spriteset(set_B747_400D, "src/Aircraft/Boeing/B747/B747_400D/B747_400D.png"){
     tp_B747_100(0, 0)
 }
 

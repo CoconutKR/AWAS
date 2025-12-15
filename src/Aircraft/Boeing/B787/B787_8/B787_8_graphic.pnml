@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_B787_8_purchase, "src\Aircraft\Boeing\B787\B787_8\B787_8.png"){
+spriteset(set_B787_8_purchase, "src/Aircraft/Boeing/B787/B787_8/B787_8.png"){
     tmpl_B787_8_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B787_8_purchase, "src\Aircraft\Boeing\B787\B787_8\B787_8.png"){
 1. Boeing 787-8 Manufacturer
 --------------------------------------------------------------------*/
 
-spriteset(set_B787_8, "src\Aircraft\Boeing\B787\B787_8\B787_8.png"){
+spriteset(set_B787_8, "src/Aircraft/Boeing/B787/B787_8/B787_8.png"){
     tp_B787_8(0, 0)
 }
 
@@ -21,7 +21,7 @@ spriteset(set_B787_8, "src\Aircraft\Boeing\B787\B787_8\B787_8.png"){
 2. Boeing 787-8 Zipair
 --------------------------------------------------------------------*/
 
-spriteset(set_B787_8_zip, "src\Aircraft\Boeing\B787\B787_8\Zipair.png"){
+spriteset(set_B787_8_zip, "src/Aircraft/Boeing/B787/B787_8/Zipair.png"){
     tp_B787_8(0, 0)
 }
 
@@ -29,7 +29,7 @@ spriteset(set_B787_8_zip, "src\Aircraft\Boeing\B787\B787_8\Zipair.png"){
 3. Boeing 787-8 All Nippon Airways
 --------------------------------------------------------------------*/
 
-spriteset(set_B787_8_ana, "src\Aircraft\Boeing\B787\B787_8\ANA.png"){
+spriteset(set_B787_8_ana, "src/Aircraft/Boeing/B787/B787_8/ANA.png"){
     tp_B787_8(0, 0)
 }
 
@@ -37,7 +37,7 @@ spriteset(set_B787_8_ana, "src\Aircraft\Boeing\B787\B787_8\ANA.png"){
 4. Boeing 787-8 Air Japan
 --------------------------------------------------------------------*/
 
-spriteset(set_B787_8_airjapan, "src\Aircraft\Boeing\B787\B787_8\Airjapan.png"){
+spriteset(set_B787_8_airjapan, "src/Aircraft/Boeing/B787/B787_8/Airjapan.png"){
     tp_B787_8(0, 0)
 }
 

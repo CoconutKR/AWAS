@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_B737_800_purchase, "src\Aircraft\Boeing\B737\B737_800\B737_800.png"){
+spriteset(set_B737_800_purchase, "src/Aircraft/Boeing/B737/B737_800/B737_800.png"){
     tmpl_B737_800_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B737_800_purchase, "src\Aircraft\Boeing\B737\B737_800\B737_800.png
 1. Boeing 737-800 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_B737_800, "src\Aircraft\Boeing\B737\B737_800\B737_800.png"){
+spriteset(set_B737_800, "src/Aircraft/Boeing/B737/B737_800/B737_800.png"){
     tp_B737_800(0, 0)
 }
 
@@ -21,11 +21,11 @@ spriteset(set_B737_800, "src\Aircraft\Boeing\B737\B737_800\B737_800.png"){
 2. Boeing 737-800 제주항공
 --------------------------------------------------------------------*/
 
-spriteset(set_B737_800_jeju, "src\Aircraft\Boeing\B737\B737_800\B737_800.png"){
+spriteset(set_B737_800_jeju, "src/Aircraft/Boeing/B737/B737_800/B737_800.png"){
     tp_B737_800(0, 0)
 }
 
-alternative_sprites(set_B737_800_jeju, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Aircraft\Boeing\B737\B737_800\B737_800_jeju.png"){
+alternative_sprites(set_B737_800_jeju, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Aircraft/Boeing/B737/B737_800/B737_800_jeju.png"){
     tp_B737_800(0, 0)
 }
 
@@ -33,11 +33,11 @@ alternative_sprites(set_B737_800_jeju, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\
 3. Boeing 737-800 티웨이
 --------------------------------------------------------------------*/
 
-spriteset(set_B737_800_tway, "src\Aircraft\Boeing\B737\B737_800\B737_800.png"){
+spriteset(set_B737_800_tway, "src/Aircraft/Boeing/B737/B737_800/B737_800.png"){
     tp_B737_800(0, 0)
 }
 
-alternative_sprites(set_B737_800_tway, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Aircraft\Boeing\B737\B737_800\B737_800_tway.png"){
+alternative_sprites(set_B737_800_tway, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Aircraft/Boeing/B737/B737_800/B737_800_tway.png"){
     tp_B737_800(0, 0)
 }
 
@@ -45,11 +45,11 @@ alternative_sprites(set_B737_800_tway, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\
 4. Boeing 737-800 진에어
 --------------------------------------------------------------------*/
 
-spriteset(set_B737_800_jin, "src\Aircraft\Boeing\B737\B737_800\B737_800.png"){
+spriteset(set_B737_800_jin, "src/Aircraft/Boeing/B737/B737_800/B737_800.png"){
     tp_B737_800(0, 0)
 }
 
-alternative_sprites(set_B737_800_jin, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Aircraft\Boeing\B737\B737_800\B737_800_jin.png"){
+alternative_sprites(set_B737_800_jin, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Aircraft/Boeing/B737/B737_800/B737_800_jin.png"){
     tp_B737_800(0, 0)
 }
 
@@ -57,11 +57,11 @@ alternative_sprites(set_B737_800_jin, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\A
 5. Boeing 737-800 대한항공
 --------------------------------------------------------------------*/
 
-spriteset(set_B737_800_korean, "src\Aircraft\Boeing\B737\B737_800\B737_800.png"){
+spriteset(set_B737_800_korean, "src/Aircraft/Boeing/B737/B737_800/B737_800.png"){
     tp_B737_800(0, 0)
 }
 
-alternative_sprites(set_B737_800_korean, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Aircraft\Boeing\B737\B737_800\B737_800_korean.png"){
+alternative_sprites(set_B737_800_korean, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Aircraft/Boeing/B737/B737_800/B737_800_korean.png"){
     tp_B737_800(0, 0)
 }
 
@@ -69,11 +69,11 @@ alternative_sprites(set_B737_800_korean, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "sr
 6. Boeing 737-800 플라이강원
 --------------------------------------------------------------------*/
 
-spriteset(set_B737_800_gangwon, "src\Aircraft\Boeing\B737\B737_800\B737_800.png"){
+spriteset(set_B737_800_gangwon, "src/Aircraft/Boeing/B737/B737_800/B737_800.png"){
     tp_B737_800(0, 0)
 }
 
-alternative_sprites(set_B737_800_gangwon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Aircraft\Boeing\B737\B737_800\B737_800_gangwon.png"){
+alternative_sprites(set_B737_800_gangwon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Aircraft/Boeing/B737/B737_800/B737_800_gangwon.png"){
     tp_B737_800(0, 0)
 }
 
@@ -81,11 +81,11 @@ alternative_sprites(set_B737_800_gangwon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "s
 7. Boeing 737-800 이스타항공
 --------------------------------------------------------------------*/
 
-spriteset(set_B737_800_eastar, "src\Aircraft\Boeing\B737\B737_800\B737_800.png"){
+spriteset(set_B737_800_eastar, "src/Aircraft/Boeing/B737/B737_800/B737_800.png"){
     tp_B737_800(0, 0)
 }
 
-alternative_sprites(set_B737_800_eastar, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Aircraft\Boeing\B737\B737_800\B737_800_eastar.png"){
+alternative_sprites(set_B737_800_eastar, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Aircraft/Boeing/B737/B737_800/B737_800_eastar.png"){
     tp_B737_800(0, 0)
 }
 
@@ -93,11 +93,11 @@ alternative_sprites(set_B737_800_eastar, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "sr
 8. Boeing 737-800 제주항공 구
 --------------------------------------------------------------------*/
 
-spriteset(set_B737_800_jeju_old, "src\Aircraft\Boeing\B737\B737_800\B737_800.png"){
+spriteset(set_B737_800_jeju_old, "src/Aircraft/Boeing/B737/B737_800/B737_800.png"){
     tp_B737_800(0, 0)
 }
 
-alternative_sprites(set_B737_800_jeju_old, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Aircraft\Boeing\B737\B737_800\B737_800_jeju_old.png"){
+alternative_sprites(set_B737_800_jeju_old, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Aircraft/Boeing/B737/B737_800/B737_800_jeju_old.png"){
     tp_B737_800(0, 0)
 }
 
@@ -105,7 +105,7 @@ alternative_sprites(set_B737_800_jeju_old, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "
 9.  Boeing 737-800 Japan Airlines
 --------------------------------------------------------------------*/
 
-spriteset(set_B737_800_Japanairlines, "src\Aircraft\Boeing\B737\B737_800\Japanairlines.png"){
+spriteset(set_B737_800_Japanairlines, "src/Aircraft/Boeing/B737/B737_800/Japanairlines.png"){
     tp_B737_800(0, 0)
 }
 
@@ -113,7 +113,7 @@ spriteset(set_B737_800_Japanairlines, "src\Aircraft\Boeing\B737\B737_800\Japanai
 10.  Boeing 737-800 China Airlines
 --------------------------------------------------------------------*/
 
-spriteset(set_B737_800_Chinaairlines, "src\Aircraft\Boeing\B737\B737_800\Chinaairlines.png"){
+spriteset(set_B737_800_Chinaairlines, "src/Aircraft/Boeing/B737/B737_800/Chinaairlines.png"){
     tp_B737_800(0, 0)
 }
 
@@ -121,7 +121,7 @@ spriteset(set_B737_800_Chinaairlines, "src\Aircraft\Boeing\B737\B737_800\Chinaai
 11.  Boeing 737-800 Skymark Airlines
 --------------------------------------------------------------------*/
 
-spriteset(set_B737_800_Skymarkairlines, "src\Aircraft\Boeing\B737\B737_800\Skymark.png"){
+spriteset(set_B737_800_Skymarkairlines, "src/Aircraft/Boeing/B737/B737_800/Skymark.png"){
     tp_B737_800(0, 0)
 }
 
@@ -129,7 +129,7 @@ spriteset(set_B737_800_Skymarkairlines, "src\Aircraft\Boeing\B737\B737_800\Skyma
 12.  Boeing 737-800 China Southern Airlines
 --------------------------------------------------------------------*/
 
-spriteset(set_B737_800_chinasouthern, "src\Aircraft\Boeing\B737\B737_800\chinasouthern.png"){
+spriteset(set_B737_800_chinasouthern, "src/Aircraft/Boeing/B737/B737_800/chinasouthern.png"){
     tp_B737_800(0, 0)
 }
 
@@ -137,7 +137,7 @@ spriteset(set_B737_800_chinasouthern, "src\Aircraft\Boeing\B737\B737_800\chinaso
 13.  Boeing 737-800 China Eastern Airlines
 --------------------------------------------------------------------*/
 
-spriteset(set_B737_800_chinaeastern, "src\Aircraft\Boeing\B737\B737_800\chinaeastern.png"){
+spriteset(set_B737_800_chinaeastern, "src/Aircraft/Boeing/B737/B737_800/chinaeastern.png"){
     tp_B737_800(0, 0)
 }
 

@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_A321neo_purchase, "src\Aircraft\Airbus\A320\A321neo\A321neo.png"){
+spriteset(set_A321neo_purchase, "src/Aircraft/Airbus/A320/A321neo/A321neo.png"){
     tmpl_A321_200_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_A321neo_purchase, "src\Aircraft\Airbus\A320\A321neo\A321neo.png"){
 1. Airbus A321neo 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_A321neo_default, "src\Aircraft\Airbus\A320\A321neo\A321neo.png"){
+spriteset(set_A321neo_default, "src/Aircraft/Airbus/A320/A321neo/A321neo.png"){
     tp_A321_200(0, 0)
 }
 
@@ -21,7 +21,7 @@ spriteset(set_A321neo_default, "src\Aircraft\Airbus\A320\A321neo\A321neo.png"){
 2. Airbus A321neo Korean Air
 --------------------------------------------------------------------*/
 
-spriteset(set_A321neo_Koreanair, "src\Aircraft\Airbus\A320\A321neo\Koreanair.png"){
+spriteset(set_A321neo_Koreanair, "src/Aircraft/Airbus/A320/A321neo/Koreanair.png"){
     tp_A321_200(0, 0)
 }
 
@@ -29,11 +29,11 @@ spriteset(set_A321neo_Koreanair, "src\Aircraft\Airbus\A320\A321neo\Koreanair.png
 3. Airbus A321neo Asiana Airlines
 --------------------------------------------------------------------*/
 
-spriteset(set_A321neo_Asianaairlines, "src\Aircraft\Airbus\A320\A321neo\A321neo.png"){
+spriteset(set_A321neo_Asianaairlines, "src/Aircraft/Airbus/A320/A321neo/A321neo.png"){
     tp_A321_200(0, 0)
 }
 
-alternative_sprites(set_A321neo_Asianaairlines, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Aircraft\Airbus\A320\A321neo\Asianaairlines.png"){
+alternative_sprites(set_A321neo_Asianaairlines, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Aircraft/Airbus/A320/A321neo/Asianaairlines.png"){
     tp_A321_200(0, 0)
 }
 
@@ -41,11 +41,11 @@ alternative_sprites(set_A321neo_Asianaairlines, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32B
 4. Airbus A321neo Air Busan
 --------------------------------------------------------------------*/
 
-spriteset(set_A321neo_Airbusan, "src\Aircraft\Airbus\A320\A321neo\A321neo.png"){
+spriteset(set_A321neo_Airbusan, "src/Aircraft/Airbus/A320/A321neo/A321neo.png"){
     tp_A321_200(0, 0)
 }
 
-alternative_sprites(set_A321neo_Airbusan, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Aircraft\Airbus\A320\A321neo\Airbusan.png"){
+alternative_sprites(set_A321neo_Airbusan, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Aircraft/Airbus/A320/A321neo/Airbusan.png"){
     tp_A321_200(0, 0)
 }
 
@@ -53,7 +53,7 @@ alternative_sprites(set_A321neo_Airbusan, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "s
 5. Airbus A321neo Korean Air new
 --------------------------------------------------------------------*/
 
-spriteset(set_A321neo_Koreanair25, "src\Aircraft\Airbus\A320\A321neo\Korean25.png"){
+spriteset(set_A321neo_Koreanair25, "src/Aircraft/Airbus/A320/A321neo/Korean25.png"){
     tp_A321_200(0, 0)
 }
 

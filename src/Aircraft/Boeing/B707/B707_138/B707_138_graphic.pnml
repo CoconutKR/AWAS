@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 Purchase info
 --------------------------------------------------------------------*/
-spriteset(set_B707_138_purchase, "src\Aircraft\Boeing\B707\B707_138\B707_138.png"){
+spriteset(set_B707_138_purchase, "src/Aircraft/Boeing/B707/B707_138/B707_138.png"){
     tmpl_B707_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B707_138_purchase, "src\Aircraft\Boeing\B707\B707_138\B707_138.png
 1. Boeing 707-138 Manufacturer
 --------------------------------------------------------------------*/
 
-spriteset(set_B707_138, "src\Aircraft\Boeing\B707\B707_138\B707_138.png"){
+spriteset(set_B707_138, "src/Aircraft/Boeing/B707/B707_138/B707_138.png"){
     tp_B707(0, 0)
 }
 

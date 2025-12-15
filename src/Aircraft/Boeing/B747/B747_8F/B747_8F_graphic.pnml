@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 Purchase info
 --------------------------------------------------------------------*/
-spriteset(set_B747_8F_purchase, "src\Aircraft\Boeing\B747\B747_8F\B747_8F.png"){
+spriteset(set_B747_8F_purchase, "src/Aircraft/Boeing/B747/B747_8F/B747_8F.png"){
     tmpl_B747_8F_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B747_8F_purchase, "src\Aircraft\Boeing\B747\B747_8F\B747_8F.png"){
 1. Boeing 747-8F Manufacturer
 --------------------------------------------------------------------*/
 
-spriteset(set_B747_8F, "src\Aircraft\Boeing\B747\B747_8F\B747_8F.png"){
+spriteset(set_B747_8F, "src/Aircraft/Boeing/B747/B747_8F/B747_8F.png"){
     tp_B747_8F(0, 0)
 }
 
@@ -21,7 +21,7 @@ spriteset(set_B747_8F, "src\Aircraft\Boeing\B747\B747_8F\B747_8F.png"){
 2. Boeing 747-8F Korean Air
 --------------------------------------------------------------------*/
 
-spriteset(set_B747_8F_Korean, "src\Aircraft\Boeing\B747\B747_8F\Korean.png"){
+spriteset(set_B747_8F_Korean, "src/Aircraft/Boeing/B747/B747_8F/Korean.png"){
     tp_B747_8F(0, 0)
 }
 

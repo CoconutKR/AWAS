@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_B727_100QC_purchase, "src\Aircraft\Boeing\B727\B727_100QC\B727_100QC.png"){
+spriteset(set_B727_100QC_purchase, "src/Aircraft/Boeing/B727/B727_100QC/B727_100QC.png"){
     tmpl_B727_100_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B727_100QC_purchase, "src\Aircraft\Boeing\B727\B727_100QC\B727_100
 1. Boeing 727-100QC Manufacturer
 --------------------------------------------------------------------*/
 
-spriteset(set_B727_100QC, "src\Aircraft\Boeing\B727\B727_100QC\B727_100QC.png"){
+spriteset(set_B727_100QC, "src/Aircraft/Boeing/B727/B727_100QC/B727_100QC.png"){
     tp_B727_100(0, 0)
 }
 

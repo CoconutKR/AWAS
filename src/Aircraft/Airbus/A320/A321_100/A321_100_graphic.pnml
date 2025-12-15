@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_A321_100_purchase, "src\Aircraft\Airbus\A320\A321_100\A321_100.png"){
+spriteset(set_A321_100_purchase, "src/Aircraft/Airbus/A320/A321_100/A321_100.png"){
     tmpl_A321_100_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_A321_100_purchase, "src\Aircraft\Airbus\A320\A321_100\A321_100.png
 1. 에어버스 A321-200 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_A321_100_default, "src\Aircraft\Airbus\A320\A321_100\A321_100.png"){
+spriteset(set_A321_100_default, "src/Aircraft/Airbus/A320/A321_100/A321_100.png"){
     tp_A321_100(0, 0)
 }
 

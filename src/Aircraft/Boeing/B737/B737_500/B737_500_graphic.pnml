@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_B737_500_purchase, "src\Aircraft\Boeing\B737\B737_500\B737_500.png"){
+spriteset(set_B737_500_purchase, "src/Aircraft/Boeing/B737/B737_500/B737_500.png"){
     tmpl_B737_500_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B737_500_purchase, "src\Aircraft\Boeing\B737\B737_500\B737_500.png
 1. 보잉 737-500 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_B737_500, "src\Aircraft\Boeing\B737\B737_500\B737_500.png"){
+spriteset(set_B737_500, "src/Aircraft/Boeing/B737/B737_500/B737_500.png"){
     tp_B737_500(0, 0)
 }
 

@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_Concorde_purchase, "src\Aircraft\Aerospatiale_BAC\Concorde\Concorde.png"){
+spriteset(set_Concorde_purchase, "src/Aircraft/Aerospatiale_BAC/Concorde/Concorde.png"){
     tmpl_Concorde_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_Concorde_purchase, "src\Aircraft\Aerospatiale_BAC\Concorde\Concord
 1. 아에로스파시알/BAC 콩코드 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_Concorde, "src\Aircraft\Aerospatiale_BAC\Concorde\Concorde.png"){
+spriteset(set_Concorde, "src/Aircraft/Aerospatiale_BAC/Concorde/Concorde.png"){
     tp_Concorde(0, 0)
 }
 

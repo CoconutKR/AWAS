@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_B747_200SUD_purchase, "src\Aircraft\Boeing\B747\B747_200SUD\B747_200SUD.png"){
+spriteset(set_B747_200SUD_purchase, "src/Aircraft/Boeing/B747/B747_200SUD/B747_200SUD.png"){
     tmpl_B747_100_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B747_200SUD_purchase, "src\Aircraft\Boeing\B747\B747_200SUD\B747_2
 1. Boeing 747-200SUD Manufacturer
 --------------------------------------------------------------------*/
 
-spriteset(set_B747_200SUD, "src\Aircraft\Boeing\B747\B747_200SUD\B747_200SUD.png"){
+spriteset(set_B747_200SUD, "src/Aircraft/Boeing/B747/B747_200SUD/B747_200SUD.png"){
     tp_B747_100(0, 0)
 }
 

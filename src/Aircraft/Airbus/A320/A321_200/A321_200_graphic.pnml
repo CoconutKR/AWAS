@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_A321_200_purchase, "src\Aircraft\Airbus\A320\A321_200\A321_200.png"){
+spriteset(set_A321_200_purchase, "src/Aircraft/Airbus/A320/A321_200/A321_200.png"){
     tmpl_A321_200_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_A321_200_purchase, "src\Aircraft\Airbus\A320\A321_200\A321_200.png
 1. 에어버스 A321-200 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_A321_200_default, "src\Aircraft\Airbus\A320\A321_200\A321_200.png"){
+spriteset(set_A321_200_default, "src/Aircraft/Airbus/A320/A321_200/A321_200.png"){
     tp_A321_200(0, 0)
 }
 
@@ -21,11 +21,11 @@ spriteset(set_A321_200_default, "src\Aircraft\Airbus\A320\A321_200\A321_200.png"
 2. 에어버스 A321-200 아시아나항공
 --------------------------------------------------------------------*/
 
-spriteset(set_A321_200_asiana, "src\Aircraft\Airbus\A320\A321_200\A321_200.png"){
+spriteset(set_A321_200_asiana, "src/Aircraft/Airbus/A320/A321_200/A321_200.png"){
     tp_A321_200(0, 0)
 }
 
-alternative_sprites(set_A321_200_asiana, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Aircraft\Airbus\A320\A321_200\A321_200_Asiana.png"){
+alternative_sprites(set_A321_200_asiana, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Aircraft/Airbus/A320/A321_200/A321_200_Asiana.png"){
     tp_A321_200(0, 0)
 }
 
@@ -33,11 +33,11 @@ alternative_sprites(set_A321_200_asiana, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "sr
 2. 에어버스 A321-200 에어서울
 --------------------------------------------------------------------*/
 
-spriteset(set_A321_200_seoul, "src\Aircraft\Airbus\A320\A321_200\A321_200.png"){
+spriteset(set_A321_200_seoul, "src/Aircraft/Airbus/A320/A321_200/A321_200.png"){
     tp_A321_200(0, 0)
 }
 
-alternative_sprites(set_A321_200_seoul, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Aircraft\Airbus\A320\A321_200\A321_200_Seoul.png"){
+alternative_sprites(set_A321_200_seoul, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Aircraft/Airbus/A320/A321_200/A321_200_Seoul.png"){
     tp_A321_200(0, 0)
 }
 
@@ -45,11 +45,11 @@ alternative_sprites(set_A321_200_seoul, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
 3. 에어버스 A321-200 에어부산
 --------------------------------------------------------------------*/
 
-spriteset(set_A321_200_busan, "src\Aircraft\Airbus\A320\A321_200\A321_200.png"){
+spriteset(set_A321_200_busan, "src/Aircraft/Airbus/A320/A321_200/A321_200.png"){
     tp_A321_200(0, 0)
 }
 
-alternative_sprites(set_A321_200_busan, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Aircraft\Airbus\A320\A321_200\A321_200_Busan.png"){
+alternative_sprites(set_A321_200_busan, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Aircraft/Airbus/A320/A321_200/A321_200_Busan.png"){
     tp_A321_200(0, 0)
 }
 

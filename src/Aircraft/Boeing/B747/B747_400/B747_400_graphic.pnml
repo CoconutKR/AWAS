@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_B747_400_purchase, "src\Aircraft\Boeing\B747\B747_400\B747_400.png"){
+spriteset(set_B747_400_purchase, "src/Aircraft/Boeing/B747/B747_400/B747_400.png"){
     tmpl_B747_400_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B747_400_purchase, "src\Aircraft\Boeing\B747\B747_400\B747_400.png
 1. 보잉 747-400 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_B747_400, "src\Aircraft\Boeing\B747\B747_400\B747_400.png"){
+spriteset(set_B747_400, "src/Aircraft/Boeing/B747/B747_400/B747_400.png"){
     tp_B747_400(0, 0)
 }
 
@@ -21,7 +21,7 @@ spriteset(set_B747_400, "src\Aircraft\Boeing\B747\B747_400\B747_400.png"){
 2. 보잉 747-400 대한항공
 --------------------------------------------------------------------*/
 
-spriteset(set_B747_400_korean, "src\Aircraft\Boeing\B747\B747_400\B747_400_Korean.png"){
+spriteset(set_B747_400_korean, "src/Aircraft/Boeing/B747/B747_400/B747_400_Korean.png"){
     tp_B747_400(0, 0)
 }
 
@@ -29,7 +29,7 @@ spriteset(set_B747_400_korean, "src\Aircraft\Boeing\B747\B747_400\B747_400_Korea
 3. 보잉 747-400 아시아나항공
 --------------------------------------------------------------------*/
 
-spriteset(set_B747_400_asiana, "src\Aircraft\Boeing\B747\B747_400\B747_400_asiana.png"){
+spriteset(set_B747_400_asiana, "src/Aircraft/Boeing/B747/B747_400/B747_400_asiana.png"){
     tp_B747_400(0, 0)
 }
 

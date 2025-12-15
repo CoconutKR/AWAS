@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 Purchase Info
 --------------------------------------------------------------------*/
-spriteset(set_Tu204_100_purchase, "src\Aircraft\Tupolev\Tu204\Tu204_100\Tu204_100.png"){
+spriteset(set_Tu204_100_purchase, "src/Aircraft/Tupolev/Tu204/Tu204_100/Tu204_100.png"){
     tmpl_B757_200_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_Tu204_100_purchase, "src\Aircraft\Tupolev\Tu204\Tu204_100\Tu204_10
 1. Tupolev Tu-206-100 Manufacturer
 --------------------------------------------------------------------*/
 
-spriteset(set_Tu204_100, "src\Aircraft\Tupolev\Tu204\Tu204_100\Tu204_100.png"){
+spriteset(set_Tu204_100, "src/Aircraft/Tupolev/Tu204/Tu204_100/Tu204_100.png"){
     tp_B757_200(0, 0)
 }
 
@@ -21,7 +21,7 @@ spriteset(set_Tu204_100, "src\Aircraft\Tupolev\Tu204\Tu204_100\Tu204_100.png"){
 2. Tupolev Tu-206-100 Air Koryo
 --------------------------------------------------------------------*/
 
-spriteset(set_Tu204_100_airkoryo, "src\Aircraft\Tupolev\Tu204\Tu204_100\Airkoryo.png"){
+spriteset(set_Tu204_100_airkoryo, "src/Aircraft/Tupolev/Tu204/Tu204_100/Airkoryo.png"){
     tp_B757_200(0, 0)
 }
 

@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_A321LR_purchase, "src\Aircraft\Airbus\A320\A321LR\A321LR.png"){
+spriteset(set_A321LR_purchase, "src/Aircraft/Airbus/A320/A321LR/A321LR.png"){
     tmpl_A321_200_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_A321LR_purchase, "src\Aircraft\Airbus\A320\A321LR\A321LR.png"){
 1. Airbus A321LR 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_A321LR_default, "src\Aircraft\Airbus\A320\A321LR\A321LR.png"){
+spriteset(set_A321LR_default, "src/Aircraft/Airbus/A320/A321LR/A321LR.png"){
     tp_A321_200(0, 0)
 }
 
@@ -21,11 +21,11 @@ spriteset(set_A321LR_default, "src\Aircraft\Airbus\A320\A321LR\A321LR.png"){
 2. Airbus A321LR Air Busan
 --------------------------------------------------------------------*/
 
-spriteset(set_A321LR_Airbusan, "src\Aircraft\Airbus\A320\A321LR\A321LR.png"){
+spriteset(set_A321LR_Airbusan, "src/Aircraft/Airbus/A320/A321LR/A321LR.png"){
     tp_A321_200(0, 0)
 }
 
-alternative_sprites(set_A321LR_Airbusan, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Aircraft\Airbus\A320\A321LR\Airbusan.png"){
+alternative_sprites(set_A321LR_Airbusan, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Aircraft/Airbus/A320/A321LR/Airbusan.png"){
     tp_A321_200(0, 0)
 }
 

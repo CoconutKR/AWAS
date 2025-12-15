@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_B767_300F_purchase, "src\Aircraft\Boeing\B767\B767_300F\B767_300F.png"){
+spriteset(set_B767_300F_purchase, "src/Aircraft/Boeing/B767/B767_300F/B767_300F.png"){
     tmpl_B767_300_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B767_300F_purchase, "src\Aircraft\Boeing\B767\B767_300F\B767_300F.
 1. 보잉 787-9 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_B767_300F, "src\Aircraft\Boeing\B767\B767_300F\B767_300F.png"){
+spriteset(set_B767_300F, "src/Aircraft/Boeing/B767/B767_300F/B767_300F.png"){
     tp_B767_300(0, 0)
 }
 

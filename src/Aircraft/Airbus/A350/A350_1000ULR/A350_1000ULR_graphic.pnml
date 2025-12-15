@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 Purchase Info
 --------------------------------------------------------------------*/
-spriteset(set_A350_1000ULR_purchase, "src\Aircraft\Airbus\A350\A350_1000\A350_1000.png"){
+spriteset(set_A350_1000ULR_purchase, "src/Aircraft/Airbus/A350/A350_1000/A350_1000.png"){
     tmpl_A350_1000_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_A350_1000ULR_purchase, "src\Aircraft\Airbus\A350\A350_1000\A350_10
 1. Airbus A220-300 Manufacter
 --------------------------------------------------------------------*/
 
-spriteset(set_A350_1000ULR_default, "src\Aircraft\Airbus\A350\A350_1000\A350_1000.png"){
+spriteset(set_A350_1000ULR_default, "src/Aircraft/Airbus/A350/A350_1000/A350_1000.png"){
     tp_A350_1000(0, 0)
 }
 

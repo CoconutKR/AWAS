@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 Purchase info
 --------------------------------------------------------------------*/
-spriteset(set_B717_200_purchase, "src\Aircraft\Boeing\B717\B717_200\B717_200.png"){
+spriteset(set_B717_200_purchase, "src/Aircraft/Boeing/B717/B717_200/B717_200.png"){
     tmpl_B717_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B717_200_purchase, "src\Aircraft\Boeing\B717\B717_200\B717_200.png
 1. Boeing 717-200 Manufacturer
 --------------------------------------------------------------------*/
 
-spriteset(set_B717_200, "src\Aircraft\Boeing\B717\B717_200\B717_200.png"){
+spriteset(set_B717_200, "src/Aircraft/Boeing/B717/B717_200/B717_200.png"){
     tp_B717(0, 0)
 }
 

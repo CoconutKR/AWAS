@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_DC_9_30_purchase, "src\Aircraft\McDonnellDouglas\DC-9\DC_9_30\DC_9_30.png"){
+spriteset(set_DC_9_30_purchase, "src/Aircraft/McDonnellDouglas/DC-9/DC_9_30/DC_9_30.png"){
     tmpl_DC_9_30_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_DC_9_30_purchase, "src\Aircraft\McDonnellDouglas\DC-9\DC_9_30\DC_9
 1. DC-9-30 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_DC_9_30_default, "src\Aircraft\McDonnellDouglas\DC-9\DC_9_30\DC_9_30.png"){
+spriteset(set_DC_9_30_default, "src/Aircraft/McDonnellDouglas/DC-9/DC_9_30/DC_9_30.png"){
     tp_DC_9_30(0, 0)
 }
 
@@ -21,7 +21,7 @@ spriteset(set_DC_9_30_default, "src\Aircraft\McDonnellDouglas\DC-9\DC_9_30\DC_9_
 2. DC-9-30 대한항공
 --------------------------------------------------------------------*/
 
-spriteset(set_DC_9_30_korean, "src\Aircraft\McDonnellDouglas\DC-9\DC_9_30\DC_9_30_korean.png"){
+spriteset(set_DC_9_30_korean, "src/Aircraft/McDonnellDouglas/DC-9/DC_9_30/DC_9_30_korean.png"){
     tp_DC_9_30(0, 0)
 }
 

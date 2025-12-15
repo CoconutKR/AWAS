@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_B747_400BDSF_purchase, "src\Aircraft\Boeing\B747\B747_400BDSF\B747_400BDSF.png"){
+spriteset(set_B747_400BDSF_purchase, "src/Aircraft/Boeing/B747/B747_400BDSF/B747_400BDSF.png"){
     tmpl_B747_400_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B747_400BDSF_purchase, "src\Aircraft\Boeing\B747\B747_400BDSF\B747
 1. Boeing 747-400BDSF Manufacturer
 --------------------------------------------------------------------*/
 
-spriteset(set_B747_400BDSF, "src\Aircraft\Boeing\B747\B747_400BDSF\B747_400BDSF.png"){
+spriteset(set_B747_400BDSF, "src/Aircraft/Boeing/B747/B747_400BDSF/B747_400BDSF.png"){
     tp_B747_400(0, 0)
 }
 

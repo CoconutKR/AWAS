@@ -5,7 +5,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_B777_300_purchase, "src\Aircraft\Boeing\B777\B777_300\B777_300.png"){
+spriteset(set_B777_300_purchase, "src/Aircraft/Boeing/B777/B777_300/B777_300.png"){
     tmpl_B777_300_purchase(0, 0)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_B777_300_purchase, "src\Aircraft\Boeing\B777\B777_300\B777_300.png
 1. Boeing 777-300 제조사
 --------------------------------------------------------------------*/
 
-spriteset(set_B777_300, "src\Aircraft\Boeing\B777\B777_300\B777_300.png"){
+spriteset(set_B777_300, "src/Aircraft/Boeing/B777/B777_300/B777_300.png"){
     tp_B777_300(0, 0)
 }
 
@@ -21,7 +21,7 @@ spriteset(set_B777_300, "src\Aircraft\Boeing\B777\B777_300\B777_300.png"){
 2. Boeing 777-300 Korean Air
 --------------------------------------------------------------------*/
 
-spriteset(set_B777_300_Koreanair, "src\Aircraft\Boeing\B777\B777_300\Koreanair.png"){
+spriteset(set_B777_300_Koreanair, "src/Aircraft/Boeing/B777/B777_300/Koreanair.png"){
     tp_B777_300(0, 0)
 }
 
