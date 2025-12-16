@@ -8,6 +8,7 @@ switch(FEAT_AIRCRAFT, SELF, sw_Boeing_787_9_cargo_subtype_text, cargo_subtype) {
     4: return string(STR_REFIT_LIVERY_Airpremia);      // AIR PREMIA
     5: return string(STR_REFIT_LIVERY_Allnipponairways);      // ANA
     6: return string(STR_REFIT_LIVERY_Koreanair_new);      // KOREAN AIR
+    7: return string(STR_REFIT_LIVERY_Unitedairlines);      // United Airlines
     return string(STR_REFIT_LIVERY_Boeing);
 }
 
@@ -18,6 +19,7 @@ switch(FEAT_AIRCRAFT, SELF, sw_B787_9, cargo_subtype) {
     4: set_B787_9_premia;   // Air Premia
     5: set_B787_9_ana;   // ANA
     6: set_B787_9_korean25;   // Korean Air
+    7: set_B787_9_united;   // United Airlines
     set_B787_9;
 }
 
