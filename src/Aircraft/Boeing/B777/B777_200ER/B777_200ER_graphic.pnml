@@ -3,14 +3,14 @@ Graphics
 --------------------------------------------------------------------*/
 
 /*--------------------------------------------------------------------
-구매정보
+Purchase info
 --------------------------------------------------------------------*/
 spriteset(set_B777_200ER_purchase, "src/Aircraft/Boeing/B777/B777_200ER/B777_200ER.png"){
     tmpl_B777_200_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
-1. 보잉 777-200ER 제조사
+1. Boeing 777-200ER Manufacturer
 --------------------------------------------------------------------*/
 
 spriteset(set_B777_200ER, "src/Aircraft/Boeing/B777/B777_200ER/B777_200ER.png"){
@@ -18,35 +18,43 @@ spriteset(set_B777_200ER, "src/Aircraft/Boeing/B777/B777_200ER/B777_200ER.png"){
 }
 
 /*--------------------------------------------------------------------
-2. 보잉 777-200ER 대한항공
+2. Boeing 777-200ER Korean
 --------------------------------------------------------------------*/
 
-spriteset(set_B777_200ER_korean, "src/Aircraft/Boeing/B777/B777_200ER/B777_200ER_Korean.png"){
+spriteset(set_B777_200ER_korean, "src/Aircraft/Boeing/B777/B777_200ER/Korean.png"){
     tp_B777_200(0, 0)
 }
 
 /*--------------------------------------------------------------------
-3. 보잉 777-200ER 아시아나항공
+3. Boeing 777-200ER Asiana
 --------------------------------------------------------------------*/
 
-spriteset(set_B777_200ER_asiana, "src/Aircraft/Boeing/B777/B777_200ER/B777_200ER_Asiana.png"){
+spriteset(set_B777_200ER_asiana, "src/Aircraft/Boeing/B777/B777_200ER/Asiana.png"){
     tp_B777_200(0, 0)
 }
 
 /*--------------------------------------------------------------------
-4. 보잉 777-200ER 진에어
+4. Boeing 777-200ER Jin air
 --------------------------------------------------------------------*/
 
 spriteset(set_B777_200ER_jin, "src/Aircraft/Boeing/B777/B777_200ER/B777_200ER.png"){
     tp_B777_200(0, 0)
 }
 
-alternative_sprites(set_B777_200ER_jin, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Aircraft/Boeing/B777/B777_200ER/B777_200ER_Jin.png"){
+alternative_sprites(set_B777_200ER_jin, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Aircraft/Boeing/B777/B777_200ER/Jinair.png"){
     tp_B777_200(0, 0)
 }
 
 /*--------------------------------------------------------------------
-구매정보
+5. Boeing 777-200ER United Airlines
+--------------------------------------------------------------------*/
+
+spriteset(set_B777_200ER_united, "src/Aircraft/Boeing/B777/B777_200ER/United.png"){
+    tp_B777_200(0, 0)
+}
+
+/*--------------------------------------------------------------------
+Purchase info
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_B777_200ER_purchase, cargo_subtype) {
     set_B777_200ER_purchase;

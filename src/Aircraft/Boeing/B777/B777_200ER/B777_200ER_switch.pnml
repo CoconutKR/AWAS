@@ -2,18 +2,20 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_AIRCRAFT, SELF, sw_Boeing_777_200ER_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Boeing);   // 제조사
-    2: return string(STR_REFIT_LIVERY_Koreanair);      // 대한항공
-    3: return string(STR_REFIT_LIVERY_Asiana);      // 아시아나항공
-    4: return string(STR_REFIT_LIVERY_Jinair);       // 진에어
+    1: return string(STR_REFIT_LIVERY_Boeing);   // Manufacturer
+    2: return string(STR_REFIT_LIVERY_Koreanair);      // Korean Air
+    3: return string(STR_REFIT_LIVERY_Asiana);      // Asiana Airlines
+    4: return string(STR_REFIT_LIVERY_Jinair);       // Jin Air
+    5: return string(STR_REFIT_LIVERY_Unitedairlines);       // United Airlines
     return string(STR_REFIT_LIVERY_Boeing);
 }
 
 switch(FEAT_AIRCRAFT, SELF, sw_B777_200ER, cargo_subtype) {
-    1: set_B777_200ER;        // 제조사
-    2: set_B777_200ER_korean;   // 대한항공
-    3: set_B777_200ER_asiana;   // 아시아나항공
-    4: set_B777_200ER_jin;    // 진에어
+    1: set_B777_200ER;        // Manufacturer
+    2: set_B777_200ER_korean;   // Korean Air
+    3: set_B777_200ER_asiana;   // Asiana Airlines
+    4: set_B777_200ER_jin;    // Jin Air
+    5: set_B777_200ER_united;    // United Airlines
     set_B777_200ER;
 }
 

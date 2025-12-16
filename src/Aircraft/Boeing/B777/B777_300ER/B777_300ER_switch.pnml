@@ -18,6 +18,7 @@ switch(FEAT_AIRCRAFT, SELF, sw_Boeing_777_300ER_cargo_subtype_text, cargo_subtyp
     14: return string(STR_REFIT_LIVERY_Britishairways);      // British Airways
     15: return string(STR_REFIT_LIVERY_Allnipponairways);      // ANA
     16: return string(STR_REFIT_LIVERY_Japanairlines);      // Japan Airlines
+    17: return string(STR_REFIT_LIVERY_Unitedairlines);      //  Airlines
     return string(STR_REFIT_LIVERY_Boeing);
 }
 
@@ -38,6 +39,7 @@ switch(FEAT_AIRCRAFT, SELF, sw_B777_300ER, cargo_subtype) {
     14: set_B777_300ER_british;   // British Airways
     15: set_B777_300ER_ana;   // ANA
     16: set_B777_300ER_Japanairlines;   // Japan Airlines
+    17: set_B777_300ER_united;   // United Airlines
     set_B777_300ER;
 }
 
