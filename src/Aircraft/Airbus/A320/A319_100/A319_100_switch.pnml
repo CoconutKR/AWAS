@@ -2,14 +2,14 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_AIRCRAFT, SELF, sw_Airbus_A319_100_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Airbus);   // 제조사
-    2: return string(STR_REFIT_LIVERY_Airbus);     // 영국항공
+    1: return string(STR_REFIT_LIVERY_Airbus);   // Manufacturer
+    2: return string(STR_REFIT_LIVERY_Iberiaairlines);     // Iberia
     return string(STR_REFIT_LIVERY_Airbus);
 }
 
 switch(FEAT_AIRCRAFT, SELF, sw_A319_100, cargo_subtype) {
-    1: set_A319_100_default;        // 제조사
-    2: set_A319_100_default;   // 영국항공
+    1: set_A319_100_default;        // Manufacturer
+    2: set_A319_100_iberia;   // Iberia
     set_A319_100_default;
 }
 
