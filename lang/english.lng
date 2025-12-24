@@ -119,11 +119,14 @@ STR_A319neo_NAME                                    :Airbus A319neo
 STR_A320_100_NAME                                   :Airbus A320-100
 STR_A320_200_NAME                                   :Airbus A320-200
 STR_A320neo_NAME                                    :Airbus A320neo
+STR_A320P2F_NAME                                    :Airbus A320P2F
 STR_A321_100_NAME                                   :Airbus A321-100
 STR_A321_200_NAME                                   :Airbus A321-200
 STR_A321neo_NAME                                    :Airbus A321neo
 STR_A321LR_NAME                                     :Airbus A321LR
 STR_A321XLR_NAME                                    :Airbus A321XLR
+STR_A321P2F_NAME                                    :Airbus A321P2F
+STR_A321PCF_NAME                                    :Airbus A321PCF
 STR_A310_FAMILY                                     :Airbus A310
 STR_A310_200_NAME                                   :Airbus A310-200
 STR_A310_200F_NAME                                  :Airbus A310-200F
@@ -136,10 +139,12 @@ STR_A300B4_NAME                                     :Airbus A300B4
 STR_A300_600_NAME                                   :Airbus A300-600
 STR_A300_600R_NAME                                  :Airbus A300-600R
 STR_A300_600F_NAME                                  :Airbus A300-600F
+STR_A330_FAMILY                                     :Airbus A330
 STR_A330_200_NAME                                   :Airbus A330-200
 STR_A330_200F_NAME                                  :Airbus A330-200F
-STR_A330_FAMILY                                     :Airbus A330
+STR_A330_200P2F_NAME                                :Airbus A330-200P2F
 STR_A330_300_NAME                                   :Airbus A330-300
+STR_A330_300P2F_NAME                                :Airbus A330-300P2F
 STR_A330_800_NAME                                   :Airbus A330-800 (A330neo)
 STR_A330_900_NAME                                   :Airbus A330-900 (A330neo)
 STR_A340_FAMILY                                     :Airbus A340

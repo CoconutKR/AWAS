@@ -150,6 +150,7 @@
 #include "Aircraft/Embraer/E_Jet/E190/E190AR/E190AR.pnml"        //7148
 #include "Aircraft/Embraer/E_Jet/E190/E190E2/E190E2.pnml"        //7149
 #include "Aircraft/Embraer/E_Jet/E190/E190F/E190F.pnml"        //7150
+#include "Aircraft/Airbus/A320/A320P2F/A320P2F.pnml"              //7151
 
 // Sorting
 #include "sort.pnml"
