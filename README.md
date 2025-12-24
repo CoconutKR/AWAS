@@ -24,7 +24,7 @@ Next, click on the desired aircraft type (e.g., A320).
 
 Next, click on the specific aircraft type name (e.g., A319neo).
 
-You'll now have a png file (e.g., A320neo.png).
+You'll now have a greyscale.png file (e.g., greyscale.png).
 With this file, you can now create an airline livery. Here's how I created an airline livery. (You don't have to do it this way, but this is a simpler method.)
 First, I'll use the open-source image creation program "GIMP." (Please install the program.)
 Second, you'll need the "ttd-newgrf-win.gpl - Gimp palette Windows file" from "https://www.tt-forums.net/viewtopic.php?t=91568." (Download it here.)
