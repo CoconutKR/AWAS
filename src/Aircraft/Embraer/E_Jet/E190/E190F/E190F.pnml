@@ -1,20 +1,20 @@
 /*--------------------------------------------------------------------
-Embraer E-Jet E195AR
+Embraer E-Jet E190F
 --------------------------------------------------------------------*/
 // Graphics
-#include "E195AR_graphic.pnml"
+#include "E190F_graphic.pnml"
 
 // Switch
-#include "E195AR_switch.pnml"
+#include "E190F_switch.pnml"
 
 /*--------------------------------------------------------------------
-항공기정보
+Aircraft Info
 --------------------------------------------------------------------*/
-item(FEAT_AIRCRAFT, E195AR, 7136){
+item(FEAT_AIRCRAFT, E190F, 7150){
     property {
-        name:                           string(STR_E195AR_NAME);
+        name:                           string(STR_E190F_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2004, 1, 1);
+        introduction_date:              date(2024, 1, 1);
         aircraft_type:                  AIRCRAFT_TYPE_SMALL;
         sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
         variant_group:                  E170STD;
@@ -29,12 +29,12 @@ item(FEAT_AIRCRAFT, E195AR, 7136){
         reliability_decay:              0;
         
         //Cargo
-        passenger_capacity:             140;
-        mail_capacity:                  14;    
+        passenger_capacity:             0;
+        mail_capacity:                  0;    
         acceleration:                   27; 
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
+        cargo_allow_refit:              [GOOD, MAIL, OIL_, LVST, COAL, GRAI, WOOD, IORE, STEL, VALU, PAPR, WHEA, FOOD, GOLD, RUBR, FRUT, MAIZ, CORE, WATR, DIAM, SUGR, BATT, BUBL, COLA, CTCD, FZDR, PLST, SWET, TOFF, TOYS, AORE, RCYC, SGBT, FICR, MNSP, METL, ACID, BEER, STAL, ALUM, NH3_, BEAN, BDMT, CBLK, STCB, CASS, CSTI, CMNT, RFPR, CHLO, CLAY, SOAP, CTAR, JAVA, COKE, COPR, EOIL, POWR, ENSP, BOOM, FMSP, FECR, FERT, FISH, GLAS, KAOL, LIME, MNO2, MILK, NITR, NUTS, O2__, COAT, PEAT, PETR, PHOS, IRON, PIPE, PLAS, POTA, PORE, QLME, SALT, SAND, SCMT, SLAG, SASH, LYE_, STST, STSE, STSH, STWR, GRVL, SULP, WDPR, TYRE, VBOD, VENG, VPTS, VEHI, WOOL, ZINC];
         cargo_disallow_refit:           [];
         
         //Costs
@@ -46,12 +46,13 @@ item(FEAT_AIRCRAFT, E195AR, 7136){
         }
         
     graphics {
-        default:                        sw_E195AR;
-        purchase:                       sw_E195AR_purchase;
+        default:                        sw_E190F;
+        purchase:                       sw_E190F_purchase;
         loading_speed:                  43;
         cost_factor:                    208;
+        mail_capacity:                  return 120;
         running_cost_factor:            120;
-        cargo_subtype_text:             sw_Embraer_E195AR_cargo_subtype_text;
-        name:                           switch_E195AR_name;
+        cargo_subtype_text:             sw_Embraer_E190F_cargo_subtype_text;
+        name:                           switch_E190F_name;
         }
 }

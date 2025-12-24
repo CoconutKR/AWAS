@@ -12,3 +12,9 @@ switch(FEAT_AIRCRAFT, SELF, sw_E195STD, cargo_subtype) {
     2: set_E195STD_default; 
     set_E195STD_default;
 }
+
+switch (FEAT_AIRCRAFT, SELF, switch_E195STD_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+    0: return string(STR_EJET_FAMILY);
+    return CB_RESULT_NO_TEXT;
+}
+

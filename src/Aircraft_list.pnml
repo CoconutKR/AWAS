@@ -138,6 +138,18 @@
 #include "Aircraft/Embraer/E_Jet/E195/E195AR/E195AR.pnml"        //7136
 #include "Aircraft/Comac/C919/C919_100STD/C919_100STD.pnml"        //7137
 #include "Aircraft/Comac/C919/C919_100ER/C919_100ER.pnml"        //7138
+#include "Aircraft/Embraer/E_Jet/E195/E195E2/E195E2.pnml"        //7139
+#include "Aircraft/Embraer/E_Jet/E170/E170STD/E170STD.pnml"        //7140
+#include "Aircraft/Embraer/E_Jet/E170/E170LR/E170LR.pnml"        //7141
+#include "Aircraft/Embraer/E_Jet/E170/E170AR/E170AR.pnml"        //7142
+#include "Aircraft/Embraer/E_Jet/E175/E175STD/E175STD.pnml"        //7143
+#include "Aircraft/Embraer/E_Jet/E175/E175LR/E175LR.pnml"        //7144
+#include "Aircraft/Embraer/E_Jet/E175/E175AR/E175AR.pnml"        //7145
+#include "Aircraft/Embraer/E_Jet/E190/E190STD/E190STD.pnml"        //7146
+#include "Aircraft/Embraer/E_Jet/E190/E190LR/E190LR.pnml"        //7147
+#include "Aircraft/Embraer/E_Jet/E190/E190AR/E190AR.pnml"        //7148
+#include "Aircraft/Embraer/E_Jet/E190/E190E2/E190E2.pnml"        //7149
+#include "Aircraft/Embraer/E_Jet/E190/E190F/E190F.pnml"        //7150
 
 // Sorting
 #include "sort.pnml"

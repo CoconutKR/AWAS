@@ -154,6 +154,7 @@ STR_A350_1000_NAME                                  :에어버스 A350-1000
 STR_A350_1000ULR_NAME                               :에어버스 A350-1000ULR
 STR_A380_FAMILY                                     :에어버스 A380
 STR_A380_800_NAME                                   :에어버스 A380-800
+STR_EJET_FAMILY                                     :엠브라에르 E-Jet
 STR_E170_FAMILY                                     :엠브라에르 E170
 STR_E170STD_NAME                                    :엠브라에르 E170 STD
 STR_E170LR_NAME                                     :엠브라에르 E170 LR
@@ -164,9 +165,12 @@ STR_E175AR_NAME                                     :엠브라에르 E175 AR
 STR_E190STD_NAME                                    :엠브라에르 E190 STD
 STR_E190LR_NAME                                     :엠브라에르 E190 LR
 STR_E190AR_NAME                                     :엠브라에르 E190 AR
+STR_E190E2_NAME                                     :엠브라에르 E190-E2
+STR_E190F_NAME                                      :엠브라에르 E190F
 STR_E195STD_NAME                                    :엠브라에르 E195 STD
 STR_E195LR_NAME                                     :엠브라에르 E195 LR
 STR_E195AR_NAME                                     :엠브라에르 E195 AR
+STR_E195E2_NAME                                     :엠브라에르 E195-E2
 STR_ATR_72_200_NAME                                 :ATR 72-200
 STR_ATR_72_200F_NAME                                :ATR 72-200F
 STR_ATR_72_210_NAME                                 :ATR 72-210

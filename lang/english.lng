@@ -154,6 +154,7 @@ STR_A350_1000_NAME                                  :Airbus A350-1000
 STR_A350_1000ULR_NAME                               :Airbus A350-1000ULR
 STR_A380_FAMILY                                     :Airbus A380
 STR_A380_800_NAME                                   :Airbus A380-800
+STR_EJET_FAMILY                                     :Embraer E-Jet
 STR_E170STD_NAME                                    :Embraer E170 STD
 STR_E170LR_NAME                                     :Embraer E170 LR
 STR_E170AR_NAME                                     :Embraer E170 AR
@@ -163,9 +164,12 @@ STR_E175AR_NAME                                     :Embraer E175 AR
 STR_E190STD_NAME                                    :Embraer E190 STD
 STR_E190LR_NAME                                     :Embraer E190 LR
 STR_E190AR_NAME                                     :Embraer E190 AR
+STR_E190E2_NAME                                     :Embraer E190-E2
+STR_E190F_NAME                                      :Embraer E190F
 STR_E195STD_NAME                                    :Embraer E195 STD
 STR_E195LR_NAME                                     :Embraer E195 LR
 STR_E195AR_NAME                                     :Embraer E195 AR
+STR_E195E2_NAME                                     :Embraer E195-E2
 STR_ATR_72_200_NAME                                 :ATR 72-200
 STR_ATR_72_200F_NAME                                :ATR 72-200F
 STR_ATR_72_210_NAME                                 :ATR 72-210
