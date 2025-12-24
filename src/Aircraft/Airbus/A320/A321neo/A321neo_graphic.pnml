@@ -3,7 +3,7 @@ Graphics
 --------------------------------------------------------------------*/
 
 /*--------------------------------------------------------------------
-구매정보
+Purchase Info
 --------------------------------------------------------------------*/
 spriteset(set_A321neo_purchase, "src/Aircraft/Airbus/A320/A321neo/A321neo.png"){
     tmpl_A321_200_purchase(0, 0)
@@ -57,10 +57,18 @@ spriteset(set_A321neo_Koreanair25, "src/Aircraft/Airbus/A320/A321neo/Korean25.pn
     tp_A321_200(0, 0)
 }
 
+/*--------------------------------------------------------------------
+6. Airbus A321neo American Airlines
+--------------------------------------------------------------------*/
+
+spriteset(set_A321neo_Americanairlines, "src/Aircraft/Airbus/A320/A321neo/American.png"){
+    tp_A321_200(0, 0)
+}
+
 
 
 /*--------------------------------------------------------------------
-구매정보
+Purchase Info
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_A321neo_purchase, cargo_subtype) {
     set_A321neo_purchase;
