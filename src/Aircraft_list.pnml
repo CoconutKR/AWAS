@@ -136,6 +136,8 @@
 #include "Aircraft/Airbus/A350/A350_1000ULR/A350_1000ULR.pnml"          //7134
 #include "Aircraft/Embraer/E_Jet/E195/E195LR/E195LR.pnml"        //7135
 #include "Aircraft/Embraer/E_Jet/E195/E195AR/E195AR.pnml"        //7136
+#include "Aircraft/Comac/C919/C919_100STD/C919_100STD.pnml"        //7137
+#include "Aircraft/Comac/C919/C919_100ER/C919_100ER.pnml"        //7138
 
 // Sorting
 #include "sort.pnml"

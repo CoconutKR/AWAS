@@ -1,0 +1,57 @@
+/*--------------------------------------------------------------------
+A321-200
+--------------------------------------------------------------------*/
+// Graphics
+#include "C919_100STD_graphic.pnml"
+
+// Switch
+#include "C919_100STD_switch.pnml"
+
+/*--------------------------------------------------------------------
+항공기정보
+--------------------------------------------------------------------*/
+item(FEAT_AIRCRAFT, C919_100STD, 7137){
+    property {
+        name:                           string(STR_C919_100STD_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2023, 1, 1);
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
+        variant_group:                  C919_100STD;
+                
+        //spec
+        speed:                          901km/h;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   25;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        passenger_capacity:             174;
+        mail_capacity:                  18;    
+        acceleration:                   27; 
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     100;
+        
+        //Flags
+        misc_flags:                  	bitmask(AIRCRAFT_FLAG_2CC);
+        sound_effect:                   SOUND_TAKEOFF_JET;
+        }
+        
+    graphics {
+        default:                        sw_C919_100STD;
+        purchase:                       sw_C919_100STD_purchase;
+        loading_speed:                  43;
+        cost_factor:                    270;
+        running_cost_factor:            120;
+        cargo_subtype_text:             sw_Comac_C919_100STD_cargo_subtype_text;
+        name:                           switch_C919_100STD_name;
+        }
+}

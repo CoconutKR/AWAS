@@ -237,3 +237,7 @@ template tmpl_B747_8F_purchase(x, y) {
 template tmpl_E195_purchase(x, y) {
     tmpl_purchase_detail(x+254, y, 47, 21, -24, -11)
 }
+
+template tmpl_C919_100_purchase(x, y) {
+    tmpl_purchase_detail(x+310, y, 49, 23, -25, -12)
+}

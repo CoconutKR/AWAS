@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_AIRCRAFT, SELF, sw_Comac_C919_100STD_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Comac);   // Manufacturer
+    return string(STR_REFIT_LIVERY_Comac);
+}
+
+switch(FEAT_AIRCRAFT, SELF, sw_C919_100STD, cargo_subtype) {
+    1: set_C919_100STD_default;        // Manufacturer
+    set_C919_100STD_default;
+}
+
+    switch (FEAT_AIRCRAFT, SELF, switch_C919_100STD_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+    0: return string(STR_C919_FAMILY);
+    return CB_RESULT_NO_TEXT;
+}
