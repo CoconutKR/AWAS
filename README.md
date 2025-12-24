@@ -13,7 +13,8 @@ It is currently in development and will be available for download through in-gam
 
 This NewGRF follows **[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)** (GPL-3.0)
 By contributing this project, it means that you agree to this license.
-
+## Contributors
+[Contributors List](https://github.com/CoconutKR/AWAS/wiki)
 ## Ways to contribute
 First, click on the "src" folder.
 
