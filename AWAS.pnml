@@ -7,11 +7,11 @@ grf {
 	grfid: "AWAS";
 	name: string(STR_GRF_NAME_WITH_VER);
 	desc: string(STR_GRF_DESC);
-	version: 3;
+	version: 4;
 	min_compatible_version: 1;
 }
 
-// 화물테이블
+// Cargo table
 cargotable {
     // TTD
     PASS, COAL, MAIL, OIL_, LVST, GOOD, GRAI, WOOD, IORE, STEL, VALU, PAPR, WHEA, FOOD, GOLD, RUBR,
@@ -25,7 +25,22 @@ cargotable {
     CTAR, JAVA, COKE, COPR, EOIL, POWR, ENSP, BOOM, FMSP, FECR, FERT, FISH, GLAS, KAOL, LIME, MNO2,
     MILK, NITR, NUTS, O2__, COAT, PEAT, PETR, PHOS, IRON, PIPE, PLAS, POTA, PORE, QLME, SALT, SAND,
     SCMT, SLAG, SASH, LYE_, STST, STSE, STSH, STWR, GRVL, SULP, WDPR, TYRE, VBOD, VENG, VPTS, VEHI,
-    WOOL, ZINC
+    WOOL, ZINC,
+
+    // FIRS (from 5.0.0)
+    CCPR, FEAL, FOCA, HWAR, N7__, PPWK, PUMP, RBAR, SEAL, STBL, STBR, STIG, STPP, STSL, STTB, TYCO,
+    WELD,
+
+    // AXIS (2.x)
+    ALO_, BAKE, BIOM, COCO, CHRO, CRAN, FURN, LFEQ, MEAT, NHNO, NICK, OLSD, PPAR, RAMT, SGCN, SWRP,
+    TEXT, TIN_, TINP, YARN,
+
+    // OTIS
+    RUBR, URAN, CHSE, ELTR, FRVG, FUEL, MPTS, NKOR, OTI1, OTI2,
+    OYST, PCL_, SEED, SESP, TATO, TWOD,
+
+    // Improved Town Industries (based on 2.13)
+    WSTE, WDCH, SCPR
 }
 
 // Load templates

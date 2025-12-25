@@ -34,7 +34,26 @@ item(FEAT_AIRCRAFT, B737_800SF, 7062){
         acceleration:                   27; 
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [GOOD, MAIL, OIL_, LVST, COAL, GRAI, WOOD, IORE, STEL, VALU, PAPR, WHEA, FOOD, GOLD, RUBR, FRUT, MAIZ, CORE, WATR, DIAM, SUGR, BATT, BUBL, COLA, CTCD, FZDR, PLST, SWET, TOFF, TOYS, AORE, RCYC, SGBT, FICR, MNSP, METL, ACID, BEER, STAL, ALUM, NH3_, BEAN, BDMT, CBLK, STCB, CASS, CSTI, CMNT, RFPR, CHLO, CLAY, SOAP, CTAR, JAVA, COKE, COPR, EOIL, POWR, ENSP, BOOM, FMSP, FECR, FERT, FISH, GLAS, KAOL, LIME, MNO2, MILK, NITR, NUTS, O2__, COAT, PEAT, PETR, PHOS, IRON, PIPE, PLAS, POTA, PORE, QLME, SALT, SAND, SCMT, SLAG, SASH, LYE_, STST, STSE, STSH, STWR, GRVL, SULP, WDPR, TYRE, VBOD, VENG, VPTS, VEHI, WOOL, ZINC];
+        cargo_allow_refit:              [COAL, MAIL, OIL_, LVST, GOOD, GRAI, WOOD, 
+                                         IORE, STEL, VALU, PAPR, WHEA, FOOD, GOLD, RUBR,
+                                         FRUT, MAIZ, CORE, WATR, DIAM, SUGR, BATT, BUBL,
+                                         COLA, CTCD, FZDR, PLST, SWET, TOFF, TOYS, AORE,
+                                         RCYC, SGBT, FICR, MNSP, METL, ACID, BEER, STAL,
+                                         ALUM, NH3_, BEAN, BDMT, CBLK, STCB, CASS, CSTI,
+                                         CMNT, RFPR, CHLO, CLAY, SOAP, CTAR, JAVA, COKE,
+                                         COPR, EOIL, POWR, ENSP, BOOM, FMSP, FECR, FERT,
+                                         FISH, GLAS, KAOL, LIME, MNO2, MILK, NITR, NUTS,
+                                         O2__, COAT, PEAT, PETR, PHOS, IRON, PIPE, PLAS,
+                                         POTA, PORE, QLME, SALT, SAND, SCMT, SLAG, SASH,
+                                         LYE_, STST, STSE, STSH, STWR, GRVL, SULP, WDPR,
+                                         TYRE, VBOD, VENG, VPTS, VEHI, WOOL, ZINC, CCPR,
+                                         FEAL, FOCA, HWAR, N7__, PPWK, PUMP, RBAR, SEAL,
+                                         STBL, STBR, STIG, STPP, STSL, STTB, TYCO, ALO_, 
+                                         BAKE, BIOM, COCO, CHRO, CRAN, FURN, LFEQ, MEAT,
+                                         NHNO, NICK, OLSD, PPAR, RAMT, SGCN, SWRP, TEXT,
+                                         TIN_, TINP, YARN, WELD, RUBR, URAN, CHSE, ELTR,
+                                         FRVG, FUEL, MPTS, NKOR, OTI1, OTI2, OYST, PCL_,
+                                         SEED, SESP, TATO, TWOD, WSTE, WDCH, SCPR];
         cargo_disallow_refit:           [];
         
         //Costs

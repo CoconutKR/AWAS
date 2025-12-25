@@ -145,12 +145,17 @@
 #include "Aircraft/Embraer/E_Jet/E175/E175STD/E175STD.pnml"        //7143
 #include "Aircraft/Embraer/E_Jet/E175/E175LR/E175LR.pnml"        //7144
 #include "Aircraft/Embraer/E_Jet/E175/E175AR/E175AR.pnml"        //7145
-#include "Aircraft/Embraer/E_Jet/E190/E190STD/E190STD.pnml"        //7146
-#include "Aircraft/Embraer/E_Jet/E190/E190LR/E190LR.pnml"        //7147
-#include "Aircraft/Embraer/E_Jet/E190/E190AR/E190AR.pnml"        //7148
-#include "Aircraft/Embraer/E_Jet/E190/E190E2/E190E2.pnml"        //7149
-#include "Aircraft/Embraer/E_Jet/E190/E190F/E190F.pnml"        //7150
-#include "Aircraft/Airbus/A320/A320P2F/A320P2F.pnml"              //7151
+#include "Aircraft/Embraer/E_Jet/E190/E190STD/E190STD.pnml"         //7146
+#include "Aircraft/Embraer/E_Jet/E190/E190LR/E190LR.pnml"           //7147
+#include "Aircraft/Embraer/E_Jet/E190/E190AR/E190AR.pnml"           //7148
+#include "Aircraft/Embraer/E_Jet/E190/E190E2/E190E2.pnml"           //7149
+#include "Aircraft/Embraer/E_Jet/E190/E190F/E190F.pnml"             //7150
+#include "Aircraft/Airbus/A320/A320P2F/A320P2F.pnml"                //7151
+#include "Aircraft/Airbus/A320/A321P2F/A321P2F.pnml"                //7152
+#include "Aircraft/Airbus/A320/A321PCF/A321PCF.pnml"                //7153
+#include "Aircraft/Airbus/A330/A330_200P2F/A330_200P2F.pnml"        //7154
+#include "Aircraft/Airbus/A330/A330_300P2F/A330_300P2F.pnml"        //7155
+#include "Aircraft/Airbus/A350/A350F/A350F.pnml"                    //7156
 
 // Sorting
 #include "sort.pnml"

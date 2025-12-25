@@ -3,7 +3,7 @@
 # GRF name and description
 
 STR_GRF_NAME                                        :AWAS
-STR_GRF_NAME_WITH_VER                               :AWAS 0.2.0 Alpha
+STR_GRF_NAME_WITH_VER                               :AWAS 0.3.0 Alpha
 STR_GRF_DESC                                        :{BLACK}AWAS {}(Updated: {RECENT_UPDATED}){}{SILVER}+ Author: Coconut
 STR_GRF_URL                                         :https://github.com/CoconutKR/AWAS
 
@@ -157,6 +157,7 @@ STR_A350_900_NAME                                   :에어버스 A350-900
 STR_A350_900ULR_NAME                                :에어버스 A350-900ULR
 STR_A350_1000_NAME                                  :에어버스 A350-1000
 STR_A350_1000ULR_NAME                               :에어버스 A350-1000ULR
+STR_A350F_NAME                                      :에어버스 A350F
 STR_A380_FAMILY                                     :에어버스 A380
 STR_A380_800_NAME                                   :에어버스 A380-800
 STR_EJET_FAMILY                                     :엠브라에르 E-Jet
@@ -228,17 +229,17 @@ STR_REFIT_LIVERY_oneworld                           :{BLUE}(원월드)
 # Liveries (South Korea)
 
 STR_REFIT_LIVERY_Koreanair                          :{LTBLUE}(대한항공 / 1984~2025년 도장)
-STR_REFIT_LIVERY_Koreanair_new                      :{LTBLUE}(대한항공)
+STR_REFIT_LIVERY_Koreanair_new                      :{BLUE}(대한항공)
 STR_REFIT_LIVERY_Koreanair_old                      :{LTBLUE}(대한항공 / 1969~1984년 도장)
 STR_REFIT_LIVERY_Koreanaircargo                     :{LTBLUE}(대한항공 카고 / 1984~2025년 도장)
-STR_REFIT_LIVERY_Koreanaircargo_new                 :{LTBLUE}(대한항공 카고)
+STR_REFIT_LIVERY_Koreanaircargo_new                 :{BLUE}(대한항공 카고)
 STR_REFIT_LIVERY_Koreanaircargo_old                 :{LTBLUE}(대한항공 카고 / 1969~1984년 도장)
 STR_REFIT_LIVERY_Koreanairlines                     :(대한항공공사)
 STR_REFIT_LIVERY_Koreannationalairlines             :(대한국민항공)
 STR_REFIT_LIVERY_Asiana                             :{WHITE}(아시아나항공)
-STR_REFIT_LIVERY_Asiana_old                         :{WHITE}(아시아나항공 / 1988~2006년 도장)
+STR_REFIT_LIVERY_Asiana_old                         :{LTBROWN}(아시아나항공 / 1988~2006년 도장)
 STR_REFIT_LIVERY_Asianacargo                        :{WHITE}(아시아나 카고)
-STR_REFIT_LIVERY_Asianacargo_old                    :{WHITE}(아시아나 카고 / 1988~2006년 도장)
+STR_REFIT_LIVERY_Asianacargo_old                    :{LTBROWN}(아시아나 카고 / 1988~2006년 도장)
 STR_REFIT_LIVERY_Jejuair                            :{ORANGE}(제주항공)
 STR_REFIT_LIVERY_Jejuaircargo                       :{ORANGE}(제주항공 카고)
 STR_REFIT_LIVERY_Jejuair_old                        :{ORANGE}(제주항공 / 2006~2015년 도장)
@@ -246,11 +247,11 @@ STR_REFIT_LIVERY_Tway                               :{RED}(티웨이항공)
 STR_REFIT_LIVERY_Jinair                             :{GREEN}(진에어)
 STR_REFIT_LIVERY_Airbusan                           :{DKBLUE}(에어부산)
 STR_REFIT_LIVERY_Airseoul                           :{DKGREEN}(에어서울)
-STR_REFIT_LIVERY_Airpremia                          :(에어프레미아)
-STR_REFIT_LIVERY_Eastar                             :(이스타항공)
-STR_REFIT_LIVERY_Hiair_b                            :(하이에어 / 파랑)
-STR_REFIT_LIVERY_Hiair_p                            :(하이에어 / 분홍)
-STR_REFIT_LIVERY_Hiair_g                            :(하이에어 / 초록)
+STR_REFIT_LIVERY_Airpremia                          :{DKBLUE}(에어프레미아)
+STR_REFIT_LIVERY_Eastar                             :{RED}(이스타항공)
+STR_REFIT_LIVERY_Hiair_b                            :{RED}(하이에어 / 파랑)
+STR_REFIT_LIVERY_Hiair_p                            :{RED}(하이에어 / 분홍)
+STR_REFIT_LIVERY_Hiair_g                            :{RED}(하이에어 / 초록)
 STR_REFIT_LIVERY_Aerok                              :(에어로케이)
 STR_REFIT_LIVERY_Flygangwon                         :(플라이강원)
 STR_REFIT_LIVERY_Airincheon                         :(에어인천)
@@ -263,8 +264,8 @@ STR_REFIT_LIVERY_Hansungairlines                    :(한성항공)
 
 # Liveries (North Korea)
 
-STR_REFIT_LIVERY_Airkoryo                           :(고려항공)
-STR_REFIT_LIVERY_Airkoryo_old                       :(고려항공 (구))
+STR_REFIT_LIVERY_Airkoryo                           :{RED}(고려항공)
+STR_REFIT_LIVERY_Airkoryo_old                       :{RED}(고려항공 (구))
 
 # Liveries (Japan)
 
@@ -455,6 +456,8 @@ STR_REFIT_LIVERY_Airfrance                          :(에어 프랑스)
 STR_REFIT_LIVERY_Itaairways                         :(ITA 항공)
 STR_REFIT_LIVERY_Klmroyaldutchairlines              :(KLM 네덜란드 항공)
 STR_REFIT_LIVERY_Aeroflot                           :(아에로플로트)
+STR_REFIT_LIVERY_Aeroflot_old1990                   :(아에로플로트 / 1990년대 도장)
+STR_REFIT_LIVERY_Aeroflot_old1980                   :(아에로플로트 / 소련 도장)
 STR_REFIT_LIVERY_Iberiaairlines                     :(이베리아항공)
 STR_REFIT_LIVERY_Iberiaairlines_old1970             :(이베리아항공 / 1970~2014년 도장)
 STR_REFIT_LIVERY_Plusultra                          :(플러스 울트라)
