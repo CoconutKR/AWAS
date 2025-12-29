@@ -1,29 +1,43 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_AIRCRAFT, SELF, sw_Airbus_A320_200_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Airbus);   // 제조사
-    2: return string(STR_REFIT_LIVERY_Asiana);     // Asiana Airlines
-    3: return string(STR_REFIT_LIVERY_Airbusan);     // Air Busan
-    4: return string(STR_REFIT_LIVERY_Aerok);     // Aero K
+switch(FEAT_AIRCRAFT, SELF, sw_A320_200_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Airbus);            // Manufacturer
+    2: return string(STR_REFIT_LIVERY_Asiana);            // Asiana Airlines
+    3: return string(STR_REFIT_LIVERY_Airbusan);          // Air Busan
+    4: return string(STR_REFIT_LIVERY_Aerok);             // Aero K
     5: return string(STR_REFIT_LIVERY_Peachaviation);     // Peach Aviation
-    6: return string(STR_REFIT_LIVERY_Chinaeastern);     // China Eastern
-    7: return string(STR_REFIT_LIVERY_Iberiaairlines);     // Iberia
+    6: return string(STR_REFIT_LIVERY_Chinaeastern);      // China Eastern
+    7: return string(STR_REFIT_LIVERY_Iberiaairlines);    // Iberia
+    8: return string(STR_REFIT_LIVERY_Lufthansa);         // Lufthansa
     return string(STR_REFIT_LIVERY_Airbus);
 }
 
 switch(FEAT_AIRCRAFT, SELF, sw_A320_200, cargo_subtype) {
-    1: set_A320_200_default;        // 제조사
-    2: set_A320_200_asiana;   // Asiana Airlines
-    3: set_A320_200_busan;   // Air Busan
-    4: set_A320_200_aerok;   // Aero K
-    5: set_A320_200_peach;   // Peach Aviation
+    1: set_A320_200_default;        // Manufacturer
+    2: set_A320_200_asiana;         // Asiana Airlines
+    3: set_A320_200_busan;          // Air Busan
+    4: set_A320_200_aerok;          // Aero K
+    5: set_A320_200_peach;          // Peach Aviation
     6: set_A320_200_chinaeastern;   // China Eastern
-    7: set_A320_200_iberia;   // Iberia
+    7: set_A320_200_iberia;         // Iberia
+    8: set_A320_200_lufthansa;      // Lufthansa
     set_A320_200_default;
 }
 
-    switch (FEAT_AIRCRAFT, SELF, switch_A320200_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+switch (FEAT_AIRCRAFT, SELF, switch_A320_200_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
     0: return string(STR_A320_FAMILY);
     return CB_RESULT_NO_TEXT;
+}
+
+switch (FEAT_AIRCRAFT, SELF, sw_A320_200_cargo_subtype_capacity, cargo_subtype)
+{
+    1: return 150;   // default
+    2: return 150;   // Asiana Airlines
+    3: return 180;   // Air Busan
+    4: return 180;   // Aero K
+    5: return 180;   // Peach Aviation
+    6: return 158;   // China Eastern
+    7: return 180;   // Iberia
+    8: return 180;   // Lufthansa
 }
