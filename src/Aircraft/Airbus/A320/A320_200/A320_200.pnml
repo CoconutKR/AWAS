@@ -18,40 +18,41 @@ item(FEAT_AIRCRAFT, A320_200, 7007){
         aircraft_type:                  AIRCRAFT_TYPE_SMALL;
         sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
         variant_group:                  A318_100;
-                
+
         //spec
         speed:                          901km/h;
-        
+
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
         vehicle_life:                   25;
         retire_early:                   0;
         reliability_decay:              0;
-        
+
         //Cargo
         passenger_capacity:             150;
-        mail_capacity:                  18;    
-        acceleration:                   27; 
+        mail_capacity:                  18;
+        acceleration:                   27;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
         cargo_disallow_refit:           [];
-        
+
         //Costs
         refit_cost:                     100;
-        
+
         //Flags
         misc_flags:                  	bitmask(AIRCRAFT_FLAG_2CC);
         sound_effect:                   SOUND_TAKEOFF_JET;
         }
-        
+
     graphics {
         default:                        sw_A320_200;
         purchase:                       sw_A320_200_purchase;
         loading_speed:                  43;
         cost_factor:                    246;
         running_cost_factor:            120;
-        cargo_subtype_text:             sw_Airbus_A320_200_cargo_subtype_text;
-        name:                           switch_A320200_name;
+        cargo_subtype_text:             sw_A320_200_cargo_subtype_text;
+        passenger_capacity:         sw_A320_200_cargo_subtype_capacity;
+        name:                           switch_A320_200_name;
         }
 }

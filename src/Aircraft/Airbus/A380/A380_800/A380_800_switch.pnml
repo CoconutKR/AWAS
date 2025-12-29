@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_AIRCRAFT, SELF, sw_Airbus_A380_800_cargo_subtype_text, cargo_subtype) {
+switch(FEAT_AIRCRAFT, SELF, sw_A380_800_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_Airbus);   // Manufacturer
     2: return string(STR_REFIT_LIVERY_Emiratesairlines);     // Emirates
     3: return string(STR_REFIT_LIVERY_Singaporeairlines);     // Singapore Airlines
@@ -14,6 +14,7 @@ switch(FEAT_AIRCRAFT, SELF, sw_Airbus_A380_800_cargo_subtype_text, cargo_subtype
     10: return string(STR_REFIT_LIVERY_Malaysiaairlines);   // Malaysia Airlines
     11: return string(STR_REFIT_LIVERY_Thaiairways);     // Thai Airways
     12: return string(STR_REFIT_LIVERY_Chinasouthern);     // China Southern Airlines
+    13: return string(STR_REFIT_LIVERY_Lufthansa); // Lufthansa (New)
     return string(STR_REFIT_LIVERY_Airbus);
 }
 
@@ -30,10 +31,28 @@ switch(FEAT_AIRCRAFT, SELF, sw_A380_800, cargo_subtype) {
     10: set_A380_800_Malaysia;  // Malaysia Airlines
     11: set_A380_800_Thai;  // Thai Airways
     12: set_A380_800_Chinasouthern;  // China Southern Airlines
+    13: set_A380_800_Lufthansanew; // Lufthansa (New)
     set_A380_800_default;
 }
 
 switch (FEAT_AIRCRAFT, SELF, switch_A380_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
     0: return string(STR_A380_FAMILY);
     return CB_RESULT_NO_TEXT;
+}
+
+switch (FEAT_AIRCRAFT, SELF, sw_A380_800_cargo_subtype_capacity, cargo_subtype)
+{
+    1: return 555;   // default
+    2: return 517;   // Emirates
+    3: return 471;   // Singapore
+    4: return 509;   // Lufthansa
+    5: return 469;   // British Airways
+    6: return 485;   // Qantas
+    7: return 516;   // Air France
+    8: return 407;   // Korean Air
+    9: return 495;   // Asiana Airlines
+    10: return 494;  // Malaysia Airlines
+    11: return 507;  // Thai Airways
+    12: return 524;  // China Southern Airlines
+    13: return 509;  // Lufthansa (New)
 }
