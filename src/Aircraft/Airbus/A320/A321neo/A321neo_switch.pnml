@@ -2,26 +2,66 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_AIRCRAFT, SELF, sw_Airbus_A321neo_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Airbus);   // Boeing
-    2: return string(STR_REFIT_LIVERY_Koreanair);     // Korean Air
-    3: return string(STR_REFIT_LIVERY_Asiana);     // Asiana Airlines
-    4: return string(STR_REFIT_LIVERY_Airbusan);     // Air Busan
-    5: return string(STR_REFIT_LIVERY_Koreanair_new);     // Korean Air new
-    6: return string(STR_REFIT_LIVERY_Americanairlines);     // American Airlines
+    1: return string(STR_REFIT_LIVERY_Airbus);              // default
+    2: return string(STR_REFIT_LIVERY_Koreanair);           // Korean Air
+    3: return string(STR_REFIT_LIVERY_Asiana);              // Asiana Airlines
+    4: return string(STR_REFIT_LIVERY_Airbusan);            // Air Busan
+    5: return string(STR_REFIT_LIVERY_Koreanair_new);       // Korean Air new
+    6: return string(STR_REFIT_LIVERY_Americanairlines);    // American Airlines
+    7: return string(STR_REFIT_LIVERY_Aegean);              // Aegean
+    8: return string(STR_REFIT_LIVERY_Britishairways);      // British Airways
+    9: return string(STR_REFIT_LIVERY_Easyjet);             // Easyjet
+    10: return string(STR_REFIT_LIVERY_Klmroyaldutchairlines);        // KLM
+    11: return string(STR_REFIT_LIVERY_Lufthansa);                    // Lufthansa
+    12: return string(STR_REFIT_LIVERY_Swissinternationalairlines);   // Swiss
+    13: return string(STR_REFIT_LIVERY_TAP);                          // TAP
+    14: return string(STR_REFIT_LIVERY_Vueling);                      // Vueling
+    15: return string(STR_REFIT_LIVERY_Wizzair);                      // Wizz Air
+    16: return string(STR_REFIT_LIVERY_Iberiaairlines);               // Iberia
     return string(STR_REFIT_LIVERY_Airbus);
 }
 
 switch(FEAT_AIRCRAFT, SELF, sw_A321neo, cargo_subtype) {
-    1: set_A321neo_default;        // Boeing
-    2: set_A321neo_Koreanair;   // Korean Air
-    3: set_A321neo_Asianaairlines;   // Asiana Airlines
-    4: set_A321neo_Airbusan;   // Air Busan
-    5: set_A321neo_Koreanair25;   // Korean Air new
-    6: set_A321neo_Americanairlines;   // American Airlines
+    1: set_A321neo_default;             // default
+    2: set_A321neo_Koreanair;           // Korean Air
+    3: set_A321neo_Asianaairlines;      // Asiana Airlines
+    4: set_A321neo_Airbusan;            // Air Busan
+    5: set_A321neo_Koreanair25;         // Korean Air new
+    6: set_A321neo_Americanairlines;    // American Airlines
+    7: set_A321neo_Aegean;              // Aegean
+    8: set_A321neo_Britishairways;      // British Airways
+    9: set_A321neo_Easyjet;             // Easyjet
+    10: set_A321neo_KLM;                // KLM
+    11: set_A321neo_Lufthansa;          // Lufthansa
+    12: set_A321neo_Swiss;              // Swiss
+    13: set_A321neo_TAP;                // TAP
+    14: set_A321neo_Vueling;            // Vueling
+    15: set_A321neo_Wizzair;            // Wizz Air
+    16: set_A321neo_Iberia;             // Iberia
     set_A321neo_default;
 }
 
-    switch (FEAT_AIRCRAFT, SELF, switch_A321neo_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+switch (FEAT_AIRCRAFT, SELF, switch_A321neo_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
     0: return string(STR_A320_FAMILY);
     return CB_RESULT_NO_TEXT;
+}
+
+switch (FEAT_AIRCRAFT, SELF, sw_Airbus_A321neo_cargo_subtype_capacity, cargo_subtype)
+{
+    1: return 206;   // default
+    2: return 182;   // Korean Air
+    3: return 180;   // Asiana Airlines
+    4: return 232;   // Air Busan
+    5: return 182;   // Korean Air new
+    6: return 196;   // American Airlines
+    7: return 220;   // Aegean
+    8: return 220;   // British Airways
+    9: return 235;   // Easyjet
+    10: return 227;   // KLM
+    11: return 215;   // Lufthansa
+    12: return 215;   // Swiss
+    13: return 221;   // TAP
+    14: return 236;   // Vueling
+    15: return 239;   // Wizz Air
+    16: return 232;   // Iberia
 }

@@ -466,6 +466,11 @@ STR_REFIT_LIVERY_Swissinternationalairlines         :{RED}(SWISS International A
 STR_REFIT_LIVERY_Scandinavianairlinessystem         :(SAS Scandinavian Airlines System)
 STR_REFIT_LIVERY_Turkishairlines                    :{RED}(Turkish Airlines)
 STR_REFIT_LIVERY_Aerlingus                          :(Aer Lingus)
+STR_REFIT_LIVERY_Aegean                             :(Aegean)
+STR_REFIT_LIVERY_Easyjet                            :(Easyjet)
+STR_REFIT_LIVERY_TAP                                :(TAP)
+STR_REFIT_LIVERY_Vueling                            :(Vueling)
+STR_REFIT_LIVERY_Wizzair                            :(Wizz Air)
 
 # Liveries (Oceania, Africa)
 

@@ -18,6 +18,14 @@ spriteset(set_A321XLR_default, "src/Aircraft/Airbus/A320/A321XLR/A321XLR.png"){
 }
 
 /*--------------------------------------------------------------------
+2. Airbus A321XLR Iberia
+--------------------------------------------------------------------*/
+
+spriteset(set_A321XLR_Iberia, "src/Aircraft/Airbus/A320/A321XLR/Iberia.png"){
+    tp_A321_200(0, 0)
+}
+
+/*--------------------------------------------------------------------
 purchase info
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_A321XLR_purchase, cargo_subtype) {
