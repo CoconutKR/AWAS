@@ -34,7 +34,7 @@ endif
 # Disable default suffixes rule
 .SUFFIXES:
 
-.PHONY: all build clean download_page doc generated bundle bundle_tar
+.PHONY: all build clean download_page doc generated bundle bundle_tar install
 
 # File names
 DIR_NAME            ?= $(shell echo "$(REPO_NAME) $(VERSION)" | xargs | sed s/\ /_/g)
@@ -124,6 +124,13 @@ bundle_tar: $(BUNDLE_FILES)
 clean::
 	@echo "[CLEAN BUNDLE]"
 	@-rm -rf $(shell echo "$(REPO_NAME)*" | xargs | sed s/\ /_/g)
+
+# Install to OpenTTD newgrf directory
+install: bundle_tar
+	@echo "[INSTALL] Copying $(DIR_NAME).tar to ~/Documents/OpenTTD/newgrf/AWAS.tar"
+	@mkdir -p ~/Documents/OpenTTD/newgrf
+	@cp generated/$(DIR_NAME).tar ~/Documents/OpenTTD/newgrf/AWAS.tar
+	@echo "[INSTALL] Complete"
 
 # Clean
 clean::
