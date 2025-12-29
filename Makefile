@@ -3,11 +3,30 @@ SHELL               := /bin/bash
 NMLC                ?= nmlc
 PYTHON              ?= python3
 
+# Detect operating system
+UNAME_S := $(shell uname -s 2>/dev/null || echo Windows)
+ifeq ($(UNAME_S),Darwin)
+    OS := macOS
+else ifeq ($(UNAME_S),Linux)
+    OS := Linux
+else
+    OS := Windows
+endif
+
 # C compiler
 CC                  ?= cc
 CC_FLAGS            ?= -C -E -nostdinc -x c-header
 CP_FLAGS            ?= $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "-rfX" || echo "-rf")
 CC_USER_FLAGS       ?=
+
+# Platform-specific tar transform flag
+ifeq ($(OS),macOS)
+    TAR_TRANSFORM := -s /generated/$(DIR_NAME)/
+else ifeq ($(OS),Linux)
+    TAR_TRANSFORM := --transform s/generated/$(DIR_NAME)/
+else
+    TAR_TRANSFORM := --transform s/generated/$(DIR_NAME)/
+endif
 
 # Configurations
 -include Makefile.config
@@ -100,8 +119,8 @@ clean::
 # Make a bundle
 bundle: bundle_tar
 bundle_tar: $(BUNDLE_FILES)
-	@echo "[BUNDLE TAR]"
-	@ tar -cf generated/$(DIR_NAME).tar generated/changelog.txt generated/$(GRF_FILE) generated/readme.txt --transform s/generated/$(DIR_NAME)/
+	@echo "[BUNDLE TAR] (Platform: $(OS))"
+	@ tar -cf generated/$(DIR_NAME).tar $(TAR_TRANSFORM) generated/changelog.txt generated/$(GRF_FILE) generated/readme.txt
 clean::
 	@echo "[CLEAN BUNDLE]"
 	@-rm -rf $(shell echo "$(REPO_NAME)*" | xargs | sed s/\ /_/g)
