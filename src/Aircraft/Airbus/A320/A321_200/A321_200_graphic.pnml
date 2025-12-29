@@ -70,6 +70,8 @@ spriteset(set_A321_200_asiana_old, "src/Aircraft/Airbus/A320/A321_200/A321_200.p
 }
 
 alternative_sprites(set_A321_200_asiana_old, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Aircraft/Airbus/A320/A321_200/Asianaold.png"){
+    tp_A321_200(0, 0)
+}
 
 /*--------------------------------------------------------------------
 7. Airbus A321-200 Lufthansa

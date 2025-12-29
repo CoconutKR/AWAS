@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_AIRCRAFT, SELF, sw_Airbus_A321_200_cargo_subtype_text, cargo_subtype) {
+switch(FEAT_AIRCRAFT, SELF, sw_A321_200_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_Airbus);   // Manufacturer
     2: return string(STR_REFIT_LIVERY_Asiana);     // Asiana Airlines
     3: return string(STR_REFIT_LIVERY_Airseoul);     // Air Seoul
