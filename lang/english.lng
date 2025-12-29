@@ -4,7 +4,7 @@
 
 STR_GRF_NAME                                        :AWAS
 STR_GRF_NAME_WITH_VER                               :AWAS 0.3.0 Alpha
-STR_GRF_DESC                                        :{BLACK}AWAS {}(Updated: {RECENT_UPDATED}){}{SILVER}+ Author: Coconut
+STR_GRF_DESC                                        :{BLACK}AWAS {}(Updated: {RECENT_UPDATED}){}{SILVER}+ Author: Coconut 
 STR_GRF_URL                                         :https://github.com/CoconutKR/AWAS
 
 # Aircraft name
