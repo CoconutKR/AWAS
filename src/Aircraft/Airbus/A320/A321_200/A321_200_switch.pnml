@@ -8,6 +8,7 @@ switch(FEAT_AIRCRAFT, SELF, sw_Airbus_A321_200_cargo_subtype_text, cargo_subtype
     4: return string(STR_REFIT_LIVERY_Airbusan);     // Air Busan
     5: return string(STR_REFIT_LIVERY_Iberiaairlines);     // Iberia Airlines
     6: return string(STR_REFIT_LIVERY_Asiana_old);     // Asiana Airlines old
+    7: return string(STR_REFIT_LIVERY_Lufthansa);         // Lufthansa
     return string(STR_REFIT_LIVERY_Airbus);
 }
 
@@ -18,10 +19,22 @@ switch(FEAT_AIRCRAFT, SELF, sw_A321_200, cargo_subtype) {
     4: set_A321_200_busan;   // Air Busan
     5: set_A321_200_iberia;   // Iberia
     6: set_A321_200_asiana_old;   // Asiana Airlines old
+    7: set_A321_200_lufthansa;    // Lufthansa
     set_A321_200_default;
 }
 
-    switch (FEAT_AIRCRAFT, SELF, switch_A321200_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+switch (FEAT_AIRCRAFT, SELF, switch_A321_200_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
     0: return string(STR_A320_FAMILY);
     return CB_RESULT_NO_TEXT;
+}
+
+switch (FEAT_AIRCRAFT, SELF, sw_A321_200_cargo_subtype_capacity, cargo_subtype)
+{
+    1: return 185;   // default
+    2: return 195;   // Asiana Airlines
+    3: return 220;   // Air Seoul
+    4: return 220;   // Air Busan
+    5: return 220;   // Iberia
+    6: return 195;   // Asiana Airlines old
+    7: return 200;   // Lufthansa
 }
