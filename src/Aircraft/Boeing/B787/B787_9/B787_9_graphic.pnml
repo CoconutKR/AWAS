@@ -29,7 +29,7 @@ spriteset(set_B787_9_eurowhitecc, "src/Aircraft/Boeing/B787/B787_9/eurowhitecc.p
 3. Boeing 787-9 Korean Air old
 --------------------------------------------------------------------*/
 
-spriteset(set_B787_9_korean, "src/Aircraft/Boeing/B787/B787_9/B787_9_Korean.png"){
+spriteset(set_B787_9_korean, "src/Aircraft/Boeing/B787/B787_9/Korean.png"){
     tp_B787_9(0, 0)
 }
 
@@ -37,7 +37,7 @@ spriteset(set_B787_9_korean, "src/Aircraft/Boeing/B787/B787_9/B787_9_Korean.png"
 4. Boeing 787-9 Air Premia
 --------------------------------------------------------------------*/
 
-spriteset(set_B787_9_premia, "src/Aircraft/Boeing/B787/B787_9/B787_9_premia.png"){
+spriteset(set_B787_9_premia, "src/Aircraft/Boeing/B787/B787_9/Premia.png"){
     tp_B787_9(0, 0)
 }
 
@@ -62,6 +62,14 @@ spriteset(set_B787_9_korean25, "src/Aircraft/Boeing/B787/B787_9/korean25.png"){
 --------------------------------------------------------------------*/
 
 spriteset(set_B787_9_united, "src/Aircraft/Boeing/B787/B787_9/United.png"){
+    tp_B787_9(0, 0)
+}
+
+/*--------------------------------------------------------------------
+8. Boeing 787-9 Lufthansa
+--------------------------------------------------------------------*/
+
+spriteset(set_B787_9_lufthansa, "src/Aircraft/Boeing/B787/B787_9/Lufthansa.png"){
     tp_B787_9(0, 0)
 }
 
