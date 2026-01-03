@@ -1,45 +1,64 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_AIRCRAFT, SELF, sw_Airbus_A350_900_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Airbus);   // Airbus
-    2: return string(STR_REFIT_LIVERY_Asiana);     // Asiana Airlines
-    3: return string(STR_REFIT_LIVERY_Japanairlines);     // Japan Airlines
-    4: return string(STR_REFIT_LIVERY_Singaporeairlines);     // Singapore Airlines
-    5: return string(STR_REFIT_LIVERY_Airfrance);     // Air France
-    6: return string(STR_REFIT_LIVERY_Airchina);     // Air China
-    7: return string(STR_REFIT_LIVERY_Cathaypacific);     // Cathay Pacific
-    8: return string(STR_REFIT_LIVERY_Chinaeastern);     // China Eastern
-    9: return string(STR_REFIT_LIVERY_Finnair);     // Finnair
+switch(FEAT_AIRCRAFT, SELF, sw_A350_900_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Airbus);              // Airbus
+    2: return string(STR_REFIT_LIVERY_Asiana);              // Asiana Airlines
+    3: return string(STR_REFIT_LIVERY_Japanairlines);       // Japan Airlines
+    4: return string(STR_REFIT_LIVERY_Singaporeairlines);   // Singapore Airlines
+    5: return string(STR_REFIT_LIVERY_Airfrance);           // Air France
+    6: return string(STR_REFIT_LIVERY_Airchina);            // Air China
+    7: return string(STR_REFIT_LIVERY_Cathaypacific);       // Cathay Pacific
+    8: return string(STR_REFIT_LIVERY_Chinaeastern);        // China Eastern
+    9: return string(STR_REFIT_LIVERY_Finnair);             // Finnair
     10: return string(STR_REFIT_LIVERY_Iberiaairlines);     // Iberia
-    11: return string(STR_REFIT_LIVERY_Deltaairlines);     // Delta Air Lines
-    12: return string(STR_REFIT_LIVERY_Lufthansa);     // Lufthansa
-    13: return string(STR_REFIT_LIVERY_Qatarairways);     // Qatar Airways
-    14: return string(STR_REFIT_LIVERY_Evelop);     // evelop
-    15: return string(STR_REFIT_LIVERY_Fijiairways);     // Fiji airways
+    11: return string(STR_REFIT_LIVERY_Deltaairlines);      // Delta Air Lines
+    12: return string(STR_REFIT_LIVERY_Lufthansa);          // Lufthansa
+    13: return string(STR_REFIT_LIVERY_Qatarairways);       // Qatar Airways
+    14: return string(STR_REFIT_LIVERY_Evelop);             // evelop
+    15: return string(STR_REFIT_LIVERY_Fijiairways);        // Fiji airways
     return string(STR_REFIT_LIVERY_Airbus);
 }
 
 switch(FEAT_AIRCRAFT, SELF, sw_A350_900, cargo_subtype) {
-    1: set_A350_900_default;        // Airbus
-    2: set_A350_900_asiana;   // Asiana Airlines
-    3: set_A350_900_Japanairlines;   // Japan Airlines
+    1: set_A350_900_default;             // Airbus
+    2: set_A350_900_asiana;              // Asiana Airlines
+    3: set_A350_900_Japanairlines;       // Japan Airlines
     4: set_A350_900_Singaporeairlines;   // Singapore Airlines
-    5: set_A350_900_Airfrance;   // Air France
-    6: set_A350_900_Airchina;   // Air China
-    7: set_A350_900_Cathaypacific;   // Cathay Pacific
-    8: set_A350_900_Chinaeastern;   // China Eastern
-    9: set_A350_900_Finnair;   // Finnair
-    10: set_A350_900_Iberia;   // Iberia
-    11: set_A350_900_Delta;   // Delta Air Lines
-    12: set_A350_900_Lufthansa;   // Lufthansa
-    13: set_A350_900_Qatarairways;   // Qatar Airways
-    14: set_A350_900_Evelop;   // Evelop
-    15: set_A350_900_Fiji;   // Fiji Airways
+    5: set_A350_900_Airfrance;           // Air France
+    6: set_A350_900_Airchina;            // Air China
+    7: set_A350_900_Cathaypacific;       // Cathay Pacific
+    8: set_A350_900_Chinaeastern;        // China Eastern
+    9: set_A350_900_Finnair;             // Finnair
+    10: set_A350_900_Iberia;             // Iberia
+    11: set_A350_900_Delta;              // Delta Air Lines
+    12: set_A350_900_Lufthansa;          // Lufthansa
+    13: set_A350_900_Qatarairways;       // Qatar Airways
+    14: set_A350_900_Evelop;             // Evelop
+    15: set_A350_900_Fiji;               // Fiji Airways
     set_A350_900_default;
 }
 
-switch (FEAT_AIRCRAFT, SELF, switch_A350_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+switch (FEAT_AIRCRAFT, SELF, switch_A350_900_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
     0: return string(STR_A350_FAMILY);
     return CB_RESULT_NO_TEXT;
+}
+
+switch (FEAT_AIRCRAFT, SELF, sw_A350_900_cargo_subtype_capacity, cargo_subtype)
+{
+    1: return 300;   // Airbus
+    2: return 311;   // Asiana Airlines
+    3: return 391;   // Japan Airlines
+    4: return 303;   // Singapore Airlines
+    5: return 324;   // Air France
+    6: return 312;   // Air China
+    7: return 280;   // Cathay Pacific
+    8: return 288;   // China Eastern
+    9: return 321;   // Finnair
+    10: return 352;  // Iberia
+    11: return 339;  // Delta Air Lines
+    12: return 318;  // Lufthansa
+    13: return 283;  // Qatar Airways
+    14: return 432;  // Evelop
+    15: return 334;  // Fiji Airways
 }

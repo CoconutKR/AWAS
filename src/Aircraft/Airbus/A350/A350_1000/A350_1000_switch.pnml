@@ -1,19 +1,37 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_AIRCRAFT, SELF, sw_Airbus_A350_1000_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Airbus);   // 제조사
-    2: return string(STR_REFIT_LIVERY_Airbus);     // 아시아나항공
+switch(FEAT_AIRCRAFT, SELF, sw_A350_1000_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Airbus);           // Manufacturer
+    2: return string(STR_REFIT_LIVERY_Britishairways);   // BA
+    3: return string(STR_REFIT_LIVERY_Cathaypacific);    // Cathay Pacific
+    4: return string(STR_REFIT_LIVERY_Japanairlines);    // Japan Airlines
+    5: return string(STR_REFIT_LIVERY_Qatarairways);     // Qatar
+    6: return string(STR_REFIT_LIVERY_Virginatlantic);   // Virgin Atlantic
     return string(STR_REFIT_LIVERY_Airbus);
 }
 
 switch(FEAT_AIRCRAFT, SELF, sw_A350_1000, cargo_subtype) {
-    1: set_A350_1000_default;        // 제조사
-    2: set_A350_1000_default;   // 아시아나항공
+    1: set_A350_1000_default;           // Manufacturer
+    2: set_A350_1000_ba;                // British Airways
+    3: set_A350_1000_cathay_pacific;    // Cathay Pacific
+    4: set_A350_1000_japan_airlines;    // Japan Airlines
+    5: set_A350_1000_qatar;             // Qatar
+    6: set_A350_1000_virgin;            // Virgin Atlantic
     set_A350_1000_default;
 }
 
-switch (FEAT_AIRCRAFT, SELF, switch_A3501000_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+switch (FEAT_AIRCRAFT, SELF, switch_A350_1000_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
     0: return string(STR_A350_FAMILY);
     return CB_RESULT_NO_TEXT;
+}
+
+switch (FEAT_AIRCRAFT, SELF, sw_A350_1000_cargo_subtype_capacity, cargo_subtype)
+{
+    1: return 325;   // default
+    2: return 331;   // British Airways
+    3: return 334;   // Cathay Pacific
+    4: return 239;   // Japan Airlines
+    5: return 395;   // Qatar
+    6: return 397;   // Virgin Atlantic
 }
