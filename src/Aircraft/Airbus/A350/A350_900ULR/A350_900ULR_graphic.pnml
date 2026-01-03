@@ -17,6 +17,13 @@ spriteset(set_A350_900ULR_default, "src/Aircraft/Airbus/A350/A350_900ULR/A350_90
     tp_A350_900(0, 0)
 }
 
+/*--------------------------------------------------------------------
+2. Airbus A350-900ULR Singapore Airlines
+--------------------------------------------------------------------*/
+
+spriteset(set_A350_900ULR_Singaporeairlines, "src/Aircraft/Airbus/A350/A350_900/Singaporeairlines.png"){
+    tp_A350_900(0, 0)
+}
 
 /*--------------------------------------------------------------------
 구매정보
