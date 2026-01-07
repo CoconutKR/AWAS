@@ -406,6 +406,7 @@ STR_REFIT_LIVERY_Singaporeairlinescargo_old1987     :(싱가포르항공 카고 
 STR_REFIT_LIVERY_Singaporeairlinescargo_old1972     :(싱가포르항공 카고 / 1972~1987년 도장)
 STR_REFIT_LIVERY_Garudaindonesia                    :(가루다 인도네시아)
 STR_REFIT_LIVERY_Airindia                           :(에어 인디아)
+STR_REFIT_LIVERY_PIA                                :(PIA)
 
 # Liveries (Middle East)
 
@@ -432,7 +433,9 @@ STR_REFIT_LIVERY_Americanairlines_old1968           :(아메리칸 항공 / 1968
 STR_REFIT_LIVERY_Americanairlines_old1964           :(아메리칸 항공 / 1964~1968년 도장)
 STR_REFIT_LIVERY_Americanairlines_old1934           :(아메리칸 항공 / 1934~1964년 도장)
 STR_REFIT_LIVERY_Aircanada                          :(에어캐나다)
+STR_REFIT_LIVERY_Aircanada_retro                    :(에어캐나다 (retro))
 STR_REFIT_LIVERY_Aeromexico                         :(아에로멕시코)
+STR_REFIT_LIVERY_Westjet                            :(Westjet)
 
 # Liveries (South America)
 
