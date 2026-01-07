@@ -17,3 +17,10 @@ switch (FEAT_AIRCRAFT, SELF, switch_B777300_name, getbits(extra_callback_info1, 
     0: return string(STR_B777_FAMILY);
     return CB_RESULT_NO_TEXT;
 }
+
+switch (FEAT_AIRCRAFT, SELF, sw_Boeing_777_300_cargo_subtype_capacity, cargo_subtype)
+{
+    // Use https://seatmaps.com/es/aircraft/boeing-777-300/ as reference
+    1: return 396;   // Manufacturer
+    2: return 338;   // Korean Air
+}

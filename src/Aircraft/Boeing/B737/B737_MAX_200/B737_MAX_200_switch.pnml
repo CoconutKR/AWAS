@@ -1,19 +1,26 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_AIRCRAFT, SELF, sw_Boeing_737_MAX_200_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Boeing);   // 제조사
-    2: return string(STR_REFIT_LIVERY_Boeing);      // 대한항공
+switch(FEAT_AIRCRAFT, SELF, sw_737_MAX_200_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Boeing);       // Manufacturer
+    2: return string(STR_REFIT_LIVERY_Ryanair);      // Ryanair
     return string(STR_REFIT_LIVERY_Boeing);
 }
 
-switch(FEAT_AIRCRAFT, SELF, sw_B737_MAX_200, cargo_subtype) {
-    1: set_B737_MAX_200;        // 제조사
-    2: set_B737_MAX_200;   // 대한항공
+switch(FEAT_AIRCRAFT, SELF, sw_737_MAX_200, cargo_subtype) {
+    1: set_B737_MAX_200;           // Manufacturer
+    2: set_B737_MAX_200_ryanair;   // Ryanair
     set_B737_MAX_200;
 }
 
-switch (FEAT_AIRCRAFT, SELF, switch_B737MAX200_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+switch (FEAT_AIRCRAFT, SELF, switch_737_MAX_200_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
     0: return string(STR_B737_FAMILY);
     return CB_RESULT_NO_TEXT;
+}
+
+switch (FEAT_AIRCRAFT, SELF, sw_737_MAX_200_cargo_subtype_capacity, cargo_subtype)
+{
+    // Use https://seatmaps.com/es/aircraft/boeing-737-max-8/ as reference
+    1: return 197;   // default
+    2: return 197;   // Ryanair
 }

@@ -471,6 +471,7 @@ STR_REFIT_LIVERY_Easyjet                            :(Easyjet)
 STR_REFIT_LIVERY_TAP                                :(TAP)
 STR_REFIT_LIVERY_Vueling                            :(Vueling)
 STR_REFIT_LIVERY_Wizzair                            :(Wizz Air)
+STR_REFIT_LIVERY_Ryanair                            :(Ryanair)
 
 # Liveries (Oceania, Africa)
 

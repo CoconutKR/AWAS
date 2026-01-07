@@ -2,42 +2,61 @@
 Switch
 --------------------------------------------------------------------*/
 switch(FEAT_AIRCRAFT, SELF, sw_Boeing_737_800_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Boeing);   // Manufacturer
-    2: return string(STR_REFIT_LIVERY_Jejuair);      // Jeju Air
-    3: return string(STR_REFIT_LIVERY_Tway);      // Tway
-    4: return string(STR_REFIT_LIVERY_Jinair);       // Jin Air
-    5: return string(STR_REFIT_LIVERY_Koreanair);      // Korean Air
-    6: return string(STR_REFIT_LIVERY_Flygangwon);      // Fly Gangwon
-    7: return string(STR_REFIT_LIVERY_Eastar);      // Easter
-    8: return string(STR_REFIT_LIVERY_Jejuair_old);      // Jeju Air Old
-    9: return string(STR_REFIT_LIVERY_Japanairlines);      // Japan Airlines
+    1: return string(STR_REFIT_LIVERY_Boeing);              // Manufacturer
+    2: return string(STR_REFIT_LIVERY_Jejuair);             // Jeju Air
+    3: return string(STR_REFIT_LIVERY_Tway);                // Tway
+    4: return string(STR_REFIT_LIVERY_Jinair);              // Jin Air
+    5: return string(STR_REFIT_LIVERY_Koreanair);           // Korean Air
+    6: return string(STR_REFIT_LIVERY_Flygangwon);          // Fly Gangwon
+    7: return string(STR_REFIT_LIVERY_Eastar);              // Easter
+    8: return string(STR_REFIT_LIVERY_Jejuair_old);         // Jeju Air Old
+    9: return string(STR_REFIT_LIVERY_Japanairlines);       // Japan Airlines
     10: return string(STR_REFIT_LIVERY_Chinaairlines);      // China Airlines
-    11: return string(STR_REFIT_LIVERY_Skymarkairlines);      // Skymark Airlines
+    11: return string(STR_REFIT_LIVERY_Skymarkairlines);    // Skymark Airlines
     12: return string(STR_REFIT_LIVERY_Chinasouthern);      // China Southern Airlines
-    13: return string(STR_REFIT_LIVERY_Chinaeastern);      // China Eastern Airlines
-    14: return string(STR_REFIT_LIVERY_Unitedairlines);      // United Airlines
+    13: return string(STR_REFIT_LIVERY_Chinaeastern);       // China Eastern Airlines
+    14: return string(STR_REFIT_LIVERY_Unitedairlines);     // United Airlines
     return string(STR_REFIT_LIVERY_Boeing);
 }
 
 switch(FEAT_AIRCRAFT, SELF, sw_B737_800, cargo_subtype) {
-    1: set_B737_800;        // Manufacturer
-    2: set_B737_800_jeju;   // Jeju Air
-    3: set_B737_800_tway;   // Tway
-    4: set_B737_800_jin;    // Jin Air
-    5: set_B737_800_korean;  // Korean Air
-    6: set_B737_800_gangwon;  // Fly Gangwon
-    7: set_B737_800_eastar;  // Easter
-    8: set_B737_800_jeju_old;  // Jeju Air Old
-    9: set_B737_800_Japanairlines;  // Japan Airlines
-    10: set_B737_800_Chinaairlines;  // China Airlines
-    11: set_B737_800_Skymarkairlines;  // Skymark Airlines
-    12: set_B737_800_chinasouthern;  // China Southern Airlines
-    13: set_B737_800_chinaeastern;  // China Eastern Airlines
-    14: set_B737_800_united;  // United Airlines
+    1: set_B737_800;                        // Manufacturer
+    2: set_B737_800_jeju;                   // Jeju Air
+    3: set_B737_800_tway;                   // Tway
+    4: set_B737_800_jin;                    // Jin Air
+    5: set_B737_800_korean;                 // Korean Air
+    6: set_B737_800_gangwon;                // Fly Gangwon
+    7: set_B737_800_eastar;                 // Easter
+    8: set_B737_800_jeju_old;               // Jeju Air Old
+    9: set_B737_800_Japanairlines;          // Japan Airlines
+    10: set_B737_800_Chinaairlines;         // China Airlines
+    11: set_B737_800_Skymarkairlines;       // Skymark Airlines
+    12: set_B737_800_chinasouthern;         // China Southern Airlines
+    13: set_B737_800_chinaeastern;          // China Eastern Airlines
+    14: set_B737_800_united;                // United Airlines
     set_B737_800;
 }
 
 switch (FEAT_AIRCRAFT, SELF, switch_B737800_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
     0: return string(STR_B737_FAMILY);
     return CB_RESULT_NO_TEXT;
+}
+
+switch (FEAT_AIRCRAFT, SELF, sw_Boeing_737_800_cargo_subtype_capacity, cargo_subtype)
+{
+    // Use https://seatmaps.com/es/aircraft/boeing-737-800/ as reference
+    1: return 189;     // default
+    2: return 189;     // Jeju Air
+    3: return 189;     // Tway
+    4: return 189;     // Jin Air
+    5: return 138;     // Korean Air
+    6: return 180;     // Fly Gangwon
+    7: return 189;     // Easter
+    8: return 189;     // Jeju Air Old
+    9: return 165;     // Japan Airlines
+    10: return 174;    // China Airlines
+    11: return 189;    // Skymark Airlines
+    12: return 174;    // China Southern Airlines
+    13: return 189;    // China Eastern Airlines
+    14: return 166;    // United Airlines
 }
