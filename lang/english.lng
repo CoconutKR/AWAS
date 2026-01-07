@@ -431,6 +431,7 @@ STR_REFIT_LIVERY_Americanairlines_old1968           :{SILVER}(American Airlines 
 STR_REFIT_LIVERY_Americanairlines_old1964           :{SILVER}(American Airlines / 1964~1968 Livery)
 STR_REFIT_LIVERY_Americanairlines_old1934           :{SILVER}(American Airlines / 1934~1964 Livery)
 STR_REFIT_LIVERY_Aircanada                          :(AIR CANADA)
+STR_REFIT_LIVERY_Aircanada_retro                    :(AIR CANADA (retro))
 STR_REFIT_LIVERY_Aeromexico                         :(AEROMEXICO)
 STR_REFIT_LIVERY_Westjet                            :(Westjet)
 
@@ -473,6 +474,7 @@ STR_REFIT_LIVERY_TAP                                :(TAP)
 STR_REFIT_LIVERY_Vueling                            :(Vueling)
 STR_REFIT_LIVERY_Wizzair                            :(Wizz Air)
 STR_REFIT_LIVERY_Ryanair                            :(Ryanair)
+STR_REFIT_LIVERY_Sabena                             :(Sabena)
 
 # Liveries (Oceania, Africa)
 

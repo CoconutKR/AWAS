@@ -432,7 +432,9 @@ STR_REFIT_LIVERY_Americanairlines_old1968           :(아메리칸 항공 / 1968
 STR_REFIT_LIVERY_Americanairlines_old1964           :(아메리칸 항공 / 1964~1968년 도장)
 STR_REFIT_LIVERY_Americanairlines_old1934           :(아메리칸 항공 / 1934~1964년 도장)
 STR_REFIT_LIVERY_Aircanada                          :(에어캐나다)
+STR_REFIT_LIVERY_Aircanada_retro                    :(에어캐나다 (retro))
 STR_REFIT_LIVERY_Aeromexico                         :(아에로멕시코)
+STR_REFIT_LIVERY_Westjet                            :(Westjet)
 
 # Liveries (South America)
 
