@@ -18,33 +18,33 @@ item(FEAT_AIRCRAFT, B737_900ER, 7058){
         aircraft_type:                  AIRCRAFT_TYPE_LARGE;
         sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
         variant_group:                  B737_100;
-                
+
         //spec
         speed:                          952km/h;
-        
+
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
         vehicle_life:                   30;
         retire_early:                   0;
         reliability_decay:              0;
-        
+
         //Cargo
         passenger_capacity:             180;
-        mail_capacity:                  22;    
-        acceleration:                   27; 
+        mail_capacity:                  22;
+        acceleration:                   27;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
         cargo_disallow_refit:           [];
-        
+
         //Costs
         refit_cost:                     100;
-        
+
         //Flags
         misc_flags:                  	bitmask(AIRCRAFT_FLAG_2CC);
         sound_effect:                   SOUND_TAKEOFF_JET;
         }
-        
+
     graphics {
         default:                        sw_B737_900ER;
         purchase:                       sw_B737_900ER_purchase;
@@ -52,6 +52,7 @@ item(FEAT_AIRCRAFT, B737_900ER, 7058){
         cost_factor:                    249;
         running_cost_factor:            120;
         cargo_subtype_text:             sw_Boeing_737_900ER_cargo_subtype_text;
+        passenger_capacity:             sw_Boeing_737_900ER_cargo_subtype_capacity;
         name:                           switch_B737900ER_name;
-        }
+    }
 }

@@ -20,6 +20,7 @@ switch (FEAT_AIRCRAFT, SELF, switch_737_MAX_200_name, getbits(extra_callback_inf
 
 switch (FEAT_AIRCRAFT, SELF, sw_737_MAX_200_cargo_subtype_capacity, cargo_subtype)
 {
-    1: return 190;   // default
+    // Use https://seatmaps.com/es/aircraft/boeing-737-max-8/ as reference
+    1: return 197;   // default
     2: return 197;   // Ryanair
 }

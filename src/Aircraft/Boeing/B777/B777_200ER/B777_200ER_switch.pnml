@@ -23,3 +23,13 @@ switch (FEAT_AIRCRAFT, SELF, switch_B777200ER_name, getbits(extra_callback_info1
     0: return string(STR_B777_FAMILY);
     return CB_RESULT_NO_TEXT;
 }
+
+switch (FEAT_AIRCRAFT, SELF, sw_Boeing_777_200ER_cargo_subtype_capacity, cargo_subtype)
+{
+    // Use https://seatmaps.com/es/aircraft/boeing-777-200er/ as reference
+    1: return 317;   // Manufacturer
+    2: return 261;   // Korean Air
+    3: return 302;   // Asiana Airlines
+    4: return 393;   // Jin Air
+    5: return 362;   // United Airlines
+}
