@@ -19,6 +19,7 @@ switch(FEAT_AIRCRAFT, SELF, sw_Boeing_777_300ER_cargo_subtype_text, cargo_subtyp
     15: return string(STR_REFIT_LIVERY_Allnipponairways);   // ANA
     16: return string(STR_REFIT_LIVERY_Japanairlines);      // Japan Airlines
     17: return string(STR_REFIT_LIVERY_Unitedairlines);     //  Airlines
+    18: return string(STR_REFIT_LIVERY_Aircanada);          // Air Canada
     return string(STR_REFIT_LIVERY_Boeing);
 }
 
@@ -40,6 +41,7 @@ switch(FEAT_AIRCRAFT, SELF, sw_B777_300ER, cargo_subtype) {
     15: set_B777_300ER_ana;                    // ANA
     16: set_B777_300ER_Japanairlines;          // Japan Airlines
     17: set_B777_300ER_united;                 // United Airlines
+    18: set_B777_300ER_aircanada;              // Air Canada
     set_B777_300ER;
 }
 
@@ -68,4 +70,5 @@ switch (FEAT_AIRCRAFT, SELF, sw_Boeing_777_300ER_cargo_subtype_capacity, cargo_s
     15: return 212;     // ANA
     16: return 244;     // Japan Airlines
     17: return 350;     // United Airlines
+    18: return 450;     // Air Canada
 }
