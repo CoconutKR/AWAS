@@ -432,6 +432,7 @@ STR_REFIT_LIVERY_Americanairlines_old1964           :{SILVER}(American Airlines 
 STR_REFIT_LIVERY_Americanairlines_old1934           :{SILVER}(American Airlines / 1934~1964 Livery)
 STR_REFIT_LIVERY_Aircanada                          :(AIR CANADA)
 STR_REFIT_LIVERY_Aeromexico                         :(AEROMEXICO)
+STR_REFIT_LIVERY_Westjet                            :(Westjet)
 
 # Liveries (South America)
 

@@ -18,40 +18,41 @@ item(FEAT_AIRCRAFT, B767_300ER, 7068){
         aircraft_type:                  AIRCRAFT_TYPE_LARGE;
         sprite_id:                      SPRITE_ID_NEW_AIRCRAFT;
         variant_group:                  B767_200;
-                
+
         //spec
         speed:                          939km/h;
-        
+
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
         vehicle_life:                   30;
         retire_early:                   0;
         reliability_decay:              0;
-        
+
         //Cargo
         passenger_capacity:             218;
-        mail_capacity:                  27;    
-        acceleration:                   27; 
+        mail_capacity:                  27;
+        acceleration:                   27;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
         cargo_disallow_refit:           [];
-        
+
         //Costs
         refit_cost:                     100;
-        
+
         //Flags
         misc_flags:                  	bitmask(AIRCRAFT_FLAG_2CC);
         sound_effect:                   SOUND_TAKEOFF_JET;
         }
-        
+
     graphics {
         default:                        sw_B767_300ER;
         purchase:                       sw_B767_300ER_purchase;
         loading_speed:                  26;
         cost_factor:                    890;
         running_cost_factor:            120;
-        cargo_subtype_text:             sw_Boeing_767_300ER_cargo_subtype_text;
+        cargo_subtype_text:             sw_B767_300ER_cargo_subtype_text;
+        passenger_capacity:             sw_B767_300ER_cargo_subtype_capacity;
         name:                           switch_B767300ER_name;
-        }
+    }
 }
