@@ -6,3 +6,4 @@ docs/*.txt
 *.grf
 *.nml
 custom_tags.txt
+.DS_Store
