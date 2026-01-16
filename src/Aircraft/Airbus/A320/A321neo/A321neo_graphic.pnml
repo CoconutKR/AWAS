@@ -146,6 +146,14 @@ spriteset(set_A321neo_Iberia, "src/Aircraft/Airbus/A320/A321neo/Iberia.png"){
 }
 
 /*--------------------------------------------------------------------
+17. Airbus A321neo Turkish Airlines
+--------------------------------------------------------------------*/
+
+spriteset(set_A321neo_Turkish, "src/Aircraft/Airbus/A320/A321neo/Turkish.png"){
+    tp_A321_200(0, 0)
+}
+
+/*--------------------------------------------------------------------
 Purchase Info
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_A321neo_purchase, cargo_subtype) {
